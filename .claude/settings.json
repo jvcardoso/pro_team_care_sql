@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pytest*)",
+      "Bash(npm*)",
+      "Bash(black*)",
+      "Bash(flake8*)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(ls*)",
+      "Bash(tree*)",
+      "Bash(curl http://localhost:*)",
+      "Read(/home/juliano/Projetos/meu_projeto/**)",
+      "Read(/home/juliano/.codeium/windsurf/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf*)",
+      "Bash(sudo*)",
+      "Bash(git push --force*)",
+      "Read(.env)",
+      "Read(**/.env)",
+      "Write(**/.env)"
+    ],
+    "ask": [
+      "Bash(git push*)",
+      "Bash(git commit*)",
+      "Bash(pip install*)",
+      "Bash(npm install*)",
+      "Write(/home/juliano/Projetos/meu_projeto/backend/**/*.py)",
+      "Write(/home/juliano/Projetos/meu_projeto/frontend/**/*.tsx)",
+      "Write(/home/juliano/Projetos/meu_projeto/frontend/**/*.ts)",
+      "Edit(/home/juliano/Projetos/meu_projeto/backend/**/*.py)",
+      "Edit(/home/juliano/Projetos/meu_projeto/frontend/**/*.tsx)",
+      "Edit(/home/juliano/Projetos/meu_projeto/frontend/**/*.ts)"
+    ]
+  },
+  "env": {
+    "CLAUDE_CODE_PROJECT": "pro_team_care",
+    "CLAUDE_CODE_ENABLE_TELEMETRY": "0"
+  }
+}

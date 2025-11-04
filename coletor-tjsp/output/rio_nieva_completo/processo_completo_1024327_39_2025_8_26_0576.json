@@ -1,0 +1,138 @@
+{
+  "processo_numero": "1024327-39.2025.8.26.0576",
+  "coleta_timestamp": "2025-10-30T21:15:36.822548",
+  "vara": "5ª Vara Cível",
+  "classe_assunto": "Execução de Título Extrajudicial - Despesas Condominiais",
+  "valor_causa": "",
+  "exequente": "Parque Rio Nieva",
+  "executado": "Joel do Porto Silva Gomes",
+  "advogado_autor_nome": "Advogado:",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: Angelo Marcio de Siqueira Pace",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "22/08/2025",
+      "mov_descricao": "Pedido de Homologação de Acordo Juntado Nº Protocolo: WSRP.25.70391774-3\nTipo da Petição: Pedido de Homologação de Acordo\nData: 22/08/2025 16:57",
+      "mov_texto_completo": "Pedido de Homologação de Acordo Juntado\nNº Protocolo: WSRP.25.70391774-3\nTipo da Petição: Pedido de Homologação de Acordo\nData: 22/08/2025 16:57",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T21:15:49.012247",
+      "mov_texto": "Pedido de Homologação de Acordo Juntado\nNº Protocolo: WSRP.25.70391774-3\nTipo da Petição: Pedido de Homologação de Acordo\nData: 22/08/2025 16:57"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "16/06/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0541/2025\nData da Publicação: 17/06/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0541/2025\nData da Publicação: 17/06/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T21:15:49.012647",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0541/2025\nData da Publicação: 17/06/2025"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "13/06/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0541/2025\nTeor do ato: Ordem nº: 2025/001339 - Vistos. Providencie o exequente, em 15 dias, o recolhimento complementar das despesas necessárias à citação do executado por meio de oficial de justiça. Após o recolhimento, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se no mandado a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à Serventia a expedição de certidão, nos termos do art. 828, que UPJ também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0541/2025\nTeor do ato: Ordem nº: 2025/001339 - Vistos. Providencie o exequente, em 15 dias, o recolhimento complementar das despesas necessárias à citação do executado por meio de oficial de justiça. Após o recolhimento, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se no mandado a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à Serventia a expedição de certidão, nos termos do art. 828, que UPJ também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "PENHORA",
+        "CITACAO",
+        "EMBARGOS"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-30T21:15:49.012890",
+      "mov_texto": "Remetido ao DJE\nRelação: 0541/2025\nTeor do ato: Ordem nº: 2025/001339 - Vistos. Providencie o exequente, em 15 dias, o recolhimento complementar das despesas necessárias à citação do executado por meio de oficial de justiça. Após o recolhimento, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se no mandado a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à Serventia a expedição de certidão, nos termos do art. 828, que UPJ também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "13/06/2025",
+      "mov_descricao": "Recebida a Petição Inicial Ordem nº: 2025/001339 - Vistos. Providencie o exequente, em 15 dias, o recolhimento complementar das despesas necessárias à citação do executado por meio de oficial de justiça. Após o recolhimento, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se no mandado a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à Serventia a expedição de certidão, nos termos do art. 828, que UPJ também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se.",
+      "mov_texto_completo": "Recebida a Petição Inicial\nOrdem nº: 2025/001339 - Vistos. Providencie o exequente, em 15 dias, o recolhimento complementar das despesas necessárias à citação do executado por meio de oficial de justiça. Após o recolhimento, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se no mandado a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à Serventia a expedição de certidão, nos termos do art. 828, que UPJ também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "PENHORA",
+        "CITACAO",
+        "EMBARGOS"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-30T21:15:49.014028",
+      "mov_texto": "Recebida a Petição Inicial\nOrdem nº: 2025/001339 - Vistos. Providencie o exequente, em 15 dias, o recolhimento complementar das despesas necessárias à citação do executado por meio de oficial de justiça. Após o recolhimento, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se no mandado a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à Serventia a expedição de certidão, nos termos do art. 828, que UPJ também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se."
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "13/06/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T21:15:49.015132",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "13/06/2025",
+      "mov_descricao": "Certidão de Cartório Expedida Certidão - Guia Dare Inutilizada no Saj",
+      "mov_texto_completo": "Certidão de Cartório Expedida\nCertidão - Guia Dare Inutilizada no Saj",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T21:15:49.015346",
+      "mov_texto": "Certidão de Cartório Expedida\nCertidão - Guia Dare Inutilizada no Saj"
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "09/06/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WSRP.25.70252883-2\nTipo da Petição: Petição Intermediária\nData: 09/06/2025 10:14",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WSRP.25.70252883-2\nTipo da Petição: Petição Intermediária\nData: 09/06/2025 10:14",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T21:15:49.015706",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WSRP.25.70252883-2\nTipo da Petição: Petição Intermediária\nData: 09/06/2025 10:14"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "09/06/2025",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T21:15:49.015954",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

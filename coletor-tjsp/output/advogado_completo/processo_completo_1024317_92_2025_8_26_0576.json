@@ -1,0 +1,273 @@
+{
+  "processo_numero": "1024317-92.2025.8.26.0576",
+  "coleta_timestamp": "2025-10-31T07:10:27.499450",
+  "vara": "8ª Vara Cível",
+  "classe_assunto": "Execução de Título Extrajudicial - Despesas Condominiais",
+  "valor_causa": "",
+  "exequente": "Parque Rio Nieva",
+  "executado": "Gustavo de Sa Durão",
+  "advogado_autor_nome": "Advogado:",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: Túlio Marcos Faustino Dias Brandão",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "23/10/2025",
+      "mov_descricao": "Suspensão do Prazo Prazo referente ao usuário foi alterado para 08/04/2026 devido à alteração da tabela de feriados",
+      "mov_texto_completo": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 08/04/2026 devido à alteração da tabela de feriados",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.852568",
+      "mov_texto": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 08/04/2026 devido à alteração da tabela de feriados"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "26/09/2025",
+      "mov_descricao": "Suspensão do Prazo Prazo referente ao usuário foi alterado para 20/03/2026 devido à alteração da tabela de feriados",
+      "mov_texto_completo": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 20/03/2026 devido à alteração da tabela de feriados",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.852985",
+      "mov_texto": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 20/03/2026 devido à alteração da tabela de feriados"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "30/08/2025",
+      "mov_descricao": "Suspensão do Prazo Prazo referente ao usuário foi alterado para 19/03/2026 devido à alteração da tabela de feriados",
+      "mov_texto_completo": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 19/03/2026 devido à alteração da tabela de feriados",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.853241",
+      "mov_texto": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 19/03/2026 devido à alteração da tabela de feriados"
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "04/08/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0940/2025\nData da Publicação: 05/08/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0940/2025\nData da Publicação: 05/08/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.853521",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0940/2025\nData da Publicação: 05/08/2025"
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "01/08/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0940/2025\nTeor do ato: Vistos Homologo o acordo celebrado entre as partes para que produza os seus jurídicos e legais efeitos em relação às cláusulas e condições estabelecidas e, por conseguinte, SUSPENDO o processo, o que faço com fundamento no artigo 922 do Código de Processo Civil. Anoto que, decorrido o prazo previsto para cumprimento da obrigação pela parte executada, sem manifestação da parte exequente, o acordo será reputado integralmente cumprido e a execução será extinta pelo pagamento. Intimem-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0940/2025\nTeor do ato: Vistos Homologo o acordo celebrado entre as partes para que produza os seus jurídicos e legais efeitos em relação às cláusulas e condições estabelecidas e, por conseguinte, SUSPENDO o processo, o que faço com fundamento no artigo 922 do Código de Processo Civil. Anoto que, decorrido o prazo previsto para cumprimento da obrigação pela parte executada, sem manifestação da parte exequente, o acordo será reputado integralmente cumprido e a execução será extinta pelo pagamento. Intimem-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:10:39.853743",
+      "mov_texto": "Remetido ao DJE\nRelação: 0940/2025\nTeor do ato: Vistos Homologo o acordo celebrado entre as partes para que produza os seus jurídicos e legais efeitos em relação às cláusulas e condições estabelecidas e, por conseguinte, SUSPENDO o processo, o que faço com fundamento no artigo 922 do Código de Processo Civil. Anoto que, decorrido o prazo previsto para cumprimento da obrigação pela parte executada, sem manifestação da parte exequente, o acordo será reputado integralmente cumprido e a execução será extinta pelo pagamento. Intimem-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "01/08/2025",
+      "mov_descricao": "Processo Suspenso ou Sobrestado por Convenção das Partes para Satisfação Voluntária da Obrigação em Execução ou Cumprime Vistos Homologo o acordo celebrado entre as partes para que produza os seus jurídicos e legais efeitos em relação às cláusulas e condições estabelecidas e, por conseguinte, SUSPENDO o processo, o que faço com fundamento no artigo 922 do Código de Processo Civil. Anoto que, decorrido o prazo previsto para cumprimento da obrigação pela parte executada, sem manifestação da parte exequente, o acordo será reputado integralmente cumprido e a execução será extinta pelo pagamento. Intimem-se.",
+      "mov_texto_completo": "Processo Suspenso ou Sobrestado por Convenção das Partes para Satisfação Voluntária da Obrigação em Execução ou Cumprime\nVistos Homologo o acordo celebrado entre as partes para que produza os seus jurídicos e legais efeitos em relação às cláusulas e condições estabelecidas e, por conseguinte, SUSPENDO o processo, o que faço com fundamento no artigo 922 do Código de Processo Civil. Anoto que, decorrido o prazo previsto para cumprimento da obrigação pela parte executada, sem manifestação da parte exequente, o acordo será reputado integralmente cumprido e a execução será extinta pelo pagamento. Intimem-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:10:39.854359",
+      "mov_texto": "Processo Suspenso ou Sobrestado por Convenção das Partes para Satisfação Voluntária da Obrigação em Execução ou Cumprime\nVistos Homologo o acordo celebrado entre as partes para que produza os seus jurídicos e legais efeitos em relação às cláusulas e condições estabelecidas e, por conseguinte, SUSPENDO o processo, o que faço com fundamento no artigo 922 do Código de Processo Civil. Anoto que, decorrido o prazo previsto para cumprimento da obrigação pela parte executada, sem manifestação da parte exequente, o acordo será reputado integralmente cumprido e a execução será extinta pelo pagamento. Intimem-se."
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "01/08/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.854980",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "31/07/2025",
+      "mov_descricao": "Pedido de Homologação de Acordo Juntado Nº Protocolo: WSRP.25.70349809-0\nTipo da Petição: Pedido de Homologação de Acordo\nData: 31/07/2025 15:36",
+      "mov_texto_completo": "Pedido de Homologação de Acordo Juntado\nNº Protocolo: WSRP.25.70349809-0\nTipo da Petição: Pedido de Homologação de Acordo\nData: 31/07/2025 15:36",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.855154",
+      "mov_texto": "Pedido de Homologação de Acordo Juntado\nNº Protocolo: WSRP.25.70349809-0\nTipo da Petição: Pedido de Homologação de Acordo\nData: 31/07/2025 15:36"
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "28/06/2025",
+      "mov_descricao": "AR Positivo Juntado Juntada de AR : AA781005101TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Gustavo de Sa Durão\nDiligência : 20/06/2025",
+      "mov_texto_completo": "AR Positivo Juntado\nJuntada de AR : AA781005101TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Gustavo de Sa Durão\nDiligência : 20/06/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:10:39.855449",
+      "mov_texto": "AR Positivo Juntado\nJuntada de AR : AA781005101TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Gustavo de Sa Durão\nDiligência : 20/06/2025"
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "11/06/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Disponibilizado em - 11-06-2025 - Considera-se que a data de publicação é o primeiro dia útil subsequente após a data de disponibilização  - Processo 1024317-92.2025.8.26.0576 - Execução de Título Extrajudicial - Despesas Condominiais - Parque Rio Nieva - Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. CITE-SE e INTIME-SE o(os) executado(s), por carta, para pagamento no prazo de 03 dias ( art. 829, CPC), esclarecendo que o prazo para EMBARGOS é de 15 dias, a partir da juntada do AR de citação nos autos ( art. 915, CPC). Fixo os honorários advocatícios em 10% sobre o total do débito, que será reduzido a 5% no caso de pagamento integral neste prazo (art. 827, § 1º, do CPC), advertido-o que poderá ser elevado para até 20%, quando rejeitados os embargos à execução, podendo a majoração, caso não opostos os embargos, ocorrer ao final do procedimento executivo, levando-se em conta o trabalho realizado pelo advogado do exequente (art. 827, § 2º, do CPC). Intime-se. - ADV: ADILSON LOPES TEIXEIRA (OAB 357725/SP)",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nDisponibilizado em - 11-06-2025 - Considera-se que a data de publicação é o primeiro dia útil subsequente após a data de disponibilização - Processo 1024317-92.2025.8.26.0576 - Execução de Título Extrajudicial - Despesas Condominiais - Parque Rio Nieva - Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. CITE-SE e INTIME-SE o(os) executado(s), por carta, para pagamento no prazo de 03 dias ( art. 829, CPC), esclarecendo que o prazo para EMBARGOS é de 15 dias, a partir da juntada do AR de citação nos autos ( art. 915, CPC). Fixo os honorários advocatícios em 10% sobre o total do débito, que será reduzido a 5% no caso de pagamento integral neste prazo (art. 827, § 1º, do CPC), advertido-o que poderá ser elevado para até 20%, quando rejeitados os embargos à execução, podendo a majoração, caso não opostos os embargos, ocorrer ao final do procedimento executivo, levando-se em conta o trabalho realizado pelo advogado do exequente (art. 827, § 2º, do CPC). Intime-se. - ADV: ADILSON LOPES TEIXEIRA (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "EMBARGOS",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:10:39.855773",
+      "mov_texto": "Certidão de Publicação Expedida\nDisponibilizado em - 11-06-2025 - Considera-se que a data de publicação é o primeiro dia útil subsequente após a data de disponibilização - Processo 1024317-92.2025.8.26.0576 - Execução de Título Extrajudicial - Despesas Condominiais - Parque Rio Nieva - Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. CITE-SE e INTIME-SE o(os) executado(s), por carta, para pagamento no prazo de 03 dias ( art. 829, CPC), esclarecendo que o prazo para EMBARGOS é de 15 dias, a partir da juntada do AR de citação nos autos ( art. 915, CPC). Fixo os honorários advocatícios em 10% sobre o total do débito, que será reduzido a 5% no caso de pagamento integral neste prazo (art. 827, § 1º, do CPC), advertido-o que poderá ser elevado para até 20%, quando rejeitados os embargos à execução, podendo a majoração, caso não opostos os embargos, ocorrer ao final do procedimento executivo, levando-se em conta o trabalho realizado pelo advogado do exequente (art. 827, § 2º, do CPC). Intime-se. - ADV: ADILSON LOPES TEIXEIRA (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 11,
+      "mov_data": "11/06/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.856824",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 12,
+      "mov_data": "10/06/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0497/2025\nTeor do ato: Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. CITE-SE e INTIME-SE o(os) executado(s), por carta, para pagamento no prazo de 03 dias ( art. 829, CPC), esclarecendo que o prazo para EMBARGOS é de 15 dias, a partir da juntada do AR de citação nos autos ( art. 915, CPC). Fixo os honorários advocatícios em 10% sobre o total do débito, que será reduzido a 5% no caso de pagamento integral neste prazo (art. 827, § 1º, do CPC), advertido-o que poderá ser elevado para até 20%, quando rejeitados os embargos à execução, podendo a majoração, caso não opostos os embargos, ocorrer ao final do procedimento executivo, levando-se em conta o trabalho realizado pelo advogado do exequente (art. 827, § 2º, do CPC). Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0497/2025\nTeor do ato: Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. CITE-SE e INTIME-SE o(os) executado(s), por carta, para pagamento no prazo de 03 dias ( art. 829, CPC), esclarecendo que o prazo para EMBARGOS é de 15 dias, a partir da juntada do AR de citação nos autos ( art. 915, CPC). Fixo os honorários advocatícios em 10% sobre o total do débito, que será reduzido a 5% no caso de pagamento integral neste prazo (art. 827, § 1º, do CPC), advertido-o que poderá ser elevado para até 20%, quando rejeitados os embargos à execução, podendo a majoração, caso não opostos os embargos, ocorrer ao final do procedimento executivo, levando-se em conta o trabalho realizado pelo advogado do exequente (art. 827, § 2º, do CPC). Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "EMBARGOS",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:10:39.857057",
+      "mov_texto": "Remetido ao DJE\nRelação: 0497/2025\nTeor do ato: Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. CITE-SE e INTIME-SE o(os) executado(s), por carta, para pagamento no prazo de 03 dias ( art. 829, CPC), esclarecendo que o prazo para EMBARGOS é de 15 dias, a partir da juntada do AR de citação nos autos ( art. 915, CPC). Fixo os honorários advocatícios em 10% sobre o total do débito, que será reduzido a 5% no caso de pagamento integral neste prazo (art. 827, § 1º, do CPC), advertido-o que poderá ser elevado para até 20%, quando rejeitados os embargos à execução, podendo a majoração, caso não opostos os embargos, ocorrer ao final do procedimento executivo, levando-se em conta o trabalho realizado pelo advogado do exequente (art. 827, § 2º, do CPC). Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 13,
+      "mov_data": "10/06/2025",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:10:39.857899",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 14,
+      "mov_data": "10/06/2025",
+      "mov_descricao": "Recebida a Petição Inicial  - Citação Por Carta AR Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. CITE-SE e INTIME-SE o(os) executado(s), por carta, para pagamento no prazo de 03 dias ( art. 829, CPC), esclarecendo que o prazo para EMBARGOS é de 15 dias, a partir da juntada do AR de citação nos autos ( art. 915, CPC). Fixo os honorários advocatícios em 10% sobre o total do débito, que será reduzido a 5% no caso de pagamento integral neste prazo (art. 827, § 1º, do CPC), advertido-o que poderá ser elevado para até 20%, quando rejeitados os embargos à execução, podendo a majoração, caso não opostos os embargos, ocorrer ao final do procedimento executivo, levando-se em conta o trabalho realizado pelo advogado do exequente (art. 827, § 2º, do CPC). Intime-se.",
+      "mov_texto_completo": "Recebida a Petição Inicial - Citação Por Carta AR\nVistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. CITE-SE e INTIME-SE o(os) executado(s), por carta, para pagamento no prazo de 03 dias ( art. 829, CPC), esclarecendo que o prazo para EMBARGOS é de 15 dias, a partir da juntada do AR de citação nos autos ( art. 915, CPC). Fixo os honorários advocatícios em 10% sobre o total do débito, que será reduzido a 5% no caso de pagamento integral neste prazo (art. 827, § 1º, do CPC), advertido-o que poderá ser elevado para até 20%, quando rejeitados os embargos à execução, podendo a majoração, caso não opostos os embargos, ocorrer ao final do procedimento executivo, levando-se em conta o trabalho realizado pelo advogado do exequente (art. 827, § 2º, do CPC). Intime-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "EMBARGOS",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:10:39.858161",
+      "mov_texto": "Recebida a Petição Inicial - Citação Por Carta AR\nVistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. CITE-SE e INTIME-SE o(os) executado(s), por carta, para pagamento no prazo de 03 dias ( art. 829, CPC), esclarecendo que o prazo para EMBARGOS é de 15 dias, a partir da juntada do AR de citação nos autos ( art. 915, CPC). Fixo os honorários advocatícios em 10% sobre o total do débito, que será reduzido a 5% no caso de pagamento integral neste prazo (art. 827, § 1º, do CPC), advertido-o que poderá ser elevado para até 20%, quando rejeitados os embargos à execução, podendo a majoração, caso não opostos os embargos, ocorrer ao final do procedimento executivo, levando-se em conta o trabalho realizado pelo advogado do exequente (art. 827, § 2º, do CPC). Intime-se."
+    },
+    {
+      "mov_ordem": 15,
+      "mov_data": "10/06/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.858979",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 16,
+      "mov_data": "10/06/2025",
+      "mov_descricao": "Certidão de Cartório Expedida certidão do cartório - guia dare queimada inutilizada Inicial - 8°",
+      "mov_texto_completo": "Certidão de Cartório Expedida\ncertidão do cartório - guia dare queimada inutilizada Inicial - 8°",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.859160",
+      "mov_texto": "Certidão de Cartório Expedida\ncertidão do cartório - guia dare queimada inutilizada Inicial - 8°"
+    },
+    {
+      "mov_ordem": 17,
+      "mov_data": "09/06/2025",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:10:39.859439",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

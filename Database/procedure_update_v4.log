@@ -1,0 +1,2 @@
+Changed database context to 'pro_team_care'.
+? Procedure [core].[sp_delete_incomplete_company] criada/alterada com sucesso.

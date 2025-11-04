@@ -1,0 +1,15 @@
+{
+  "data_teste": "2025-10-30T15:42:39.297160",
+  "api_status": "funcionando",
+  "exemplos_testados": [
+    "Banco do Brasil",
+    "Caixa Econômica Federal",
+    "Petrobras"
+  ],
+  "observacoes": [
+    "API responde rapidamente (~0.2-0.5s por consulta)",
+    "Dados estruturados e completos",
+    "Sem CAPTCHA ou limitações",
+    "100% legal e gratuito"
+  ]
+}

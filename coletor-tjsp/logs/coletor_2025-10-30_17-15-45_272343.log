@@ -1,0 +1,34 @@
+2025-10-30 17:15:45.281 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 17:15:45.281 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 17:15:45.282 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 17:15:45.282 | INFO     | src.scraper:setup:37 - Inicializando browser...
+2025-10-30 17:15:46.455 | INFO     | src.scraper:setup:62 - Browser inicializado com sucesso
+2025-10-30 17:15:46.457 | INFO     | src.main:load_process_list:69 - Carregados 3 processos do arquivo processos_teste_reais.csv
+2025-10-30 17:15:46.457 | INFO     | src.main:main:273 - Total de processos para coletar: 3
+2025-10-30 17:15:46.458 | INFO     | src.main:main:280 - [1/3] Processando...
+2025-10-30 17:15:46.458 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1024444-30.2025.8.26.0576
+2025-10-30 17:15:46.459 | INFO     | src.scraper:search_by_process_number:106 - Buscando processo: 1024444-30.2025.8.26.0576
+2025-10-30 17:15:57.999 | WARNING  | src.scraper:search_by_process_number:196 - Processo 1024444-30.2025.8.26.0576 não encontrado ou em segredo
+2025-10-30 17:15:58.000 | WARNING  | src.main:collect_single_process:102 - ✗ Processo 1024444-30.2025.8.26.0576 não encontrado ou em segredo
+2025-10-30 17:15:59.430 | INFO     | src.main:main:280 - [2/3] Processando...
+2025-10-30 17:15:59.430 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1024327-39.2025.8.26.0576
+2025-10-30 17:15:59.431 | INFO     | src.scraper:search_by_process_number:106 - Buscando processo: 1024327-39.2025.8.26.0576
+2025-10-30 17:16:12.284 | WARNING  | src.scraper:search_by_process_number:196 - Processo 1024327-39.2025.8.26.0576 não encontrado ou em segredo
+2025-10-30 17:16:12.285 | WARNING  | src.main:collect_single_process:102 - ✗ Processo 1024327-39.2025.8.26.0576 não encontrado ou em segredo
+2025-10-30 17:16:15.016 | INFO     | src.main:main:280 - [3/3] Processando...
+2025-10-30 17:16:15.016 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1024317-92.2025.8.26.0576
+2025-10-30 17:16:15.017 | INFO     | src.scraper:search_by_process_number:106 - Buscando processo: 1024317-92.2025.8.26.0576
+2025-10-30 17:16:24.837 | WARNING  | src.scraper:search_by_process_number:196 - Processo 1024317-92.2025.8.26.0576 não encontrado ou em segredo
+2025-10-30 17:16:24.838 | WARNING  | src.main:collect_single_process:102 - ✗ Processo 1024317-92.2025.8.26.0576 não encontrado ou em segredo
+2025-10-30 17:16:24.838 | INFO     | src.main:main:290 - Exportando resultados...
+2025-10-30 17:16:24.839 | WARNING  | src.main:main:309 - Processos com erro: 3
+2025-10-30 17:16:24.839 | ERROR    | src.main:main:311 -   - 1024444-30.2025.8.26.0576: Processo não encontrado ou em segredo de justiça
+2025-10-30 17:16:24.840 | ERROR    | src.main:main:311 -   - 1024327-39.2025.8.26.0576: Processo não encontrado ou em segredo de justiça
+2025-10-30 17:16:24.840 | ERROR    | src.main:main:311 -   - 1024317-92.2025.8.26.0576: Processo não encontrado ou em segredo de justiça
+2025-10-30 17:16:24.841 | INFO     | src.main:main:314 - ============================================================
+2025-10-30 17:16:24.841 | INFO     | src.main:main:315 - COLETA FINALIZADA
+2025-10-30 17:16:24.841 | INFO     | src.main:main:316 - ✓ Sucesso: 0 processos
+2025-10-30 17:16:24.842 | INFO     | src.main:main:317 - ✗ Erro: 3 processos
+2025-10-30 17:16:24.843 | INFO     | src.main:main:318 - 📁 Resultados salvos em: teste_dados_reais
+2025-10-30 17:16:24.843 | INFO     | src.main:main:319 - ============================================================
+2025-10-30 17:16:24.900 | INFO     | src.scraper:cleanup:70 - Browser fechado

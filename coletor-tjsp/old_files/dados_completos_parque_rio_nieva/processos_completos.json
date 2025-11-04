@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "fonte": "TJSP Coletor (SIMULAÇÃO)",
+    "parte_pesquisada": "Parque Rio Nieva",
+    "total_processos": 5,
+    "data_coleta": "2025-10-30T17:47:11.401055",
+    "processos_sigilosos": 24,
+    "nota": "DADOS SIMULADOS PARA DEMONSTRAÇÃO"
+  },
+  "processos": [
+    {
+      "processo_numero": "1024444-30.2025.8.26.0576",
+      "coleta_timestamp": "2025-10-30T17:47:08.493365",
+      "vara": "1ª Vara Cível de São Roque",
+      "classe_assunto": "Execução de Título Extrajudicial",
+      "valor_causa": "R$ 50.000,00",
+      "exequente": "BANCO EXEMPLO S.A.",
+      "executado": "PARQUE RIO NIEVA LTDA",
+      "advogado_autor_nome": "Dr. João Silva",
+      "advogado_autor_oab": "123456/SP",
+      "advogado_reu_nome": "Dr. Maria Santos",
+      "advogado_reu_oab": "654321/SP",
+      "situacao": "Em andamento",
+      "movimentacoes": [
+        {
+          "mov_ordem": 1,
+          "mov_data": "15/10/2025",
+          "mov_descricao": "Distribuição",
+          "mov_texto_completo": "Autos distribuídos para 1ª Vara Cível",
+          "mov_tipo": "",
+          "mov_detalhes": "",
+          "palavras_chave_detectadas": [],
+          "decisao_resultado": "NAO_IDENTIFICADO",
+          "valor_bloqueado": "",
+          "contem_decisao_judicial": false,
+          "coleta_timestamp": "2025-10-30T17:47:08.493407",
+          "mov_texto": "Autos distribuídos para 1ª Vara Cível"
+        }
+      ]
+    },
+    {
+      "processo_numero": "1024327-39.2025.8.26.0576",
+      "coleta_timestamp": "2025-10-30T17:47:08.593622",
+      "vara": "1ª Vara Cível de São Roque",
+      "classe_assunto": "Execução de Título Extrajudicial",
+      "valor_causa": "R$ 50.000,00",
+      "exequente": "BANCO EXEMPLO S.A.",
+      "executado": "PARQUE RIO NIEVA LTDA",
+      "advogado_autor_nome": "Dr. João Silva",
+      "advogado_autor_oab": "123456/SP",
+      "advogado_reu_nome": "Dr. Maria Santos",
+      "advogado_reu_oab": "654321/SP",
+      "situacao": "Em andamento",
+      "movimentacoes": [
+        {
+          "mov_ordem": 1,
+          "mov_data": "15/10/2025",
+          "mov_descricao": "Distribuição",
+          "mov_texto_completo": "Autos distribuídos para 1ª Vara Cível",
+          "mov_tipo": "",
+          "mov_detalhes": "",
+          "palavras_chave_detectadas": [],
+          "decisao_resultado": "NAO_IDENTIFICADO",
+          "valor_bloqueado": "",
+          "contem_decisao_judicial": false,
+          "coleta_timestamp": "2025-10-30T17:47:08.593651",
+          "mov_texto": "Autos distribuídos para 1ª Vara Cível"
+        }
+      ]
+    },
+    {
+      "processo_numero": "1024317-92.2025.8.26.0576",
+      "coleta_timestamp": "2025-10-30T17:47:08.693891",
+      "vara": "1ª Vara Cível de São Roque",
+      "classe_assunto": "Execução de Título Extrajudicial",
+      "valor_causa": "R$ 50.000,00",
+      "exequente": "BANCO EXEMPLO S.A.",
+      "executado": "PARQUE RIO NIEVA LTDA",
+      "advogado_autor_nome": "Dr. João Silva",
+      "advogado_autor_oab": "123456/SP",
+      "advogado_reu_nome": "Dr. Maria Santos",
+      "advogado_reu_oab": "654321/SP",
+      "situacao": "Em andamento",
+      "movimentacoes": [
+        {
+          "mov_ordem": 1,
+          "mov_data": "15/10/2025",
+          "mov_descricao": "Distribuição",
+          "mov_texto_completo": "Autos distribuídos para 1ª Vara Cível",
+          "mov_tipo": "",
+          "mov_detalhes": "",
+          "palavras_chave_detectadas": [],
+          "decisao_resultado": "NAO_IDENTIFICADO",
+          "valor_bloqueado": "",
+          "contem_decisao_judicial": false,
+          "coleta_timestamp": "2025-10-30T17:47:08.693919",
+          "mov_texto": "Autos distribuídos para 1ª Vara Cível"
+        }
+      ]
+    },
+    {
+      "processo_numero": "1015891-62.2023.8.26.0576",
+      "coleta_timestamp": "2025-10-30T17:47:08.794109",
+      "vara": "1ª Vara Cível de São Roque",
+      "classe_assunto": "Execução de Título Extrajudicial",
+      "valor_causa": "R$ 50.000,00",
+      "exequente": "BANCO EXEMPLO S.A.",
+      "executado": "PARQUE RIO NIEVA LTDA",
+      "advogado_autor_nome": "Dr. João Silva",
+      "advogado_autor_oab": "123456/SP",
+      "advogado_reu_nome": "Dr. Maria Santos",
+      "advogado_reu_oab": "654321/SP",
+      "situacao": "Em andamento",
+      "movimentacoes": [
+        {
+          "mov_ordem": 1,
+          "mov_data": "15/10/2025",
+          "mov_descricao": "Distribuição",
+          "mov_texto_completo": "Autos distribuídos para 1ª Vara Cível",
+          "mov_tipo": "",
+          "mov_detalhes": "",
+          "palavras_chave_detectadas": [],
+          "decisao_resultado": "NAO_IDENTIFICADO",
+          "valor_bloqueado": "",
+          "contem_decisao_judicial": false,
+          "coleta_timestamp": "2025-10-30T17:47:08.794133",
+          "mov_texto": "Autos distribuídos para 1ª Vara Cível"
+        }
+      ]
+    },
+    {
+      "processo_numero": "1003399-38.2023.8.26.0576",
+      "coleta_timestamp": "2025-10-30T17:47:08.894419",
+      "vara": "1ª Vara Cível de São Roque",
+      "classe_assunto": "Execução de Título Extrajudicial",
+      "valor_causa": "R$ 50.000,00",
+      "exequente": "BANCO EXEMPLO S.A.",
+      "executado": "PARQUE RIO NIEVA LTDA",
+      "advogado_autor_nome": "Dr. João Silva",
+      "advogado_autor_oab": "123456/SP",
+      "advogado_reu_nome": "Dr. Maria Santos",
+      "advogado_reu_oab": "654321/SP",
+      "situacao": "Em andamento",
+      "movimentacoes": [
+        {
+          "mov_ordem": 1,
+          "mov_data": "15/10/2025",
+          "mov_descricao": "Distribuição",
+          "mov_texto_completo": "Autos distribuídos para 1ª Vara Cível",
+          "mov_tipo": "",
+          "mov_detalhes": "",
+          "palavras_chave_detectadas": [],
+          "decisao_resultado": "NAO_IDENTIFICADO",
+          "valor_bloqueado": "",
+          "contem_decisao_judicial": false,
+          "coleta_timestamp": "2025-10-30T17:47:08.894454",
+          "mov_texto": "Autos distribuídos para 1ª Vara Cível"
+        }
+      ]
+    }
+  ]
+}

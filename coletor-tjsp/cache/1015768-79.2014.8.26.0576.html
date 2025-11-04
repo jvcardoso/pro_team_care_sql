@@ -1,0 +1,6964 @@
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+
+	
+
+
+
+
+
+
+
+
+    <script language="javascript" type="text/JavaScript" src="https://esaj.tjsp.jus.br/sajcas/verificarLogin.js?script=1761905944699"></script>
+
+    <script language="javascript">
+        if (window.sajcas && window.sajcas.usuarioLogadoNoCasServer) {
+            var GATEWAY_TRUE = 'gateway=true', GATEWAY_FALSE = 'gateway=false';
+            var urlRetornoSistema = '';
+            if (urlRetornoSistema === '') {
+                urlRetornoSistema = window.location.href;
+            }
+
+            if (urlRetornoSistema.indexOf(GATEWAY_FALSE) !== -1) {
+                urlRetornoSistema = urlRetornoSistema.replace(GATEWAY_FALSE, GATEWAY_TRUE);
+            } else {
+                urlRetornoSistema.lastIndexOf('?') !== -1 ? urlRetornoSistema += '&' : urlRetornoSistema += '?';
+                urlRetornoSistema += GATEWAY_TRUE;
+            }
+
+            window.location.href = urlRetornoSistema;
+        }
+    </script>
+
+
+	<title>Portal de Serviços e-SAJ</title>
+
+	
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="/cpopg/softheme/src/css/app.css?v=2.8.34-30">
+	<link rel="stylesheet" href="/cpopg/softheme/src/fonts/saj/styles.css?v=2.8.34-30">
+	<link rel="stylesheet" href="/cpopg/css/formulario.css?v=2.8.34-30" type="text/css">
+	
+
+	<link rel="stylesheet" href="/cpopg/webjars/select2/3.5.4/select2.css?v=2.8.34-30" type="text/css">
+	<link rel="stylesheet" href="/cpopg/webjars/select2/3.5.4/select2-bootstrap.css?v=2.8.34-30" type="text/css">
+	<link rel="stylesheet" href="/cpopg/css/saj/select2/saj-select2.css">
+
+	
+ 
+<script>
+	window.saj = window.saj || {};
+	window.saj.env = window.saj.env || {};
+	window.saj.env.root = '/cpopg';
+	window.saj.env.css = '/cpopg/css';
+	window.saj.env.js = '/cpopg/js';
+	window.saj.env.imagens = '/cpopg/imagens';
+	window.saj.env.queryString = 'processo.codigo=G00001IUJ0000&processo.foro=576&processo.numero=1015768-79.2014.8.26.0576';	
+
+	window.saj.cpo = window.saj.cpo || {};
+
+	// transfere variavel se cpo esta rodando para totem
+	window.saj.cpo.totem = 'false' == 'true';
+</script>
+
+	
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/jquery/jquery.min.js?n=1620728708"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/jquery/jquery.func_toggle.js?n=23b2bc14-f96c-479c-910e-f658be82cb04"></script>
+	<script language="javascript" type="text/javascript" src="/cpopg/js/jquery/jquery.blockUI.min.js?n=c96c6be7-8cd5-4cb3-a52b-40cf90f39da8"></script>
+	<script language="javascript" type="text/javascript" src="/cpopg/js/jquery/jquery.browser.min.js?n=73631522-2563-4a93-88a2-4ef474503fa3"></script>
+
+	<script language="javascript" type="text/javascript" src="/cpopg/webjars/lodash/4.17.21/lodash.js?n=a0c87fc1-eb71-486d-a80e-2bf54b0f7748"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/select2/select2.js?n=425c1c76-ab5f-4b26-9f57-edffba87f8d8"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/webjars/select2/3.5.4/select2_locale_pt-BR.js?n=6f6eb977-8f23-4ab0-a5e2-f5b7943ec09c"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/saj/saj-select2.js?n=85af12d0-c84e-44fd-9f99-4247400cfe21"></script>
+
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/saj/saj-web-2.2.41-4.js?n=f0a452e1-a653-4ede-a89f-784c7346081a"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/saj/saj-tooltip.js?n=2e5a1ba2-176f-4648-a7cb-0b392da2f210"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/saj/saj-popup-modal-1.0.0-1.js?n=6965c902-72a2-40ea-81f9-c13b2d7848cf"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/saj/saj-browser.js?n=0058af77-b7b9-41bd-b77f-1c802dc2ec10"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/saj/saj-mascara-input.js?n=7b97008e-01f0-49bf-9bc7-41e8f00fdf7f"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/saj/saj-numeroProcesso.js?n=6705b62f-4d13-4f1e-823f-bbcc44bef09a"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/saj-cpo-cbpesquisa.js?n=295666404"></script>
+	<script language="javascript" type="text/JavaScript" src="/cpopg/js/saj/acessibilidade/acessibilidade.js?n=1dd04582-dab7-4286-b181-beb9c1e24969"></script>
+	
+	<script language="javascript" type="text/JavaScript" src="/cpopg/softheme/src/js/app.js?n=789536343"></script>   
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js?n=5b0b2070-72ca-44a1-9cad-f3b9ab8fad88" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js?n=1791337263" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	
+	
+
+
+
+
+<script>
+	(function($){
+		$(function(){
+			var intervalo = 1795000;
+			$.saj.manterSessao('/cpopg/manterSessao.do', intervalo);
+		});
+				
+	})(jQuery);
+</script>
+
+
+
+
+	
+    <script language="javascript" type="text/JavaScript">
+        $.saj = $.saj || {};
+        $.saj.acessoRecurso = {
+            abrirPastaDigitalEmPopup: 'true' == 'true',
+            idRecursoQueProvocouLiberacaoPorSenha: '',
+            limitaAcessoPastaDigital: 'false',
+            popupSenha: {
+                mostrar: 'false' == 'true',
+                titulo: 'Senha do processo',
+                altura: 220 + Number("10"),
+                alturaAdicionalParaMensagemValidacao: Number("0"),
+                largura: 580
+            },
+            popupMensagem: {
+                titulo: 'Aviso:',
+                texto: 'Você atingiu o limite diário de acessos à pasta digital em processos que não está vinculado.'
+            },
+			tituloPopupRecebimentoIntimacao: 'Aviso de intimação',
+			tituloPopupRecebimentoIntimacaoPendente: 'Aviso de intimação/citação pendente',
+			labelBotaoOk: 'OK',
+			labelBotaoCancelar: 'Cancelar'
+        };
+
+        $.saj.getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)), sURLVariables = sPageURL.split('&'), sParameterName, i;
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
+                }
+            }
+        };
+    </script>
+    <script language="javascript" type="text/JavaScript" src="/cpopg/jsp/show-2.8.33-0.js?n=3479389853"></script>
+
+	<script type="text/javascript">
+		(function($) {
+			$(function(){
+				// Correção temporária do alinhamento do divisor de seção de formulário do SPW 
+				$('td[background$="spw/fundo_subtitulo2.gif"]').attr('valign', 'top');
+				
+			})
+		})(jQuery);
+	</script>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    (function ($) {
+        $(function () {
+            var captcha = $.saj.getUrlParameter('uuidCaptcha');
+
+            if (!captcha) {
+                return;
+            }
+
+            if(!captcha){
+                return;
+            }
+            var $processoPrinc = $('.processoPrinc');
+            $processoPrinc.attr('href', $processoPrinc.attr('href') + '&uuidCaptcha=' + captcha);
+
+            var $processoPaiApenso = $('.processoPaiApenso');
+            $processoPaiApenso.attr('href', $processoPaiApenso.attr('href') + '&uuidCaptcha=' + captcha);
+
+            $('.incidente').each(function () {
+                var $incidente = $(this);
+                var url = $incidente.attr('href');
+                $incidente.attr('href', url + '&uuidCaptcha=' + captcha);
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<!-- HEADER-->
+<div class="unj-entity-header">
+    
+
+
+
+
+<div class="unj-entity-header__actions__barra">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 col-md-4">
+                <a href="javascript:history.back();" class="unj-link-back">
+                    <i id="setaVoltar" class="icon-back"></i>
+                </a>
+            </div>
+            <div class="col-13 col-md-12 unj-ta-r">
+                <input type="hidden" name="_csrf" value="70b2dd90-975e-44bb-9f48-a5273125a134">
+                <!-- CDAS -->
+                
+                <!-- Custas -->
+                
+                <!-- Pasta digital -->
+                
+                    
+                        
+                        
+                            
+                        
+                    
+                    
+                        
+                        
+                            <a class="linkPasta btn btn-secondary btn-space" id="linkPasta" aria-hidden="true" title="Pasta digital" href="#liberarAutoPorSenha">
+                                Visualizar autos
+                            </a>
+                            <!-- link da pasta digital exibido somente para leitores de tela (deficientes visuais), neste caso o link anterior é ignorado pelo leitor
+                            Obs: necessário manter a table devido aos atributos de acessibilidade se comportarem adequadamente com a tabela, comportamento que não é possível colocando
+                            os atributos somente na tag do link-->
+                            <a class="linkPasta btn btn-secondary btn-space" id="linkPastaAcessibilidade" style="font-size:0;height:0;width:0;padding:0;margin:0;border:none" href="#liberarAutoPorSenha&amp;acessibilidade=true">
+                                Visualizar autos
+                            </a>
+                        
+                    
+                
+                
+                    
+                    
+                    
+                    
+                        <!-- Peticionar -->
+                        
+                        
+                        
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+
+
+
+
+
+
+<div class="unj-entity-header__summary__barra">
+    <div id="containerDadosPrincipaisProcesso" class="container">
+        <div class="row">
+            <div class="col-lg-12 col-xl-13">
+                <!--principal -->
+                
+                    <span id="numeroProcesso" class="unj-larger-1">
+                        1015768-79.2014.8.26.0576
+                    </span>
+                    
+                    
+                        <span id="labelSituacaoProcesso" class="unj-tag">Extinto</span>
+                    
+                    
+                    
+                
+                <!-- incidente -->
+                
+                
+                
+            </div>
+
+        </div>
+        <div class="row">
+            <input type="hidden" name="_csrf" value="70b2dd90-975e-44bb-9f48-a5273125a134">
+            
+                <div class="col-lg-3 col-xl-3 mb-3">
+                    <span id="labelClasseProcesso" class="unj-label">Classe</span>
+                    <div class="lh-1-1 line-clamp__2"><span id="classeProcesso" title="Procedimento Comum Cível">Procedimento Comum Cível</span></div>
+                </div>
+            
+            
+                <div class="col-lg-2 col-xl-3 mb-3">
+                    <span id="labelAssuntoProcesso" class="unj-label">
+                        Assunto
+                    </span>
+                    <div class="lh-1-1 line-clamp__2"> <span id="assuntoProcesso" title="Inadimplemento">Inadimplemento</span></div>
+                </div>
+            
+            
+                <div class="col-lg-2 col-xl-2 mb-2">
+                    <span id="labelForoProcesso" class="unj-label">
+                        Foro
+                    </span>
+                    <div class="lh-1-1 line-clamp__2"> <span id="foroProcesso" title="Foro de São José do Rio Preto">Foro de São José do Rio Preto</span></div>
+                </div>
+            
+            
+                <div class="col-lg-3 col-xl-2 mb-2">
+                    <span id="labelVaraProcesso" class="unj-label">
+                        Vara
+                    </span>
+                    <div class="lh-1-1 line-clamp__2"><span id="varaProcesso" title="5ª Vara Cível">5ª Vara Cível</span></div>
+                </div>
+            
+
+            
+                <div class="col-lg-3 mb-2">
+                    <span id="labelJuizProcesso" class="unj-label">Juiz</span>
+                    <div class="line-clamp__2"> <span id="juizProcesso" title="Angelo Marcio de Siqueira Pace">Angelo Marcio de Siqueira Pace</span> </div>
+                </div>
+            
+
+            <!-- Processo principal -->
+            
+
+            
+        </div>
+    </div>
+</div>
+
+    
+
+
+
+
+<div class="unj-entity-header__details__barra">
+    <div class="container">
+        <div class="unj-ta-r">
+            
+                <a href="#maisDetalhes" class="unj-link-collapse" data-toggle="collapse" aria-expanded="false" aria-controls="maisDetalhes">
+                    <span class="unj-link-collapse__show">
+                        <i id="botaoExpandirDadosSecundarios" class="unj-link-collapse__icon glyph glyph-chevron-down"></i>
+                        Mais
+                    </span>
+                    <span class="unj-link-collapse__hide">
+                        <i id="botaoRecolherDadosSecundarios" class="unj-link-collapse__icon glyph glyph-chevron-up"></i>
+                        Recolher
+                    </span>
+                </a>
+            
+        </div>
+        <div id="maisDetalhes" class="collapse" aria-expanded="false">
+            <div class="row unj-row--border-top">
+                
+                    <div class="col-lg-3 mb-2">
+                        <span id="labelDistribuicaoProcesso" class="unj-label">Distribuição </span>
+                        <div id="dataHoraDistribuicaoProcesso">15/07/2014 às 17:01 - Livre</div>
+                    </div>
+                
+                
+                
+                    <div class="col-lg-3 mb-2">
+                        <span id="labelControleProcesso" class="unj-label">Controle</span>
+                        <div id="numeroControleProcesso">2014/001635</div>
+                    </div>
+                
+                
+                    <div class="col-lg-2 col-xl-2 mb-2">
+                        <span id="labelAreaProcesso" class="unj-label">Área</span>
+                        <div id="areaProcesso" class="lh-1-1 line-clamp__2"> <span title="Cível">Cível</span></div>
+                    </div>
+                
+                
+                    <div class="col-lg-2 mb-2">
+                        <span id="lavelValorAcaoProcesso" class="unj-label">Valor da ação</span>
+                        <div id="valorAcaoProcesso">R$         11.943,84</div>
+                    </div>
+                
+                
+                
+                
+                    <div class="col-lg-2 mb-2">
+                        <span class="unj-label">Outros assuntos</span>
+                        <div class="line-clamp__2"> <span title="Condomínio">Condomínio</span></div>
+                    </div>
+                
+                
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+</div>
+
+
+<div class="div-conteudo container mb-90" aria-hidden="true">
+	
+	
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+
+
+
+
+    
+
+
+
+<aside class="aside-nav aside-nav--left aside-nav--acessibilidade">
+    <div class="aside-nav__inner">
+        <header class="aside-nav__main-menu__header"><span class="aside-nav__main-menu__header__text">  Menu e-SAJ</span>
+            <a href="#" class="aside-nav__user__close-button close-offcanvas">
+                <img src="https://esaj.tjsp.jus.br/esaj-layout/img/icons/icon-close--light.png" alt="">
+            </a>
+        </header>
+        <nav class="aside-nav__main-menu">
+            <ul class="aside-nav__main-menu__list" id="conteudoMenuEsaj"><li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Consultas Processuais</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cpopg/open.do" class="aside-nav__main-menu__list__item__link">Consulta de Processos do 1ºGrau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cposg/open.do" class="aside-nav__main-menu__list__item__link">Consulta de Processos do 2ºGrau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cposgcr/open.do" class="aside-nav__main-menu__list__item__link">Colégio Recursal/Turma de Uniformização</a>
+</li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Consulta de Ordem de Processos</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cop/abrirConsultaDeOrdemDeJulgamentoPg.do" class="aside-nav__main-menu__list__item__link">Consulta de processos de Ordem de julgamento do 1º Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cop/abrirConsultaDeOrdemDeAtoPg.do" class="aside-nav__main-menu__list__item__link">Consulta de Ordem de Publicação e Cumprimento de Atos</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cop/abrirConsultaDeOrdemDeAtoSgTj.do" class="aside-nav__main-menu__list__item__link">Consulta de Ordem de Publicação de Cumprimento de Atos do 2º Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cop/abrirConsultaDeOrdemDeJulgamentoMagistradoSg.do" class="aside-nav__main-menu__list__item__link">Consulta de Ordem de Julgamento do 2º Grau</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/pauta-julgamento-virtual" class="aside-nav__main-menu__list__item__link">Pauta de Julgamento Virtual do Segundo Grau</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Solicitações e Pedidos</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petpg-conciliacao/abrirPedidoMedicamentos.do" class="aside-nav__main-menu__list__item__link">Pedido de Medicamentos</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petpg-conciliacao/abrirConciliacaoSuperendividamento.do" class="aside-nav__main-menu__list__item__link">Conciliação no Superendividamento</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Requisitórios</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Portal do Devedor</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cpopg/abrirConsultaDeRequisitorios.do" class="aside-nav__main-menu__list__item__link">Consulta de Requisitórios</a>
+</li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Notificação de Requisitórios</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaNotificacoesRequisitoriosNaoRecebidas.do" class="aside-nav__main-menu__list__item__link">Requisitórios Pendentes de Recebimento</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaNotificacoesRequisitoriosRecebidas.do" class="aside-nav__main-menu__list__item__link">Requisitórios Recebidos</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaDeProcessos.do" class="aside-nav__main-menu__list__item__link">Consulta de Processos</a>
+</li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Notificação de Mapas Orçamentários</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaNotificacoesMapasOrcamentariosNaoRecebidas.do" class="aside-nav__main-menu__list__item__link">Mapas Pendentes de Recebimento</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaNotificacoesMapasOrcamentariosRecebidas.do" class="aside-nav__main-menu__list__item__link">Mapas Recebidos</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirPeticionamentoIntermediario.do" class="aside-nav__main-menu__list__item__link">Peticionamento de Intermediária</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaNotificacoesDocumentos.do" class="aside-nav__main-menu__list__item__link">Notificação de Documentos</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaListaPagamentos.do" class="aside-nav__main-menu__list__item__link">Listas de Precatórios Pendentes de Pagamento e Pagamentos Disponibilizados</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaListaDepositos.do" class="aside-nav__main-menu__list__item__link">Lista de Depósitos Efetuados</a>
+</li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Portal dos outros Tribunais</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaDeProcessos.do" class="aside-nav__main-menu__list__item__link">Consulta de processos</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/portalDevedor/abrirConsultaNotificacoesDocumentosOutrosTribunais.do" class="aside-nav__main-menu__list__item__link">Notificação de Documentos</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/securitycasapireq/api/cas/authenticate?serviceurl=https://esaj.tjsp.jus.br/petpgdivreq" class="aside-nav__main-menu__list__item__link">Petição intermediária de 1º Grau no Precatório</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/ctoPtl/abrirConsultaContratos.do" class="aside-nav__main-menu__list__item__link">Contratos</a>
+</li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Consultas de Jurisprudência</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cjsg/consultaSimples.do" class="aside-nav__main-menu__list__item__link">Consulta Simples</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cjsg/consultaCompleta.do" class="aside-nav__main-menu__list__item__link">Consulta Completa</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cdje" class="aside-nav__main-menu__list__item__link">Diário da Justiça Eletrônico</a>
+</li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Biblioteca</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Consultas</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="http://esaj.tjsp.jus.br/gecon/obra/consulta/obras/periodico/artigos" class="aside-nav__main-menu__list__item__link">Consulta de Obras, Periódicos e Artigos</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="http://esaj.tjsp.jus.br/gecon/jurisprudencia/consulta" class="aside-nav__main-menu__list__item__link">Jurisprudência Selecionada </a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="http://esaj.tjsp.jus.br/gecon/legislacao/consulta" class="aside-nav__main-menu__list__item__link">Consulta de Legislação e Normas</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item"><a href="http://esaj.tjsp.jus.br/gecon/boletim/consulta" class="aside-nav__main-menu__list__item__link">Boletins</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Push - Acompanhar Processo Judicial</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/push/index.do" class="aside-nav__main-menu__list__item__link">1º Grau e 2° Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/pushcr/index.do" class="aside-nav__main-menu__list__item__link">2º Grau Colégio Recursal</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Certidões</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Certidões de 1º Grau</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/sco/abrirCadastro.do" class="aside-nav__main-menu__list__item__link">Cadastro de Pedido de Certidão</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/sco/abrirConferencia.do" class="aside-nav__main-menu__list__item__link">Conferência de Certidão</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/sco/abrirDownload.do" class="aside-nav__main-menu__list__item__link">Visualizar Certidão</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Certidões de 2º Grau</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/scosg/abrirCadastro.do" class="aside-nav__main-menu__list__item__link">Cadastro de Pedido de Certidão de 2º Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/scosg/abrirConferencia.do" class="aside-nav__main-menu__list__item__link">Conferência de Certidão de 2º Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/scosg/abrirDownload.do" class="aside-nav__main-menu__list__item__link">Download de Certidão de 2º Grau</a>
+</li>
+</ul></li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Corregedoria</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="http://esaj.tjsp.jus.br/gecon/publico/parecer/consulta" class="aside-nav__main-menu__list__item__link">Consulta de Pareceres e Decisões da Corregedoria</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Conferência de Documento Digital</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/pastadigital/pg/abrirConferenciaDocumento.do" class="aside-nav__main-menu__list__item__link">Conferência de Documento Digital do 1ºGrau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/pastadigital/sg/abrirConferenciaDocumento.do" class="aside-nav__main-menu__list__item__link">Conferência de Documento Digital do 2ºGrau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/pastadigital/sgcr/abrirConferenciaDocumento.do" class="aside-nav__main-menu__list__item__link">Conferência de Documento Digital do Colégio Recursal </a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/atendimento/abrirConferenciaDocOriginal.do" class="aside-nav__main-menu__list__item__link">Conferência de Documento Digital de Expediente Administrativo </a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/cjpg" class="aside-nav__main-menu__list__item__link">Consulta de Julgados de 1º Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Peticionamento Eletrônico</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Peticionamento Eletrônico de 1º Grau</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petpg/abrirNovaPeticaoInicial.do?instancia=PG" class="aside-nav__main-menu__list__item__link">Petição Inicial de 1° Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petpg/abrirNovaPeticaoIntermediaria.do?instancia=PG" class="aside-nav__main-menu__list__item__link">Petição Intermediária de 1° Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petpg/abrirConsultaPeticoes.do" class="aside-nav__main-menu__list__item__link">Consulta de Petições de 1º Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/securitycasapireq/api/cas/authenticate?serviceurl=https://esaj.tjsp.jus.br/petpgreq" class="aside-nav__main-menu__list__item__link">Peticionamento de intermediaria de 1º Grau Requisitórios</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petpg-complemento/abrirNovoComplementoProcesso.do" class="aside-nav__main-menu__list__item__link">Complemento de Cadastro de 1º Grau</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Peticionamento Eletrônico de 2º Grau</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petsg/abrirNovaPeticaoInicial.do?instancia=SG" class="aside-nav__main-menu__list__item__link">Peticionamento Inicial de 2º Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petsg/abrirNovaPeticaoIntermediaria.do?instancia=SG" class="aside-nav__main-menu__list__item__link">Peticionamento Intermediário de 2º Grau</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petsg/abrirConsultaPeticoes.do" class="aside-nav__main-menu__list__item__link">Consulta de Petições de 2º Grau</a>
+</li>
+</ul></li>
+<li class="aside-nav__main-menu__list__item has__menu__children"><a href="#" class="aside-nav__main-menu__list__item__link">Peticionamento Eletrônico do Colégio Recursal</a>
+<ul class="aside-nav__main-menu__list__item menu__children"><li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petcr/abrirNovaPeticaoInicial.do?instancia=CR" class="aside-nav__main-menu__list__item__link">Peticionamento Inicial - Colégio Recursal</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petcr/abrirNovaPeticaoIntermediaria.do?instancia=CR" class="aside-nav__main-menu__list__item__link">Peticionamento Intermediário - Colégio Recursal</a>
+</li>
+<li class="aside-nav__main-menu__list__item"><a href="https://esaj.tjsp.jus.br/petcr/abrirConsultaPeticoes.do" class="aside-nav__main-menu__list__item__link">Consulta de Petições - Colégio Recursal</a>
+</li>
+</ul></li>
+</ul></li></ul>
+        </nav>
+        <div id="esaj-beta-switcher-placeholder"></div>
+    </div>
+</aside>
+<aside class="aside-nav aside-nav--right aside-nav__user aside-nav--acessibilidade">
+    <div class="aside-nav__inner">
+        <div class="aside-nav__user__sign">
+            <div class="aside-nav__user__sign__brand">
+                <img src="https://esaj.tjsp.jus.br/esaj-layout/img/aside/brasoes/br-tjsp.jpg" alt="">
+            </div>
+            <ul class="aside-nav__user__sign__list">
+                <li><span class="aside-nav__user__sign__place">Tribunal de Justiça do Estado de São Paulo</span></li>
+            </ul>
+            <a href="#" class="aside-nav__user__close-button close-offcanvas">
+                <img src="https://esaj.tjsp.jus.br/esaj-layout/img/icons/icon-close--dark.png" alt="">
+            </a>
+        </div>
+        <hr>
+        <div class="aside-nav__user__info">
+            <h4 class="aside-nav__user__title">Minha conta</h4>
+            <ul class="aside-nav__user__info__list">
+                <li class="aside-nav__user__info__list__item"><span class="aside-nav__user__info__name" id="menuNmUsuarioLogado"></span></li>
+                <li class="aside-nav__user__info__list__item"><span class="aside-nav__user__info__oab" id="menuUsuarioOabs">OAB: </span></li>
+            </ul>
+            <ul class="aside-nav__user__info__list-access">
+                <li class="aside-nav__user__info__list-access__item"><a class="aside-nav__user__info__list-access__item__link" href="https://esaj.tjsp.jus.br/esaj/cadastro.do">Meu perfil</a></li>
+                
+                    <li class="aside-nav__user__info__list-access__item"><a class="aside-nav__user__info__list-access__item__link" href="https://esaj.tjsp.jus.br/caixapostal">Caixa Postal</a></li>
+                
+                <li class="aside-nav__user__info__list-access__item"><a class="aside-nav__user__info__list-access__item__link" id="logoutLink" href="#">Sair</a></li>
+            </ul>
+        </div>
+    </div>
+</aside>
+<header>
+    <link rel="shortcut icon" href="https://esaj.tjsp.jus.br/esaj-layout/tema/padrao/clientes/SP/imagens/favicon.ico" type="image/x-icon">
+    <link href="https://esaj.tjsp.jus.br/esaj-layout/app.css" rel="stylesheet" type="text/css">
+    <nav class="header__navbar--barra">
+        
+            <div class="header__navbar__barra-acessibilidade">
+                <a class="header__navbar__barra-acessibilidade-anchor" target="_blank" href="https://www.tjsp.jus.br/Acessibilidade/Orientacoes"><span>Acessibilidade</span></a>
+                <a target="_blank" href="https://www.tjsp.jus.br/Acessibilidade/Orientacoes">
+                    <img onmouseover="exibirLibras()" onmouseleave="ocultarLibras()" src="https://esaj.tjsp.jus.br/esaj-layout/tema/padrao/imagens/layout/mao.png" alt="MAO">
+                </a>
+            </div>
+            <img id="gifLibras" class="header__navbar__barra-acessibilidade-libras" style="display: none" height="100" width="100" border="0" alt="LIBRAS" src="https://esaj.tjsp.jus.br/esaj-layout/tema/padrao/imagens/layout/libras.gif">
+        
+        <a class="header__navbar__menu-hamburger open__aside-nav--left navbar-menu-hamburger__item__link">
+            <span class="menu-hamburger__alert" style="display:none;"></span>
+            <span class="glyph glyph-hamburger"></span>
+        </a>
+
+        <h1 class="header__navbar__title" href=""><a class="linkLogo" href="https://esaj.tjsp.jus.br/esaj-layout/redirecionarNovoEsaj.do"><strong>e-SAJ</strong></a> | Consulta de Processos do 1ºGrau</h1>
+
+        <ul class="header__navbar__menu header__navbar__menu--right">
+            <li class="header__navbar__menu__item header__navbar__menu__item--initials">
+                <a class="header__navbar__brand__initials" href="http://www.tjsp.jus.br/"> TJSP </a>
+            </li>
+            <li class="header__navbar__menu__item header__navbar__menu__item--user">
+               <span class="header__navbar__name open__aside-nav--right">
+                     <span id="headerNmUsuarioLogado" class="header__navbar__name__text">Identificar-se </span>
+                     <span class="glyph glyph-contact header__navbar__name__icon"></span>
+               </span>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="offcanvas-backdrop"></div>
+
+
+<script>
+    var dict = {
+        'certificado.tituloCertificadoDigital': 'Certificado digital',
+        'certificado.msgCarregandoCertificado': 'Carregando certificados...',
+        'certificado.msgNenhumCertificadoEncontrado': 'Nenhum certificado encontrado',
+        'certificado.msgErroCarregarCertificado': 'Erro ao carregar certificados',
+        'certificado.msgCertificadoExpirado': '[Expirado]',
+        'certificado.msgCertificadoNaoValido': '[Ainda não válido]',
+        'certificado.msgCertificadoNaoIcpBrasil': '[Não ICP-Brasil]',
+        'certificado.tituloProblemasAoAssinar': 'Falha de comunicação com o dispositivo de assinatura digital',
+
+        'label.contato': 'Contato',
+        'label.identificarSe': 'Identificar-se ',
+
+        'mensagem.aguarde': 'Por favor, aguarde.',
+        'mensagem.paginaNaoCarregada': 'Não foi possível carregar a página.',
+        'mensagem.marcarLido': 'Marcar como lido',
+        'mensagem.registrosSelecionados': 'Registros selecionados',
+        'mensagem.registroJaSelecionado': 'Este registro já está selecionado',
+
+        'mensagem.data.invalida': 'A data digitada é inválida.',
+        'mensagem.data.anoInvalido': 'O ano informado deve ser maior que',
+        'mensagem.data.mesInvalido': 'O mês não pode ser maior que 12.',
+        'mensagem.data.mes': 'O mês',
+        'mensagem.data.mesMaior29dias': 'não pode ter mais que 29 dias.',
+        'mensagem.data.mesMaior28dias': 'não pode ter mais que 28 dias.',
+        'mensagem.data.mesMaior31dias': 'não pode ter mais que 31 dias.',
+        'mensagem.data.mesMaior30dias': 'não pode ter mais que 30 dias.',
+
+        'mensagem.email.invalido': 'O formato do endereço de e-mail não é válido. Verifique se ele tem o formato "usuario@dominio".',
+        'mensagem.email.caracteresInvalidos': 'O endereço de e-mail possui caracteres inválidos',
+        'mensagem.email.usuarioInvalido': 'O formato do usuário informado no endereço de e-mail não é válido.',
+        'mensagem.email.ipInvalido': 'O endereço IP informado no endereço de e-mail não é válido.',
+        'mensagem.email.dominioInvalido': 'O formato do domínio informado no endereço de e-mail não é válido.',
+        'mensagem.email.dominioIncompleto': 'O domínio informado no endereço de e-mail deve possuir pelo menos duas partes. Por exemplo: "usuario@empresa.com.br".',
+
+        'mensagem.texto.tamanhoInvalido': 'O tamanho do texto digitado é maior do que o tamanho permitido. Tamanho permitido:',
+        'mensagem.texto.caracter': 'O caracter',
+        'mensagem.texto.caracterPosicaoInvalida': 'não está permitido na posição',
+
+        'mensagem.numero.numeroInvalido': 'O valor digitado não é um número válido.',
+        'mensagem.numero.numeroNaoPodeCasasDecimais': 'O número não pode conter casas decimais',
+        'mensagem.numero.numeroCasaDecimaisInvalidas': 'O número de casas decimais é inválido. O número pode conter apenas',
+        'mensagem.numero.casaDecimais': 'casas decimais',
+        'mensagem.numero.numeroInteiroInvalido': 'O número de dígitos inteiros é inválido. O número pode conter apenas',
+        'mensagem.numero.digitosInteiros': 'dígitos inteiros',
+        'mensagem.numero.numeroTamanhoInvalido': 'O número digitado não pode ser maior que',
+        'mensagem.numero.numeroZeroInvalido': 'O número digitado deve ser diferente de zero.'
+    }
+</script>
+
+
+
+<script>
+    var appEsajLayout = appEsajLayout || {};
+    appEsajLayout.urlNovoMenuHtml = 'https://esaj.tjsp.jus.br/esaj-layout/menuPortalV2Html.do?servico=190101';
+
+    var appEsajCas = appEsajCas || {};
+    appEsajCas.urlServicoConteudoIdentificacao = 'https://esaj.tjsp.jus.br/sajcas/conteudoIdentificacaoJson?script=1761894269614&retorno=' + encodeURIComponent(location.href);
+</script>
+<script src="https://esaj.tjsp.jus.br/esaj-layout/js/portalV2-bundle.js?n=806192629"></script>
+<script src="https://esaj.tjsp.jus.br/esaj-layout/js/saj-certificado.js?n=47741893"></script>
+<script src="https://esaj.tjsp.jus.br/esaj-layout/js/softplan-websigner-2.5.1.js?n=736057767"></script>
+
+<script src="https://esaj.tjsp.jus.br/sajcas/seletorVersaoBeta.js?n=25a70215-13f6-40eb-82b2-85620e647f9e&amp;versao=2"></script>
+<script>
+    function exibirLibras() {
+        document.getElementById("gifLibras").style.display = 'block';
+        var cel1 = document.getElementsByClassName('esajCelulaIdentificacao');
+        var cel2 = document.getElementsByClassName('esajCelulaIdentificacaoServico');
+        mudarPosicao(cel1, 'static');
+        mudarPosicao(cel2, 'static');
+    }
+    function ocultarLibras() {
+        document.getElementById("gifLibras").style.display = 'none';
+        var cel1 = document.getElementsByClassName('esajCelulaIdentificacao');
+        var cel2 = document.getElementsByClassName('esajCelulaIdentificacaoServico');
+        mudarPosicao(cel1, 'relative');
+        mudarPosicao(cel2, 'relative');
+    }
+
+    function mudarPosicao(coll, posicao) {
+        if (!coll) {
+            return;
+        }
+        for (var i = 0, len = coll.length; i < len; i++) {
+            coll[i].style["position"] = posicao;
+        }
+    }
+</script>
+
+	
+
+
+
+
+	        
+	            
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	            
+	        
+	            
+	                
+	                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	            
+	        
+	            
+	                
+	                
+	                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle tituloDoBloco">Partes do processo</h2>
+		
+	
+</div>
+
+<!--  cabecalho da tabela de lista (partes) -->
+
+
+<!--  dados da lista partes principais (partes) -->
+<table id="tablePartesPrincipais" style="margin-left:15px; margin-top:1px;" align="center" border="0" cellpadding="0" cellspacing="0" width="98%">
+	
+		
+
+
+
+
+
+
+
+
+
+<tbody><tr class="fundoClaro">
+	<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+		<span class="mensagemExibindo tipoDeParticipacao">Reqte&nbsp;</span>
+	</td>
+	<td class="nomeParteEAdvogado" width="*" align="left" style="padding-bottom: 5px">
+		
+			
+				
+				
+					CONDOMÍNIO RESIDENCIAL MARINA VERDE DO TIETÊ
+				
+			
+
+			
+		 
+		
+			
+				<br>
+				<span class="mensagemExibindo">Advogado:&nbsp;</span>
+				
+					
+					
+						Adilson Lopes Teixeira
+					
+				&nbsp;
+				
+			
+		
+		
+			<br>
+			<span class="mensagemExibindo">Síndico:&nbsp;</span>
+			Feliciano Rodrigues de Oliveira&nbsp;
+	  
+	</td>
+</tr>
+
+	
+		
+
+
+
+
+
+
+
+
+
+<tr class="fundoClaro">
+	<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+		<span class="mensagemExibindo tipoDeParticipacao">Reqdo&nbsp;</span>
+	</td>
+	<td class="nomeParteEAdvogado" width="*" align="left" style="padding-bottom: 5px">
+		
+			
+				
+				
+					MOACIR BASILIO BORGES
+				
+			
+
+			
+		 
+		
+			
+				<br>
+				<span class="mensagemExibindo">Advogada:&nbsp;</span>
+				
+					
+					
+						Juliana Delatorre Bellini
+					
+				&nbsp;
+				
+			
+		
+		
+	</td>
+</tr>
+
+	
+		
+
+
+
+
+
+
+
+
+
+<tr class="fundoClaro">
+	<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+		<span class="mensagemExibindo tipoDeParticipacao">Advogado&nbsp;</span>
+	</td>
+	<td class="nomeParteEAdvogado" width="*" align="left" style="padding-bottom: 5px">
+		
+			
+				
+				
+					Luis Paulo Invernize Cardozo
+				
+			
+
+			
+		 
+		
+			
+		
+		
+	</td>
+</tr>
+
+	
+		
+
+
+
+
+
+
+
+
+
+<tr class="fundoClaro">
+	<td valign="top" width="141" style="padding-bottom: 5px" class="label">
+		<span class="mensagemExibindo tipoDeParticipacao">Advogado&nbsp;</span>
+	</td>
+	<td class="nomeParteEAdvogado" width="*" align="left" style="padding-bottom: 5px">
+		
+			
+				
+				
+					Heitor de Oliveira Porto
+				
+			
+
+			
+		 
+		
+			
+		
+		
+	</td>
+</tr>
+
+	
+</tbody></table>
+
+
+
+
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	            
+	        
+	            
+	                
+	                
+	                
+	                
+	                
+	                    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+		
+		
+	
+
+	
+		
+		
+			<h2 class="subtitle tituloDoBloco">Movimentações</h2>
+		
+	
+</div>
+
+
+ 
+	
+
+<table style="margin-left:15px; margin-top:1px;" align="center" border="0" cellpadding="0" cellspacing="0" width="98%">
+	
+		
+			<thead>
+				<tr>
+				  <th width="120" class="label" style="vertical-align: bottom">Data</th>
+				  <th valign="middle" width="20" aria-hidden="true">&nbsp;</th>
+				  <th valign="middle" class="label">Movimento</th>
+				</tr>
+				<tr class="fundoEscuro" height="2" aria-hidden="true">
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</thead>
+
+			
+			<tbody id="tabelaUltimasMovimentacoes">
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			25/10/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Arquivado Definitivamente
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			25/10/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-79276152" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 91, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-79276152" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 91, '#liberarAutoPorSenha')">
+						Certidão de Cartório Expedida
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Certidão de Cartório - CUSTAS - Certidão de Pagamento de Custas e Arquivamento - Cível - 61615
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			25/10/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-79275848" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 90, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-79275848" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 90, '#liberarAutoPorSenha')">
+						Certidão de Cartório Expedida
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				UPJ - Certidão - Guia DARE Inutilizada
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			22/06/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0540/2023
+Data da Publicação: 26/06/2023
+Número do Diário: 3762
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			21/06/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0540/2023
+Teor do ato: Vistos. Dê-se ciência às partes da baixa dos autos do Egrégio Tribunal. Ao autor para requerer o que de direito em 30 dias. Custas já recolhidas às fls. 53/55. Eventual execução do julgado deverá ser apresentada no modo eletrônico, nos termos do Prov. CG 16/2016, onde o interessado, no portal S.A.J. deverá escolher a opção Petição Intermediária de 1º Grau, categoria Execução de Sentença e selecionar a classe 156 Cumprimento de Sentença. No silêncio, proceda-se o arquivamento provisório dos autos, conforme determina o Comunicado CG nº 1789/2017. Intimem-se.
+Advogados(s): Luis Paulo Invernize Cardozo (OAB 334619/SP), Adilson Lopes Teixeira (OAB 357725/SP), Juliana Delatorre Bellini (OAB 377669/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+			</tbody>
+			
+			
+			<tbody style="display: none;" id="tabelaTodasMovimentacoes">
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			25/10/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Arquivado Definitivamente
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			25/10/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-79276152" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 91, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-79276152" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 91, '#liberarAutoPorSenha')">
+						Certidão de Cartório Expedida
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Certidão de Cartório - CUSTAS - Certidão de Pagamento de Custas e Arquivamento - Cível - 61615
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			25/10/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-79275848" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 90, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-79275848" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 90, '#liberarAutoPorSenha')">
+						Certidão de Cartório Expedida
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				UPJ - Certidão - Guia DARE Inutilizada
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			22/06/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0540/2023
+Data da Publicação: 26/06/2023
+Número do Diário: 3762
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			21/06/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0540/2023
+Teor do ato: Vistos. Dê-se ciência às partes da baixa dos autos do Egrégio Tribunal. Ao autor para requerer o que de direito em 30 dias. Custas já recolhidas às fls. 53/55. Eventual execução do julgado deverá ser apresentada no modo eletrônico, nos termos do Prov. CG 16/2016, onde o interessado, no portal S.A.J. deverá escolher a opção Petição Intermediária de 1º Grau, categoria Execução de Sentença e selecionar a classe 156 Cumprimento de Sentença. No silêncio, proceda-se o arquivamento provisório dos autos, conforme determina o Comunicado CG nº 1789/2017. Intimem-se.
+Advogados(s): Luis Paulo Invernize Cardozo (OAB 334619/SP), Adilson Lopes Teixeira (OAB 357725/SP), Juliana Delatorre Bellini (OAB 377669/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			21/06/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-75739280" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=75739280&amp;nmRecursoAcessado=Proferidas+Outras+Decis%C3%B5es+n%C3%A3o+Especificadas" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 87, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=75739280&amp;nmRecursoAcessado=Proferidas+Outras+Decis%C3%B5es+n%C3%A3o+Especificadas')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-75739280" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=75739280&amp;nmRecursoAcessado=Proferidas+Outras+Decis%C3%B5es+n%C3%A3o+Especificadas" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 87, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=75739280&amp;nmRecursoAcessado=Proferidas+Outras+Decis%C3%B5es+n%C3%A3o+Especificadas')">
+						Proferidas Outras Decisões não Especificadas
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Vistos. Dê-se ciência às partes da baixa dos autos do Egrégio Tribunal. Ao autor para requerer o que de direito em 30 dias. Custas já recolhidas às fls. 53/55. Eventual execução do julgado deverá ser apresentada no modo eletrônico, nos termos do Prov. CG 16/2016, onde o interessado, no portal S.A.J. deverá escolher a opção Petição Intermediária de 1º Grau, categoria Execução de Sentença e selecionar a classe 156 Cumprimento de Sentença. No silêncio, proceda-se o arquivamento provisório dos autos, conforme determina o Comunicado CG nº 1789/2017. Intimem-se.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			13/06/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Despacho
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			16/03/2023
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Recebidos os Autos do Tribunal de Justiça
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Data do julgamento: 31/07/2020 11:44:45
+Tipo de julgamento: Decisão monocrática
+Decisão: Agravo Interno nº 1015768-79.2014.8.26.0576/50000 Comarca: São José do Rio Preto (5ª Vara Cível) Agravantes: Rosangela sulas Borges e outro Agravado: Condomínio Residencial Marina Verde do Tietê Decisão Monocrática nº 17.318 AGRAVO INTERNO. DECISÃO COLEGIADA. NÃO CONHECIMENTO. Agravo interno interposto contra decisão colegiada. Não cabimento. Recurso não conhecido. Insurgiram-se os agravantes alegando que deve ser reformada a decisão monocrática para que seja considerada a quebra do contrato, para que seja excluída da lide Rosângela Borges, para que seja indenizado Moacir Borges e para que não seja reconhecida associação. Não foram intimados os agravados por ausência de prejuízo. É o relatório. DECIDO. Na decisão colegiada proferida em sede de julgamento de apelação, esta Turma Julgadora deu parcial provimento ao recurso para manter a condenação da ora coagravante ao pagamento dos valores cobrados pela ré na inicial da demanda aforada, apurando-se a quantia devida em liquidação através da juntada das atas de assembleia respectivas. Intimados, os recorrentes interpuseram agravo interno, no qual pediram a reforma da decisão monocrática. Para além de não ter cabimento o agravo interno para impugnar decisão colegiada, nos termos do quanto disposto no caput do art. 1.021, do atual Código de Processo Civil, é certo que foi proferida decisão monocrática no caso, às fls. 303/305, que deliberou sobre a competência recursal, contra a qual os agravantes não se insurgiram oportunamente (certidão de fls. 307). Não é de ser conhecido, assim, o recurso interposto. Pelo exposto, NÃO CONHEÇO do recurso.
+Relator: Cesar Luiz de Almeida
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			27/08/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetidos os Autos para o Tribunal de Justiça/Colégio Recursal - Processo Digital
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			27/08/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-61530993" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 83, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-61530993" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 83, '#liberarAutoPorSenha')">
+						Certidão de Cartório Expedida
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Certidão - Remessa dos Autos à 2ª Instância - Art. 102 - NSCGJ
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			03/07/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-60399613" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 82, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-60399613" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 82, '#liberarAutoPorSenha')">
+						Certidão de Cartório Expedida
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Certidão - Genérica
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			03/07/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Apensado ao processo
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Apenso o processo 0011603-59.2021.8.26.0576 - Classe: Cumprimento de sentença - Assunto principal: Inadimplemento
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			03/07/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Início da Execução Juntado
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				0011603-59.2021.8.26.0576 - Cumprimento de sentença
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			19/05/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0127/2021
+Data da Disponibilização: 19/05/2021
+Data da Publicação: 20/05/2021
+Número do Diário: Ed.  3281
+Página: 1563/1572
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			18/05/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0127/2021
+Teor do ato: Ordem nº: 2014/001635 - Vistos. Fls. 409/442: Conheço dos embargos de declaração, porém, nego-lhes provimento, pois a Sentença homologada em fls. 408, não guarda relação com a matéria ora ventilada. Assim, cumpra-se fls. 408, remetendo-se os autos à superior instância. Int.
+Advogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Juliana Delatorre Bellini (OAB 377669/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			20/04/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Petição Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.21.70161481-2
+Tipo da Petição: Petição Intermediária
+Data: 20/04/2021 17:38
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			14/04/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-58651699" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=58651699&amp;nmRecursoAcessado=Embargos+de+Declara%C3%A7%C3%A3o+N%C3%A3o-Acolhidos" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 76, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=58651699&amp;nmRecursoAcessado=Embargos+de+Declara%C3%A7%C3%A3o+N%C3%A3o-Acolhidos')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-58651699" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=58651699&amp;nmRecursoAcessado=Embargos+de+Declara%C3%A7%C3%A3o+N%C3%A3o-Acolhidos" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 76, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=58651699&amp;nmRecursoAcessado=Embargos+de+Declara%C3%A7%C3%A3o+N%C3%A3o-Acolhidos')">
+						Embargos de Declaração Não-Acolhidos
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Ordem nº: 2014/001635 - Vistos. Fls. 409/442: Conheço dos embargos de declaração, porém, nego-lhes provimento, pois a Sentença homologada em fls. 408, não guarda relação com a matéria ora ventilada. Assim, cumpra-se fls. 408, remetendo-se os autos à superior instância. Int.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			08/04/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Despacho
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			16/03/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0050/2021
+Data da Disponibilização: 16/03/2021
+Data da Publicação: 17/03/2021
+Número do Diário: Ed. 3238
+Página: 2085/2095
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			15/03/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0050/2021
+Teor do ato: Ordem nº: 2014/001635 Vistos. Ciência às partes da baixa dos autos do E. Tribunal de Justiça. Homologo o acordo de fls. 396/399 e com fundamento no artigo 487, inciso III, alínea "b" do Código de Processo Civil, JULGO EXTINTA a presente AÇÃO em relação à ré ROSANGELA SULAS BORGES. Na hipótese de descumprimento do acordo homologado a parte interessada poderá instaurar através de peticionamento digital o respectivo incidente de execução do título judicial ora constituído. Após o trânsito em julgado da presente decisão, anote-se a extinção da ação em relação à ré ROSANGELA SULAS BORGES. A ação deverá prosseguir em relação ao réu Moacir Basílio Borges. Fls. 405: retornem os autos ao E. Tribunal de Justiça.
+Advogados(s): Luis Paulo Invernize Cardozo (OAB 334619/SP), Juliana Delatorre Bellini (OAB 377669/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			11/03/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Petição Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.21.70099322-4
+Tipo da Petição: Petições Diversas
+Data: 11/03/2021 16:53
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			11/03/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Embargos de Declaração Juntados
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.21.70098975-8
+Tipo da Petição: Embargos de Declaração
+Data: 11/03/2021 15:45
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			23/02/2021
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-57621572" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=57621572&amp;nmRecursoAcessado=Homologada+a+Transa%C3%A7%C3%A3o+de+Acordo+ExtraJudicial" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 70, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=57621572&amp;nmRecursoAcessado=Homologada+a+Transa%C3%A7%C3%A3o+de+Acordo+ExtraJudicial')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-57621572" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=57621572&amp;nmRecursoAcessado=Homologada+a+Transa%C3%A7%C3%A3o+de+Acordo+ExtraJudicial" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 70, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=57621572&amp;nmRecursoAcessado=Homologada+a+Transa%C3%A7%C3%A3o+de+Acordo+ExtraJudicial')">
+						Homologada a Transação de Acordo ExtraJudicial
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Ordem nº: 2014/001635 Vistos. Ciência às partes da baixa dos autos do E. Tribunal de Justiça. Homologo o acordo de fls. 396/399 e com fundamento no artigo 487, inciso III, alínea "b" do Código de Processo Civil, JULGO EXTINTA a presente AÇÃO em relação à ré ROSANGELA SULAS BORGES. Na hipótese de descumprimento do acordo homologado a parte interessada poderá instaurar através de peticionamento digital o respectivo incidente de execução do título judicial ora constituído. Após o trânsito em julgado da presente decisão, anote-se a extinção da ação em relação à ré ROSANGELA SULAS BORGES. A ação deverá prosseguir em relação ao réu Moacir Basílio Borges. Fls. 405: retornem os autos ao E. Tribunal de Justiça.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			19/11/2020
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Despacho
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			05/11/2020
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Recebidos os Autos do Tribunal de Justiça
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Data do julgamento: 31/07/2020 11:44:45
+Tipo de julgamento: Decisão monocrática
+Decisão: Agravo Interno nº 1015768-79.2014.8.26.0576/50000 Comarca: São José do Rio Preto (5ª Vara Cível) Agravantes: Rosangela sulas Borges e outro Agravado: Condomínio Residencial Marina Verde do Tietê Decisão Monocrática nº 17.318 AGRAVO INTERNO. DECISÃO COLEGIADA. NÃO CONHECIMENTO. Agravo interno interposto contra decisão colegiada. Não cabimento. Recurso não conhecido. Insurgiram-se os agravantes alegando que deve ser reformada a decisão monocrática para que seja considerada a quebra do contrato, para que seja excluída da lide Rosângela Borges, para que seja indenizado Moacir Borges e para que não seja reconhecida associação. Não foram intimados os agravados por ausência de prejuízo. É o relatório. DECIDO. Na decisão colegiada proferida em sede de julgamento de apelação, esta Turma Julgadora deu parcial provimento ao recurso para manter a condenação da ora coagravante ao pagamento dos valores cobrados pela ré na inicial da demanda aforada, apurando-se a quantia devida em liquidação através da juntada das atas de assembleia respectivas. Intimados, os recorrentes interpuseram agravo interno, no qual pediram a reforma da decisão monocrática. Para além de não ter cabimento o agravo interno para impugnar decisão colegiada, nos termos do quanto disposto no caput do art. 1.021, do atual Código de Processo Civil, é certo que foi proferida decisão monocrática no caso, às fls. 303/305, que deliberou sobre a competência recursal, contra a qual os agravantes não se insurgiram oportunamente (certidão de fls. 307). Não é de ser conhecido, assim, o recurso interposto. Pelo exposto, NÃO CONHEÇO do recurso.
+Relator: Cesar Luiz de Almeida
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			22/03/2017
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetidos os Autos para o Tribunal de Justiça/Colégio Recursal - Processo Digital
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			22/03/2017
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Desapensado do processo
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Desapensado o processo 0037570-53.2014.8.26.0576 - Classe: Exceção de Incompetência - Assunto principal: Inadimplemento
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			10/03/2017
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Contrarrazões Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.17.70061804-6
+Tipo da Petição: Contrarrazões de Apelação
+Data: 10/03/2017 17:48
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			30/01/2017
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0002/2017
+Data da Disponibilização: 30/01/2017
+Data da Publicação: 31/01/2017
+Número do Diário: Ed.2277
+Página: 2754/2761
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			27/01/2017
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0002/2017
+Teor do ato: Ordem nº: 2014/001635 - Vistos.Intime-se o autor para contrarrazões à apelação de fls. 202/211 no prazo legal. Após, subam os autos ao E. Tribunal de Justiça do Estado (Seção de Direito Privado), com observância das formalidades legais. Int.
+Advogados(s): Marco Aurelio Charaf Bdine (OAB 143145/SP), Alexandro Marmo Cardoso (OAB 213114/SP), Weyder Luiz Damazio (OAB 322082/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			19/12/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-26801447" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=26801447&amp;nmRecursoAcessado=Recebido+o+recurso" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 62, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=26801447&amp;nmRecursoAcessado=Recebido+o+recurso')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-26801447" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=26801447&amp;nmRecursoAcessado=Recebido+o+recurso" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 62, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=26801447&amp;nmRecursoAcessado=Recebido+o+recurso')">
+						Recebido o recurso
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Ordem nº: 2014/001635 - Vistos.Intime-se o autor para contrarrazões à apelação de fls. 202/211 no prazo legal. Após, subam os autos ao E. Tribunal de Justiça do Estado (Seção de Direito Privado), com observância das formalidades legais. Int.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			12/12/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Despacho
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			17/10/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Apelação/Razões Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.16.70270421-6
+Tipo da Petição: Razões de Apelação
+Data: 17/10/2016 10:35
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			27/09/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0402/2016
+Data da Disponibilização: 27/09/2016
+Data da Publicação: 28/09/2016
+Número do Diário: Ed.2209
+Página: 1715/1731
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			26/09/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0402/2016
+Teor do ato: Posto isto, JULGO PARCIALMENTE PROCEDENTES os pedidos, com fulcro no art. 487, inciso I do Código de Processo Civil, para CONDENAR os requeridos, solidariamente, a pagarem ao autor as taxas condominiais vencidas e não adimplidas desde 15/07/2009, conforme especificado no demonstrativo de débito, bem como aquelas que vencerem no curso da lide até a satisfação da obrigação (art. 323, do CPC/2015).Sobre o débito haverá incidência de correção monetária a partir de cada vencimento, calculada conforme o índice de atualização do TJSP, incidência de juros de mora de 1,0% ao mês, a partir de cada vencimento, além de multa moratória de 2% sobre o principal corrigido. Por terem decaído o demandante de parcela mínima de seus pedidos, condeno os réus, por rateio, ao pagamento das custas e despesas do processo, atualizadas desde o desembolso, e da verba honorária, que fixo em 15% sobre o valor condenação, na forma do art. 85, § 2º do Código de Processo Civil, ônus da sucumbência cuja exibilidade fica suspensa porque beneficiários da gratuidade, nos termos do art. 98, §3º do CPC. Publique-se. Intimem-se. Dispensado o registro (Prov. CG n. 27/2016) e o cálculo de apuração do preparo recursal (Comunicado CG n.916/2016 Proc. 2015/65007 DJE de 23.06.2016).
+Advogados(s): Marco Aurelio Charaf Bdine (OAB 143145/SP), Weyder Luiz Damazio (OAB 322082/SP), Alexandro Marmo Cardoso (OAB 213114/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			21/09/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-25409761" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=25409761&amp;nmRecursoAcessado=Julgada+Procedente+em+Parte+a+A%C3%A7%C3%A3o" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 57, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=25409761&amp;nmRecursoAcessado=Julgada+Procedente+em+Parte+a+A%C3%A7%C3%A3o')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-25409761" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=25409761&amp;nmRecursoAcessado=Julgada+Procedente+em+Parte+a+A%C3%A7%C3%A3o" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 57, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=25409761&amp;nmRecursoAcessado=Julgada+Procedente+em+Parte+a+A%C3%A7%C3%A3o')">
+						Julgada Procedente em Parte a Ação
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Posto isto, JULGO PARCIALMENTE PROCEDENTES os pedidos, com fulcro no art. 487, inciso I do Código de Processo Civil, para CONDENAR os requeridos, solidariamente, a pagarem ao autor as taxas condominiais vencidas e não adimplidas desde 15/07/2009, conforme especificado no demonstrativo de débito, bem como aquelas que vencerem no curso da lide até a satisfação da obrigação (art. 323, do CPC/2015).Sobre o débito haverá incidência de correção monetária a partir de cada vencimento, calculada conforme o índice de atualização do TJSP, incidência de juros de mora de 1,0% ao mês, a partir de cada vencimento, além de multa moratória de 2% sobre o principal corrigido. Por terem decaído o demandante de parcela mínima de seus pedidos, condeno os réus, por rateio, ao pagamento das custas e despesas do processo, atualizadas desde o desembolso, e da verba honorária, que fixo em 15% sobre o valor condenação, na forma do art. 85, § 2º do Código de Processo Civil, ônus da sucumbência cuja exibilidade fica suspensa porque beneficiários da gratuidade, nos termos do art. 98, §3º do CPC. Publique-se. Intimem-se. Dispensado o registro (Prov. CG n. 27/2016) e o cálculo de apuração do preparo recursal (Comunicado CG n.916/2016 Proc. 2015/65007 DJE de 23.06.2016).
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			14/07/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Petição Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.16.70171236-3
+Tipo da Petição: Petições Diversas
+Data: 14/07/2016 11:15
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			24/06/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Sentença
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			06/06/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Petição Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.16.70130156-8
+Tipo da Petição: Petições Diversas
+Data: 06/06/2016 12:24
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			31/05/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Decisão
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			31/05/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0227/2016
+Data da Disponibilização: 31/05/2016
+Data da Publicação: 01/06/2016
+Número do Diário: Ed.2125
+Página: 1560/1568
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			25/05/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0227/2016
+Teor do ato: Vistos.Ciência ao réu acerca dos documentos juntados às fls.164/174.Após, voltem conclusos.Int.
+Advogados(s): Marco Aurelio Charaf Bdine (OAB 143145/SP), Alexandro Marmo Cardoso (OAB 213114/SP), Weyder Luiz Damazio (OAB 322082/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			18/05/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-23383739" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=23383739&amp;nmRecursoAcessado=Proferido+Despacho+de+Mero+Expediente" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 50, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=23383739&amp;nmRecursoAcessado=Proferido+Despacho+de+Mero+Expediente')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-23383739" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=23383739&amp;nmRecursoAcessado=Proferido+Despacho+de+Mero+Expediente" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 50, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=23383739&amp;nmRecursoAcessado=Proferido+Despacho+de+Mero+Expediente')">
+						Proferido Despacho de Mero Expediente
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Vistos.Ciência ao réu acerca dos documentos juntados às fls.164/174.Após, voltem conclusos.Int.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			17/05/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Despacho
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			17/05/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Especificação de Provas Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.16.70112436-4
+Tipo da Petição: Indicação de Provas
+Data: 17/05/2016 11:02
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			16/05/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Especificação de Provas Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.16.70111736-8
+Tipo da Petição: Indicação de Provas
+Data: 16/05/2016 17:02
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			09/05/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0197/2016
+Data da Disponibilização: 09/05/2016
+Data da Publicação: 10/05/2016
+Número do Diário: Ed.2111
+Página: 1639/1643
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			06/05/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0197/2016
+Teor do ato: Vistos.Especifiquem as partes, no prazo de cinco dias, as provas que pretendem produzir, justificando-as.Intimem-se.
+Advogados(s): Marco Aurelio Charaf Bdine (OAB 143145/SP), Alexandro Marmo Cardoso (OAB 213114/SP), Weyder Luiz Damazio (OAB 322082/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			29/04/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-22984214" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=22984214&amp;nmRecursoAcessado=Decis%C3%A3o" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 44, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=22984214&amp;nmRecursoAcessado=Decis%C3%A3o')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-22984214" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=22984214&amp;nmRecursoAcessado=Decis%C3%A3o" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 44, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=22984214&amp;nmRecursoAcessado=Decis%C3%A3o')">
+						Decisão
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Vistos.Especifiquem as partes, no prazo de cinco dias, as provas que pretendem produzir, justificando-as.Intimem-se.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			25/04/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Despacho
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			23/04/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Petição Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.16.70089630-4
+Tipo da Petição: Petições Diversas
+Data: 20/04/2016 17:23
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			12/04/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0143/2016
+Data da Publicação: 13/04/2016
+Data da Disponibilização: 12/04/2016
+Número do Diário: Ed.2094
+Página: 1708/1715
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			08/04/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0143/2016
+Teor do ato: Ordem nº:  2014/001635 - 
+
+Vistos.
+
+Defiro os benefícios da Assistência Judiciária Gratuita em favor dos réus, anotando-se.
+
+Acerca dos documentos de fls. 119/151, diga o autor em cinco dias.
+
+Intimem-se.
+
+(** anotado as gratuidades em prol dos réus **)
+
+
+Advogados(s): Marco Aurelio Charaf Bdine (OAB 143145/SP), Alexandro Marmo Cardoso (OAB 213114/SP), Weyder Luiz Damazio (OAB 322082/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			23/03/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-22465503" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=22465503&amp;nmRecursoAcessado=Decis%C3%A3o" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 39, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=22465503&amp;nmRecursoAcessado=Decis%C3%A3o')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-22465503" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=22465503&amp;nmRecursoAcessado=Decis%C3%A3o" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 39, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=22465503&amp;nmRecursoAcessado=Decis%C3%A3o')">
+						Decisão
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Ordem nº:  2014/001635 - 
+
+Vistos.
+
+Defiro os benefícios da Assistência Judiciária Gratuita em favor dos réus, anotando-se.
+
+Acerca dos documentos de fls. 119/151, diga o autor em cinco dias.
+
+Intimem-se.
+
+(** anotado as gratuidades em prol dos réus **)
+
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			18/03/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Despacho
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			26/02/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Petição Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.16.70040189-5
+Tipo da Petição: Petições Diversas
+Data: 26/02/2016 17:17
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			27/01/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Decisão
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			21/01/2016
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Petição Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.16.70008941-7
+Tipo da Petição: Petições Diversas
+Data: 21/01/2016 11:06
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			16/12/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0482/2015
+Data da Disponibilização: 16/12/2015
+Data da Publicação: 17/12/2015
+Número do Diário: 2028
+Página: 1564/1567
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			14/12/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0482/2015
+Teor do ato: Manifestem-se os réus, no prazo de 05 (cinco) dias, acerca do documento juntado às fls.114.
+
+
+Advogados(s): Eliane Aparecida Bernardo (OAB 170843/SP), Weyder Luiz Damazio (OAB 322082/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			03/12/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-21149785" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 32, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-21149785" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 32, '#liberarAutoPorSenha')">
+						Ato ordinatório
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Manifestem-se os réus, no prazo de 05 (cinco) dias, acerca do documento juntado às fls.114.
+
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			03/12/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Réplica Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.15.70237262-0
+Tipo da Petição: Manifestação Sobre a Contestação
+Data: 02/12/2015 17:46
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			18/11/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0434/2015
+Data da Disponibilização: 18/11/2015
+Data da Publicação: 19/11/2015
+Número do Diário: Ed.2010
+Página: 1553/1557
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			16/11/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0434/2015
+Teor do ato: Autos com vista ao autor acerca da contestação.
+
+
+Advogados(s): Eliane Aparecida Bernardo (OAB 170843/SP), Weyder Luiz Damazio (OAB 322082/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			03/11/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-20640452" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 28, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-20640452" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 28, '#liberarAutoPorSenha')">
+						Ato ordinatório
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Autos com vista ao autor acerca da contestação.
+
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			03/11/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Documento Juntado
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			03/11/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Documento Juntado
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			11/08/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Despacho
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			11/08/2015
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Contestação Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.15.70134460-6
+Tipo da Petição: Contestação
+Data: 05/08/2015 09:47
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			04/11/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-15748298" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 23, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-15748298" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 23, '#liberarAutoPorSenha')">
+						Certidão de Cartório Expedida
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Certidão - Genérica
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			04/11/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Apensado ao processo
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Apenso o processo 0037570-53.2014.8.26.0576 - Classe: Exceção de Incompetência - Assunto principal: Inadimplemento
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			04/11/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Incidente Processual Instaurado
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				0037570-53.2014.8.26.0576 - Exceção de Incompetência
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			30/10/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-15552110" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 20, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-15552110" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 20, '#liberarAutoPorSenha')">
+						Mandado Devolvido Cumprido Positivo
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				CERTIDÃO - MANDADO CUMPRIDO POSITIVO CERTIFICO eu, Oficial de Justiça, que em cumprimento ao mandado nº 576.2014/068980-3 dirigi-me à Rua Jose Botelho Campoo, nº 271, Costa do sol, onde foram citados ROSANGELA SULAS BORGES e MOACIR BASÍLIO BORGES, ambos, do inteiro teor do mandado, entregando-lhes a contrafé, que receberam, exarando as suas notas de cientes no anverso. O referido é verdade e dou fé.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			30/10/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Mandado Juntado
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			10/09/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-14954822" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 18, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-14954822" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 18, '#liberarAutoPorSenha')">
+						Mandado de Citação Expedido
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Mandado nº: 576.2014/068980-3 
+Situação: Cumprido - Ato positivo em 24/10/2014 
+Local: Cartório da 5ª. Vara Cível
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			10/09/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-14954722" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 17, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-14954722" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 17, '#liberarAutoPorSenha')">
+						Ato ordinatório
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				*
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			10/09/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Guia Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.14.70090495-0
+Tipo da Petição: Guia de Diligência
+Data: 10/09/2014 15:15
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			28/08/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0293/2014
+Data da Disponibilização: 28/08/2014
+Data da Publicação: 29/08/2014
+Número do Diário: 1721
+Página: 1369/1373
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			26/08/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0293/2014
+Teor do ato: Fica o requerente intimado a recolher R$ 14,30 na guia FEDTJ, CÓD. 201-0 para impressão das duas contrafés, bem como comprovar o pagamento do título para diligência do sr. Oficial de justiça, de fl. 55.
+Advogados(s): Eliane Aparecida Bernardo (OAB 170843/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			26/08/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-14726719" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 13, '#liberarAutoPorSenha')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-14726719" title="Visualizar documento em inteiro teor" href="#liberarAutoPorSenha" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 13, '#liberarAutoPorSenha')">
+						Ato ordinatório
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Fica o requerente intimado a recolher R$ 14,30 na guia FEDTJ, CÓD. 201-0 para impressão das duas contrafés, bem como comprovar o pagamento do título para diligência do sr. Oficial de justiça, de fl. 55.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			21/08/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-14534416" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=14534416&amp;nmRecursoAcessado=Recebida+a+Peti%C3%A7%C3%A3o+Inicial++-+Cita%C3%A7%C3%A3o+Por+Carta+AR" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 11, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=14534416&amp;nmRecursoAcessado=Recebida+a+Peti%C3%A7%C3%A3o+Inicial++-+Cita%C3%A7%C3%A3o+Por+Carta+AR')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-14534416" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=14534416&amp;nmRecursoAcessado=Recebida+a+Peti%C3%A7%C3%A3o+Inicial++-+Cita%C3%A7%C3%A3o+Por+Carta+AR" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 11, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=14534416&amp;nmRecursoAcessado=Recebida+a+Peti%C3%A7%C3%A3o+Inicial++-+Cita%C3%A7%C3%A3o+Por+Carta+AR')">
+						Recebida a Petição Inicial  - Citação Por Carta AR
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Ordem nº: 2014/001635 - Vistos. Cite-se, ficando os réus advertidos do prazo de 15 (quinze) dias para apresentarem defesa, sob pena de serem presumidos como verdadeiros os fatos articulados na inicial, nos termos do artigo 285 do Código de Processo Civil Intimem-se.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			12/08/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Despacho
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			15/07/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Redistribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Determinação Judicial de fls. 51, datada de 01.07.2014
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			15/07/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Certidão de Publicação Expedida
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação :0233/2014
+Data da Disponibilização: 15/07/2014
+Data da Publicação: 16/07/2014
+Número do Diário: Ed.1689
+Página: 1219/1223
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			14/07/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Remetido ao DJE
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Relação: 0233/2014
+Teor do ato: Ordem nº: 2014/001396 - Vistos. Não há razão legal da distribuição por prevenção, pois a ação de exibição nº 64246-09.2012 encontra-se julgada. Recuso-a, pois. Ao Setor Competente para que seja ela redistribuída de forma livre. Intimem-se.
+Advogados(s): Eliane Aparecida Bernardo (OAB 170843/SP)
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			11/07/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Guia Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.14.70059923-5
+Tipo da Petição: Custas Iniciais
+Data: 07/07/2014 18:27
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			11/07/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Petição Juntada
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Nº Protocolo: WSRP.14.70059923-5
+Tipo da Petição: Custas Iniciais
+Data: 07/07/2014 18:27
+
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			01/07/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+				
+					
+					
+						
+					
+				
+
+				<a class="linkMovVincProc" id="linkMovVincProc-13954546" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=13954546&amp;nmRecursoAcessado=Determinada+a+Redistribui%C3%A7%C3%A3o+dos+Autos" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 3, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=13954546&amp;nmRecursoAcessado=Determinada+a+Redistribui%C3%A7%C3%A3o+dos+Autos')">
+					<img width="16" height="16" border="0" src="/cpopg/imagens/doc.png">
+				</a>
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+					<a class="linkMovVincProc" id="linkMovVincProc-2-13954546" title="Visualizar documento em inteiro teor" href="/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=13954546&amp;nmRecursoAcessado=Determinada+a+Redistribui%C3%A7%C3%A3o+dos+Autos" target="_blank" onclick="javascript:jQuery.saj.validarAberturaIntimacaoNaoRecebida(event, this, 'G00001IUJ0000', 3, '/cpopg/abrirDocumentoVinculadoMovimentacao.do?processo.codigo=G00001IUJ0000&amp;cdDocumento=13954546&amp;nmRecursoAcessado=Determinada+a+Redistribui%C3%A7%C3%A3o+dos+Autos')">
+						Determinada a Redistribuição dos Autos
+					</a>
+				
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				Ordem nº: 2014/001396 - Vistos. Não há razão legal da distribuição por prevenção, pois a ação de exibição nº 64246-09.2012 encontra-se julgada. Recuso-a, pois. Ao Setor Competente para que seja ela redistribuída de forma livre. Intimem-se.
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoClaro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			01/07/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Conclusos para Decisão
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+	<tr class="fundoEscuro containerMovimentacao" style="">
+		<td class="dataMovimentacao" width="120" style="vertical-align: top">
+			13/06/2014
+		</td>
+		<td width="20" valign="top" aria-hidden="true">
+			
+		</td>
+		<td class="descricaoMovimentacao" style="vertical-align: top; padding-bottom: 5px">
+			
+			
+				
+				
+					Distribuído por Dependência (movimentação exclusiva do distribuidor)
+				
+			
+			
+			<br>
+			<span style="font-style: italic;">
+				RQUERIMENTO DO ADVOGADO
+			</span>
+			
+		</td>
+	</tr>
+	
+
+
+				
+			</tbody>
+
+		
+		
+	
+</table>
+
+	<div id="divLinksTituloBlocoMovimentacoes" style="text-align:right">
+		
+
+
+
+
+
+
+
+
+
+<input id="mensagemNaoExibidamovimentacoes" type="hidden" value="">
+
+    <input id="linkNaoExibidomovimentacoes" type="hidden" value="<span id=&quot;setasDireitamovimentacoes&quot; class=&quot;setasDireita&quot;><i class=&quot;unj-link-collapse__icon glyph glyph-chevron-up&quot;></i></span>Recolher">
+
+<span id="mensagensExibindomovimentacoes" class="mensagemExibindo">
+
+</span> &nbsp;
+
+    <a id="linkmovimentacoes" href="javascript:" class="linkNaoSelecionado unj-link-collapse">
+        <span id="setasDireitamovimentacoes" class="setasDireita">
+            <i class="unj-link-collapse__icon glyph glyph-chevron-down"></i>
+        </span>
+        Mais
+    </a>
+
+<script>
+	$(function() {
+		var controlarLink = function() {
+			var $linkNaoExibido = $('input#linkNaoExibidomovimentacoes');
+			var conteudoLinkNaoApresentado = $linkNaoExibido.val();
+			var $link = $('a#linkmovimentacoes');
+			
+			$linkNaoExibido.val($link.html());
+			$link.html(conteudoLinkNaoApresentado);
+		};
+
+		var controlarMensagem = function() {
+			var $mensagemNaoExibida = $('input#mensagemNaoExibidamovimentacoes');
+			var $spanMensagem = $('span#mensagensExibindomovimentacoes');
+			var mensagemExibida = $spanMensagem.html();
+			var mensagemNaoExibida = $mensagemNaoExibida.val();
+			
+			$spanMensagem.html(mensagemNaoExibida);
+			$mensagemNaoExibida.val(mensagemExibida);
+		};
+
+		var controlarMensagemLink = function() {
+			controlarMensagem();
+			controlarLink();
+		};
+		
+		var esconderElementosExtrasMostrarDefault = function() {
+			$('#tabelaTodasMovimentacoes').hide();
+			$('#tabelaUltimasMovimentacoes').show();
+		};
+
+		var mostrarElementosExtrasEsconderDefault = function() {
+			$('#tabelaUltimasMovimentacoes').hide();
+			$('#tabelaTodasMovimentacoes').show();
+		};
+
+		var initPagina = function() {
+            var setasDireita = '<span id="setasDireitamovimentacoes" class="setasDireita"><i class="unj-link-collapse__icon glyph glyph-chevron-up"></i></span>';
+			var $linkEscondido = $('input#linkNaoExibidomovimentacoes');
+			$linkEscondido.val(setasDireita+$linkEscondido.val());
+		};
+
+		var bindLink = function() {
+			var $link = $('a#linkmovimentacoes');
+			$link.funcToggle('click', mostrarElementosExtrasEsconderDefault, esconderElementosExtrasMostrarDefault);
+			$link.bind('click', controlarMensagemLink);
+		};
+
+		initPagina();
+		bindLink();
+		esconderElementosExtrasMostrarDefault();
+	});
+</script>
+
+	</div>
+
+		
+
+	
+
+	                
+	                
+	                
+	                
+	                
+	                
+	            
+	        
+	            
+	                
+	                
+	                
+	                
+	                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle tituloDoBloco">Petições diversas</h2>
+		
+	
+</div>
+
+<!-- Tabela de petições diversas -->
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1">
+	
+		
+			<thead>
+			    <tr class="label">
+			      <th width="140" style="text-align:left">Data</th>
+			      <th width="*">Tipo</th>
+			    </tr>
+			    <tr class="fundoEscuro" height="2" aria-hidden="true">
+					<td></td>
+					<td></td>
+				</tr>
+			</thead>
+			<tbody>
+				
+					
+						<tr class="fundoClaro"> 
+							<td width="140" style="text-align:left">
+								07/07/2014
+							</td>
+							<td width="*">
+								Custas Iniciais <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoEscuro"> 
+							<td width="140" style="text-align:left">
+								10/09/2014
+							</td>
+							<td width="*">
+								Guia de Diligência <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoClaro"> 
+							<td width="140" style="text-align:left">
+								05/08/2015
+							</td>
+							<td width="*">
+								Contestação <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoEscuro"> 
+							<td width="140" style="text-align:left">
+								02/12/2015
+							</td>
+							<td width="*">
+								Manifestação Sobre a Contestação <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoClaro"> 
+							<td width="140" style="text-align:left">
+								21/01/2016
+							</td>
+							<td width="*">
+								Petições Diversas <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoEscuro"> 
+							<td width="140" style="text-align:left">
+								26/02/2016
+							</td>
+							<td width="*">
+								Petições Diversas <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoClaro"> 
+							<td width="140" style="text-align:left">
+								20/04/2016
+							</td>
+							<td width="*">
+								Petições Diversas <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoEscuro"> 
+							<td width="140" style="text-align:left">
+								16/05/2016
+							</td>
+							<td width="*">
+								Indicação de Provas <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoClaro"> 
+							<td width="140" style="text-align:left">
+								17/05/2016
+							</td>
+							<td width="*">
+								Indicação de Provas <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoEscuro"> 
+							<td width="140" style="text-align:left">
+								06/06/2016
+							</td>
+							<td width="*">
+								Petições Diversas <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoClaro"> 
+							<td width="140" style="text-align:left">
+								14/07/2016
+							</td>
+							<td width="*">
+								Petições Diversas <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoEscuro"> 
+							<td width="140" style="text-align:left">
+								17/10/2016
+							</td>
+							<td width="*">
+								Razões de Apelação <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoClaro"> 
+							<td width="140" style="text-align:left">
+								10/03/2017
+							</td>
+							<td width="*">
+								Contrarrazões de Apelação <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoEscuro"> 
+							<td width="140" style="text-align:left">
+								11/03/2021
+							</td>
+							<td width="*">
+								Embargos de Declaração <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoClaro"> 
+							<td width="140" style="text-align:left">
+								11/03/2021
+							</td>
+							<td width="*">
+								Petições Diversas <br>
+								
+							</td>
+						</tr>
+					
+				
+					
+						<tr class="fundoEscuro"> 
+							<td width="140" style="text-align:left">
+								20/04/2021
+							</td>
+							<td width="*">
+								Petição Intermediária <br>
+								
+							</td>
+						</tr>
+					
+				
+			</tbody>
+		
+		
+	
+</table>
+<!--  Tabela de petições diversas -->
+
+
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	            
+	        
+	            
+	                
+	                
+	                
+	                    
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	(function($) {
+		$(function(){
+			var captcha = $.saj.getUrlParameter('uuidCaptcha');
+			if(!captcha){
+				return;
+			}
+			$('.incidente a').each(function(){
+				var $incidente = $(this);
+				var url = $incidente.attr('href');
+				$incidente.attr('href', url+'&uuidCaptcha='+captcha);
+			});
+		})
+	})(jQuery);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle tituloDoBloco">Incidentes, ações incidentais, recursos e execuções de sentenças</h2>
+		
+	
+</div>
+
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1">
+
+	
+	    <tbody><tr class="label">
+	    	<th width="140">
+				Recebido em
+			</th>
+			<th width="*" class="label">
+				Classe
+			</th>
+	    </tr>
+	    <tr class="fundoEscuro" height="2" aria-hidden="true">
+			<td></td><td></td>
+		</tr>
+
+		
+			
+			<tr class="fundoClaro">
+			  <td width="140" style="text-align:left">
+			    03/11/2014
+			  </td>
+			<td width="*">
+				
+					
+						<a class="incidente" href="/cpopg/show.do?localPesquisa.cdLocal=576&amp;processo.codigo=G000028KL0000&amp;processo.foro=576" target="_top">
+							Exceção de Incompetência
+							
+							
+								&nbsp;(0037570-53.2014.8.26.0576)
+							
+						</a>
+					
+					
+				
+			</td>
+		</tr>        
+	
+			
+			<tr class="fundoEscuro">
+			  <td width="140" style="text-align:left">
+			    02/07/2021
+			  </td>
+			<td width="*">
+				
+					
+						<a class="incidente" href="/cpopg/show.do?localPesquisa.cdLocal=576&amp;processo.codigo=G0000KEU30000&amp;processo.foro=576" target="_top">
+							Cumprimento de sentença
+							
+							
+								&nbsp;(0011603-59.2021.8.26.0576)
+							
+						</a>
+					
+					
+				
+			</td>
+		</tr>        
+	
+	
+	
+
+</tbody></table>
+<!--  Incidentes -->
+
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	            
+	        
+	            
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    (function ($) {
+        $(function () {
+            var captcha = $.saj.getUrlParameter('uuidCaptcha');
+
+            if(!captcha){
+                return;
+            }
+            $.each($('.processoApensado'), function (i, value) {
+                var $link = $(value);
+                $link.attr('href', $link.attr('href') + '&uuidCaptcha=' + captcha);
+            })
+
+        })
+    })(jQuery);
+</script>
+
+
+
+
+
+
+
+
+
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle tituloDoBloco">Apensos, Entranhados e Unificados</h2>
+		
+	
+</div>
+
+
+
+    
+    
+
+        <table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1">
+            <thead>
+	            <tr class="label">
+	                <th align="left" width="15%">Número</th>
+	                <th align="left" width="20%">Classe</th>
+	                <th align="left" width="10%">Apensamento</th>
+	                <th align="left" width="50%">Motivo</th>
+	            </tr>
+	            <tr class="fundoEscuro" height="2" aria-hidden="true">
+	                <td></td>
+	                <td></td>
+	                <td></td>
+	                <td></td>
+	            </tr>
+            </thead>
+            <tbody id="dadosApenso">
+	            
+	                
+	                    
+	
+	                    <tr id="" class="fundoClaro">
+							
+								
+									<td width="15%">
+										
+											
+											
+												<a class="processoApensado" href="/cpopg/show.do?processo.codigo=G0000KEU30000&amp;processo.foro=576&amp;referencia.codigo=G00001IUJ0000&amp;referencia.foro=576">
+													0011603-59.2021.8.26.0576
+												</a>
+											
+										
+									</td>
+								
+								
+							
+	
+	                        <td width="20%">Cumprimento de sentença</td>
+	                        <td width="10%">03/07/2021</td>
+	                        <td width="50%">* EXECUÇÃO DE SENTENÇA</td>
+	                    </tr>
+	                
+	            
+            </tbody>
+        </table>
+
+
+    
+
+
+	                
+	            
+	        
+	            
+	                
+	                
+	                
+	                
+	                
+	                
+	                    
+
+
+
+
+
+
+
+<div style="padding-top: 10px;">
+	
+	
+		
+		
+			<h2 class="subtitle tituloDoBloco">Audiências</h2>
+		
+	
+</div>
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            
+            
+                
+            
+        
+    
+    
+
+<a name="audienciasPlaceHolder"></a>
+<table style="margin-left:15px; margin-top:1px;" align="center" width="98%" border="0" cellspacing="0" cellpadding="1">
+    
+        
+        
+            <tbody><tr>
+                <td id="processoSemAudiencias" colspan="3" align="left">
+                    
+                        
+                        
+                            Não há Audiências futuras vinculadas a este processo.
+                        
+                    
+                </td>
+            </tr>
+        
+    
+</tbody></table>
+
+	                
+	                
+	                
+	                
+	                
+	            
+	        
+	            
+	                
+	                
+	                
+	                
+	                
+	                
+	                
+	                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form id="popupCdas" style="display: none;">
+	<!--  dados da lista (CDAs) -->
+	<div style="height:210px; overflow: auto;">
+		<table id="tableCdasPrincipais" style="margin-left:10px; margin-top:1px; width: 98%;">
+			<thead>
+				<tr class="fundoClaro">
+					<th style="text-align:left;">Número CDA</th>
+					<th style="text-align:left;">Valor</th>
+					<th style="text-align:left;">Dt. CDA</th>
+					<th style="text-align:left;">Valor atualizado</th>
+					<th style="text-align:left;">Dt. atualização</th>
+					<th style="text-align:left;">Situação</th>
+				</tr>
+				<tr class="fundoEscuro" height="2" aria-hidden="true">
+					<td colspan="6">
+				</td></tr>
+			</thead>
+			<tbody>
+				
+			</tbody>
+		</table>
+	</div>
+</form>
+
+	                
+	                
+	                
+	                
+	            
+	        
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	<form action="/cpopg/show.do?processo.codigo=G00001IUJ0000&amp;processo.foro=576&amp;processo.numero=1015768-79.2014.8.26.0576" id="popupSenha" style="display: none;" method="POST">
+		<input type="hidden" name="_csrf" value="70b2dd90-975e-44bb-9f48-a5273125a134">
+		
+		<table role="document">
+			<tbody><tr>
+				<td colspan="2" style="padding-bottom:20px">Atendendo a resolução 121 do CNJ.</td>
+			</tr>
+			
+				<tr>
+					<td colspan="2" style="padding-bottom:20px">Se for advogado(a) nesse processo, é necessário <span id="identificacao"><strong><a href="https://esaj.tjsp.jus.br/esaj/api/auth/sign-in?redirect_uri=https%3A//esaj.tjsp.jus.br/cpopg/show.do%3Fprocesso.codigo%3DG00001IUJ0000%26processo.foro%3D576%26processo.numero%3D1015768-79.2014.8.26.0576">Identificar-se</a></strong></span></td>
+					
+						
+						
+							<script language="javascript" type="text/JavaScript" src="https://esaj.tjsp.jus.br/sajcas/conteudoIdentificacao?script=1761905944704"></script>
+						
+					
+				</tr>
+			
+			<tr align="center">
+				<td align="left" colspan="2" style="padding-bottom:20px">
+					<div style="float:left; line-height:30px;">Se for uma parte ou interessado, digite a senha do processo</div>
+					<div style="float:left;width: 140px; padding-left:15px">
+						<input type="password" name="senhaProcesso" maxlength="12" value="" rotulo="" class="form-control" id="senhaProcesso">
+						<input type="hidden" name="idRecursoQueProvocouLiberacaoPorSenha" value="">
+					</div>
+					<div class="unj-form-control-group__icon">
+						<div class="dropdown show">
+							<a href="javascript:;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="glyph glyph-info" aria-hidden="true"></span>
+							</a>
+							<div class="dropdown-menu tooltip-campos" aria-labelledby="dropdownMenuLink">
+								
+									É necessário informar uma senha para acessar processo em segredo de justiça, bem como para acessar autos dos demais processos.<br><br>
+									Se for parte do processo e ainda não possua uma senha, <b>solicite-a no cartório</b>.<br><br>
+								
+								
+							</div>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	    
+	<input type="button" name="btFechar" value="Cancelar" onclick="" onmouseover="B_mOver(this);" onmouseout="B_mOut(this);" class="spwBotao " id="botaoFecharPopupSenha">
+
+
+					
+						
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	<input type="submit" name="btEnviarSenha" value="Continuar" onclick="" onmouseover="B_mOver(this);" onmouseout="B_mOut(this);" class="spwBotaoDefault btn-space" id="btEnviarSenha">
+
+
+						
+					
+				</td>
+			</tr>
+		</tbody></table>
+	</form>
+
+
+
+	
+
+
+
+
+
+<script language="javascript" type="text/JavaScript" src="/cpopg/js/modalRecebimentoIntimacao.js?n=3711783609"></script>
+<div id="modalRecebimentoIntimacao" class="modal-main" style="display: none">
+    <div class="modal-body">
+        <table id="spwTabelaMensagem" style="display: none; margin-bottom: 20px" width="100%" cellspacing="0" cellpadding="0" border="0" height="30" class="conteudoAvisoSenhaIncorreta tabelaMensagem">
+            <tbody>
+            <tr>
+                <td class="tituloMensagem"><b>Erro</b>
+                </td>
+            </tr>
+            <tr>
+                <td class="errors"><img class="img-recebimento-intimacao" src="/cpopg/imagens/spw/icoError.gif">&nbsp;</td>
+                <td>
+                    <ul style="margin: 0; padding: 0;">
+                        <li id="mensagemErroProtocoladora"></li>
+                    </ul>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="conteudo-modal-recebimento-intimacoes">
+            <div class="col-xs-12">
+                <p id="conteudoModalRecebimentoIntimacao"></p>
+            </div>
+        </div>
+        <div id="campoCertificado" class="conteudo-modal-recebimento-intimacoes">
+            
+
+
+
+
+
+
+
+
+
+
+<label for="certificados">Selecione o certificado que deseja utilizar:</label>
+
+<select id="certificados" style="display: inline; position: relative; width: 96%;" title="">
+    <option value="">Carregando certificados</option>
+</select>
+<a id="certificadosRecarregar" href="#" style="display: none; position: relative; "><img id="certificados-recarregar" style="vertical-align: top; margin-left: 1px;" src="/cpopg/imagens/certificado/recarregarCertificados.png" alt="Recarregar certificados"></a>
+
+<input type="hidden" name="certificadoSelecionado" id="certificadoSelecionado">
+
+<br><br>
+
+        </div>
+        <div class="modal-footer--center">
+            <button type="button" class="btn btn-sm btn-secondary btn-close-card" name="btFechar" id="botaoFecharPopupRecebimentoIntimacao" tabindex="7">Cancelar</button>
+            <button type="button" class="btn btn-sm btn-primary btn-close-card" name="btEnviarIncidente" id="botaoConfirmarRebebimentoIntimacao" style="" tabindex="6">Continuar</button>
+        </div>
+    </div>
+</div>
+	
+
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+
+
+
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="esajTabelaRodape" summary=" " role="presentation">
+    <tbody><tr>
+        <td class="esajCelulaRodapeCentro">
+            Desenvolvido pela Softplan em parceria com a Secretaria de Tecnologia da Informação - STI
+            
+        </td>
+    </tr>
+</tbody></table>
+<link href="https://esaj.tjsp.jus.br/esaj-layout/tema/padrao/css/saj-popup-modal.css" rel="stylesheet" type="text/css">
+<link href="https://esaj.tjsp.jus.br/esaj-layout/tema/padrao/css/popup-beta.css" rel="stylesheet" type="text/css">
+
+
+<script>
+    var appEsajLayout = appEsajLayout || {};
+    appEsajLayout.tituloCertificadoDigital = 'Certificado digital';
+    appEsajLayout.cliente = 'SP';
+    appEsajLayout.emailParaContato = 'esajtjsp@softplan.com.br';
+    appEsajLayout.utilizarBotaoContato = 'true';
+    appEsajLayout.contexto = 'https://esaj.tjsp.jus.br/esaj-layout';
+    appEsajLayout.webSignerParametro = 'https://cdn.lacunasoftware.com/libs/web-pki/lacuna-web-pki-2.14.8.min.js';
+
+    if(window.jQuery) {
+        jQuery.saj = jQuery.saj || {};
+        jQuery.saj.certificado = jQuery.saj.certificado || {};
+        jQuery.saj.certificado.cliente = 'SP';
+        jQuery.saj.certificado.urlConteudoAjudaWebSigner = appEsajLayout.contexto + '/ajudaWebSigner.do';
+        jQuery.saj.certificado.licenca = 'ARkEKi50anNwLmp1cy5iciwxMC4zMy4xOTIuMTAxLDEwLjMzLjE5Mi4xMDUsMTAuMzMuMTkyLjE0NiwxMC4zMy4xOTIuMjQxLDEwLjMzLjE5Mi45MCwxMC4zMy4xOTIuOTEsMTAuMzMuMTkyLjkyLDEwLjMzLjE5Mi45NCwxMC4zMy4xOTMuMTg1LDEwLjMzLjE5My4xODYsMTAuMzMuMTkzLjE4NywxMC4zMy4xOTMuMTg4LDEwLjMzLjE5NC4yMjQsMTAuMzMuMTk0LjIyNSwxMC4zMy4xOTQuMjU1LDEwLjMzLjE5NC43NCwxMC4zMy4xOTQuNzUsMTAuMzMuMTk0Ljc2LDEwLjMzLjE5NC43NywxMC4zMy4xOTQuNzksMTAuMzMuMTk1LjEwMiwxMC4zMy4xOTUuMTAyLDEwLjMzLjE5NS4xMTksMTAuMzMuMTk1LjEyMSwxMC4zMy4xOTUuMTIyLDEwLjMzLjE5NS4xMjMsMTAuMzMuMTk1LjEyNCwxMC4zMy4xOTUuMTI1LDEwLjMzLjE5NS4xMjYsMTAuMzMuMTk1LjEyNywxMC4zMy4xOTUuMTI4LDEwLjMzLjE5NS4xMjksMTAuMzMuMTk1LjEzMCwxMC4zMy4xOTUuMTMxLDEwLjMzLjE5NS4xMzIsMTAuMzMuMTk1LjE4MywxMC4zMy4xOTUuMTg0LDEwLjMzLjE5NS4xODUsMTAuMzMuMTk1LjE4NiwxMC4zMy4xOTUuMTg3LDEwLjMzLjE5NS4xODgsMTAuMzMuMTk1LjE4OSwxMC4zMy4xOTUuMTkxLDEwLjMzLjE5NS4xOTIsMTAuMzMuMTk1LjE5MywxMC4zMy4xOTUuMTk0LDEwLjMzLjE5NS4xOTUsMTAuMzMuMTk1LjE5NSwxMC4zMy4xOTUuMTk3LDEwLjMzLjE5NS4xOTgsMTAuMzMuMTk1LjIzNCwxMC4zMy4xOTUuMjM3LDEwLjk4LjE5Mi4xMTMsMTAuOTguMTkyLjExNCwxMC45OC4xOTIuMTE3LDEwLjk4LjE5Mi4yNTAsMTAuOTguMTkyLjQyLDEwLjk4LjE5Mi43MCwxMC45OC4xOTIuNzEsMTAuOTguMTkzLjEyMSwxMC45OC4xOTMuMTIyLDEwLjk4LjE5My4xOTksMTAuOTguMTkzLjIwMCwxMC45OC4xOTMuMjAxLDEwLjk4LjE5My4yMDIsMTAuOTguMTkzLjIyNSwxMC45OC4xOTQuMTIxLDEwLjk4LjE5NC4xMjIsMTAuOTguMTk0LjE0MSwxMC45OC4xOTQuMTQyLDEwLjk4LjE5NC4xNDMsMTAuOTguMTk0LjE0NCwxMC45OC4xOTQuMTQ1LDEwLjk4LjE5NC4xNDcsMTAuOTguMzIuNzYAAAABt8T6Ov8g0lWHnOe7bekYQC1kjn/SgVPWGteqlpMDF8qEOKOxdWahBlk0uh9nfmPiUY9MXcXchlgu6V/zygYGgSfZG11odlUkrXZCAYX/pB3ArsqmrqgvMK0mxuTVOThs/flGWltXnCFEFEU1Pp6RSdlhtCOEuGx5XWov3lux8DcnB+DxL2zauU4GfGJmoXCZDMWT2g7MXIu7VjrJJEkCH/nZ0hkhUsw/k0ORu7/kXJyBufrFZYbsQ/Nadjp9CgYhlsjKXmSPSn8GU8xUetHXGX3FzFJriyk8iqcH72p4z0/Msif4S+VNz0JV3+xffRvdmKuG28jHHDUqBxIrhjs+XA==';
+        jQuery.saj.certificado.webSignerParametro = 'https://cdn.lacunasoftware.com/libs/web-pki/lacuna-web-pki-2.14.8.min.js';
+        jQuery.saj.certificado.cofreDigital = jQuery.saj.certificado.cofreDigital || {};
+        jQuery.saj.certificado.cofreDigital.habilitado = 'false' === 'true';
+        jQuery.saj.certificado.cofreDigital.enderecoBase = 'https://esaj.tjsp.jus.br/esaj-layout';
+    }
+
+</script>
+<script src="https://esaj.tjsp.jus.br/esaj-layout/js/app-bundle.js?n=2978165087"></script>
+<script src="https://esaj.tjsp.jus.br/esaj-layout/seletorVersaoBeta.js?n=32db3647-04d8-4058-8c7b-79513d6c2143&amp;versao=1"></script>
+<script language="javascript" type="text/JavaScript" src="https://esaj.tjsp.jus.br/esaj-layout/js/softplan-websigner-2.5.1.js?n=736057767"></script>
+<script language="javascript" type="text/JavaScript" src="https://cdn.lacunasoftware.com/libs/web-pki/lacuna-web-pki-2.14.8.min.js"></script>
+
+<script language="javascript" type="text/JavaScript" src="https://esaj.tjsp.jus.br/esaj-layout/js/saj-certificado.js?n=47741893"></script>
+
+
+
+<div id="webSignerNaoInstalado" style="display: none;">
+    <p>Para utilização do certificado digital no Portal e-SAJ é necessário a instalação do plug-in Web Signer. Por favor, realize a instalação antes de continuar.</p>
+    <div class="footer_certificado">
+        <button id="redirecionarParaPaginaInstalacao" class="actionPrincipal spwBotaoDefault">Instalar</button>
+        <button class="fecharModalInstalacao spwBotao">Cancelar</button>
+        <button class="spwBotao" onclick="window.open('https://esaj.tjsp.jus.br/WebHelp//#id_instalacao_lacuna.htm','_blank')">Ajuda</button>
+    </div>
+</div>
+
+<div id="webSignerNaoSuportado" style="display: none;">
+    <p>O navegador utilizado não é compatível com a tecnologia (Web Signer) necessária para utilização do certificado digital. Por favor, utilize um dos navegadores homologados. Em caso de dúvidas, efetue a validação de requisitos <a href="https://esaj.tjsp.jus.br/petpg-verificacao/abrirVerificacaoRequisitosPet.do" target="_blank">aqui</a>.</p>
+    <div class="footer_certificado">
+        <button class="fecharModalInstalacao spwBotaoDefault actionPrincipal">OK</button>
+    </div>
+</div>
+
+
+	
+
+
+
+	
+	
+
+
+
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+
+
+
+<footer>
+    <nav class="navbar__footer">
+        <div class="navbar__footer__container">
+
+            <ul class="navbar__footer__list-brand">
+                <li class="navbar__footer__list-brand__item">
+                    <a href="https://www.softplan.com.br/solucoes/saj-tribunais/" class="navbar__footer__list-brand__item__link link_softplan_tribunais">
+                        <img src="https://esaj.tjsp.jus.br/esaj-layout/img/brand/icon-saj.png" alt="SAJ">
+                    </a>
+                </li>
+                <li class="navbar__footer__list-brand__item">
+                    <a href="https://www.softplan.com.br/" class="navbar__footer__list-brand__item__link link_softplan">
+                        <img src="https://esaj.tjsp.jus.br/esaj-layout/img/brand/icon-softplan.png" alt="Softplan">
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar__footer__list-actions">
+            </ul>
+        </div>
+    </nav>
+</footer>
+
+	
+
+
+
+
+
+
+</body></html>

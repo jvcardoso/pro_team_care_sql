@@ -1,0 +1,597 @@
+{
+  "processo_numero": "1003969-69.2024.8.26.0097",
+  "coleta_timestamp": "2025-10-31T07:21:34.333734",
+  "vara": "1ª Vara",
+  "classe_assunto": "Procedimento Comum Cível - Espécies de Contratos",
+  "valor_causa": "",
+  "exequente": "",
+  "executado": "",
+  "advogado_autor_nome": "",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: HENRIQUE GERALDO CAMPOS JUNIOR",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "07/10/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 1214/2025\nData da Publicação: 08/10/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 1214/2025\nData da Publicação: 08/10/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.540933",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 1214/2025\nData da Publicação: 08/10/2025"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "06/10/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 1214/2025\nTeor do ato: Fica o(a) advogado(a) do(a) requerente devidamente intimado(a) a instruir com as cópias indicadas e distribuir a Carta Precatória de págs. 80/81, junto ao Juízo deprecado (por meio de peticionamento eletrônico), comprovando-se nestes autos.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 1214/2025\nTeor do ato: Fica o(a) advogado(a) do(a) requerente devidamente intimado(a) a instruir com as cópias indicadas e distribuir a Carta Precatória de págs. 80/81, junto ao Juízo deprecado (por meio de peticionamento eletrônico), comprovando-se nestes autos.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.541290",
+      "mov_texto": "Remetido ao DJE\nRelação: 1214/2025\nTeor do ato: Fica o(a) advogado(a) do(a) requerente devidamente intimado(a) a instruir com as cópias indicadas e distribuir a Carta Precatória de págs. 80/81, junto ao Juízo deprecado (por meio de peticionamento eletrônico), comprovando-se nestes autos.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "06/10/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE Fica o(a) advogado(a) do(a) requerente devidamente intimado(a) a instruir com as cópias indicadas e distribuir a Carta Precatória de págs. 80/81, junto ao Juízo deprecado (por meio de peticionamento eletrônico), comprovando-se nestes autos.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nFica o(a) advogado(a) do(a) requerente devidamente intimado(a) a instruir com as cópias indicadas e distribuir a Carta Precatória de págs. 80/81, junto ao Juízo deprecado (por meio de peticionamento eletrônico), comprovando-se nestes autos.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.541774",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nFica o(a) advogado(a) do(a) requerente devidamente intimado(a) a instruir com as cópias indicadas e distribuir a Carta Precatória de págs. 80/81, junto ao Juízo deprecado (por meio de peticionamento eletrônico), comprovando-se nestes autos."
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "04/10/2025",
+      "mov_descricao": "Carta Precatória Expedida Processo Digital - Carta Precatória - Citação - Rito Comum - Sem Audiência - NOVO CPC",
+      "mov_texto_completo": "Carta Precatória Expedida\nProcesso Digital - Carta Precatória - Citação - Rito Comum - Sem Audiência - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.542246",
+      "mov_texto": "Carta Precatória Expedida\nProcesso Digital - Carta Precatória - Citação - Rito Comum - Sem Audiência - NOVO CPC"
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "12/09/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 1041/2025\nData da Publicação: 15/09/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 1041/2025\nData da Publicação: 15/09/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.542595",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 1041/2025\nData da Publicação: 15/09/2025"
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "11/09/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 1041/2025\nTeor do ato: Vistos. Fls. 74/76. Defiro. Depreque-se ao Juízo de Direito da Comarca de Chapadão do Sul/MS, para a citação do Espólio e Francisco Parra Domingues, na pessoa do inventariante José Paulo Parra, no endereço informado à fl. 75. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 1041/2025\nTeor do ato: Vistos. Fls. 74/76. Defiro. Depreque-se ao Juízo de Direito da Comarca de Chapadão do Sul/MS, para a citação do Espólio e Francisco Parra Domingues, na pessoa do inventariante José Paulo Parra, no endereço informado à fl. 75. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "DEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.542823",
+      "mov_texto": "Remetido ao DJE\nRelação: 1041/2025\nTeor do ato: Vistos. Fls. 74/76. Defiro. Depreque-se ao Juízo de Direito da Comarca de Chapadão do Sul/MS, para a citação do Espólio e Francisco Parra Domingues, na pessoa do inventariante José Paulo Parra, no endereço informado à fl. 75. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "11/09/2025",
+      "mov_descricao": "Proferido Despacho de Mero Expediente Vistos. Fls. 74/76. Defiro. Depreque-se ao Juízo de Direito da Comarca de Chapadão do Sul/MS, para a citação do Espólio e Francisco Parra Domingues, na pessoa do inventariante José Paulo Parra, no endereço informado à fl. 75. Int.",
+      "mov_texto_completo": "Proferido Despacho de Mero Expediente\nVistos. Fls. 74/76. Defiro. Depreque-se ao Juízo de Direito da Comarca de Chapadão do Sul/MS, para a citação do Espólio e Francisco Parra Domingues, na pessoa do inventariante José Paulo Parra, no endereço informado à fl. 75. Int.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "DEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.543218",
+      "mov_texto": "Proferido Despacho de Mero Expediente\nVistos. Fls. 74/76. Defiro. Depreque-se ao Juízo de Direito da Comarca de Chapadão do Sul/MS, para a citação do Espólio e Francisco Parra Domingues, na pessoa do inventariante José Paulo Parra, no endereço informado à fl. 75. Int."
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "11/09/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.543580",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "18/08/2025",
+      "mov_descricao": "Pedido de Expedição de Carta Precatória Juntado Nº Protocolo: WBTM.25.70022892-0\nTipo da Petição: Pedido para Expedição de Carta Precatória\nData: 18/08/2025 17:15",
+      "mov_texto_completo": "Pedido de Expedição de Carta Precatória Juntado\nNº Protocolo: WBTM.25.70022892-0\nTipo da Petição: Pedido para Expedição de Carta Precatória\nData: 18/08/2025 17:15",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.543753",
+      "mov_texto": "Pedido de Expedição de Carta Precatória Juntado\nNº Protocolo: WBTM.25.70022892-0\nTipo da Petição: Pedido para Expedição de Carta Precatória\nData: 18/08/2025 17:15"
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "12/08/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.544094",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 11,
+      "mov_data": "12/08/2025",
+      "mov_descricao": "Certidão de Cartório Expedida Certidão - Genérica",
+      "mov_texto_completo": "Certidão de Cartório Expedida\nCertidão - Genérica",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.544366",
+      "mov_texto": "Certidão de Cartório Expedida\nCertidão - Genérica"
+    },
+    {
+      "mov_ordem": 12,
+      "mov_data": "21/07/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0685/2025\nData da Publicação: 22/07/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0685/2025\nData da Publicação: 22/07/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.544743",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0685/2025\nData da Publicação: 22/07/2025"
+    },
+    {
+      "mov_ordem": 13,
+      "mov_data": "18/07/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0685/2025\nTeor do ato: Manifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0685/2025\nTeor do ato: Manifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.545187",
+      "mov_texto": "Remetido ao DJE\nRelação: 0685/2025\nTeor do ato: Manifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 14,
+      "mov_data": "18/07/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE Manifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nManifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.545778",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nManifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal."
+    },
+    {
+      "mov_ordem": 15,
+      "mov_data": "17/07/2025",
+      "mov_descricao": "AR Negativo Juntado - Mudou-se Juntada de AR : AA747142592TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC\nDestinatário : Francisco Parra Domingues",
+      "mov_texto_completo": "AR Negativo Juntado - Mudou-se\nJuntada de AR : AA747142592TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC\nDestinatário : Francisco Parra Domingues",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.546054",
+      "mov_texto": "AR Negativo Juntado - Mudou-se\nJuntada de AR : AA747142592TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC\nDestinatário : Francisco Parra Domingues"
+    },
+    {
+      "mov_ordem": 16,
+      "mov_data": "28/05/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.546448",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 17,
+      "mov_data": "27/05/2025",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.546808",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 18,
+      "mov_data": "21/05/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - Portal Citação.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - Portal\nCitação.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.547373",
+      "mov_texto": "Ato Ordinatório - Intimação - Portal\nCitação."
+    },
+    {
+      "mov_ordem": 19,
+      "mov_data": "12/05/2025",
+      "mov_descricao": "AR Negativo Juntado - Mudou-se Juntada de AR : AA747137116TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC\nDestinatário : Francisco Parra Domingues",
+      "mov_texto_completo": "AR Negativo Juntado - Mudou-se\nJuntada de AR : AA747137116TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC\nDestinatário : Francisco Parra Domingues",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.547677",
+      "mov_texto": "AR Negativo Juntado - Mudou-se\nJuntada de AR : AA747137116TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC\nDestinatário : Francisco Parra Domingues"
+    },
+    {
+      "mov_ordem": 20,
+      "mov_data": "05/05/2025",
+      "mov_descricao": "Pedido de Citação - Endereço Localizado Juntado Nº Protocolo: WBTM.25.70010881-0\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 05/05/2025 10:54",
+      "mov_texto_completo": "Pedido de Citação - Endereço Localizado Juntado\nNº Protocolo: WBTM.25.70010881-0\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 05/05/2025 10:54",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.548033",
+      "mov_texto": "Pedido de Citação - Endereço Localizado Juntado\nNº Protocolo: WBTM.25.70010881-0\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 05/05/2025 10:54"
+    },
+    {
+      "mov_ordem": 21,
+      "mov_data": "07/04/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.548361",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 22,
+      "mov_data": "07/04/2025",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.548593",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 23,
+      "mov_data": "12/03/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0174/2025\nData da Publicação: 14/03/2025\nNúmero do Diário: 4162",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0174/2025\nData da Publicação: 14/03/2025\nNúmero do Diário: 4162",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.548839",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0174/2025\nData da Publicação: 14/03/2025\nNúmero do Diário: 4162"
+    },
+    {
+      "mov_ordem": 24,
+      "mov_data": "12/03/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0174/2025\nTeor do ato: Vistos. Fl. 52: Expeça-se carta para citação do requerido, Espólio de Francisco Parra Domingues, na pessoa de seu inventariante, Sr. José Paulo Parra, no endereço informado: Rua Vinte e Três, nº 394, CEP 79560-000, Cidade: Chapadão do Sul/MS. Cumpra-se. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0174/2025\nTeor do ato: Vistos. Fl. 52: Expeça-se carta para citação do requerido, Espólio de Francisco Parra Domingues, na pessoa de seu inventariante, Sr. José Paulo Parra, no endereço informado: Rua Vinte e Três, nº 394, CEP 79560-000, Cidade: Chapadão do Sul/MS. Cumpra-se. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "DEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.549075",
+      "mov_texto": "Remetido ao DJE\nRelação: 0174/2025\nTeor do ato: Vistos. Fl. 52: Expeça-se carta para citação do requerido, Espólio de Francisco Parra Domingues, na pessoa de seu inventariante, Sr. José Paulo Parra, no endereço informado: Rua Vinte e Três, nº 394, CEP 79560-000, Cidade: Chapadão do Sul/MS. Cumpra-se. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 25,
+      "mov_data": "11/03/2025",
+      "mov_descricao": "Proferido Despacho de Mero Expediente Vistos. Fl. 52: Expeça-se carta para citação do requerido, Espólio de Francisco Parra Domingues, na pessoa de seu inventariante, Sr. José Paulo Parra, no endereço informado: Rua Vinte e Três, nº 394, CEP 79560-000, Cidade: Chapadão do Sul/MS. Cumpra-se. Int.",
+      "mov_texto_completo": "Proferido Despacho de Mero Expediente\nVistos. Fl. 52: Expeça-se carta para citação do requerido, Espólio de Francisco Parra Domingues, na pessoa de seu inventariante, Sr. José Paulo Parra, no endereço informado: Rua Vinte e Três, nº 394, CEP 79560-000, Cidade: Chapadão do Sul/MS. Cumpra-se. Int.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "DEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.549486",
+      "mov_texto": "Proferido Despacho de Mero Expediente\nVistos. Fl. 52: Expeça-se carta para citação do requerido, Espólio de Francisco Parra Domingues, na pessoa de seu inventariante, Sr. José Paulo Parra, no endereço informado: Rua Vinte e Três, nº 394, CEP 79560-000, Cidade: Chapadão do Sul/MS. Cumpra-se. Int."
+    },
+    {
+      "mov_ordem": 26,
+      "mov_data": "10/03/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.549837",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 27,
+      "mov_data": "22/01/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WBTM.25.70001099-2\nTipo da Petição: Petição Intermediária\nData: 22/01/2025 08:59",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WBTM.25.70001099-2\nTipo da Petição: Petição Intermediária\nData: 22/01/2025 08:59",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.550007",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WBTM.25.70001099-2\nTipo da Petição: Petição Intermediária\nData: 22/01/2025 08:59"
+    },
+    {
+      "mov_ordem": 28,
+      "mov_data": "14/01/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0014/2025\nData da Publicação: 21/01/2025\nNúmero do Diário: 4122",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0014/2025\nData da Publicação: 21/01/2025\nNúmero do Diário: 4122",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.550247",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0014/2025\nData da Publicação: 21/01/2025\nNúmero do Diário: 4122"
+    },
+    {
+      "mov_ordem": 29,
+      "mov_data": "13/01/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0014/2025\nTeor do ato: Manifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0014/2025\nTeor do ato: Manifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.550516",
+      "mov_texto": "Remetido ao DJE\nRelação: 0014/2025\nTeor do ato: Manifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 30,
+      "mov_data": "10/01/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE Manifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nManifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.550820",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nManifeste-se o(a) autor(a) Sobre o(s) AR(s) negativo(s), no prazo legal."
+    },
+    {
+      "mov_ordem": 31,
+      "mov_data": "08/01/2025",
+      "mov_descricao": "AR Negativo Juntado - Mudou-se Juntada de AR : AA731836248TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC\nDestinatário : Francisco Parra Domingues",
+      "mov_texto_completo": "AR Negativo Juntado - Mudou-se\nJuntada de AR : AA731836248TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC\nDestinatário : Francisco Parra Domingues",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.551080",
+      "mov_texto": "AR Negativo Juntado - Mudou-se\nJuntada de AR : AA731836248TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC\nDestinatário : Francisco Parra Domingues"
+    },
+    {
+      "mov_ordem": 32,
+      "mov_data": "18/12/2024",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.551435",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 33,
+      "mov_data": "17/12/2024",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0998/2024\nData da Publicação: 19/12/2024\nNúmero do Diário: 4115",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0998/2024\nData da Publicação: 19/12/2024\nNúmero do Diário: 4115",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.551657",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0998/2024\nData da Publicação: 19/12/2024\nNúmero do Diário: 4115"
+    },
+    {
+      "mov_ordem": 34,
+      "mov_data": "17/12/2024",
+      "mov_descricao": "Remetido ao DJE Relação: 0998/2024\nTeor do ato: Vistos. Deixo para momento oportuno a análise da conveniência da audiência de conciliação (CPC, art.139, VI e Enunciado nº 35 da ENFAM: \"Além das situações em que a flexibilização do procedimento é autorizada pelo art. 139, VI, do CPC/2015, pode o juiz, de ofício, preservada a previsibilidade do rito, adaptá-lo às especificidades da causa, observadas as garantias fundamentais do processo\"). Cite-se e intime-se a parte ré para contestar o feito no prazo de 15 (quinze) dias úteis. A ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Também incumbirá à parte ré especificar, justificadamente, as provas que pretende produzir por ocasião da apresentação da resposta, nos termos do art. 336 do CPC, sob pena de preclusão. Ademais, tratando-se de processo eletrônico, em prestígio às regras fundamentais dos artigos 4º e 6º do CPC, fica vedado o exercício da faculdade prevista no artigo 340 do CPC. Carta de citação segue vinculada automaticamente à esta decisão. O art. 248, § 4º, do CPC prevê que \"nos condomínios edilícios ou nos loteamentos com controle de acesso, será válida a entrega do mandado a funcionário da portaria responsável pelo recebimento de correspondência, que, entretanto, poderá recusar o recebimento, se declarar, por escrito, sob as penas da lei, que o destinatário da correspondência está ausente\". Em decorrência, poderá ser considerada válida a citação se o aviso de recebimento (AR) for assinado pela pessoa responsável pelo recebimento da correspondência. Anoto que poderá ocorrer posterior devolução de AR negativo endereçados a condomínios, eis que é notório que as correspondências são recebidas em lote e, posteriormente, devolvidas, caso os destinatários não mais residam no local. Havendo devolução negativa de AR com a informação \"mudou-se\", intime-se a parte autora a indicar novo endereço para citação e recolhimento das despesas de postagem, salvo se beneficiária da gratuidade da justiça. Não dispondo a parte autora de novos endereços, intime-se para recolher as despesas referentes à realização das pesquisas de endereço pelos sistemas SISBAJUD, INFOJUD e RENAJUD, dentre outros, salvo o caso de gratuidade da justiça, devendo ainda indicar na petição o nome completo e o número do CPF/CNPJ da parte a ser consultada. Sendo a parte autora beneficiária da gratuidade da justiça, providencie a serventia a remessa dos autos para a fila de \"pesquisas\" e, após a realização e a liberação de todos os resultados, intime-se, oportunamente, a parte autora para que, em 10 (dez) dias, indique de forma pormenorizada os endereços ainda não diligenciados e promova o recolhimento das custas necessárias para a efetivação das citações nos endereços que forem indicados. Havendo devolução negativa de AR com a informação \"ausente\", após três tentativas, ou recebida por terceiro, nos termos do art. 249 do Código de Processo Civil, intime-se a parte autora a recolher as diligências do oficial de justiça e expeça-se mandado ou carta precatória, se o caso, hipótese em que as diligências deverão ser recolhidas no Juízo deprecado, salvo o caso de gratuidade da justiça. Diligenciados todos os endereços obtidos nas pesquisas e não ocorrendo a regular citação, o que deverá ser informado pela parte autora na petição, com indicação das folhas em que ocorreram as negativas, fica deferida a citação por edital, nos termos do art. 256, II e § 3º, do Código de Processo Civil, com prazo de 20 (vinte) dias, comprovando o recolhimento das despesas para a publicação no DJE, ressalvada a hipótese de gratuidade da justiça. Decorrido o prazo do edital e não oferecida a contestação, dê-se vista dos autos à Defensoria Pública Estadual, por ato ordinatório, via portal eletrônico, e aguarde-se a manifestação como curadora especial. Sobrevindo a resposta da parte ré, intime-se a parte autora, para apresentar, caso queira, impugnação à contestação, no prazo de 15 (quinze) dias, especificando, justificadamente, as provas que pretende produzir, nos termos dos arts. 350 e 351 do CPC, sob pena de preclusão. Caso a parte ré seja revel, mas não seja o caso de aplicação de seus efeitos, intime-se a parte autora para especificar, justificadamente, as provas que pretende produzir, nos termos do art. 348 do CPC, sob pena de preclusão. Inerte a parte autora no tocante ao cumprimento de qualquer dos itens supra, nos termos do art. 196, XI, das NSCGJ, deverá ser intimada, a princípio, pelo Diário da Justiça Eletrônico a movimentar o feito no prazo de 30 (trinta) dias. Mantida a inércia, a parte autora será intimada pessoalmente, por carta, para suprir a omissão em 05 (cinco) dias, sob pena de extinção e consequente arquivamento do processo, nos termos do art. 485, III e § 1º, do Código de Processo Civil. A presente decisão, assinada digitalmente e instruída com a respectiva senha de acesso, servirá como carta ou mandado. Nos próximos peticionamentos, atente-se o advogado para a UTILIZAÇÃO DAS NOMENCLATURAS E CÓDIGOS CORRETOS, para garantia de maior celeridade na tramitação e apreciação prioritária de pedidos urgentes. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0998/2024\nTeor do ato: Vistos. Deixo para momento oportuno a análise da conveniência da audiência de conciliação (CPC, art.139, VI e Enunciado nº 35 da ENFAM: \"Além das situações em que a flexibilização do procedimento é autorizada pelo art. 139, VI, do CPC/2015, pode o juiz, de ofício, preservada a previsibilidade do rito, adaptá-lo às especificidades da causa, observadas as garantias fundamentais do processo\"). Cite-se e intime-se a parte ré para contestar o feito no prazo de 15 (quinze) dias úteis. A ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Também incumbirá à parte ré especificar, justificadamente, as provas que pretende produzir por ocasião da apresentação da resposta, nos termos do art. 336 do CPC, sob pena de preclusão. Ademais, tratando-se de processo eletrônico, em prestígio às regras fundamentais dos artigos 4º e 6º do CPC, fica vedado o exercício da faculdade prevista no artigo 340 do CPC. Carta de citação segue vinculada automaticamente à esta decisão. O art. 248, § 4º, do CPC prevê que \"nos condomínios edilícios ou nos loteamentos com controle de acesso, será válida a entrega do mandado a funcionário da portaria responsável pelo recebimento de correspondência, que, entretanto, poderá recusar o recebimento, se declarar, por escrito, sob as penas da lei, que o destinatário da correspondência está ausente\". Em decorrência, poderá ser considerada válida a citação se o aviso de recebimento (AR) for assinado pela pessoa responsável pelo recebimento da correspondência. Anoto que poderá ocorrer posterior devolução de AR negativo endereçados a condomínios, eis que é notório que as correspondências são recebidas em lote e, posteriormente, devolvidas, caso os destinatários não mais residam no local. Havendo devolução negativa de AR com a informação \"mudou-se\", intime-se a parte autora a indicar novo endereço para citação e recolhimento das despesas de postagem, salvo se beneficiária da gratuidade da justiça. Não dispondo a parte autora de novos endereços, intime-se para recolher as despesas referentes à realização das pesquisas de endereço pelos sistemas SISBAJUD, INFOJUD e RENAJUD, dentre outros, salvo o caso de gratuidade da justiça, devendo ainda indicar na petição o nome completo e o número do CPF/CNPJ da parte a ser consultada. Sendo a parte autora beneficiária da gratuidade da justiça, providencie a serventia a remessa dos autos para a fila de \"pesquisas\" e, após a realização e a liberação de todos os resultados, intime-se, oportunamente, a parte autora para que, em 10 (dez) dias, indique de forma pormenorizada os endereços ainda não diligenciados e promova o recolhimento das custas necessárias para a efetivação das citações nos endereços que forem indicados. Havendo devolução negativa de AR com a informação \"ausente\", após três tentativas, ou recebida por terceiro, nos termos do art. 249 do Código de Processo Civil, intime-se a parte autora a recolher as diligências do oficial de justiça e expeça-se mandado ou carta precatória, se o caso, hipótese em que as diligências deverão ser recolhidas no Juízo deprecado, salvo o caso de gratuidade da justiça. Diligenciados todos os endereços obtidos nas pesquisas e não ocorrendo a regular citação, o que deverá ser informado pela parte autora na petição, com indicação das folhas em que ocorreram as negativas, fica deferida a citação por edital, nos termos do art. 256, II e § 3º, do Código de Processo Civil, com prazo de 20 (vinte) dias, comprovando o recolhimento das despesas para a publicação no DJE, ressalvada a hipótese de gratuidade da justiça. Decorrido o prazo do edital e não oferecida a contestação, dê-se vista dos autos à Defensoria Pública Estadual, por ato ordinatório, via portal eletrônico, e aguarde-se a manifestação como curadora especial. Sobrevindo a resposta da parte ré, intime-se a parte autora, para apresentar, caso queira, impugnação à contestação, no prazo de 15 (quinze) dias, especificando, justificadamente, as provas que pretende produzir, nos termos dos arts. 350 e 351 do CPC, sob pena de preclusão. Caso a parte ré seja revel, mas não seja o caso de aplicação de seus efeitos, intime-se a parte autora para especificar, justificadamente, as provas que pretende produzir, nos termos do art. 348 do CPC, sob pena de preclusão. Inerte a parte autora no tocante ao cumprimento de qualquer dos itens supra, nos termos do art. 196, XI, das NSCGJ, deverá ser intimada, a princípio, pelo Diário da Justiça Eletrônico a movimentar o feito no prazo de 30 (trinta) dias. Mantida a inércia, a parte autora será intimada pessoalmente, por carta, para suprir a omissão em 05 (cinco) dias, sob pena de extinção e consequente arquivamento do processo, nos termos do art. 485, III e § 1º, do Código de Processo Civil. A presente decisão, assinada digitalmente e instruída com a respectiva senha de acesso, servirá como carta ou mandado. Nos próximos peticionamentos, atente-se o advogado para a UTILIZAÇÃO DAS NOMENCLATURAS E CÓDIGOS CORRETOS, para garantia de maior celeridade na tramitação e apreciação prioritária de pedidos urgentes. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "SISBAJUD",
+        "ACORDO",
+        "RENAJUD",
+        "CITACAO",
+        "DESBLOQUEIO",
+        "INFOJUD"
+      ],
+      "decisao_resultado": "DEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.551894",
+      "mov_texto": "Remetido ao DJE\nRelação: 0998/2024\nTeor do ato: Vistos. Deixo para momento oportuno a análise da conveniência da audiência de conciliação (CPC, art.139, VI e Enunciado nº 35 da ENFAM: \"Além das situações em que a flexibilização do procedimento é autorizada pelo art. 139, VI, do CPC/2015, pode o juiz, de ofício, preservada a previsibilidade do rito, adaptá-lo às especificidades da causa, observadas as garantias fundamentais do processo\"). Cite-se e intime-se a parte ré para contestar o feito no prazo de 15 (quinze) dias úteis. A ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Também incumbirá à parte ré especificar, justificadamente, as provas que pretende produzir por ocasião da apresentação da resposta, nos termos do art. 336 do CPC, sob pena de preclusão. Ademais, tratando-se de processo eletrônico, em prestígio às regras fundamentais dos artigos 4º e 6º do CPC, fica vedado o exercício da faculdade prevista no artigo 340 do CPC. Carta de citação segue vinculada automaticamente à esta decisão. O art. 248, § 4º, do CPC prevê que \"nos condomínios edilícios ou nos loteamentos com controle de acesso, será válida a entrega do mandado a funcionário da portaria responsável pelo recebimento de correspondência, que, entretanto, poderá recusar o recebimento, se declarar, por escrito, sob as penas da lei, que o destinatário da correspondência está ausente\". Em decorrência, poderá ser considerada válida a citação se o aviso de recebimento (AR) for assinado pela pessoa responsável pelo recebimento da correspondência. Anoto que poderá ocorrer posterior devolução de AR negativo endereçados a condomínios, eis que é notório que as correspondências são recebidas em lote e, posteriormente, devolvidas, caso os destinatários não mais residam no local. Havendo devolução negativa de AR com a informação \"mudou-se\", intime-se a parte autora a indicar novo endereço para citação e recolhimento das despesas de postagem, salvo se beneficiária da gratuidade da justiça. Não dispondo a parte autora de novos endereços, intime-se para recolher as despesas referentes à realização das pesquisas de endereço pelos sistemas SISBAJUD, INFOJUD e RENAJUD, dentre outros, salvo o caso de gratuidade da justiça, devendo ainda indicar na petição o nome completo e o número do CPF/CNPJ da parte a ser consultada. Sendo a parte autora beneficiária da gratuidade da justiça, providencie a serventia a remessa dos autos para a fila de \"pesquisas\" e, após a realização e a liberação de todos os resultados, intime-se, oportunamente, a parte autora para que, em 10 (dez) dias, indique de forma pormenorizada os endereços ainda não diligenciados e promova o recolhimento das custas necessárias para a efetivação das citações nos endereços que forem indicados. Havendo devolução negativa de AR com a informação \"ausente\", após três tentativas, ou recebida por terceiro, nos termos do art. 249 do Código de Processo Civil, intime-se a parte autora a recolher as diligências do oficial de justiça e expeça-se mandado ou carta precatória, se o caso, hipótese em que as diligências deverão ser recolhidas no Juízo deprecado, salvo o caso de gratuidade da justiça. Diligenciados todos os endereços obtidos nas pesquisas e não ocorrendo a regular citação, o que deverá ser informado pela parte autora na petição, com indicação das folhas em que ocorreram as negativas, fica deferida a citação por edital, nos termos do art. 256, II e § 3º, do Código de Processo Civil, com prazo de 20 (vinte) dias, comprovando o recolhimento das despesas para a publicação no DJE, ressalvada a hipótese de gratuidade da justiça. Decorrido o prazo do edital e não oferecida a contestação, dê-se vista dos autos à Defensoria Pública Estadual, por ato ordinatório, via portal eletrônico, e aguarde-se a manifestação como curadora especial. Sobrevindo a resposta da parte ré, intime-se a parte autora, para apresentar, caso queira, impugnação à contestação, no prazo de 15 (quinze) dias, especificando, justificadamente, as provas que pretende produzir, nos termos dos arts. 350 e 351 do CPC, sob pena de preclusão. Caso a parte ré seja revel, mas não seja o caso de aplicação de seus efeitos, intime-se a parte autora para especificar, justificadamente, as provas que pretende produzir, nos termos do art. 348 do CPC, sob pena de preclusão. Inerte a parte autora no tocante ao cumprimento de qualquer dos itens supra, nos termos do art. 196, XI, das NSCGJ, deverá ser intimada, a princípio, pelo Diário da Justiça Eletrônico a movimentar o feito no prazo de 30 (trinta) dias. Mantida a inércia, a parte autora será intimada pessoalmente, por carta, para suprir a omissão em 05 (cinco) dias, sob pena de extinção e consequente arquivamento do processo, nos termos do art. 485, III e § 1º, do Código de Processo Civil. A presente decisão, assinada digitalmente e instruída com a respectiva senha de acesso, servirá como carta ou mandado. Nos próximos peticionamentos, atente-se o advogado para a UTILIZAÇÃO DAS NOMENCLATURAS E CÓDIGOS CORRETOS, para garantia de maior celeridade na tramitação e apreciação prioritária de pedidos urgentes. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 35,
+      "mov_data": "17/12/2024",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.555079",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Rito Comum - Sem Audiência - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 36,
+      "mov_data": "17/12/2024",
+      "mov_descricao": "Recebida a Petição Inicial  - Citação Por Carta AR Vistos. Deixo para momento oportuno a análise da conveniência da audiência de conciliação (CPC, art.139, VI e Enunciado nº 35 da ENFAM: \"Além das situações em que a flexibilização do procedimento é autorizada pelo art. 139, VI, do CPC/2015, pode o juiz, de ofício, preservada a previsibilidade do rito, adaptá-lo às especificidades da causa, observadas as garantias fundamentais do processo\"). Cite-se e intime-se a parte ré para contestar o feito no prazo de 15 (quinze) dias úteis. A ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Também incumbirá à parte ré especificar, justificadamente, as provas que pretende produzir por ocasião da apresentação da resposta, nos termos do art. 336 do CPC, sob pena de preclusão. Ademais, tratando-se de processo eletrônico, em prestígio às regras fundamentais dos artigos 4º e 6º do CPC, fica vedado o exercício da faculdade prevista no artigo 340 do CPC. Carta de citação segue vinculada automaticamente à esta decisão. O art. 248, § 4º, do CPC prevê que \"nos condomínios edilícios ou nos loteamentos com controle de acesso, será válida a entrega do mandado a funcionário da portaria responsável pelo recebimento de correspondência, que, entretanto, poderá recusar o recebimento, se declarar, por escrito, sob as penas da lei, que o destinatário da correspondência está ausente\". Em decorrência, poderá ser considerada válida a citação se o aviso de recebimento (AR) for assinado pela pessoa responsável pelo recebimento da correspondência. Anoto que poderá ocorrer posterior devolução de AR negativo endereçados a condomínios, eis que é notório que as correspondências são recebidas em lote e, posteriormente, devolvidas, caso os destinatários não mais residam no local. Havendo devolução negativa de AR com a informação \"mudou-se\", intime-se a parte autora a indicar novo endereço para citação e recolhimento das despesas de postagem, salvo se beneficiária da gratuidade da justiça. Não dispondo a parte autora de novos endereços, intime-se para recolher as despesas referentes à realização das pesquisas de endereço pelos sistemas SISBAJUD, INFOJUD e RENAJUD, dentre outros, salvo o caso de gratuidade da justiça, devendo ainda indicar na petição o nome completo e o número do CPF/CNPJ da parte a ser consultada. Sendo a parte autora beneficiária da gratuidade da justiça, providencie a serventia a remessa dos autos para a fila de \"pesquisas\" e, após a realização e a liberação de todos os resultados, intime-se, oportunamente, a parte autora para que, em 10 (dez) dias, indique de forma pormenorizada os endereços ainda não diligenciados e promova o recolhimento das custas necessárias para a efetivação das citações nos endereços que forem indicados. Havendo devolução negativa de AR com a informação \"ausente\", após três tentativas, ou recebida por terceiro, nos termos do art. 249 do Código de Processo Civil, intime-se a parte autora a recolher as diligências do oficial de justiça e expeça-se mandado ou carta precatória, se o caso, hipótese em que as diligências deverão ser recolhidas no Juízo deprecado, salvo o caso de gratuidade da justiça. Diligenciados todos os endereços obtidos nas pesquisas e não ocorrendo a regular citação, o que deverá ser informado pela parte autora na petição, com indicação das folhas em que ocorreram as negativas, fica deferida a citação por edital, nos termos do art. 256, II e § 3º, do Código de Processo Civil, com prazo de 20 (vinte) dias, comprovando o recolhimento das despesas para a publicação no DJE, ressalvada a hipótese de gratuidade da justiça. Decorrido o prazo do edital e não oferecida a contestação, dê-se vista dos autos à Defensoria Pública Estadual, por ato ordinatório, via portal eletrônico, e aguarde-se a manifestação como curadora especial. Sobrevindo a resposta da parte ré, intime-se a parte autora, para apresentar, caso queira, impugnação à contestação, no prazo de 15 (quinze) dias, especificando, justificadamente, as provas que pretende produzir, nos termos dos arts. 350 e 351 do CPC, sob pena de preclusão. Caso a parte ré seja revel, mas não seja o caso de aplicação de seus efeitos, intime-se a parte autora para especificar, justificadamente, as provas que pretende produzir, nos termos do art. 348 do CPC, sob pena de preclusão. Inerte a parte autora no tocante ao cumprimento de qualquer dos itens supra, nos termos do art. 196, XI, das NSCGJ, deverá ser intimada, a princípio, pelo Diário da Justiça Eletrônico a movimentar o feito no prazo de 30 (trinta) dias. Mantida a inércia, a parte autora será intimada pessoalmente, por carta, para suprir a omissão em 05 (cinco) dias, sob pena de extinção e consequente arquivamento do processo, nos termos do art. 485, III e § 1º, do Código de Processo Civil. A presente decisão, assinada digitalmente e instruída com a respectiva senha de acesso, servirá como carta ou mandado. Nos próximos peticionamentos, atente-se o advogado para a UTILIZAÇÃO DAS NOMENCLATURAS E CÓDIGOS CORRETOS, para garantia de maior celeridade na tramitação e apreciação prioritária de pedidos urgentes. Int.",
+      "mov_texto_completo": "Recebida a Petição Inicial - Citação Por Carta AR\nVistos. Deixo para momento oportuno a análise da conveniência da audiência de conciliação (CPC, art.139, VI e Enunciado nº 35 da ENFAM: \"Além das situações em que a flexibilização do procedimento é autorizada pelo art. 139, VI, do CPC/2015, pode o juiz, de ofício, preservada a previsibilidade do rito, adaptá-lo às especificidades da causa, observadas as garantias fundamentais do processo\"). Cite-se e intime-se a parte ré para contestar o feito no prazo de 15 (quinze) dias úteis. A ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Também incumbirá à parte ré especificar, justificadamente, as provas que pretende produzir por ocasião da apresentação da resposta, nos termos do art. 336 do CPC, sob pena de preclusão. Ademais, tratando-se de processo eletrônico, em prestígio às regras fundamentais dos artigos 4º e 6º do CPC, fica vedado o exercício da faculdade prevista no artigo 340 do CPC. Carta de citação segue vinculada automaticamente à esta decisão. O art. 248, § 4º, do CPC prevê que \"nos condomínios edilícios ou nos loteamentos com controle de acesso, será válida a entrega do mandado a funcionário da portaria responsável pelo recebimento de correspondência, que, entretanto, poderá recusar o recebimento, se declarar, por escrito, sob as penas da lei, que o destinatário da correspondência está ausente\". Em decorrência, poderá ser considerada válida a citação se o aviso de recebimento (AR) for assinado pela pessoa responsável pelo recebimento da correspondência. Anoto que poderá ocorrer posterior devolução de AR negativo endereçados a condomínios, eis que é notório que as correspondências são recebidas em lote e, posteriormente, devolvidas, caso os destinatários não mais residam no local. Havendo devolução negativa de AR com a informação \"mudou-se\", intime-se a parte autora a indicar novo endereço para citação e recolhimento das despesas de postagem, salvo se beneficiária da gratuidade da justiça. Não dispondo a parte autora de novos endereços, intime-se para recolher as despesas referentes à realização das pesquisas de endereço pelos sistemas SISBAJUD, INFOJUD e RENAJUD, dentre outros, salvo o caso de gratuidade da justiça, devendo ainda indicar na petição o nome completo e o número do CPF/CNPJ da parte a ser consultada. Sendo a parte autora beneficiária da gratuidade da justiça, providencie a serventia a remessa dos autos para a fila de \"pesquisas\" e, após a realização e a liberação de todos os resultados, intime-se, oportunamente, a parte autora para que, em 10 (dez) dias, indique de forma pormenorizada os endereços ainda não diligenciados e promova o recolhimento das custas necessárias para a efetivação das citações nos endereços que forem indicados. Havendo devolução negativa de AR com a informação \"ausente\", após três tentativas, ou recebida por terceiro, nos termos do art. 249 do Código de Processo Civil, intime-se a parte autora a recolher as diligências do oficial de justiça e expeça-se mandado ou carta precatória, se o caso, hipótese em que as diligências deverão ser recolhidas no Juízo deprecado, salvo o caso de gratuidade da justiça. Diligenciados todos os endereços obtidos nas pesquisas e não ocorrendo a regular citação, o que deverá ser informado pela parte autora na petição, com indicação das folhas em que ocorreram as negativas, fica deferida a citação por edital, nos termos do art. 256, II e § 3º, do Código de Processo Civil, com prazo de 20 (vinte) dias, comprovando o recolhimento das despesas para a publicação no DJE, ressalvada a hipótese de gratuidade da justiça. Decorrido o prazo do edital e não oferecida a contestação, dê-se vista dos autos à Defensoria Pública Estadual, por ato ordinatório, via portal eletrônico, e aguarde-se a manifestação como curadora especial. Sobrevindo a resposta da parte ré, intime-se a parte autora, para apresentar, caso queira, impugnação à contestação, no prazo de 15 (quinze) dias, especificando, justificadamente, as provas que pretende produzir, nos termos dos arts. 350 e 351 do CPC, sob pena de preclusão. Caso a parte ré seja revel, mas não seja o caso de aplicação de seus efeitos, intime-se a parte autora para especificar, justificadamente, as provas que pretende produzir, nos termos do art. 348 do CPC, sob pena de preclusão. Inerte a parte autora no tocante ao cumprimento de qualquer dos itens supra, nos termos do art. 196, XI, das NSCGJ, deverá ser intimada, a princípio, pelo Diário da Justiça Eletrônico a movimentar o feito no prazo de 30 (trinta) dias. Mantida a inércia, a parte autora será intimada pessoalmente, por carta, para suprir a omissão em 05 (cinco) dias, sob pena de extinção e consequente arquivamento do processo, nos termos do art. 485, III e § 1º, do Código de Processo Civil. A presente decisão, assinada digitalmente e instruída com a respectiva senha de acesso, servirá como carta ou mandado. Nos próximos peticionamentos, atente-se o advogado para a UTILIZAÇÃO DAS NOMENCLATURAS E CÓDIGOS CORRETOS, para garantia de maior celeridade na tramitação e apreciação prioritária de pedidos urgentes. Int.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "SISBAJUD",
+        "ACORDO",
+        "RENAJUD",
+        "CITACAO",
+        "DESBLOQUEIO",
+        "INFOJUD"
+      ],
+      "decisao_resultado": "DEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:21:46.555616",
+      "mov_texto": "Recebida a Petição Inicial - Citação Por Carta AR\nVistos. Deixo para momento oportuno a análise da conveniência da audiência de conciliação (CPC, art.139, VI e Enunciado nº 35 da ENFAM: \"Além das situações em que a flexibilização do procedimento é autorizada pelo art. 139, VI, do CPC/2015, pode o juiz, de ofício, preservada a previsibilidade do rito, adaptá-lo às especificidades da causa, observadas as garantias fundamentais do processo\"). Cite-se e intime-se a parte ré para contestar o feito no prazo de 15 (quinze) dias úteis. A ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Também incumbirá à parte ré especificar, justificadamente, as provas que pretende produzir por ocasião da apresentação da resposta, nos termos do art. 336 do CPC, sob pena de preclusão. Ademais, tratando-se de processo eletrônico, em prestígio às regras fundamentais dos artigos 4º e 6º do CPC, fica vedado o exercício da faculdade prevista no artigo 340 do CPC. Carta de citação segue vinculada automaticamente à esta decisão. O art. 248, § 4º, do CPC prevê que \"nos condomínios edilícios ou nos loteamentos com controle de acesso, será válida a entrega do mandado a funcionário da portaria responsável pelo recebimento de correspondência, que, entretanto, poderá recusar o recebimento, se declarar, por escrito, sob as penas da lei, que o destinatário da correspondência está ausente\". Em decorrência, poderá ser considerada válida a citação se o aviso de recebimento (AR) for assinado pela pessoa responsável pelo recebimento da correspondência. Anoto que poderá ocorrer posterior devolução de AR negativo endereçados a condomínios, eis que é notório que as correspondências são recebidas em lote e, posteriormente, devolvidas, caso os destinatários não mais residam no local. Havendo devolução negativa de AR com a informação \"mudou-se\", intime-se a parte autora a indicar novo endereço para citação e recolhimento das despesas de postagem, salvo se beneficiária da gratuidade da justiça. Não dispondo a parte autora de novos endereços, intime-se para recolher as despesas referentes à realização das pesquisas de endereço pelos sistemas SISBAJUD, INFOJUD e RENAJUD, dentre outros, salvo o caso de gratuidade da justiça, devendo ainda indicar na petição o nome completo e o número do CPF/CNPJ da parte a ser consultada. Sendo a parte autora beneficiária da gratuidade da justiça, providencie a serventia a remessa dos autos para a fila de \"pesquisas\" e, após a realização e a liberação de todos os resultados, intime-se, oportunamente, a parte autora para que, em 10 (dez) dias, indique de forma pormenorizada os endereços ainda não diligenciados e promova o recolhimento das custas necessárias para a efetivação das citações nos endereços que forem indicados. Havendo devolução negativa de AR com a informação \"ausente\", após três tentativas, ou recebida por terceiro, nos termos do art. 249 do Código de Processo Civil, intime-se a parte autora a recolher as diligências do oficial de justiça e expeça-se mandado ou carta precatória, se o caso, hipótese em que as diligências deverão ser recolhidas no Juízo deprecado, salvo o caso de gratuidade da justiça. Diligenciados todos os endereços obtidos nas pesquisas e não ocorrendo a regular citação, o que deverá ser informado pela parte autora na petição, com indicação das folhas em que ocorreram as negativas, fica deferida a citação por edital, nos termos do art. 256, II e § 3º, do Código de Processo Civil, com prazo de 20 (vinte) dias, comprovando o recolhimento das despesas para a publicação no DJE, ressalvada a hipótese de gratuidade da justiça. Decorrido o prazo do edital e não oferecida a contestação, dê-se vista dos autos à Defensoria Pública Estadual, por ato ordinatório, via portal eletrônico, e aguarde-se a manifestação como curadora especial. Sobrevindo a resposta da parte ré, intime-se a parte autora, para apresentar, caso queira, impugnação à contestação, no prazo de 15 (quinze) dias, especificando, justificadamente, as provas que pretende produzir, nos termos dos arts. 350 e 351 do CPC, sob pena de preclusão. Caso a parte ré seja revel, mas não seja o caso de aplicação de seus efeitos, intime-se a parte autora para especificar, justificadamente, as provas que pretende produzir, nos termos do art. 348 do CPC, sob pena de preclusão. Inerte a parte autora no tocante ao cumprimento de qualquer dos itens supra, nos termos do art. 196, XI, das NSCGJ, deverá ser intimada, a princípio, pelo Diário da Justiça Eletrônico a movimentar o feito no prazo de 30 (trinta) dias. Mantida a inércia, a parte autora será intimada pessoalmente, por carta, para suprir a omissão em 05 (cinco) dias, sob pena de extinção e consequente arquivamento do processo, nos termos do art. 485, III e § 1º, do Código de Processo Civil. A presente decisão, assinada digitalmente e instruída com a respectiva senha de acesso, servirá como carta ou mandado. Nos próximos peticionamentos, atente-se o advogado para a UTILIZAÇÃO DAS NOMENCLATURAS E CÓDIGOS CORRETOS, para garantia de maior celeridade na tramitação e apreciação prioritária de pedidos urgentes. Int."
+    },
+    {
+      "mov_ordem": 37,
+      "mov_data": "17/12/2024",
+      "mov_descricao": "Conclusos para Decisão",
+      "mov_texto_completo": "Conclusos para Decisão",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.558818",
+      "mov_texto": "Conclusos para Decisão"
+    },
+    {
+      "mov_ordem": 38,
+      "mov_data": "10/12/2024",
+      "mov_descricao": "Distribuído por Dependência (movimentação exclusiva do distribuidor) AÇÃO DE COBRANÇA DE DÍVIDA RECONHECIDA E NÃO PEGA PELO ESPÓLIO DE FRANCISCO PARRA DOMINGUES.",
+      "mov_texto_completo": "Distribuído por Dependência (movimentação exclusiva do distribuidor)\nAÇÃO DE COBRANÇA DE DÍVIDA RECONHECIDA E NÃO PEGA PELO ESPÓLIO DE FRANCISCO PARRA DOMINGUES.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:21:46.559015",
+      "mov_texto": "Distribuído por Dependência (movimentação exclusiva do distribuidor)\nAÇÃO DE COBRANÇA DE DÍVIDA RECONHECIDA E NÃO PEGA PELO ESPÓLIO DE FRANCISCO PARRA DOMINGUES."
+    }
+  ]
+}

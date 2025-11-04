@@ -1,0 +1,30 @@
+# Core dependencies
+playwright==1.40.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+pandas==2.1.4
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# HTTP and networking
+httpx==0.25.2
+requests==2.31.0
+tenacity==8.2.3
+
+# Data processing
+openpyxl==3.1.2  # Para exportar Excel
+jinja2==3.1.2    # Para gerar HTML reports
+
+# Logging and monitoring
+loguru==0.7.2
+rich==13.7.0     # Pretty console output
+
+# Testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+
+# Development tools (optional)
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.1

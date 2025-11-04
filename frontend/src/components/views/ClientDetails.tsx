@@ -1,0 +1,1131 @@
+import React, { useState, useEffect } from "react";
+import { useSearchParams, useNavigate } from "react-router-dom";
+import Card from "../ui/Card";
+import Button from "../ui/Button";
+import ActionDropdown from "../ui/ActionDropdown";
+import { PageErrorBoundary } from "../error";
+import {
+  PhoneDisplayCard,
+  EmailDisplayCard,
+  AddressDisplayCard,
+} from "../contacts";
+import SensitiveDataField from "../shared/SensitiveDataField";
+import AuditLogTab from "../shared/AuditLogTab";
+import { ClientDetailed, ClientStatus, PersonType } from "../../types";
+import { formatTaxId } from "../../utils/formatters";
+import { contractsService, Contract } from "../../services/contractsService";
+import {
+  User,
+  CreditCard,
+  Building2,
+  Calendar,
+  FileText,
+  Edit,
+  ArrowLeft,
+  Globe,
+  Hash,
+  FileText as FileContract,
+  Heart,
+  Plus,
+  Eye,
+  MoreHorizontal,
+  Settings,
+  UserCheck,
+  Archive,
+  Trash2,
+  Shield,
+  Download,
+  AlertTriangle,
+} from "lucide-react";
+
+interface ClientDetailsProps {
+  client: ClientDetailed;
+  onEdit?: () => void;
+  onBack?: () => void;
+}
+
+const ClientDetails: React.FC<ClientDetailsProps> = ({
+  client,
+  onEdit,
+  onBack,
+}) => {
+  return (
+    <PageErrorBoundary pageName="ClientDetails">
+      <ClientDetailsContent client={client} onEdit={onEdit} onBack={onBack} />
+    </PageErrorBoundary>
+  );
+};
+
+const ClientDetailsContent: React.FC<ClientDetailsProps> = ({
+  client,
+  onEdit,
+  onBack,
+}) => {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const [activeTab, setActiveTab] = useState("informacoes");
+
+  // Estados para LGPD
+  const [showDeletionModal, setShowDeletionModal] = useState(false);
+
+  // Estados para contratos e vidas
+  const [contracts, setContracts] = useState<Contract[]>([]);
+  const [loadingContracts, setLoadingContracts] = useState(false);
+  const [contractsError, setContractsError] = useState<string | null>(null);
+  const [allLives, setAllLives] = useState<any[]>([]);
+  const [loadingLives, setLoadingLives] = useState(false);
+  const [livesError, setLivesError] = useState<string | null>(null);
+
+  // Verificar se há parâmetro de tab na URL
+  useEffect(() => {
+    const tabParam = searchParams.get("tab");
+    if (tabParam && ["informacoes", "contratos", "vidas", "lgpd"].includes(tabParam)) {
+      setActiveTab(tabParam);
+    }
+  }, [searchParams]);
+
+  // Carregar contratos quando a aba de contratos é ativada
+  useEffect(() => {
+    if (activeTab === "contratos" && contracts.length === 0) {
+      loadContracts();
+    }
+  }, [activeTab, client.id]);
+
+  // Carregar vidas quando a aba de vidas é ativada
+  useEffect(() => {
+    if (activeTab === "vidas") {
+      loadLives();
+    }
+  }, [activeTab, client.id]);
+
+  const loadContracts = async () => {
+    setLoadingContracts(true);
+    setContractsError(null);
+    try {
+      const contractsData = await contractsService.listContracts({
+        client_id: client.id,
+        size: 100,
+      });
+      setContracts(contractsData.contracts);
+    } catch (error) {
+      console.error("Error loading contracts:", error);
+      setContractsError("Erro ao carregar contratos");
+    } finally {
+      setLoadingContracts(false);
+    }
+  };
+
+  const loadLives = async () => {
+    setLoadingLives(true);
+    setLivesError(null);
+    try {
+      // First, load contracts to get contract IDs
+      const contractsData = await contractsService.listContracts({
+        client_id: client.id,
+        size: 100,
+      });
+
+      // Then load lives for each contract
+      const allLivesArray: any[] = [];
+      for (const contract of contractsData.contracts) {
+        try {
+          const lives = await contractsService.listContractLives(contract.id);
+          allLivesArray.push(
+            ...lives.map((life: any) => ({
+              ...life,
+              contract_number: contract.contract_number,
+              contract_type: contract.contract_type,
+            }))
+          );
+        } catch (error) {
+          console.error(
+            `Error loading lives for contract ${contract.id}:`,
+            error
+          );
+        }
+      }
+
+      setAllLives(allLivesArray);
+    } catch (error) {
+      console.error("Error loading lives:", error);
+      setLivesError("Erro ao carregar vidas dos contratos");
+    } finally {
+      setLoadingLives(false);
+    }
+  };
+
+  const handleDeleteContract = async (contractId: number) => {
+    try {
+      await contractsService.deleteContract(contractId);
+      // Recarregar contratos após exclusão
+      await loadContracts();
+      // Se estivermos na aba de vidas, recarregar também
+      if (activeTab === "vidas") {
+        await loadLives();
+      }
+    } catch (error) {
+      console.error("Erro ao deletar contrato:", error);
+      alert("Erro ao deletar contrato. Tente novamente.");
+    }
+  };
+
+  const handleArchiveContract = async (contractId: number) => {
+    try {
+      await contractsService.updateContract(contractId, { status: "inactive" });
+      // Recarregar contratos após arquivamento
+      await loadContracts();
+      // Se estivermos na aba de vidas, recarregar também
+      if (activeTab === "vidas") {
+        await loadLives();
+      }
+    } catch (error) {
+      console.error("Erro ao arquivar contrato:", error);
+      alert("Erro ao arquivar contrato. Tente novamente.");
+    }
+  };
+
+  const formatDate = (dateString: string): string => {
+    return new Date(dateString).toLocaleDateString("pt-BR");
+  };
+
+  const getPersonTypeLabel = (type: PersonType): string => {
+    return type === PersonType.PF ? "Pessoa Física" : "Pessoa Jurídica";
+  };
+
+  const getClientStatusLabel = (status: ClientStatus): string => {
+    const labels = {
+      [ClientStatus.ACTIVE]: "Ativo",
+      [ClientStatus.INACTIVE]: "Inativo",
+      [ClientStatus.ON_HOLD]: "Em Espera",
+      [ClientStatus.ARCHIVED]: "Arquivado",
+    };
+    return labels[status] || status;
+  };
+
+  // Funções LGPD
+  const handleExportData = async (clientId: number) => {
+    try {
+      const response = await fetch(`/api/v1/clients/${clientId}/lgpd/export-data`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('access_token')}`,
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error('Erro ao exportar dados');
+      }
+
+      const data = await response.json();
+
+      // Download do arquivo
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `cliente_${clientId}_dados_lgpd.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      alert('Dados exportados com sucesso!');
+    } catch (error) {
+      console.error('Erro ao exportar dados:', error);
+      alert('Erro ao exportar dados. Tente novamente.');
+    }
+  };
+
+  const handleRequestDeletion = async () => {
+    try {
+      const response = await fetch(`/api/v1/clients/${client.id}/lgpd/request-deletion`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('access_token')}`,
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error('Erro ao solicitar exclusão');
+      }
+
+      alert('Solicitação de exclusão enviada com sucesso!');
+      setShowDeletionModal(false);
+    } catch (error) {
+      console.error('Erro ao solicitar exclusão:', error);
+      alert('Erro ao solicitar exclusão. Tente novamente.');
+    }
+  };
+
+  const getClientStatusColor = (status: ClientStatus): string => {
+    const colors = {
+      [ClientStatus.ACTIVE]: "bg-green-100 text-green-800",
+      [ClientStatus.INACTIVE]: "bg-gray-100 text-gray-800",
+      [ClientStatus.ON_HOLD]: "bg-yellow-100 text-yellow-800",
+      [ClientStatus.ARCHIVED]: "bg-red-100 text-red-800",
+    };
+    return colors[status] || "bg-gray-100 text-gray-800";
+  };
+
+  const formatPhone = (phone: any): string => {
+    const clean = phone.number.replace(/\D/g, "");
+    if (phone.area_code) {
+      if (clean.length === 9) {
+        return `(${phone.area_code}) ${clean.replace(
+          /(\d{5})(\d{4})/,
+          "$1-$2"
+        )}`;
+      } else if (clean.length === 8) {
+        return `(${phone.area_code}) ${clean.replace(
+          /(\d{4})(\d{4})/,
+          "$1-$2"
+        )}`;
+      }
+    } else if (clean.length === 11) {
+      return clean.replace(/(\d{2})(\d{5})(\d{4})/, "($1) $2-$3");
+    } else if (clean.length === 10) {
+      return clean.replace(/(\d{2})(\d{4})(\d{4})/, "($1) $2-$3");
+    }
+    return phone.number;
+  };
+
+  const getPhoneTypeLabel = (type: string): string => type;
+  const getEmailTypeLabel = (type: string): string => type;
+  const getAddressTypeLabel = (type: string): string => type;
+
+  return (
+    <div className="space-y-4 sm:space-y-6 px-4 sm:px-0">
+      {/* Header */}
+      <div className="space-y-4">
+        {/* Back Button */}
+        <div>
+          <Button
+            variant="secondary"
+            outline
+            onClick={onBack}
+            icon={<ArrowLeft className="h-4 w-4" />}
+          >
+            Voltar
+          </Button>
+        </div>
+
+        {/* Client Info and Actions */}
+        <div className="flex flex-col gap-4">
+          <div className="min-w-0">
+            <h1 className="text-lg sm:text-2xl font-bold text-foreground break-words">
+              {client.name}
+            </h1>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mt-2">
+              {client.person.trade_name &&
+                client.person.trade_name !== client.name && (
+                  <p className="text-sm sm:text-base text-muted-foreground break-words">
+                    {client.person.trade_name}
+                  </p>
+                )}
+              <span
+                className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${getClientStatusColor(
+                  client.status
+                )}`}
+              >
+                {getClientStatusLabel(client.status)}
+              </span>
+            </div>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
+            <Button
+              variant="primary"
+              onClick={onEdit}
+              icon={<Edit className="h-4 w-4" />}
+              className="w-full sm:w-auto"
+            >
+              Editar
+            </Button>
+          </div>
+        </div>
+      </div>
+
+      {/* Tabs */}
+      <div className="border-b border-border">
+        <div className="overflow-x-auto scrollbar-hide">
+          <div className="flex space-x-1 sm:space-x-4 lg:space-x-8 min-w-max">
+            <button
+              onClick={() => setActiveTab("informacoes")}
+              className={`py-3 sm:py-4 px-1 sm:px-2 border-b-2 font-medium text-xs sm:text-sm whitespace-nowrap ${
+                activeTab === "informacoes"
+                  ? "border-primary text-primary"
+                  : "border-transparent text-muted-foreground hover:text-foreground hover:border-border"
+              }`}
+            >
+              <span className="hidden sm:inline">Informações</span>
+              <span className="sm:hidden">Info</span>
+            </button>
+            <button
+              onClick={() => setActiveTab("contratos")}
+              className={`py-3 sm:py-4 px-1 sm:px-2 border-b-2 font-medium text-xs sm:text-sm whitespace-nowrap ${
+                activeTab === "contratos"
+                  ? "border-primary text-primary"
+                  : "border-transparent text-muted-foreground hover:text-foreground hover:border-border"
+              }`}
+            >
+              <span className="hidden sm:inline">Contratos</span>
+              <span className="sm:hidden">Contratos</span>
+            </button>
+            <button
+              onClick={() => setActiveTab("vidas")}
+              className={`py-3 sm:py-4 px-1 sm:px-2 border-b-2 font-medium text-xs sm:text-sm whitespace-nowrap ${
+                activeTab === "vidas"
+                  ? "border-primary text-primary"
+                  : "border-transparent text-muted-foreground hover:text-foreground hover:border-border"
+              }`}
+            >
+              <span className="hidden sm:inline">Vidas</span>
+              <span className="sm:hidden">Vidas</span>
+            </button>
+            <button
+              onClick={() => setActiveTab("lgpd")}
+              className={`py-3 sm:py-4 px-1 sm:px-2 border-b-2 font-medium text-xs sm:text-sm whitespace-nowrap ${
+                activeTab === "lgpd"
+                  ? "border-primary text-primary"
+                  : "border-transparent text-muted-foreground hover:text-foreground hover:border-border"
+              }`}
+            >
+              <span className="hidden sm:inline">LGPD</span>
+              <span className="sm:hidden">LGPD</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Tab Content */}
+      {activeTab === "informacoes" && (
+        <>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Dados Básicos */}
+            <Card
+              title="Informações Básicas"
+              icon={<User className="h-5 w-5" />}
+            >
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-lg font-medium text-foreground">
+                    {client.name}
+                  </h3>
+                  {client.person.trade_name && (
+                    <p className="text-sm text-muted-foreground">
+                      Nome fantasia: {client.person.trade_name}
+                    </p>
+                  )}
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <SensitiveDataField
+                    label="CPF/CNPJ"
+                    value={formatTaxId(client.tax_id)}
+                    entityType="clients"
+                    entityId={client.id}
+                    fieldName="tax_id"
+                    icon={<User className="w-4 h-4" />}
+                  />
+                  <div>
+                    <label className="text-sm font-medium text-muted-foreground">
+                      Tipo de Pessoa
+                    </label>
+                    <p className="text-foreground">
+                      {getPersonTypeLabel(client.person_type)}
+                    </p>
+                  </div>
+
+                  {client.client_code && (
+                    <div>
+                      <label className="text-sm font-medium text-muted-foreground">
+                        Código do Cliente
+                      </label>
+                      <p className="text-foreground">{client.client_code}</p>
+                    </div>
+                  )}
+
+                  <div>
+                    <label className="text-sm font-medium text-muted-foreground">
+                      Status
+                    </label>
+                    <div>
+                      <span
+                        className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${getClientStatusColor(
+                          client.status
+                        )}`}
+                      >
+                        {getClientStatusLabel(client.status)}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="text-sm font-medium text-muted-foreground">
+                      Criado em
+                    </label>
+                    <p className="text-foreground">
+                      {formatDate(client.created_at)}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Dados específicos por tipo */}
+                {client.person_type === PersonType.PF && (
+                  <div className="border-t pt-4">
+                    <h4 className="font-medium text-foreground mb-2">
+                      Dados Pessoais
+                    </h4>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      {client.person.birth_date && (
+                        <div>
+                          <label className="text-sm font-medium text-muted-foreground">
+                            Data de Nascimento
+                          </label>
+                          <p className="text-foreground">
+                            {formatDate(client.person.birth_date)}
+                          </p>
+                        </div>
+                      )}
+                      {client.person.gender && (
+                        <div>
+                          <label className="text-sm font-medium text-muted-foreground">
+                            Gênero
+                          </label>
+                          <p className="text-foreground">
+                            {client.person.gender}
+                          </p>
+                        </div>
+                      )}
+                      {client.person.marital_status && (
+                        <div>
+                          <label className="text-sm font-medium text-muted-foreground">
+                            Estado Civil
+                          </label>
+                          <p className="text-foreground">
+                            {client.person.marital_status}
+                          </p>
+                        </div>
+                      )}
+                      {client.person.occupation && (
+                        <div>
+                          <label className="text-sm font-medium text-muted-foreground">
+                            Profissão
+                          </label>
+                          <p className="text-foreground">
+                            {client.person.occupation}
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {client.person_type === PersonType.PJ && (
+                  <div className="border-t pt-4">
+                    <h4 className="font-medium text-foreground mb-2">
+                      Dados Empresariais
+                    </h4>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      {client.person.incorporation_date && (
+                        <div>
+                          <label className="text-sm font-medium text-muted-foreground">
+                            Data de Constituição
+                          </label>
+                          <p className="text-foreground">
+                            {formatDate(client.person.incorporation_date)}
+                          </p>
+                        </div>
+                      )}
+                      {client.person.tax_regime && (
+                        <div>
+                          <label className="text-sm font-medium text-muted-foreground">
+                            Regime Tributário
+                          </label>
+                          <p className="text-foreground">
+                            {client.person.tax_regime}
+                          </p>
+                        </div>
+                      )}
+                      {client.person.legal_nature && (
+                        <div>
+                          <label className="text-sm font-medium text-muted-foreground">
+                            Natureza Jurídica
+                          </label>
+                          <p className="text-foreground">
+                            {client.person.legal_nature}
+                          </p>
+                        </div>
+                      )}
+                      {client.person.website && (
+                        <div>
+                          <label className="text-sm font-medium text-muted-foreground">
+                            Website
+                          </label>
+                          <a
+                            href={client.person.website}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                          >
+                            <Globe className="h-4 w-4" />
+                            {client.person.website}
+                          </a>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </Card>
+
+            {/* Estabelecimento */}
+            <Card
+              title="Estabelecimento"
+              icon={<Building2 className="h-5 w-5" />}
+            >
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-lg font-medium text-foreground">
+                    {client.establishment_name}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    Código: {client.establishment_code}
+                  </p>
+                </div>
+
+                <div>
+                  <label className="text-sm font-medium text-muted-foreground">
+                    Empresa
+                  </label>
+                  <p className="text-foreground">{client.company_name}</p>
+                  <p className="text-sm text-muted-foreground">
+                    ID da Empresa: {client.company_id}
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          {/* Contatos com revelação LGPD */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <PhoneDisplayCard
+              phones={client.phones || []}
+              formatPhone={formatPhone}
+              getPhoneTypeLabel={getPhoneTypeLabel}
+              entityType="clients"
+              entityId={client.id}
+            />
+
+            <EmailDisplayCard
+              emails={client.emails || []}
+              getEmailTypeLabel={getEmailTypeLabel}
+              entityType="clients"
+              entityId={client.id}
+            />
+
+            <AddressDisplayCard
+              addresses={client.addresses || []}
+              getAddressTypeLabel={getAddressTypeLabel}
+              entityType="clients"
+              entityId={client.id}
+            />
+
+            {/* Observações */}
+            {client.person.description && (
+              <Card title="Observações" icon={<FileText className="h-5 w-5" />}>
+                <p className="text-foreground whitespace-pre-wrap">
+                  {client.person.description}
+                </p>
+              </Card>
+            )}
+          </div>
+        </>
+      )}
+
+      {activeTab === "contratos" && (
+        <div className="space-y-6">
+          {/* Header da aba de contratos */}
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <div>
+              <h3 className="text-lg font-medium text-foreground">
+                Contratos Home Care
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                Gerencie os contratos de home care deste cliente
+              </p>
+            </div>
+            <Button
+              variant="primary"
+              onClick={() => {
+                navigate(
+                  `/admin/contracts?action=create&client_id=${client.id}`
+                );
+              }}
+              icon={<Plus className="h-4 w-4" />}
+              className="w-full sm:w-auto"
+            >
+              Novo Contrato
+            </Button>
+          </div>
+
+          {/* Loading state */}
+          {loadingContracts && (
+            <div className="text-center py-8">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto"></div>
+              <p className="text-sm text-muted-foreground mt-2">
+                Carregando contratos...
+              </p>
+            </div>
+          )}
+
+          {/* Error state */}
+          {contractsError && (
+            <div className="text-center py-8">
+              <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                <p className="text-red-700">{contractsError}</p>
+                <Button
+                  variant="secondary"
+                  onClick={loadContracts}
+                  className="mt-2"
+                >
+                  Tentar novamente
+                </Button>
+              </div>
+            </div>
+          )}
+
+          {/* Contracts list */}
+          {!loadingContracts && !contractsError && (
+            <>
+              {contracts.length === 0 ? (
+                <div className="text-center py-12">
+                  <FileContract className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+                  <h3 className="text-lg font-medium text-foreground mb-2">
+                    Nenhum contrato encontrado
+                  </h3>
+                  <p className="text-muted-foreground mb-4">
+                    Este cliente ainda não possui contratos home care
+                    cadastrados.
+                  </p>
+                  <Button
+                    variant="primary"
+                    onClick={() => {
+                      navigate(
+                        `/admin/contracts?action=create&client_id=${client.id}`
+                      );
+                    }}
+                    icon={<Plus className="h-4 w-4" />}
+                  >
+                    Criar Primeiro Contrato
+                  </Button>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 gap-4">
+                  {contracts.map((contract) => (
+                    <Card key={contract.id} className="p-4 sm:p-6">
+                      <div className="flex flex-col sm:flex-row justify-between items-start gap-4">
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-2 mb-2">
+                            <h4 className="text-lg font-medium text-foreground truncate">
+                              Contrato #{contract.contract_number}
+                            </h4>
+                            <span
+                              className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
+                                contract.status === "active"
+                                  ? "bg-green-100 text-green-800"
+                                  : contract.status === "suspended"
+                                  ? "bg-yellow-100 text-yellow-800"
+                                  : contract.status === "terminated"
+                                  ? "bg-red-100 text-red-800"
+                                  : "bg-gray-100 text-gray-800"
+                              }`}
+                            >
+                              {contractsService.getStatusLabel(contract.status)}
+                            </span>
+                          </div>
+
+                          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+                            <div>
+                              <span className="font-medium text-muted-foreground">
+                                Tipo:
+                              </span>
+                              <p className="text-foreground">
+                                {contractsService.getContractTypeLabel(
+                                  contract.contract_type
+                                )}
+                              </p>
+                            </div>
+                            <div>
+                              <span className="font-medium text-muted-foreground">
+                                Vidas:
+                              </span>
+                              <p className="text-foreground">
+                                {contract.lives_contracted}
+                              </p>
+                            </div>
+                            <div>
+                              <span className="font-medium text-muted-foreground">
+                                Início:
+                              </span>
+                              <p className="text-foreground">
+                                {contractsService.formatDate(
+                                  contract.start_date
+                                )}
+                              </p>
+                            </div>
+                            {contract.monthly_value && (
+                              <div>
+                                <span className="font-medium text-muted-foreground">
+                                  Valor Mensal:
+                                </span>
+                                <p className="text-foreground">
+                                  {contractsService.formatCurrency(
+                                    contract.monthly_value
+                                  )}
+                                </p>
+                              </div>
+                            )}
+                          </div>
+
+                          {contract.notes && (
+                            <div className="mt-3 pt-3 border-t border-border">
+                              <span className="font-medium text-muted-foreground text-sm">
+                                Observações:
+                              </span>
+                              <p className="text-foreground text-sm mt-1">
+                                {contract.notes}
+                              </p>
+                            </div>
+                          )}
+                        </div>
+
+                        <div className="flex gap-2">
+                          <Button
+                            variant="secondary"
+                            size="sm"
+                            onClick={() => {
+                              navigate(`/admin/contracts/${contract.id}/lives`);
+                            }}
+                            icon={<Eye className="h-4 w-4" />}
+                          >
+                            <span className="hidden sm:inline">
+                              Gerenciar Vidas
+                            </span>
+                          </Button>
+                          <ActionDropdown
+                            options={[
+                              {
+                                label: "Editar Contrato",
+                                icon: <Edit className="h-4 w-4" />,
+                                onClick: () =>
+                                  navigate(
+                                    `/admin/contracts/${contract.id}/edit`
+                                  ),
+                              },
+                              {
+                                label: "Gerenciar Vidas",
+                                icon: <UserCheck className="h-4 w-4" />,
+                                onClick: () =>
+                                  navigate(
+                                    `/admin/contracts/${contract.id}/lives`
+                                  ),
+                              },
+                              {
+                                label: "Configurações",
+                                icon: <Settings className="h-4 w-4" />,
+                                onClick: () =>
+                                  navigate(
+                                    `/admin/contracts/${contract.id}/settings`
+                                  ),
+                              },
+                              {
+                                label: "Arquivar",
+                                icon: <Archive className="h-4 w-4" />,
+                                onClick: () => {
+                                  if (
+                                    confirm(
+                                      "Tem certeza que deseja arquivar este contrato?"
+                                    )
+                                  ) {
+                                    handleArchiveContract(contract.id);
+                                  }
+                                },
+                                variant: "warning",
+                              },
+                              {
+                                label: "Excluir",
+                                icon: <Trash2 className="h-4 w-4" />,
+                                onClick: () => {
+                                  if (
+                                    confirm(
+                                      "Tem certeza que deseja excluir este contrato? Esta ação não pode ser desfeita."
+                                    )
+                                  ) {
+                                    handleDeleteContract(contract.id);
+                                  }
+                                },
+                                variant: "danger",
+                              },
+                            ]}
+                          />
+                        </div>
+                      </div>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      )}
+
+      {activeTab === "vidas" && (
+        <div className="space-y-6">
+          {/* Header da aba de vidas */}
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <div>
+              <h3 className="text-lg font-medium text-foreground">
+                Vidas Contratadas
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                Todas as vidas ativas em contratos deste cliente
+              </p>
+            </div>
+          </div>
+
+          {/* Loading state */}
+          {loadingLives && (
+            <div className="text-center py-8">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto"></div>
+              <p className="text-sm text-muted-foreground mt-2">
+                Carregando vidas...
+              </p>
+            </div>
+          )}
+
+          {/* Error state */}
+          {livesError && (
+            <div className="text-center py-8">
+              <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                <p className="text-red-700">{livesError}</p>
+                <Button
+                  variant="secondary"
+                  onClick={loadLives}
+                  className="mt-2"
+                >
+                  Tentar novamente
+                </Button>
+              </div>
+            </div>
+          )}
+
+          {/* Lives list */}
+          {!loadingLives && !livesError && (
+            <>
+              {allLives.length === 0 ? (
+                <div className="text-center py-12">
+                  <Heart className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+                  <h3 className="text-lg font-medium text-foreground mb-2">
+                    Nenhuma vida encontrada
+                  </h3>
+                  <p className="text-muted-foreground mb-4">
+                    Este cliente não possui vidas ativas em contratos home care.
+                  </p>
+                  <Button
+                    variant="primary"
+                    onClick={() => setActiveTab("contratos")}
+                  >
+                    Ver Contratos
+                  </Button>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 gap-4">
+                  {allLives.map((life) => (
+                    <Card
+                      key={`${life.contract_id}-${life.id}`}
+                      className="p-4 sm:p-6"
+                    >
+                      <div className="flex flex-col sm:flex-row justify-between items-start gap-4">
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-2 mb-2">
+                            <h4 className="text-lg font-medium text-foreground">
+                              {life.person_name}
+                            </h4>
+                            <span
+                              className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
+                                life.status === "active"
+                                  ? "bg-green-100 text-green-800"
+                                  : life.status === "substituted"
+                                  ? "bg-yellow-100 text-yellow-800"
+                                  : life.status === "cancelled"
+                                  ? "bg-red-100 text-red-800"
+                                  : "bg-gray-100 text-gray-800"
+                              }`}
+                            >
+                              {life.status === "active"
+                                ? "Ativo"
+                                : life.status === "substituted"
+                                ? "Substituído"
+                                : life.status === "cancelled"
+                                ? "Cancelado"
+                                : life.status}
+                            </span>
+                          </div>
+                          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+                            <div>
+                              <span className="font-medium text-muted-foreground">
+                                Contrato:
+                              </span>
+                              <p className="text-foreground">
+                                {life.contract_number}
+                              </p>
+                            </div>
+                            <div>
+                              <span className="font-medium text-muted-foreground">
+                                Tipo:
+                              </span>
+                              <p className="text-foreground">
+                                {life.relationship_type}
+                              </p>
+                            </div>
+                            <div>
+                              <span className="font-medium text-muted-foreground">
+                                Início:
+                              </span>
+                              <p className="text-foreground">
+                                {formatDate(life.start_date)}
+                              </p>
+                            </div>
+                            {life.end_date && (
+                              <div>
+                                <span className="font-medium text-muted-foreground">
+                                  Fim:
+                                </span>
+                                <p className="text-foreground">
+                                  {formatDate(life.end_date)}
+                                </p>
+                              </div>
+                            )}
+                          </div>
+                          {life.notes && (
+                            <div className="mt-3 pt-3 border-t border-border">
+                              <span className="font-medium text-muted-foreground text-sm">
+                                Observações:
+                              </span>
+                              <p className="text-foreground text-sm mt-1">
+                                {life.notes}
+                              </p>
+                            </div>
+                          )}
+                        </div>
+                        <div className="flex gap-2">
+                          <Button
+                            variant="secondary"
+                            size="sm"
+                            onClick={() => {
+                              // Navegar para gerenciamento de vidas do contrato
+                              window.open(
+                                `/admin/contracts/${life.contract_id}/lives`,
+                                "_blank"
+                              );
+                            }}
+                            icon={<Eye className="h-4 w-4" />}
+                          >
+                            <span className="hidden sm:inline">Gerenciar</span>
+                          </Button>
+                        </div>
+                      </div>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      )}
+
+      {activeTab === "lgpd" && (
+        <div className="space-y-6">
+          {/* Actions Card */}
+          <Card title="Ações LGPD">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Button
+                onClick={() => handleExportData(client.id)}
+                variant="primary"
+                outline
+                icon={<Download className="h-4 w-4" />}
+              >
+                Exportar Dados (Art. 18, II)
+              </Button>
+              <Button
+                onClick={() => setShowDeletionModal(true)}
+                variant="danger"
+                outline
+                icon={<AlertTriangle className="h-4 w-4" />}
+                disabled={client.status !== "inactive"}
+              >
+                Solicitar Exclusão (Art. 18, VI)
+              </Button>
+            </div>
+            {client.status !== "inactive" && (
+              <p className="text-sm text-muted-foreground mt-4">
+                <Shield className="inline h-4 w-4 mr-1" />
+                O cliente deve estar inativo antes de solicitar exclusão permanente
+              </p>
+            )}
+          </Card>
+
+          {/* ✅ Componente genérico */}
+          <AuditLogTab
+            entityType="clients"
+            entityId={client.id}
+          />
+
+          {/* Deletion Modal */}
+          {showDeletionModal && (
+            <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+              <div className="bg-background border border-border rounded-lg p-6 max-w-md w-full mx-4">
+                <div className="flex items-center gap-3 mb-4">
+                  <AlertTriangle className="h-6 w-6 text-red-600" />
+                  <h3 className="text-lg font-semibold text-foreground">
+                    Solicitar Exclusão Permanente
+                  </h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Esta ação criará uma solicitação de exclusão permanente dos
+                  dados do cliente. A solicitação será revisada manualmente
+                  para conformidade com LGPD antes da exclusão.
+                </p>
+                <p className="text-sm text-muted-foreground mb-6">
+                  <strong>Cliente:</strong> {client.name}
+                  <br />
+                  <strong>Status:</strong> {client.status}
+                  <br />
+                  <strong>LGPD:</strong> Art. 18, VI - Direito à eliminação
+                </p>
+                <div className="flex gap-3 justify-end">
+                  <Button
+                    onClick={() => setShowDeletionModal(false)}
+                    variant="secondary"
+                    outline
+                  >
+                    Cancelar
+                  </Button>
+                  <Button
+                    onClick={handleRequestDeletion}
+                    variant="danger"
+                    icon={<AlertTriangle className="h-4 w-4" />}
+                  >
+                    Confirmar Solicitação
+                  </Button>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default ClientDetails;

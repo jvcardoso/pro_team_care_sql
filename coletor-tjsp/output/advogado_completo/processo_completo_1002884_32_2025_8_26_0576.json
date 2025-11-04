@@ -1,0 +1,322 @@
+{
+  "processo_numero": "1002884-32.2025.8.26.0576",
+  "coleta_timestamp": "2025-10-31T07:12:01.674735",
+  "vara": "7ª Vara Cível",
+  "classe_assunto": "Execução de Título Extrajudicial - Obrigações",
+  "valor_causa": "",
+  "exequente": "Condomínio Residencial Terra Nostra Cambuy",
+  "executado": "Priscila Bertoni Sensato",
+  "advogado_autor_nome": "Advogado:",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: Ana Maria Chalub De Aquino",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "23/10/2025",
+      "mov_descricao": "Suspensão do Prazo Prazo referente ao usuário foi alterado para 07/05/2026 devido à alteração da tabela de feriados",
+      "mov_texto_completo": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 07/05/2026 devido à alteração da tabela de feriados",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.874537",
+      "mov_texto": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 07/05/2026 devido à alteração da tabela de feriados"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "26/09/2025",
+      "mov_descricao": "Suspensão do Prazo Prazo referente ao usuário foi alterado para 20/04/2026 devido à alteração da tabela de feriados",
+      "mov_texto_completo": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 20/04/2026 devido à alteração da tabela de feriados",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.874876",
+      "mov_texto": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 20/04/2026 devido à alteração da tabela de feriados"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "29/08/2025",
+      "mov_descricao": "Suspensão do Prazo Prazo referente ao usuário foi alterado para 17/04/2026 devido à alteração da tabela de feriados",
+      "mov_texto_completo": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 17/04/2026 devido à alteração da tabela de feriados",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.875152",
+      "mov_texto": "Suspensão do Prazo\nPrazo referente ao usuário foi alterado para 17/04/2026 devido à alteração da tabela de feriados"
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "11/06/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Disponibilizado em - 11-06-2025 - Considera-se que a data de publicação é o primeiro dia útil subsequente após a data de disponibilização  - Processo 1002884-32.2025.8.26.0576 - Execução de Título Extrajudicial - Obrigações - Condomínio Residencial Terra Nostra Cambuy - Vistos. Págs. 70/71: diante da realização de acordo extrajudicial, suspenso o feito até o seu integral cumprimento em 11/01/2026. Intimem-se. - ADV: ADILSON LOPES TEIXEIRA (OAB 357725/SP)",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nDisponibilizado em - 11-06-2025 - Considera-se que a data de publicação é o primeiro dia útil subsequente após a data de disponibilização - Processo 1002884-32.2025.8.26.0576 - Execução de Título Extrajudicial - Obrigações - Condomínio Residencial Terra Nostra Cambuy - Vistos. Págs. 70/71: diante da realização de acordo extrajudicial, suspenso o feito até o seu integral cumprimento em 11/01/2026. Intimem-se. - ADV: ADILSON LOPES TEIXEIRA (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:13.875559",
+      "mov_texto": "Certidão de Publicação Expedida\nDisponibilizado em - 11-06-2025 - Considera-se que a data de publicação é o primeiro dia útil subsequente após a data de disponibilização - Processo 1002884-32.2025.8.26.0576 - Execução de Título Extrajudicial - Obrigações - Condomínio Residencial Terra Nostra Cambuy - Vistos. Págs. 70/71: diante da realização de acordo extrajudicial, suspenso o feito até o seu integral cumprimento em 11/01/2026. Intimem-se. - ADV: ADILSON LOPES TEIXEIRA (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "10/06/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0524/2025\nTeor do ato: Vistos. Págs. 70/71: diante da realização de acordo extrajudicial, suspenso o feito até o seu integral cumprimento em 11/01/2026. Intimem-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0524/2025\nTeor do ato: Vistos. Págs. 70/71: diante da realização de acordo extrajudicial, suspenso o feito até o seu integral cumprimento em 11/01/2026. Intimem-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:13.876154",
+      "mov_texto": "Remetido ao DJE\nRelação: 0524/2025\nTeor do ato: Vistos. Págs. 70/71: diante da realização de acordo extrajudicial, suspenso o feito até o seu integral cumprimento em 11/01/2026. Intimem-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "10/06/2025",
+      "mov_descricao": "Proferido Despacho de Mero Expediente Vistos. Págs. 70/71: diante da realização de acordo extrajudicial, suspenso o feito até o seu integral cumprimento em 11/01/2026. Intimem-se.",
+      "mov_texto_completo": "Proferido Despacho de Mero Expediente\nVistos. Págs. 70/71: diante da realização de acordo extrajudicial, suspenso o feito até o seu integral cumprimento em 11/01/2026. Intimem-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:13.876698",
+      "mov_texto": "Proferido Despacho de Mero Expediente\nVistos. Págs. 70/71: diante da realização de acordo extrajudicial, suspenso o feito até o seu integral cumprimento em 11/01/2026. Intimem-se."
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "10/06/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.877020",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "07/04/2025",
+      "mov_descricao": "Pedido de Homologação de Acordo Juntado Nº Protocolo: WSRP.25.70145493-2\nTipo da Petição: Pedido de Homologação de Acordo\nData: 07/04/2025 08:56",
+      "mov_texto_completo": "Pedido de Homologação de Acordo Juntado\nNº Protocolo: WSRP.25.70145493-2\nTipo da Petição: Pedido de Homologação de Acordo\nData: 07/04/2025 08:56",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.877204",
+      "mov_texto": "Pedido de Homologação de Acordo Juntado\nNº Protocolo: WSRP.25.70145493-2\nTipo da Petição: Pedido de Homologação de Acordo\nData: 07/04/2025 08:56"
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "25/03/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0231/2025\nData da Publicação: 26/03/2025\nNúmero do Diário: 4170",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0231/2025\nData da Publicação: 26/03/2025\nNúmero do Diário: 4170",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.877600",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0231/2025\nData da Publicação: 26/03/2025\nNúmero do Diário: 4170"
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "24/03/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0231/2025\nTeor do ato: À parte exequente para requerer o que de direito, tendo em vista que decorreu o prazo para o(a)s executado(a)s pagar o débito, bem como opor(em) embargos à presente execução.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0231/2025\nTeor do ato: À parte exequente para requerer o que de direito, tendo em vista que decorreu o prazo para o(a)s executado(a)s pagar o débito, bem como opor(em) embargos à presente execução.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "EMBARGOS"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.877846",
+      "mov_texto": "Remetido ao DJE\nRelação: 0231/2025\nTeor do ato: À parte exequente para requerer o que de direito, tendo em vista que decorreu o prazo para o(a)s executado(a)s pagar o débito, bem como opor(em) embargos à presente execução.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 11,
+      "mov_data": "21/03/2025",
+      "mov_descricao": "Ato ordinatório À parte exequente para requerer o que de direito, tendo em vista que decorreu o prazo para o(a)s executado(a)s pagar o débito, bem como opor(em) embargos à presente execução.",
+      "mov_texto_completo": "Ato ordinatório\nÀ parte exequente para requerer o que de direito, tendo em vista que decorreu o prazo para o(a)s executado(a)s pagar o débito, bem como opor(em) embargos à presente execução.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "EMBARGOS"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.878231",
+      "mov_texto": "Ato ordinatório\nÀ parte exequente para requerer o que de direito, tendo em vista que decorreu o prazo para o(a)s executado(a)s pagar o débito, bem como opor(em) embargos à presente execução."
+    },
+    {
+      "mov_ordem": 12,
+      "mov_data": "21/02/2025",
+      "mov_descricao": "AR Positivo Juntado Juntada de AR : AA743975233TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Priscila Bertoni Sensato\nDiligência : 17/02/2025",
+      "mov_texto_completo": "AR Positivo Juntado\nJuntada de AR : AA743975233TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Priscila Bertoni Sensato\nDiligência : 17/02/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:13.878641",
+      "mov_texto": "AR Positivo Juntado\nJuntada de AR : AA743975233TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Priscila Bertoni Sensato\nDiligência : 17/02/2025"
+    },
+    {
+      "mov_ordem": 13,
+      "mov_data": "30/01/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0066/2025\nData da Publicação: 03/02/2025\nNúmero do Diário: 4135",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0066/2025\nData da Publicação: 03/02/2025\nNúmero do Diário: 4135",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.878974",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0066/2025\nData da Publicação: 03/02/2025\nNúmero do Diário: 4135"
+    },
+    {
+      "mov_ordem": 14,
+      "mov_data": "30/01/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.879222",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 15,
+      "mov_data": "30/01/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0066/2025\nTeor do ato: Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição do mandado de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 85, § 2º), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º do CPC), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. Advirto que eventual insucesso na concreta tentativa de localização do devedor, havendo patrimônio, seja efetuado o arresto ex officio, na forma do artigo 830 do Código de Processo Civil. O edital deve conter a advertência do prazo de 3 dias para pagamento e de 15 dias para oferta de embargos à execução. Conforme o § 1º do artigo 830 do CPC, caso o devedor não seja localizado nos dez dias seguintes à efetivação do arresto, o Oficial de Justiça o procurará 2 (duas) vezes em dias distintos e, havendo suspeita de ocultação, realizará a citação com hora certa, certificando pormenorizadamente o ocorrido. Não efetuado o pagamento pelo devedor citado, o oficial de justiça procederá, de imediato, à penhora de bens e avaliação, lavrando-se o respectivo auto e de tais atos intimando, na mesma oportunidade, o executado. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do mandado de citação, com oposição de embargos mediante distribuição por dependência. O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Expeça-se carta para citação do(a) executado(a) com AR digital. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0066/2025\nTeor do ato: Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição do mandado de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 85, § 2º), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º do CPC), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. Advirto que eventual insucesso na concreta tentativa de localização do devedor, havendo patrimônio, seja efetuado o arresto ex officio, na forma do artigo 830 do Código de Processo Civil. O edital deve conter a advertência do prazo de 3 dias para pagamento e de 15 dias para oferta de embargos à execução. Conforme o § 1º do artigo 830 do CPC, caso o devedor não seja localizado nos dez dias seguintes à efetivação do arresto, o Oficial de Justiça o procurará 2 (duas) vezes em dias distintos e, havendo suspeita de ocultação, realizará a citação com hora certa, certificando pormenorizadamente o ocorrido. Não efetuado o pagamento pelo devedor citado, o oficial de justiça procederá, de imediato, à penhora de bens e avaliação, lavrando-se o respectivo auto e de tais atos intimando, na mesma oportunidade, o executado. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do mandado de citação, com oposição de embargos mediante distribuição por dependência. O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Expeça-se carta para citação do(a) executado(a) com AR digital. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ARRESTO",
+        "CITACAO",
+        "EMBARGOS",
+        "PENHORA"
+      ],
+      "decisao_resultado": "DEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:13.879521",
+      "mov_texto": "Remetido ao DJE\nRelação: 0066/2025\nTeor do ato: Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição do mandado de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 85, § 2º), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º do CPC), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. Advirto que eventual insucesso na concreta tentativa de localização do devedor, havendo patrimônio, seja efetuado o arresto ex officio, na forma do artigo 830 do Código de Processo Civil. O edital deve conter a advertência do prazo de 3 dias para pagamento e de 15 dias para oferta de embargos à execução. Conforme o § 1º do artigo 830 do CPC, caso o devedor não seja localizado nos dez dias seguintes à efetivação do arresto, o Oficial de Justiça o procurará 2 (duas) vezes em dias distintos e, havendo suspeita de ocultação, realizará a citação com hora certa, certificando pormenorizadamente o ocorrido. Não efetuado o pagamento pelo devedor citado, o oficial de justiça procederá, de imediato, à penhora de bens e avaliação, lavrando-se o respectivo auto e de tais atos intimando, na mesma oportunidade, o executado. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do mandado de citação, com oposição de embargos mediante distribuição por dependência. O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Expeça-se carta para citação do(a) executado(a) com AR digital. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 16,
+      "mov_data": "29/01/2025",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:13.881177",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 17,
+      "mov_data": "29/01/2025",
+      "mov_descricao": "Recebida a Petição Inicial Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição do mandado de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 85, § 2º), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º do CPC), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. Advirto que eventual insucesso na concreta tentativa de localização do devedor, havendo patrimônio, seja efetuado o arresto ex officio, na forma do artigo 830 do Código de Processo Civil. O edital deve conter a advertência do prazo de 3 dias para pagamento e de 15 dias para oferta de embargos à execução. Conforme o § 1º do artigo 830 do CPC, caso o devedor não seja localizado nos dez dias seguintes à efetivação do arresto, o Oficial de Justiça o procurará 2 (duas) vezes em dias distintos e, havendo suspeita de ocultação, realizará a citação com hora certa, certificando pormenorizadamente o ocorrido. Não efetuado o pagamento pelo devedor citado, o oficial de justiça procederá, de imediato, à penhora de bens e avaliação, lavrando-se o respectivo auto e de tais atos intimando, na mesma oportunidade, o executado. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do mandado de citação, com oposição de embargos mediante distribuição por dependência. O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Expeça-se carta para citação do(a) executado(a) com AR digital. Intime-se.",
+      "mov_texto_completo": "Recebida a Petição Inicial\nVistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição do mandado de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 85, § 2º), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º do CPC), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. Advirto que eventual insucesso na concreta tentativa de localização do devedor, havendo patrimônio, seja efetuado o arresto ex officio, na forma do artigo 830 do Código de Processo Civil. O edital deve conter a advertência do prazo de 3 dias para pagamento e de 15 dias para oferta de embargos à execução. Conforme o § 1º do artigo 830 do CPC, caso o devedor não seja localizado nos dez dias seguintes à efetivação do arresto, o Oficial de Justiça o procurará 2 (duas) vezes em dias distintos e, havendo suspeita de ocultação, realizará a citação com hora certa, certificando pormenorizadamente o ocorrido. Não efetuado o pagamento pelo devedor citado, o oficial de justiça procederá, de imediato, à penhora de bens e avaliação, lavrando-se o respectivo auto e de tais atos intimando, na mesma oportunidade, o executado. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do mandado de citação, com oposição de embargos mediante distribuição por dependência. O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Expeça-se carta para citação do(a) executado(a) com AR digital. Intime-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ARRESTO",
+        "CITACAO",
+        "EMBARGOS",
+        "PENHORA"
+      ],
+      "decisao_resultado": "DEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:13.881596",
+      "mov_texto": "Recebida a Petição Inicial\nVistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição do mandado de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 85, § 2º), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º do CPC), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. Advirto que eventual insucesso na concreta tentativa de localização do devedor, havendo patrimônio, seja efetuado o arresto ex officio, na forma do artigo 830 do Código de Processo Civil. O edital deve conter a advertência do prazo de 3 dias para pagamento e de 15 dias para oferta de embargos à execução. Conforme o § 1º do artigo 830 do CPC, caso o devedor não seja localizado nos dez dias seguintes à efetivação do arresto, o Oficial de Justiça o procurará 2 (duas) vezes em dias distintos e, havendo suspeita de ocultação, realizará a citação com hora certa, certificando pormenorizadamente o ocorrido. Não efetuado o pagamento pelo devedor citado, o oficial de justiça procederá, de imediato, à penhora de bens e avaliação, lavrando-se o respectivo auto e de tais atos intimando, na mesma oportunidade, o executado. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do mandado de citação, com oposição de embargos mediante distribuição por dependência. O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Expeça-se carta para citação do(a) executado(a) com AR digital. Intime-se."
+    },
+    {
+      "mov_ordem": 18,
+      "mov_data": "29/01/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.883088",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 19,
+      "mov_data": "29/01/2025",
+      "mov_descricao": "Certidão de Cartório Expedida conforme determina o Comunicado CG 2199/2021",
+      "mov_texto_completo": "Certidão de Cartório Expedida\nconforme determina o Comunicado CG 2199/2021",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.883287",
+      "mov_texto": "Certidão de Cartório Expedida\nconforme determina o Comunicado CG 2199/2021"
+    },
+    {
+      "mov_ordem": 20,
+      "mov_data": "27/01/2025",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:13.883612",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "total_processos": 1,
+  "total_movimentacoes": 0,
+  "medidas_constritivas": {
+    "SISBAJUD": 0,
+    "RENAJUD": 0,
+    "INFOJUD": 0,
+    "SERASAJUD": 0,
+    "PENHORA": 0,
+    "PROTESTO": 0
+  },
+  "decisoes": {
+    "DEFERIDO": 0,
+    "INDEFERIDO": 0,
+    "PARCIAL": 0,
+    "NAO_IDENTIFICADO": 0
+  },
+  "valores_bloqueados": [],
+  "processos_com_acordo": 0,
+  "processos_com_embargos": 0,
+  "processos_com_excecao": 0,
+  "advogados": {
+    "autores": {},
+    "reus": {}
+  },
+  "varas": {},
+  "timeline": []
+}

@@ -1,0 +1,838 @@
+{
+  "processo_numero": "1002122-32.2024.8.26.0097",
+  "coleta_timestamp": "2025-10-31T07:25:20.494532",
+  "vara": "2ª Vara",
+  "classe_assunto": "Procedimento Comum Cível - Evicção ou Vicio Redibitório",
+  "valor_causa": "",
+  "exequente": "",
+  "executado": "",
+  "advogado_autor_nome": "",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: LUÍS HENRIQUE SIQUEIRA SILVA",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "21/10/2025",
+      "mov_descricao": "Ofício Juntado",
+      "mov_texto_completo": "Ofício Juntado",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.708348",
+      "mov_texto": "Ofício Juntado"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "15/10/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WBTM.25.70030490-2\nTipo da Petição: Petição Intermediária\nData: 14/10/2025 16:59",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WBTM.25.70030490-2\nTipo da Petição: Petição Intermediária\nData: 14/10/2025 16:59",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.708591",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WBTM.25.70030490-2\nTipo da Petição: Petição Intermediária\nData: 14/10/2025 16:59"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "18/09/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 1047/2025\nData da Publicação: 19/09/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 1047/2025\nData da Publicação: 19/09/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.708847",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 1047/2025\nData da Publicação: 19/09/2025"
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "17/09/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 1047/2025\nTeor do ato: Vistos. Fls. 91/93. Indefiro, por ora, o pedido de citação por edital, uma vez que não foram esgotados os meios para localização do endereço do(a) requerido(a) (art. 256, § 3º, do CPC). Em nome da desburocratização do processo e visando a sua máxima eficiência, servirá este despacho como ofício a ser encaminhado pela parte interessada, mediante comprovação nos autos no prazo de 5 dias, às concessionárias de serviços públicos a seguir listadas para que prestem informações a respeito do endereço do requerido Tiago César Lang, CPF ***.***.***-** : Saaemb, Elektro, CPFL Paulista, Telefonica-Vivo, Congas, NET-Claro e TIM. Servirá o presente, digitalmente assinado, como ofício. As respostas deverão ser encaminhadas diretamente a este Juízo, para o e-mail do Ofício Judicial (buritama2@tjsp.jus.br), consignando, no campo \"assunto\", o número do processo. Com a juntada das respostas aos autos, intime-se a parte autora para manifestação, no prazo de 05 (cinco) dias. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 1047/2025\nTeor do ato: Vistos. Fls. 91/93. Indefiro, por ora, o pedido de citação por edital, uma vez que não foram esgotados os meios para localização do endereço do(a) requerido(a) (art. 256, § 3º, do CPC). Em nome da desburocratização do processo e visando a sua máxima eficiência, servirá este despacho como ofício a ser encaminhado pela parte interessada, mediante comprovação nos autos no prazo de 5 dias, às concessionárias de serviços públicos a seguir listadas para que prestem informações a respeito do endereço do requerido Tiago César Lang, CPF ***.***.***-** : Saaemb, Elektro, CPFL Paulista, Telefonica-Vivo, Congas, NET-Claro e TIM. Servirá o presente, digitalmente assinado, como ofício. As respostas deverão ser encaminhadas diretamente a este Juízo, para o e-mail do Ofício Judicial (buritama2@tjsp.jus.br), consignando, no campo \"assunto\", o número do processo. Com a juntada das respostas aos autos, intime-se a parte autora para manifestação, no prazo de 05 (cinco) dias. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.709128",
+      "mov_texto": "Remetido ao DJE\nRelação: 1047/2025\nTeor do ato: Vistos. Fls. 91/93. Indefiro, por ora, o pedido de citação por edital, uma vez que não foram esgotados os meios para localização do endereço do(a) requerido(a) (art. 256, § 3º, do CPC). Em nome da desburocratização do processo e visando a sua máxima eficiência, servirá este despacho como ofício a ser encaminhado pela parte interessada, mediante comprovação nos autos no prazo de 5 dias, às concessionárias de serviços públicos a seguir listadas para que prestem informações a respeito do endereço do requerido Tiago César Lang, CPF ***.***.***-** : Saaemb, Elektro, CPFL Paulista, Telefonica-Vivo, Congas, NET-Claro e TIM. Servirá o presente, digitalmente assinado, como ofício. As respostas deverão ser encaminhadas diretamente a este Juízo, para o e-mail do Ofício Judicial (buritama2@tjsp.jus.br), consignando, no campo \"assunto\", o número do processo. Com a juntada das respostas aos autos, intime-se a parte autora para manifestação, no prazo de 05 (cinco) dias. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)"
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "17/09/2025",
+      "mov_descricao": "Determinada a Manifestação do Requerente/Exequente Vistos. Fls. 91/93. Indefiro, por ora, o pedido de citação por edital, uma vez que não foram esgotados os meios para localização do endereço do(a) requerido(a) (art. 256, § 3º, do CPC). Em nome da desburocratização do processo e visando a sua máxima eficiência, servirá este despacho como ofício a ser encaminhado pela parte interessada, mediante comprovação nos autos no prazo de 5 dias, às concessionárias de serviços públicos a seguir listadas para que prestem informações a respeito do endereço do requerido Tiago César Lang, CPF ***.***.***-** : Saaemb, Elektro, CPFL Paulista, Telefonica-Vivo, Congas, NET-Claro e TIM. Servirá o presente, digitalmente assinado, como ofício. As respostas deverão ser encaminhadas diretamente a este Juízo, para o e-mail do Ofício Judicial (buritama2@tjsp.jus.br), consignando, no campo \"assunto\", o número do processo. Com a juntada das respostas aos autos, intime-se a parte autora para manifestação, no prazo de 05 (cinco) dias. Int.",
+      "mov_texto_completo": "Determinada a Manifestação do Requerente/Exequente\nVistos. Fls. 91/93. Indefiro, por ora, o pedido de citação por edital, uma vez que não foram esgotados os meios para localização do endereço do(a) requerido(a) (art. 256, § 3º, do CPC). Em nome da desburocratização do processo e visando a sua máxima eficiência, servirá este despacho como ofício a ser encaminhado pela parte interessada, mediante comprovação nos autos no prazo de 5 dias, às concessionárias de serviços públicos a seguir listadas para que prestem informações a respeito do endereço do requerido Tiago César Lang, CPF ***.***.***-** : Saaemb, Elektro, CPFL Paulista, Telefonica-Vivo, Congas, NET-Claro e TIM. Servirá o presente, digitalmente assinado, como ofício. As respostas deverão ser encaminhadas diretamente a este Juízo, para o e-mail do Ofício Judicial (buritama2@tjsp.jus.br), consignando, no campo \"assunto\", o número do processo. Com a juntada das respostas aos autos, intime-se a parte autora para manifestação, no prazo de 05 (cinco) dias. Int.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.709654",
+      "mov_texto": "Determinada a Manifestação do Requerente/Exequente\nVistos. Fls. 91/93. Indefiro, por ora, o pedido de citação por edital, uma vez que não foram esgotados os meios para localização do endereço do(a) requerido(a) (art. 256, § 3º, do CPC). Em nome da desburocratização do processo e visando a sua máxima eficiência, servirá este despacho como ofício a ser encaminhado pela parte interessada, mediante comprovação nos autos no prazo de 5 dias, às concessionárias de serviços públicos a seguir listadas para que prestem informações a respeito do endereço do requerido Tiago César Lang, CPF ***.***.***-** : Saaemb, Elektro, CPFL Paulista, Telefonica-Vivo, Congas, NET-Claro e TIM. Servirá o presente, digitalmente assinado, como ofício. As respostas deverão ser encaminhadas diretamente a este Juízo, para o e-mail do Ofício Judicial (buritama2@tjsp.jus.br), consignando, no campo \"assunto\", o número do processo. Com a juntada das respostas aos autos, intime-se a parte autora para manifestação, no prazo de 05 (cinco) dias. Int."
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "17/09/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.710396",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "21/08/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.710664",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "20/08/2025",
+      "mov_descricao": "Pedido de Citação por Edital do Executado Juntado Nº Protocolo: WBTM.25.70023323-1\nTipo da Petição: Pedido de Citação por Edital do(s) Executado(s)\nData: 20/08/2025 22:49",
+      "mov_texto_completo": "Pedido de Citação por Edital do Executado Juntado\nNº Protocolo: WBTM.25.70023323-1\nTipo da Petição: Pedido de Citação por Edital do(s) Executado(s)\nData: 20/08/2025 22:49",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.710839",
+      "mov_texto": "Pedido de Citação por Edital do Executado Juntado\nNº Protocolo: WBTM.25.70023323-1\nTipo da Petição: Pedido de Citação por Edital do(s) Executado(s)\nData: 20/08/2025 22:49"
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "28/07/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0709/2025\nData da Publicação: 29/07/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0709/2025\nData da Publicação: 29/07/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.711197",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0709/2025\nData da Publicação: 29/07/2025"
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "25/07/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0709/2025\nTeor do ato: Sobre a certidão negativa do Oficial de Justiça, manifeste-se o requerente, em 10 dias, requerendo o que de direito.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0709/2025\nTeor do ato: Sobre a certidão negativa do Oficial de Justiça, manifeste-se o requerente, em 10 dias, requerendo o que de direito.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.711452",
+      "mov_texto": "Remetido ao DJE\nRelação: 0709/2025\nTeor do ato: Sobre a certidão negativa do Oficial de Justiça, manifeste-se o requerente, em 10 dias, requerendo o que de direito.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)"
+    },
+    {
+      "mov_ordem": 11,
+      "mov_data": "25/07/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE Sobre a certidão negativa do Oficial de Justiça, manifeste-se o requerente, em 10 dias, requerendo o que de direito.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nSobre a certidão negativa do Oficial de Justiça, manifeste-se o requerente, em 10 dias, requerendo o que de direito.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.711818",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nSobre a certidão negativa do Oficial de Justiça, manifeste-se o requerente, em 10 dias, requerendo o que de direito."
+    },
+    {
+      "mov_ordem": 12,
+      "mov_data": "07/07/2025",
+      "mov_descricao": "Mandado Devolvido Cumprido Negativo CERTIDÃO Processo Digital n°: 1002122-32.2024.8.26.0097 Classe - Assunto: Procedimento Comum Cível - Evicção ou Vicio Redibitório Requerente: Murilo Augusto Bispo Requerido: Tiago Cesar Lang Situação do Mandado Cumprido - Ato negativo Oficial de Justiça Oclair Serafim de Moraes (28258) Justiça Gratuita CERTIDÃO - MANDADO CUMPRIDO NEGATIVO CERTIFICO eu, Oficial de Justiça, que em cumprimento ao mandado nº 097.2025/004885-8, em 26/06/2025, por volta das 14h, dirigi-me à rua Guilherme Guerbas, 919, nesta cidade, onde constatei que no local funcionava o Central Auto Posto que no momento encontra-se desativado e desocupado de coisas e pessoas, nos fundos funciona o Lava Jato do Miquéias e no local não souberam dar informações a respeito do citando ou dos ocupantes anteriores, indaguei ainda no Banco Santander e lojas vizinhas e soube que pelo referido posto já passaram várias pessoas e em uma dessas passagens tinha um Tiago, mas não souberam precisar se era o citando, diante do exposto deixei de citar o requerido TIAGO CESAR LANG e, consequentemente, baixo o presente aguardando novas determinações. O referido é verdade e dou fé. Buritama, 26 de junho de 2025. Oclair Serafim de Moraes OFICIAL DE JUSTIÇA Ato único (mapa).-",
+      "mov_texto_completo": "Mandado Devolvido Cumprido Negativo\nCERTIDÃO Processo Digital n°: 1002122-32.2024.8.26.0097 Classe - Assunto: Procedimento Comum Cível - Evicção ou Vicio Redibitório Requerente: Murilo Augusto Bispo Requerido: Tiago Cesar Lang Situação do Mandado Cumprido - Ato negativo Oficial de Justiça Oclair Serafim de Moraes (28258) Justiça Gratuita CERTIDÃO - MANDADO CUMPRIDO NEGATIVO CERTIFICO eu, Oficial de Justiça, que em cumprimento ao mandado nº 097.2025/004885-8, em 26/06/2025, por volta das 14h, dirigi-me à rua Guilherme Guerbas, 919, nesta cidade, onde constatei que no local funcionava o Central Auto Posto que no momento encontra-se desativado e desocupado de coisas e pessoas, nos fundos funciona o Lava Jato do Miquéias e no local não souberam dar informações a respeito do citando ou dos ocupantes anteriores, indaguei ainda no Banco Santander e lojas vizinhas e soube que pelo referido posto já passaram várias pessoas e em uma dessas passagens tinha um Tiago, mas não souberam precisar se era o citando, diante do exposto deixei de citar o requerido TIAGO CESAR LANG e, consequentemente, baixo o presente aguardando novas determinações. O referido é verdade e dou fé. Buritama, 26 de junho de 2025. Oclair Serafim de Moraes OFICIAL DE JUSTIÇA Ato único (mapa).-",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.712199",
+      "mov_texto": "Mandado Devolvido Cumprido Negativo\nCERTIDÃO Processo Digital n°: 1002122-32.2024.8.26.0097 Classe - Assunto: Procedimento Comum Cível - Evicção ou Vicio Redibitório Requerente: Murilo Augusto Bispo Requerido: Tiago Cesar Lang Situação do Mandado Cumprido - Ato negativo Oficial de Justiça Oclair Serafim de Moraes (28258) Justiça Gratuita CERTIDÃO - MANDADO CUMPRIDO NEGATIVO CERTIFICO eu, Oficial de Justiça, que em cumprimento ao mandado nº 097.2025/004885-8, em 26/06/2025, por volta das 14h, dirigi-me à rua Guilherme Guerbas, 919, nesta cidade, onde constatei que no local funcionava o Central Auto Posto que no momento encontra-se desativado e desocupado de coisas e pessoas, nos fundos funciona o Lava Jato do Miquéias e no local não souberam dar informações a respeito do citando ou dos ocupantes anteriores, indaguei ainda no Banco Santander e lojas vizinhas e soube que pelo referido posto já passaram várias pessoas e em uma dessas passagens tinha um Tiago, mas não souberam precisar se era o citando, diante do exposto deixei de citar o requerido TIAGO CESAR LANG e, consequentemente, baixo o presente aguardando novas determinações. O referido é verdade e dou fé. Buritama, 26 de junho de 2025. Oclair Serafim de Moraes OFICIAL DE JUSTIÇA Ato único (mapa).-"
+    },
+    {
+      "mov_ordem": 13,
+      "mov_data": "13/06/2025",
+      "mov_descricao": "Mandado de Citação Expedido Mandado nº: 097.2025/004885-8 \nSituação: Cumprido - Ato negativo em 29/06/2025 \nLocal: Oficial de justiça - Oclair Serafim de Moraes",
+      "mov_texto_completo": "Mandado de Citação Expedido\nMandado nº: 097.2025/004885-8 \nSituação: Cumprido - Ato negativo em 29/06/2025 \nLocal: Oficial de justiça - Oclair Serafim de Moraes",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.713581",
+      "mov_texto": "Mandado de Citação Expedido\nMandado nº: 097.2025/004885-8 \nSituação: Cumprido - Ato negativo em 29/06/2025 \nLocal: Oficial de justiça - Oclair Serafim de Moraes"
+    },
+    {
+      "mov_ordem": 14,
+      "mov_data": "06/05/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - Portal Ato Ordinatório - Genérico - Com Atos e Não Publicável",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - Portal\nAto Ordinatório - Genérico - Com Atos e Não Publicável",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.714046",
+      "mov_texto": "Ato Ordinatório - Intimação - Portal\nAto Ordinatório - Genérico - Com Atos e Não Publicável"
+    },
+    {
+      "mov_ordem": 15,
+      "mov_data": "05/05/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0324/2025\nData da Publicação: 07/05/2025\nNúmero do Diário: 4195",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0324/2025\nData da Publicação: 07/05/2025\nNúmero do Diário: 4195",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.714334",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0324/2025\nData da Publicação: 07/05/2025\nNúmero do Diário: 4195"
+    },
+    {
+      "mov_ordem": 16,
+      "mov_data": "01/05/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0324/2025\nTeor do ato: Vistos. Com o devido recolhimento das taxas para citação, providencie a z. Serventia o necessário para devida citação no novo endereço indicado. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0324/2025\nTeor do ato: Vistos. Com o devido recolhimento das taxas para citação, providencie a z. Serventia o necessário para devida citação no novo endereço indicado. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.714579",
+      "mov_texto": "Remetido ao DJE\nRelação: 0324/2025\nTeor do ato: Vistos. Com o devido recolhimento das taxas para citação, providencie a z. Serventia o necessário para devida citação no novo endereço indicado. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)"
+    },
+    {
+      "mov_ordem": 17,
+      "mov_data": "30/04/2025",
+      "mov_descricao": "Determinada a Manifestação do Requerente/Exequente Vistos. Com o devido recolhimento das taxas para citação, providencie a z. Serventia o necessário para devida citação no novo endereço indicado. Int.",
+      "mov_texto_completo": "Determinada a Manifestação do Requerente/Exequente\nVistos. Com o devido recolhimento das taxas para citação, providencie a z. Serventia o necessário para devida citação no novo endereço indicado. Int.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.715049",
+      "mov_texto": "Determinada a Manifestação do Requerente/Exequente\nVistos. Com o devido recolhimento das taxas para citação, providencie a z. Serventia o necessário para devida citação no novo endereço indicado. Int."
+    },
+    {
+      "mov_ordem": 18,
+      "mov_data": "30/04/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.715655",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 19,
+      "mov_data": "24/04/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.715864",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 20,
+      "mov_data": "03/04/2025",
+      "mov_descricao": "Pedido de Citação - Endereço Localizado Juntado Nº Protocolo: WBTM.25.70008049-4\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 03/04/2025 10:37",
+      "mov_texto_completo": "Pedido de Citação - Endereço Localizado Juntado\nNº Protocolo: WBTM.25.70008049-4\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 03/04/2025 10:37",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.716057",
+      "mov_texto": "Pedido de Citação - Endereço Localizado Juntado\nNº Protocolo: WBTM.25.70008049-4\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 03/04/2025 10:37"
+    },
+    {
+      "mov_ordem": 21,
+      "mov_data": "31/03/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0230/2025\nData da Publicação: 02/04/2025\nNúmero do Diário: 4175",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0230/2025\nData da Publicação: 02/04/2025\nNúmero do Diário: 4175",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.716377",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0230/2025\nData da Publicação: 02/04/2025\nNúmero do Diário: 4175"
+    },
+    {
+      "mov_ordem": 22,
+      "mov_data": "31/03/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0230/2025\nTeor do ato: Manifeste-se a parte autora, sobre a certidão do Oficial de Justiça, no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0230/2025\nTeor do ato: Manifeste-se a parte autora, sobre a certidão do Oficial de Justiça, no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.716617",
+      "mov_texto": "Remetido ao DJE\nRelação: 0230/2025\nTeor do ato: Manifeste-se a parte autora, sobre a certidão do Oficial de Justiça, no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)"
+    },
+    {
+      "mov_ordem": 23,
+      "mov_data": "31/03/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE Manifeste-se a parte autora, sobre a certidão do Oficial de Justiça, no prazo legal.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nManifeste-se a parte autora, sobre a certidão do Oficial de Justiça, no prazo legal.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.716954",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nManifeste-se a parte autora, sobre a certidão do Oficial de Justiça, no prazo legal."
+    },
+    {
+      "mov_ordem": 24,
+      "mov_data": "31/03/2025",
+      "mov_descricao": "Mandado Devolvido Cumprido Negativo Certidão - Oficial de Justiça - Mandado Cumprido Negativo",
+      "mov_texto_completo": "Mandado Devolvido Cumprido Negativo\nCertidão - Oficial de Justiça - Mandado Cumprido Negativo",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.717227",
+      "mov_texto": "Mandado Devolvido Cumprido Negativo\nCertidão - Oficial de Justiça - Mandado Cumprido Negativo"
+    },
+    {
+      "mov_ordem": 25,
+      "mov_data": "17/03/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WBTM.25.70006214-3\nTipo da Petição: Petição Intermediária\nData: 17/03/2025 09:54",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WBTM.25.70006214-3\nTipo da Petição: Petição Intermediária\nData: 17/03/2025 09:54",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.717504",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WBTM.25.70006214-3\nTipo da Petição: Petição Intermediária\nData: 17/03/2025 09:54"
+    },
+    {
+      "mov_ordem": 26,
+      "mov_data": "12/11/2024",
+      "mov_descricao": "Mandado de Citação Expedido Mandado nº: 097.2024/005912-1 \nSituação: Cumprido - Ato negativo em 23/11/2024 \nLocal: Oficial de justiça - Adriano Dias da Silva",
+      "mov_texto_completo": "Mandado de Citação Expedido\nMandado nº: 097.2024/005912-1 \nSituação: Cumprido - Ato negativo em 23/11/2024 \nLocal: Oficial de justiça - Adriano Dias da Silva",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.717752",
+      "mov_texto": "Mandado de Citação Expedido\nMandado nº: 097.2024/005912-1 \nSituação: Cumprido - Ato negativo em 23/11/2024 \nLocal: Oficial de justiça - Adriano Dias da Silva"
+    },
+    {
+      "mov_ordem": 27,
+      "mov_data": "10/09/2024",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0692/2024\nData da Publicação: 12/09/2024\nNúmero do Diário: 4048",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0692/2024\nData da Publicação: 12/09/2024\nNúmero do Diário: 4048",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.718046",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0692/2024\nData da Publicação: 12/09/2024\nNúmero do Diário: 4048"
+    },
+    {
+      "mov_ordem": 28,
+      "mov_data": "10/09/2024",
+      "mov_descricao": "Remetido ao DJE Relação: 0692/2024\nTeor do ato: Vistos. Fls. 64/65. Indefiro o pedido de citação através do aplicativo Whatsapp vez que tal modalidade citatória ainda não se encontra regulamentada, não sendo ainda possível constatar se o ato de fato atingirá sua finalidade. Com efeito, apesar de o WhatsApp e outros aplicativos de mensagens serem bem-vindos como ferramentas para comunicação dos atos processuais, tais como as intimações, a citação é o ato mais formal do processo civil, vez que somente com sua realização a relação jurídica processual se aperfeiçoa, possibilitando à parte adversa que formule sua resposta, razão pela qual não pode ser sequer minimamente circundada de alguma dúvida. A possibilidade de citação por meio eletrônico, prevista no art. 246, inciso V, do Código de Processo Civil, é condicionada à regulamentação legal. Nessa mesma toada, a Lei nº 11.419/2006, que regula a informatização do processo judicial, condiciona a prática de atos processuais por meio eletrônico ao credenciamento perante o Poder Judiciário, bem como ao uso de assinatura eletrônica, o que resta inviabilizado na via indicada. Sem prejuízo, expeça-se mandado de citação no endereço indicado às fls. 65 (Rua Miguel Locci, nº 565, Bairro Residencial São José, no município de Birigui/SP- CEP 16201-241). Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0692/2024\nTeor do ato: Vistos. Fls. 64/65. Indefiro o pedido de citação através do aplicativo Whatsapp vez que tal modalidade citatória ainda não se encontra regulamentada, não sendo ainda possível constatar se o ato de fato atingirá sua finalidade. Com efeito, apesar de o WhatsApp e outros aplicativos de mensagens serem bem-vindos como ferramentas para comunicação dos atos processuais, tais como as intimações, a citação é o ato mais formal do processo civil, vez que somente com sua realização a relação jurídica processual se aperfeiçoa, possibilitando à parte adversa que formule sua resposta, razão pela qual não pode ser sequer minimamente circundada de alguma dúvida. A possibilidade de citação por meio eletrônico, prevista no art. 246, inciso V, do Código de Processo Civil, é condicionada à regulamentação legal. Nessa mesma toada, a Lei nº 11.419/2006, que regula a informatização do processo judicial, condiciona a prática de atos processuais por meio eletrônico ao credenciamento perante o Poder Judiciário, bem como ao uso de assinatura eletrônica, o que resta inviabilizado na via indicada. Sem prejuízo, expeça-se mandado de citação no endereço indicado às fls. 65 (Rua Miguel Locci, nº 565, Bairro Residencial São José, no município de Birigui/SP- CEP 16201-241). Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.718280",
+      "mov_texto": "Remetido ao DJE\nRelação: 0692/2024\nTeor do ato: Vistos. Fls. 64/65. Indefiro o pedido de citação através do aplicativo Whatsapp vez que tal modalidade citatória ainda não se encontra regulamentada, não sendo ainda possível constatar se o ato de fato atingirá sua finalidade. Com efeito, apesar de o WhatsApp e outros aplicativos de mensagens serem bem-vindos como ferramentas para comunicação dos atos processuais, tais como as intimações, a citação é o ato mais formal do processo civil, vez que somente com sua realização a relação jurídica processual se aperfeiçoa, possibilitando à parte adversa que formule sua resposta, razão pela qual não pode ser sequer minimamente circundada de alguma dúvida. A possibilidade de citação por meio eletrônico, prevista no art. 246, inciso V, do Código de Processo Civil, é condicionada à regulamentação legal. Nessa mesma toada, a Lei nº 11.419/2006, que regula a informatização do processo judicial, condiciona a prática de atos processuais por meio eletrônico ao credenciamento perante o Poder Judiciário, bem como ao uso de assinatura eletrônica, o que resta inviabilizado na via indicada. Sem prejuízo, expeça-se mandado de citação no endereço indicado às fls. 65 (Rua Miguel Locci, nº 565, Bairro Residencial São José, no município de Birigui/SP- CEP 16201-241). Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)"
+    },
+    {
+      "mov_ordem": 29,
+      "mov_data": "09/09/2024",
+      "mov_descricao": "Proferidas Outras Decisões não Especificadas Vistos. Fls. 64/65. Indefiro o pedido de citação através do aplicativo Whatsapp vez que tal modalidade citatória ainda não se encontra regulamentada, não sendo ainda possível constatar se o ato de fato atingirá sua finalidade. Com efeito, apesar de o WhatsApp e outros aplicativos de mensagens serem bem-vindos como ferramentas para comunicação dos atos processuais, tais como as intimações, a citação é o ato mais formal do processo civil, vez que somente com sua realização a relação jurídica processual se aperfeiçoa, possibilitando à parte adversa que formule sua resposta, razão pela qual não pode ser sequer minimamente circundada de alguma dúvida. A possibilidade de citação por meio eletrônico, prevista no art. 246, inciso V, do Código de Processo Civil, é condicionada à regulamentação legal. Nessa mesma toada, a Lei nº 11.419/2006, que regula a informatização do processo judicial, condiciona a prática de atos processuais por meio eletrônico ao credenciamento perante o Poder Judiciário, bem como ao uso de assinatura eletrônica, o que resta inviabilizado na via indicada. Sem prejuízo, expeça-se mandado de citação no endereço indicado às fls. 65 (Rua Miguel Locci, nº 565, Bairro Residencial São José, no município de Birigui/SP- CEP 16201-241). Intime-se.",
+      "mov_texto_completo": "Proferidas Outras Decisões não Especificadas\nVistos. Fls. 64/65. Indefiro o pedido de citação através do aplicativo Whatsapp vez que tal modalidade citatória ainda não se encontra regulamentada, não sendo ainda possível constatar se o ato de fato atingirá sua finalidade. Com efeito, apesar de o WhatsApp e outros aplicativos de mensagens serem bem-vindos como ferramentas para comunicação dos atos processuais, tais como as intimações, a citação é o ato mais formal do processo civil, vez que somente com sua realização a relação jurídica processual se aperfeiçoa, possibilitando à parte adversa que formule sua resposta, razão pela qual não pode ser sequer minimamente circundada de alguma dúvida. A possibilidade de citação por meio eletrônico, prevista no art. 246, inciso V, do Código de Processo Civil, é condicionada à regulamentação legal. Nessa mesma toada, a Lei nº 11.419/2006, que regula a informatização do processo judicial, condiciona a prática de atos processuais por meio eletrônico ao credenciamento perante o Poder Judiciário, bem como ao uso de assinatura eletrônica, o que resta inviabilizado na via indicada. Sem prejuízo, expeça-se mandado de citação no endereço indicado às fls. 65 (Rua Miguel Locci, nº 565, Bairro Residencial São José, no município de Birigui/SP- CEP 16201-241). Intime-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.718869",
+      "mov_texto": "Proferidas Outras Decisões não Especificadas\nVistos. Fls. 64/65. Indefiro o pedido de citação através do aplicativo Whatsapp vez que tal modalidade citatória ainda não se encontra regulamentada, não sendo ainda possível constatar se o ato de fato atingirá sua finalidade. Com efeito, apesar de o WhatsApp e outros aplicativos de mensagens serem bem-vindos como ferramentas para comunicação dos atos processuais, tais como as intimações, a citação é o ato mais formal do processo civil, vez que somente com sua realização a relação jurídica processual se aperfeiçoa, possibilitando à parte adversa que formule sua resposta, razão pela qual não pode ser sequer minimamente circundada de alguma dúvida. A possibilidade de citação por meio eletrônico, prevista no art. 246, inciso V, do Código de Processo Civil, é condicionada à regulamentação legal. Nessa mesma toada, a Lei nº 11.419/2006, que regula a informatização do processo judicial, condiciona a prática de atos processuais por meio eletrônico ao credenciamento perante o Poder Judiciário, bem como ao uso de assinatura eletrônica, o que resta inviabilizado na via indicada. Sem prejuízo, expeça-se mandado de citação no endereço indicado às fls. 65 (Rua Miguel Locci, nº 565, Bairro Residencial São José, no município de Birigui/SP- CEP 16201-241). Intime-se."
+    },
+    {
+      "mov_ordem": 30,
+      "mov_data": "07/09/2024",
+      "mov_descricao": "Conclusos para Decisão",
+      "mov_texto_completo": "Conclusos para Decisão",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.719443",
+      "mov_texto": "Conclusos para Decisão"
+    },
+    {
+      "mov_ordem": 31,
+      "mov_data": "23/08/2024",
+      "mov_descricao": "Pedido de Citação - Endereço Localizado Juntado Nº Protocolo: WBTM.24.70021108-3\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 23/08/2024 15:39",
+      "mov_texto_completo": "Pedido de Citação - Endereço Localizado Juntado\nNº Protocolo: WBTM.24.70021108-3\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 23/08/2024 15:39",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.719619",
+      "mov_texto": "Pedido de Citação - Endereço Localizado Juntado\nNº Protocolo: WBTM.24.70021108-3\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 23/08/2024 15:39"
+    },
+    {
+      "mov_ordem": 32,
+      "mov_data": "10/08/2024",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0597/2024\nData da Publicação: 13/08/2024\nNúmero do Diário: 4026",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0597/2024\nData da Publicação: 13/08/2024\nNúmero do Diário: 4026",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.719921",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0597/2024\nData da Publicação: 13/08/2024\nNúmero do Diário: 4026"
+    },
+    {
+      "mov_ordem": 33,
+      "mov_data": "09/08/2024",
+      "mov_descricao": "Remetido ao DJE Relação: 0597/2024\nTeor do ato: Manifeste-se o(a) autor(a) Sobre o(s) AR(s) recebido por terceiro(s), no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0597/2024\nTeor do ato: Manifeste-se o(a) autor(a) Sobre o(s) AR(s) recebido por terceiro(s), no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.720161",
+      "mov_texto": "Remetido ao DJE\nRelação: 0597/2024\nTeor do ato: Manifeste-se o(a) autor(a) Sobre o(s) AR(s) recebido por terceiro(s), no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)"
+    },
+    {
+      "mov_ordem": 34,
+      "mov_data": "08/08/2024",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE Manifeste-se o(a) autor(a) Sobre o(s) AR(s) recebido por terceiro(s), no prazo legal.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nManifeste-se o(a) autor(a) Sobre o(s) AR(s) recebido por terceiro(s), no prazo legal.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.720535",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nManifeste-se o(a) autor(a) Sobre o(s) AR(s) recebido por terceiro(s), no prazo legal."
+    },
+    {
+      "mov_ordem": 35,
+      "mov_data": "06/08/2024",
+      "mov_descricao": "Recebidos os autos do CEJUSC ou Centro de Conciliação/Mediação",
+      "mov_texto_completo": "Recebidos os autos do CEJUSC ou Centro de Conciliação/Mediação",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.720808",
+      "mov_texto": "Recebidos os autos do CEJUSC ou Centro de Conciliação/Mediação"
+    },
+    {
+      "mov_ordem": 36,
+      "mov_data": "06/08/2024",
+      "mov_descricao": "Termo de Audiência Digitalizado",
+      "mov_texto_completo": "Termo de Audiência Digitalizado",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.721009",
+      "mov_texto": "Termo de Audiência Digitalizado"
+    },
+    {
+      "mov_ordem": 37,
+      "mov_data": "06/08/2024",
+      "mov_descricao": "Audiência Não Realizada - Ausência do Reclamado Aberta a sessão com a tentativa de conciliação, pelo conciliador Everaldo Paiva Beraldo, a mesma restou prejudicada, ante a ausência do Requerido. Nada mais havendo, foi encerrado o presente termo.",
+      "mov_texto_completo": "Audiência Não Realizada - Ausência do Reclamado\nAberta a sessão com a tentativa de conciliação, pelo conciliador Everaldo Paiva Beraldo, a mesma restou prejudicada, ante a ausência do Requerido. Nada mais havendo, foi encerrado o presente termo.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.721190",
+      "mov_texto": "Audiência Não Realizada - Ausência do Reclamado\nAberta a sessão com a tentativa de conciliação, pelo conciliador Everaldo Paiva Beraldo, a mesma restou prejudicada, ante a ausência do Requerido. Nada mais havendo, foi encerrado o presente termo."
+    },
+    {
+      "mov_ordem": 38,
+      "mov_data": "05/08/2024",
+      "mov_descricao": "Remetidos os Autos ao CEJUSC ou Centros de Conciliação/Mediação",
+      "mov_texto_completo": "Remetidos os Autos ao CEJUSC ou Centros de Conciliação/Mediação",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.721579",
+      "mov_texto": "Remetidos os Autos ao CEJUSC ou Centros de Conciliação/Mediação"
+    },
+    {
+      "mov_ordem": 39,
+      "mov_data": "01/08/2024",
+      "mov_descricao": "AR Positivo Juntado Juntada de AR : AA703147826TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação e Intimação - Audiência de Conciliação-Mediação no CEJUSC-Setor de Conciliação - Rito Comum - NOVO CPC\nDestinatário : Tiago Cesar Lang\nDiligência : 29/07/2024",
+      "mov_texto_completo": "AR Positivo Juntado\nJuntada de AR : AA703147826TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação e Intimação - Audiência de Conciliação-Mediação no CEJUSC-Setor de Conciliação - Rito Comum - NOVO CPC\nDestinatário : Tiago Cesar Lang\nDiligência : 29/07/2024",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "ACORDO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.721779",
+      "mov_texto": "AR Positivo Juntado\nJuntada de AR : AA703147826TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação e Intimação - Audiência de Conciliação-Mediação no CEJUSC-Setor de Conciliação - Rito Comum - NOVO CPC\nDestinatário : Tiago Cesar Lang\nDiligência : 29/07/2024"
+    },
+    {
+      "mov_ordem": 40,
+      "mov_data": "22/07/2024",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.722140",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 41,
+      "mov_data": "19/07/2024",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação e Intimação - Audiência de Conciliação-Mediação no CEJUSC-Setor de Conciliação - Rito Comum - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação e Intimação - Audiência de Conciliação-Mediação no CEJUSC-Setor de Conciliação - Rito Comum - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "ACORDO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.722391",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação e Intimação - Audiência de Conciliação-Mediação no CEJUSC-Setor de Conciliação - Rito Comum - NOVO CPC"
+    },
+    {
+      "mov_ordem": 42,
+      "mov_data": "16/07/2024",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0511/2024\nData da Publicação: 17/07/2024\nNúmero do Diário: 4007",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0511/2024\nData da Publicação: 17/07/2024\nNúmero do Diário: 4007",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.722675",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0511/2024\nData da Publicação: 17/07/2024\nNúmero do Diário: 4007"
+    },
+    {
+      "mov_ordem": 43,
+      "mov_data": "15/07/2024",
+      "mov_descricao": "Remetido ao DJE Relação: 0511/2024\nTeor do ato: Foi designado o DIA 06 DE AGOSTO DE 2024, ÀS 13:00 HORAS, para a Audiência de Conciliação, a ser realizada no endereço Av. Frei Marcelo Manilia, 739 - Centro - Buritama - SP. - Fórum da Comarca de Buritama/SP - Setor CEJUSC. Fica(m) o(a)(s) defensor(es) intimado(a)(s) a providenciar(em) o comparecimento da(s) parte(s) na audiência designada, independente de intimação judicial.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0511/2024\nTeor do ato: Foi designado o DIA 06 DE AGOSTO DE 2024, ÀS 13:00 HORAS, para a Audiência de Conciliação, a ser realizada no endereço Av. Frei Marcelo Manilia, 739 - Centro - Buritama - SP. - Fórum da Comarca de Buritama/SP - Setor CEJUSC. Fica(m) o(a)(s) defensor(es) intimado(a)(s) a providenciar(em) o comparecimento da(s) parte(s) na audiência designada, independente de intimação judicial.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.722909",
+      "mov_texto": "Remetido ao DJE\nRelação: 0511/2024\nTeor do ato: Foi designado o DIA 06 DE AGOSTO DE 2024, ÀS 13:00 HORAS, para a Audiência de Conciliação, a ser realizada no endereço Av. Frei Marcelo Manilia, 739 - Centro - Buritama - SP. - Fórum da Comarca de Buritama/SP - Setor CEJUSC. Fica(m) o(a)(s) defensor(es) intimado(a)(s) a providenciar(em) o comparecimento da(s) parte(s) na audiência designada, independente de intimação judicial.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP), Ana Beatriz Gonçalves (OAB 490353/SP)"
+    },
+    {
+      "mov_ordem": 44,
+      "mov_data": "12/07/2024",
+      "mov_descricao": "Ato ordinatório Foi designado o DIA 06 DE AGOSTO DE 2024, ÀS 13:00 HORAS, para a Audiência de Conciliação, a ser realizada no endereço Av. Frei Marcelo Manilia, 739 - Centro - Buritama - SP. - Fórum da Comarca de Buritama/SP - Setor CEJUSC. Fica(m) o(a)(s) defensor(es) intimado(a)(s) a providenciar(em) o comparecimento da(s) parte(s) na audiência designada, independente de intimação judicial.",
+      "mov_texto_completo": "Ato ordinatório\nFoi designado o DIA 06 DE AGOSTO DE 2024, ÀS 13:00 HORAS, para a Audiência de Conciliação, a ser realizada no endereço Av. Frei Marcelo Manilia, 739 - Centro - Buritama - SP. - Fórum da Comarca de Buritama/SP - Setor CEJUSC. Fica(m) o(a)(s) defensor(es) intimado(a)(s) a providenciar(em) o comparecimento da(s) parte(s) na audiência designada, independente de intimação judicial.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.723561",
+      "mov_texto": "Ato ordinatório\nFoi designado o DIA 06 DE AGOSTO DE 2024, ÀS 13:00 HORAS, para a Audiência de Conciliação, a ser realizada no endereço Av. Frei Marcelo Manilia, 739 - Centro - Buritama - SP. - Fórum da Comarca de Buritama/SP - Setor CEJUSC. Fica(m) o(a)(s) defensor(es) intimado(a)(s) a providenciar(em) o comparecimento da(s) parte(s) na audiência designada, independente de intimação judicial."
+    },
+    {
+      "mov_ordem": 45,
+      "mov_data": "11/07/2024",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WBTM.24.70016897-8\nTipo da Petição: Pedido de Juntada de Procuração/Substabelecimento\nData: 10/07/2024 17:58",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WBTM.24.70016897-8\nTipo da Petição: Pedido de Juntada de Procuração/Substabelecimento\nData: 10/07/2024 17:58",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.724151",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WBTM.24.70016897-8\nTipo da Petição: Pedido de Juntada de Procuração/Substabelecimento\nData: 10/07/2024 17:58"
+    },
+    {
+      "mov_ordem": 46,
+      "mov_data": "05/07/2024",
+      "mov_descricao": "Recebidos os autos do CEJUSC ou Centro de Conciliação/Mediação",
+      "mov_texto_completo": "Recebidos os autos do CEJUSC ou Centro de Conciliação/Mediação",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.724460",
+      "mov_texto": "Recebidos os autos do CEJUSC ou Centro de Conciliação/Mediação"
+    },
+    {
+      "mov_ordem": 47,
+      "mov_data": "05/07/2024",
+      "mov_descricao": "Certidão de Cartório Expedida Certifico e dou fé que nos termos do artigo 334 do Código de processo Civil, designo sessão de mediação para o próximo dia 06 de agosto de 2024, às 13:00 horas. Nada Mais.",
+      "mov_texto_completo": "Certidão de Cartório Expedida\nCertifico e dou fé que nos termos do artigo 334 do Código de processo Civil, designo sessão de mediação para o próximo dia 06 de agosto de 2024, às 13:00 horas. Nada Mais.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.724672",
+      "mov_texto": "Certidão de Cartório Expedida\nCertifico e dou fé que nos termos do artigo 334 do Código de processo Civil, designo sessão de mediação para o próximo dia 06 de agosto de 2024, às 13:00 horas. Nada Mais."
+    },
+    {
+      "mov_ordem": 48,
+      "mov_data": "05/07/2024",
+      "mov_descricao": "Audiência de Conciliação Conciliação\nData: 06/08/2024 Hora 13:00\nLocal: Sala 01\nSituacão: Não Realizada",
+      "mov_texto_completo": "Audiência de Conciliação\nConciliação\nData: 06/08/2024 Hora 13:00\nLocal: Sala 01\nSituacão: Não Realizada",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.725000",
+      "mov_texto": "Audiência de Conciliação\nConciliação\nData: 06/08/2024 Hora 13:00\nLocal: Sala 01\nSituacão: Não Realizada"
+    },
+    {
+      "mov_ordem": 49,
+      "mov_data": "05/07/2024",
+      "mov_descricao": "Remetidos os Autos ao CEJUSC ou Centros de Conciliação/Mediação",
+      "mov_texto_completo": "Remetidos os Autos ao CEJUSC ou Centros de Conciliação/Mediação",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.725235",
+      "mov_texto": "Remetidos os Autos ao CEJUSC ou Centros de Conciliação/Mediação"
+    },
+    {
+      "mov_ordem": 50,
+      "mov_data": "02/07/2024",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0478/2024\nData da Publicação: 04/07/2024\nNúmero do Diário: 4000",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0478/2024\nData da Publicação: 04/07/2024\nNúmero do Diário: 4000",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.725468",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0478/2024\nData da Publicação: 04/07/2024\nNúmero do Diário: 4000"
+    },
+    {
+      "mov_ordem": 51,
+      "mov_data": "02/07/2024",
+      "mov_descricao": "Remetido ao DJE Relação: 0478/2024\nTeor do ato: Vistos. 1. Recebo a petição inicial eis que presentes os requisitos legais. 2. Defiro os benefícios da justiça gratuita. Anote-se. 3. PEDIDO DE TUTELA ANTECIPADA - A antecipação dos efeitos de tutela representa instituto de tutela diferenciada que objetiva adiantar a providência final desejada e, para tanto, exige o atendimento de pressupostos, ou seja, a situação de risco para o direito a ser tutelado, se procedente o pedido mediato, e a existência da plausibilidade da alegação. Além disso, o Código de Processo Civil traz um requisito negativo, qual seja, a reversibilidade dos efeitos da decisão, carreando ao beneficiário da tutela eventual responsabilidade pela sua não confirmação em sede de cognição exauriente. No caso INDEFIRO o pedido de tutela de urgência. Isto porque não vislumbro nos presentes autos, a presença de nenhuma das hipóteses acima elencadas. 4. AUDIÊNCIA DE CONCILIAÇÃO - Remetam-se os autos ao CEJUSC para agendamento de audiência de tentativa de conciliação. Nos termos do art. 334, §4º, I, a audiência somente não se realizará se ambas as partes manifestarem expressamente desinteresse na composição consensual, sendo a manifestação unilateral insuficiente para cancelamento do ato. Consigne-se, ainda que, a ausência injustificada do autor ou do réu à audiência consiste em ato atentatório à dignidade da justiça, sujeito a multa 2% sobre o valor da causa. É obrigatório o comparecimento das partes, nos termos do art. 334, §8º do CPC, pessoalmente. Somente se admitirá o comparecimento mediante representante diante da existência de procuração com poderes específicos para tanto. As partes devem estar acompanhadas de seus advogados. Intime-se o(a) requerente e cite-se o(a) requerido(a) para comparecimento à audiência de conciliação. 5. PRAZO PARA RESPOSTA - A parte requerida fica cientificada do prazo para apresentação de eventual contestação/embargos, sendo este de quinze (15) dias e, cujo termo inicial fluirá a partir da data da audiência, caso resulte infrutífera e independentemente da realização ou não da audiência. Int.\nAdvogados(s): Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0478/2024\nTeor do ato: Vistos. 1. Recebo a petição inicial eis que presentes os requisitos legais. 2. Defiro os benefícios da justiça gratuita. Anote-se. 3. PEDIDO DE TUTELA ANTECIPADA - A antecipação dos efeitos de tutela representa instituto de tutela diferenciada que objetiva adiantar a providência final desejada e, para tanto, exige o atendimento de pressupostos, ou seja, a situação de risco para o direito a ser tutelado, se procedente o pedido mediato, e a existência da plausibilidade da alegação. Além disso, o Código de Processo Civil traz um requisito negativo, qual seja, a reversibilidade dos efeitos da decisão, carreando ao beneficiário da tutela eventual responsabilidade pela sua não confirmação em sede de cognição exauriente. No caso INDEFIRO o pedido de tutela de urgência. Isto porque não vislumbro nos presentes autos, a presença de nenhuma das hipóteses acima elencadas. 4. AUDIÊNCIA DE CONCILIAÇÃO - Remetam-se os autos ao CEJUSC para agendamento de audiência de tentativa de conciliação. Nos termos do art. 334, §4º, I, a audiência somente não se realizará se ambas as partes manifestarem expressamente desinteresse na composição consensual, sendo a manifestação unilateral insuficiente para cancelamento do ato. Consigne-se, ainda que, a ausência injustificada do autor ou do réu à audiência consiste em ato atentatório à dignidade da justiça, sujeito a multa 2% sobre o valor da causa. É obrigatório o comparecimento das partes, nos termos do art. 334, §8º do CPC, pessoalmente. Somente se admitirá o comparecimento mediante representante diante da existência de procuração com poderes específicos para tanto. As partes devem estar acompanhadas de seus advogados. Intime-se o(a) requerente e cite-se o(a) requerido(a) para comparecimento à audiência de conciliação. 5. PRAZO PARA RESPOSTA - A parte requerida fica cientificada do prazo para apresentação de eventual contestação/embargos, sendo este de quinze (15) dias e, cujo termo inicial fluirá a partir da data da audiência, caso resulte infrutífera e independentemente da realização ou não da audiência. Int.\nAdvogados(s): Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "EMBARGOS",
+        "ACORDO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.725724",
+      "mov_texto": "Remetido ao DJE\nRelação: 0478/2024\nTeor do ato: Vistos. 1. Recebo a petição inicial eis que presentes os requisitos legais. 2. Defiro os benefícios da justiça gratuita. Anote-se. 3. PEDIDO DE TUTELA ANTECIPADA - A antecipação dos efeitos de tutela representa instituto de tutela diferenciada que objetiva adiantar a providência final desejada e, para tanto, exige o atendimento de pressupostos, ou seja, a situação de risco para o direito a ser tutelado, se procedente o pedido mediato, e a existência da plausibilidade da alegação. Além disso, o Código de Processo Civil traz um requisito negativo, qual seja, a reversibilidade dos efeitos da decisão, carreando ao beneficiário da tutela eventual responsabilidade pela sua não confirmação em sede de cognição exauriente. No caso INDEFIRO o pedido de tutela de urgência. Isto porque não vislumbro nos presentes autos, a presença de nenhuma das hipóteses acima elencadas. 4. AUDIÊNCIA DE CONCILIAÇÃO - Remetam-se os autos ao CEJUSC para agendamento de audiência de tentativa de conciliação. Nos termos do art. 334, §4º, I, a audiência somente não se realizará se ambas as partes manifestarem expressamente desinteresse na composição consensual, sendo a manifestação unilateral insuficiente para cancelamento do ato. Consigne-se, ainda que, a ausência injustificada do autor ou do réu à audiência consiste em ato atentatório à dignidade da justiça, sujeito a multa 2% sobre o valor da causa. É obrigatório o comparecimento das partes, nos termos do art. 334, §8º do CPC, pessoalmente. Somente se admitirá o comparecimento mediante representante diante da existência de procuração com poderes específicos para tanto. As partes devem estar acompanhadas de seus advogados. Intime-se o(a) requerente e cite-se o(a) requerido(a) para comparecimento à audiência de conciliação. 5. PRAZO PARA RESPOSTA - A parte requerida fica cientificada do prazo para apresentação de eventual contestação/embargos, sendo este de quinze (15) dias e, cujo termo inicial fluirá a partir da data da audiência, caso resulte infrutífera e independentemente da realização ou não da audiência. Int.\nAdvogados(s): Ana Beatriz Gonçalves (OAB 490353/SP)"
+    },
+    {
+      "mov_ordem": 52,
+      "mov_data": "01/07/2024",
+      "mov_descricao": "Concedida a Antecipação de tutela Vistos. 1. Recebo a petição inicial eis que presentes os requisitos legais. 2. Defiro os benefícios da justiça gratuita. Anote-se. 3. PEDIDO DE TUTELA ANTECIPADA - A antecipação dos efeitos de tutela representa instituto de tutela diferenciada que objetiva adiantar a providência final desejada e, para tanto, exige o atendimento de pressupostos, ou seja, a situação de risco para o direito a ser tutelado, se procedente o pedido mediato, e a existência da plausibilidade da alegação. Além disso, o Código de Processo Civil traz um requisito negativo, qual seja, a reversibilidade dos efeitos da decisão, carreando ao beneficiário da tutela eventual responsabilidade pela sua não confirmação em sede de cognição exauriente. No caso INDEFIRO o pedido de tutela de urgência. Isto porque não vislumbro nos presentes autos, a presença de nenhuma das hipóteses acima elencadas. 4. AUDIÊNCIA DE CONCILIAÇÃO - Remetam-se os autos ao CEJUSC para agendamento de audiência de tentativa de conciliação. Nos termos do art. 334, §4º, I, a audiência somente não se realizará se ambas as partes manifestarem expressamente desinteresse na composição consensual, sendo a manifestação unilateral insuficiente para cancelamento do ato. Consigne-se, ainda que, a ausência injustificada do autor ou do réu à audiência consiste em ato atentatório à dignidade da justiça, sujeito a multa 2% sobre o valor da causa. É obrigatório o comparecimento das partes, nos termos do art. 334, §8º do CPC, pessoalmente. Somente se admitirá o comparecimento mediante representante diante da existência de procuração com poderes específicos para tanto. As partes devem estar acompanhadas de seus advogados. Intime-se o(a) requerente e cite-se o(a) requerido(a) para comparecimento à audiência de conciliação. 5. PRAZO PARA RESPOSTA - A parte requerida fica cientificada do prazo para apresentação de eventual contestação/embargos, sendo este de quinze (15) dias e, cujo termo inicial fluirá a partir da data da audiência, caso resulte infrutífera e independentemente da realização ou não da audiência. Int.",
+      "mov_texto_completo": "Concedida a Antecipação de tutela\nVistos. 1. Recebo a petição inicial eis que presentes os requisitos legais. 2. Defiro os benefícios da justiça gratuita. Anote-se. 3. PEDIDO DE TUTELA ANTECIPADA - A antecipação dos efeitos de tutela representa instituto de tutela diferenciada que objetiva adiantar a providência final desejada e, para tanto, exige o atendimento de pressupostos, ou seja, a situação de risco para o direito a ser tutelado, se procedente o pedido mediato, e a existência da plausibilidade da alegação. Além disso, o Código de Processo Civil traz um requisito negativo, qual seja, a reversibilidade dos efeitos da decisão, carreando ao beneficiário da tutela eventual responsabilidade pela sua não confirmação em sede de cognição exauriente. No caso INDEFIRO o pedido de tutela de urgência. Isto porque não vislumbro nos presentes autos, a presença de nenhuma das hipóteses acima elencadas. 4. AUDIÊNCIA DE CONCILIAÇÃO - Remetam-se os autos ao CEJUSC para agendamento de audiência de tentativa de conciliação. Nos termos do art. 334, §4º, I, a audiência somente não se realizará se ambas as partes manifestarem expressamente desinteresse na composição consensual, sendo a manifestação unilateral insuficiente para cancelamento do ato. Consigne-se, ainda que, a ausência injustificada do autor ou do réu à audiência consiste em ato atentatório à dignidade da justiça, sujeito a multa 2% sobre o valor da causa. É obrigatório o comparecimento das partes, nos termos do art. 334, §8º do CPC, pessoalmente. Somente se admitirá o comparecimento mediante representante diante da existência de procuração com poderes específicos para tanto. As partes devem estar acompanhadas de seus advogados. Intime-se o(a) requerente e cite-se o(a) requerido(a) para comparecimento à audiência de conciliação. 5. PRAZO PARA RESPOSTA - A parte requerida fica cientificada do prazo para apresentação de eventual contestação/embargos, sendo este de quinze (15) dias e, cujo termo inicial fluirá a partir da data da audiência, caso resulte infrutífera e independentemente da realização ou não da audiência. Int.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "EMBARGOS",
+        "ACORDO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:32.726537",
+      "mov_texto": "Concedida a Antecipação de tutela\nVistos. 1. Recebo a petição inicial eis que presentes os requisitos legais. 2. Defiro os benefícios da justiça gratuita. Anote-se. 3. PEDIDO DE TUTELA ANTECIPADA - A antecipação dos efeitos de tutela representa instituto de tutela diferenciada que objetiva adiantar a providência final desejada e, para tanto, exige o atendimento de pressupostos, ou seja, a situação de risco para o direito a ser tutelado, se procedente o pedido mediato, e a existência da plausibilidade da alegação. Além disso, o Código de Processo Civil traz um requisito negativo, qual seja, a reversibilidade dos efeitos da decisão, carreando ao beneficiário da tutela eventual responsabilidade pela sua não confirmação em sede de cognição exauriente. No caso INDEFIRO o pedido de tutela de urgência. Isto porque não vislumbro nos presentes autos, a presença de nenhuma das hipóteses acima elencadas. 4. AUDIÊNCIA DE CONCILIAÇÃO - Remetam-se os autos ao CEJUSC para agendamento de audiência de tentativa de conciliação. Nos termos do art. 334, §4º, I, a audiência somente não se realizará se ambas as partes manifestarem expressamente desinteresse na composição consensual, sendo a manifestação unilateral insuficiente para cancelamento do ato. Consigne-se, ainda que, a ausência injustificada do autor ou do réu à audiência consiste em ato atentatório à dignidade da justiça, sujeito a multa 2% sobre o valor da causa. É obrigatório o comparecimento das partes, nos termos do art. 334, §8º do CPC, pessoalmente. Somente se admitirá o comparecimento mediante representante diante da existência de procuração com poderes específicos para tanto. As partes devem estar acompanhadas de seus advogados. Intime-se o(a) requerente e cite-se o(a) requerido(a) para comparecimento à audiência de conciliação. 5. PRAZO PARA RESPOSTA - A parte requerida fica cientificada do prazo para apresentação de eventual contestação/embargos, sendo este de quinze (15) dias e, cujo termo inicial fluirá a partir da data da audiência, caso resulte infrutífera e independentemente da realização ou não da audiência. Int."
+    },
+    {
+      "mov_ordem": 53,
+      "mov_data": "27/06/2024",
+      "mov_descricao": "Conclusos para Decisão",
+      "mov_texto_completo": "Conclusos para Decisão",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.727336",
+      "mov_texto": "Conclusos para Decisão"
+    },
+    {
+      "mov_ordem": 54,
+      "mov_data": "21/06/2024",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:32.727519",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

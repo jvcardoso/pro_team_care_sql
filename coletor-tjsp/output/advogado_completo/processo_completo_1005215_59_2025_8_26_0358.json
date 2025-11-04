@@ -1,0 +1,171 @@
+{
+  "processo_numero": "1005215-59.2025.8.26.0358",
+  "coleta_timestamp": "2025-10-31T07:25:09.134145",
+  "vara": "2ª Vara",
+  "classe_assunto": "Execução de Título Extrajudicial - Obrigações",
+  "valor_causa": "",
+  "exequente": "Vitivinicola Goes Ltda",
+  "executado": "Bandeirante Supermercados Mirassol Ltda",
+  "advogado_autor_nome": "",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: ANDRE DA FONSECA TAVARES",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "22/10/2025",
+      "mov_descricao": "Pedido de Habilitação Juntado Nº Protocolo: WMRS.25.70058215-5\nTipo da Petição: Pedido de Habilitação\nData: 21/10/2025 17:20",
+      "mov_texto_completo": "Pedido de Habilitação Juntado\nNº Protocolo: WMRS.25.70058215-5\nTipo da Petição: Pedido de Habilitação\nData: 21/10/2025 17:20",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:21.316765",
+      "mov_texto": "Pedido de Habilitação Juntado\nNº Protocolo: WMRS.25.70058215-5\nTipo da Petição: Pedido de Habilitação\nData: 21/10/2025 17:20"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "10/10/2025",
+      "mov_descricao": "AR Positivo Juntado Juntada de AR : AA792595979TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Bandeirante Supermercados Mirassol Ltda\nDiligência : 29/09/2025",
+      "mov_texto_completo": "AR Positivo Juntado\nJuntada de AR : AA792595979TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Bandeirante Supermercados Mirassol Ltda\nDiligência : 29/09/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:21.317151",
+      "mov_texto": "AR Positivo Juntado\nJuntada de AR : AA792595979TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Bandeirante Supermercados Mirassol Ltda\nDiligência : 29/09/2025"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "19/09/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:21.317549",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "19/09/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 1127/2025\nData da Publicação: 22/09/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 1127/2025\nData da Publicação: 22/09/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:21.317782",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 1127/2025\nData da Publicação: 22/09/2025"
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "18/09/2025",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:21.318066",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "18/09/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - Portal Ato Ordinatório - Cumprimento - Carta Automática de Citação em Execução de Título Extrajudicial - Parte Passiva Principal",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - Portal\nAto Ordinatório - Cumprimento - Carta Automática de Citação em Execução de Título Extrajudicial - Parte Passiva Principal",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:21.318396",
+      "mov_texto": "Ato Ordinatório - Intimação - Portal\nAto Ordinatório - Cumprimento - Carta Automática de Citação em Execução de Título Extrajudicial - Parte Passiva Principal"
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "18/09/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 1127/2025\nTeor do ato: Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição de carta de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 827), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do AR de citação, com oposição de embargos mediante distribuição por dependência (CPC, art. 915). No caso de embargos manifestamente protelatórios, considerar-se-á conduta atentatória à dignidade da justiça (CPC, art. 918, parágrafo único). O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Intime-se.\nAdvogados(s): Patricia Silveira da Silva (OAB 310745/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 1127/2025\nTeor do ato: Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição de carta de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 827), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do AR de citação, com oposição de embargos mediante distribuição por dependência (CPC, art. 915). No caso de embargos manifestamente protelatórios, considerar-se-á conduta atentatória à dignidade da justiça (CPC, art. 918, parágrafo único). O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Intime-se.\nAdvogados(s): Patricia Silveira da Silva (OAB 310745/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO",
+        "EMBARGOS",
+        "PENHORA"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:21.318784",
+      "mov_texto": "Remetido ao DJE\nRelação: 1127/2025\nTeor do ato: Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição de carta de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 827), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do AR de citação, com oposição de embargos mediante distribuição por dependência (CPC, art. 915). No caso de embargos manifestamente protelatórios, considerar-se-á conduta atentatória à dignidade da justiça (CPC, art. 918, parágrafo único). O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Intime-se.\nAdvogados(s): Patricia Silveira da Silva (OAB 310745/SP)"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "18/09/2025",
+      "mov_descricao": "Recebida a Petição Inicial Vistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição de carta de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 827), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do AR de citação, com oposição de embargos mediante distribuição por dependência (CPC, art. 915). No caso de embargos manifestamente protelatórios, considerar-se-á conduta atentatória à dignidade da justiça (CPC, art. 918, parágrafo único). O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Intime-se.",
+      "mov_texto_completo": "Recebida a Petição Inicial\nVistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição de carta de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 827), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do AR de citação, com oposição de embargos mediante distribuição por dependência (CPC, art. 915). No caso de embargos manifestamente protelatórios, considerar-se-á conduta atentatória à dignidade da justiça (CPC, art. 918, parágrafo único). O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Intime-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO",
+        "EMBARGOS",
+        "PENHORA"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:25:21.320122",
+      "mov_texto": "Recebida a Petição Inicial\nVistos. Observo a existência dos requisitos específicos que autorizam a execução forçada. Determino a expedição de carta de citação para possibilitar o cumprimento voluntário da obrigação, no prazo de 3 (três) dias, sob pena de penhora. Arbitro os honorários de advogado em 10% sobre o valor em execução (CPC, art. 827), com a advertência de que esta verba será reduzida pela metade na hipótese de integral pagamento no prazo supramencionado (CPC, art. 827, § 1º), assegurada a possibilidade de alteração, secundum eventum litis, no julgamento dos eventuais embargos à execução. O executado poderá apresentar defesa no prazo de 15 (quinze) dias, contado da data da juntada aos autos, do AR de citação, com oposição de embargos mediante distribuição por dependência (CPC, art. 915). No caso de embargos manifestamente protelatórios, considerar-se-á conduta atentatória à dignidade da justiça (CPC, art. 918, parágrafo único). O reconhecimento do crédito do exequente e o depósito de 30% do valor em execução (incluindo custas e honorários de advogado), no prazo para oferta de embargos, permitirá ao executado requerer seja admitido o pagamento do saldo remanescente em até 6 (seis) parcelas mensais, acrescidas de correção monetária e juros de 1% (um por cento) ao mês (CPC, art. 916). Intime-se."
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "17/09/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:21.321584",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "16/09/2025",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:25:21.321944",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

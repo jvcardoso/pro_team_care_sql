@@ -1,0 +1,389 @@
+
+> pro-team-care-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 3000
+
+
+  VITE v4.5.14  ready in 799 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.11.83:3000/
+6:16:27 PM [vite] hmr update /src/components/activities/ActivityValidationModal.tsx, /src/styles/index.css
+6:37:50 PM [vite] hmr update /src/components/activities/ActivityForm.tsx, /src/styles/index.css
+7:09:03 PM [vite] hmr update /src/styles/index.css, /src/pages/ActivityCreatePage.tsx, /src/pages/ActivityListPage.tsx
+7:09:05 PM [vite] hmr update /src/styles/index.css, /src/pages/ActivityCreatePage.tsx, /src/pages/ActivityListPage.tsx
+7:09:07 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:09:08 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:09:10 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:09:15 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:09:22 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:11:57 PM [vite] hmr update /src/styles/index.css, /src/pages/ActivityCreatePage.tsx, /src/pages/ActivityListPage.tsx
+Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useActivities.ts:241:8: ERROR: The symbol "deleteActivity" has already been declared
+Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useActivities.ts:241:8: ERROR: The symbol "deleteActivity" has already been declared
+7:11:58 PM [vite] Internal server error: Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useActivities.ts:241:8: ERROR: The symbol "deleteActivity" has already been declared
+  Plugin: vite:esbuild
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useActivities.ts:241:8
+  
+  The symbol "deleteActivity" has already been declared
+  239|     * Deleta atividade
+  240|     */
+  241|    const deleteActivity = useCallback(async (activityId: number) => {
+     |          ^
+  242|      setState(prev => ({ ...prev, loading: true, error: null }));
+  243|  
+  
+      at failureErrorWithLog (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:1649:15)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:847:29
+      at responseCallbacks.<computed> (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:703:9)
+      at handleIncomingPacket (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:762:9)
+      at Socket.readFromStdout (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:679:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+7:11:59 PM [vite] hmr update /src/styles/index.css, /src/pages/ActivityCreatePage.tsx, /src/pages/ActivityListPage.tsx
+7:12:04 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:12:05 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:12:08 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:12:10 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:12:12 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:12:14 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:12:17 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:19:02 PM [vite] hmr update /src/components/activities/ActivityForm.tsx, /src/styles/index.css
+7:19:04 PM [vite] hmr update /src/components/activities/ActivityForm.tsx, /src/styles/index.css
+7:19:05 PM [vite] hmr update /src/components/activities/ActivityForm.tsx, /src/styles/index.css
+7:19:10 PM [vite] hmr update /src/components/activities/ActivityForm.tsx, /src/styles/index.css
+7:19:11 PM [vite] hmr update /src/components/activities/ActivityForm.tsx, /src/styles/index.css
+7:19:11 PM [vite] Internal server error: /home/juliano/Projetos/meu_projeto/frontend/src/components/activities/ActivityForm.tsx: Unexpected token, expected "," (232:6)
+
+  230 |       </div>
+  231 |
+> 232 |       {/* Botão Submit */}
+      |       ^
+  233 |       <div className="flex justify-end">
+  234 |         <button
+  235 |           type="submit"
+  Plugin: vite:react-babel
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/components/activities/ActivityForm.tsx:232:6
+  230|        </div>
+  231|  
+  232|        {/* Botão Submit */}
+     |        ^
+  233|        <div className="flex justify-end">
+  234|          <button
+      at constructor (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+      at TypeScriptParserMixin.unexpected (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6650:16)
+      at TypeScriptParserMixin.expect (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6930:12)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11669:14)
+      at TypeScriptParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at TypeScriptParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:9857:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at TypeScriptParserMixin.parseExprOpBaseRightExpr (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10990:34)
+      at TypeScriptParserMixin.parseExprOpRightExpr (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10985:21)
+      at TypeScriptParserMixin.parseExprOp (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10951:27)
+      at TypeScriptParserMixin.parseExprOp (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:9394:18)
+      at TypeScriptParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10912:17)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:9806:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10788:23)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:39
+      at TypeScriptParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+      at TypeScriptParserMixin.parseExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4665:31)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4744:36)
+      at TypeScriptParserMixin.jsxParseElement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4782:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4792:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at TypeScriptParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:9857:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at TypeScriptParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:9795:39
+      at TypeScriptParserMixin.tryParse (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6938:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:9795:18)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+      at TypeScriptParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12503:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11683:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at TypeScriptParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:9857:18)
+7:19:13 PM [vite] hmr update /src/components/activities/ActivityForm.tsx, /src/styles/index.css
+7:19:15 PM [vite] hmr update /src/App.jsx, /src/styles/index.css
+7:19:17 PM [vite] hmr update /src/App.jsx, /src/styles/index.css
+7:19:24 PM [vite] hmr update /src/pages/ActivityListPage.tsx, /src/styles/index.css
+7:19:55 PM [vite] page reload dist/index.html
+7:22:06 PM [vite] hmr update /src/pages/ActivityEditPage.tsx, /src/styles/index.css
+7:22:28 PM [vite] hmr update /src/styles/index.css, /src/pages/ActivityCreatePage.tsx, /src/pages/ActivityListPage.tsx, /src/pages/ActivityEditPage.tsx
+7:24:39 PM [vite] hmr update /src/pages/ActivityEditPage.tsx, /src/styles/index.css
+7:25:00 PM [vite] hmr update /src/pages/ActivityEditPage.tsx, /src/styles/index.css
+7:25:19 PM [vite] hmr update /src/components/activities/ActivityForm.tsx, /src/styles/index.css
+8:12:24 PM [vite] hmr update /src/App.jsx, /src/styles/index.css
+Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+8:12:24 PM [vite] Internal server error: Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+  Plugin: vite:esbuild
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25
+  
+  Expected ";" but found "Column"
+  149|          if (!prev.board) return prev;
+  150|  
+  151|          const newCardsBy Column = { ...prev.board.cards_by_column };
+     |                           ^
+  152|          
+  153|          // Encontrar card e coluna antiga
+  
+      at failureErrorWithLog (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:1649:15)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:847:29
+      at responseCallbacks.<computed> (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:703:9)
+      at handleIncomingPacket (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:762:9)
+      at Socket.readFromStdout (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:679:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+8:12:26 PM [vite] ✨ new dependencies optimized: @hello-pangea/dnd, date-fns, date-fns/locale
+8:12:26 PM [vite] ✨ optimized dependencies changed. reloading
+Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+8:12:32 PM [vite] Internal server error: Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+  Plugin: vite:esbuild
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25
+  
+  Expected ";" but found "Column"
+  149|          if (!prev.board) return prev;
+  150|  
+  151|          const newCardsBy Column = { ...prev.board.cards_by_column };
+     |                           ^
+  152|          
+  153|          // Encontrar card e coluna antiga
+  
+      at failureErrorWithLog (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:1649:15)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:847:29
+      at responseCallbacks.<computed> (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:703:9)
+      at handleIncomingPacket (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:762:9)
+      at Socket.readFromStdout (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:679:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:12:35 PM [vite] hmr update /src/App.jsx, /src/styles/index.css
+8:12:35 PM [vite] Internal server error: Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+  Plugin: vite:esbuild
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25
+  
+  Expected ";" but found "Column"
+  149|          if (!prev.board) return prev;
+  150|  
+  151|          const newCardsBy Column = { ...prev.board.cards_by_column };
+     |                           ^
+  152|          
+  153|          // Encontrar card e coluna antiga
+  
+      at failureErrorWithLog (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:1649:15)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:847:29
+      at responseCallbacks.<computed> (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:703:9)
+      at handleIncomingPacket (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:762:9)
+      at Socket.readFromStdout (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:679:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:13:07 PM [vite] Internal server error: Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+  Plugin: vite:esbuild
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25
+  
+  Expected ";" but found "Column"
+  149|          if (!prev.board) return prev;
+  150|  
+  151|          const newCardsBy Column = { ...prev.board.cards_by_column };
+     |                           ^
+  152|          
+  153|          // Encontrar card e coluna antiga
+  
+      at failureErrorWithLog (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:1649:15)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:847:29
+      at responseCallbacks.<computed> (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:703:9)
+      at handleIncomingPacket (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:762:9)
+      at Socket.readFromStdout (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:679:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:13:09 PM [vite] Internal server error: Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+  Plugin: vite:esbuild
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25
+  
+  Expected ";" but found "Column"
+  149|          if (!prev.board) return prev;
+  150|  
+  151|          const newCardsBy Column = { ...prev.board.cards_by_column };
+     |                           ^
+  152|          
+  153|          // Encontrar card e coluna antiga
+  
+      at failureErrorWithLog (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:1649:15)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:847:29
+      at responseCallbacks.<computed> (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:703:9)
+      at handleIncomingPacket (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:762:9)
+      at Socket.readFromStdout (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:679:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:13:16 PM [vite] Internal server error: Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+  Plugin: vite:esbuild
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25
+  
+  Expected ";" but found "Column"
+  149|          if (!prev.board) return prev;
+  150|  
+  151|          const newCardsBy Column = { ...prev.board.cards_by_column };
+     |                           ^
+  152|          
+  153|          // Encontrar card e coluna antiga
+  
+      at failureErrorWithLog (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:1649:15)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:847:29
+      at responseCallbacks.<computed> (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:703:9)
+      at handleIncomingPacket (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:762:9)
+      at Socket.readFromStdout (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:679:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:13:40 PM [vite] Internal server error: Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+  Plugin: vite:esbuild
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25
+  
+  Expected ";" but found "Column"
+  149|          if (!prev.board) return prev;
+  150|  
+  151|          const newCardsBy Column = { ...prev.board.cards_by_column };
+     |                           ^
+  152|          
+  153|          // Encontrar card e coluna antiga
+  
+      at failureErrorWithLog (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:1649:15)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:847:29
+      at responseCallbacks.<computed> (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:703:9)
+      at handleIncomingPacket (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:762:9)
+      at Socket.readFromStdout (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:679:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:13:42 PM [vite] Internal server error: Transform failed with 1 error:
+/home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25: ERROR: Expected ";" but found "Column"
+  Plugin: vite:esbuild
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:151:25
+  
+  Expected ";" but found "Column"
+  149|          if (!prev.board) return prev;
+  150|  
+  151|          const newCardsBy Column = { ...prev.board.cards_by_column };
+     |                           ^
+  152|          
+  153|          // Encontrar card e coluna antiga
+  
+      at failureErrorWithLog (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:1649:15)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:847:29
+      at responseCallbacks.<computed> (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:703:9)
+      at handleIncomingPacket (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:762:9)
+      at Socket.readFromStdout (/home/juliano/Projetos/meu_projeto/frontend/node_modules/esbuild/lib/main.js:679:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:14:01 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanCardCreatePage.tsx, /src/components/kanban/KanbanBoard.tsx
+Failed to resolve import "./use-toast" from "src/hooks/useKanban.ts". Does the file exist?
+Failed to resolve import "./use-toast" from "src/hooks/useKanban.ts". Does the file exist?
+8:14:01 PM [vite] Internal server error: Failed to resolve import "./use-toast" from "src/hooks/useKanban.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/hooks/useKanban.ts:6:25
+  1  |  import { useState, useCallback } from "react";
+  2  |  import { useToast } from "./use-toast";
+     |                            ^
+  3  |  import {
+  4  |    kanbanService
+      at formatError (file:///home/juliano/Projetos/meu_projeto/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///home/juliano/Projetos/meu_projeto/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at normalizeUrl (file:///home/juliano/Projetos/meu_projeto/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41845:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/juliano/Projetos/meu_projeto/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41999:47
+      at async Promise.all (index 1)
+      at async TransformContext.transform (file:///home/juliano/Projetos/meu_projeto/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41915:13)
+      at async Object.transform (file:///home/juliano/Projetos/meu_projeto/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///home/juliano/Projetos/meu_projeto/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///home/juliano/Projetos/meu_projeto/frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+8:14:27 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanCardCreatePage.tsx, /src/components/kanban/KanbanBoard.tsx
+8:15:59 PM [vite] hmr update /src/components/kanban/KanbanBoard.tsx, /src/styles/index.css
+8:18:12 PM [vite] hmr update /src/components/kanban/KanbanColumn.tsx, /src/styles/index.css
+8:19:22 PM [vite] hmr update /src/components/ui/Icon.jsx, /src/styles/index.css
+8:23:34 PM [vite] hmr update /src/pages/KanbanBoardPage.tsx, /src/styles/index.css
+8:23:49 PM [vite] hmr update /src/pages/KanbanBoardPage.tsx, /src/styles/index.css
+8:29:16 PM [vite] hmr update /src/components/ui/Icon.jsx, /src/styles/index.css
+8:31:38 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+8:32:06 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanCardCreatePage.tsx, /src/components/kanban/KanbanBoard.tsx, /src/components/kanban/CardDetailModal.tsx
+8:32:45 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+8:32:53 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+8:33:12 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+8:33:29 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanCardCreatePage.tsx, /src/components/kanban/KanbanBoard.tsx, /src/components/kanban/CardDetailModal.tsx
+8:34:34 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+8:35:00 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+8:37:50 PM [vite] hmr update /src/components/kanban/KanbanBoard.tsx, /src/styles/index.css
+8:38:00 PM [vite] hmr update /src/pages/KanbanBoardPage.tsx, /src/styles/index.css
+8:38:11 PM [vite] hmr update /src/components/kanban/KanbanBoard.tsx, /src/styles/index.css
+8:38:21 PM [vite] hmr update /src/components/kanban/KanbanColumn.tsx, /src/styles/index.css
+8:43:25 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+8:43:44 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+8:43:56 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanCardCreatePage.tsx, /src/components/kanban/KanbanBoard.tsx, /src/components/kanban/CardDetailModal.tsx
+8:45:54 PM [vite] hmr update /src/components/kanban/ImageUpload.tsx, /src/styles/index.css
+8:46:10 PM [vite] hmr update /src/components/kanban/ImageUpload.tsx, /src/styles/index.css
+8:46:31 PM [vite] hmr update /src/components/kanban/ImageUpload.tsx, /src/styles/index.css
+8:46:42 PM [vite] hmr update /src/components/kanban/ImageUpload.tsx, /src/styles/index.css
+8:50:07 PM [vite] hmr update /src/components/kanban/ImageUpload.tsx, /src/styles/index.css
+8:50:17 PM [vite] hmr update /src/components/kanban/ImageUpload.tsx, /src/styles/index.css
+8:50:24 PM [vite] hmr update /src/components/kanban/ImageUpload.tsx, /src/styles/index.css
+8:50:42 PM [vite] hmr update /src/components/kanban/ImageUpload.tsx, /src/styles/index.css
+8:51:09 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+8:51:19 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanCardCreatePage.tsx, /src/components/kanban/KanbanBoard.tsx, /src/components/kanban/CardDetailModal.tsx
+8:55:30 PM [vite] hmr update /src/components/kanban/CardDetailModal.tsx, /src/styles/index.css
+7:29:22 AM [vite] hmr update /src/components/kanban/KanbanBoard.tsx, /src/styles/index.css
+7:29:36 AM [vite] hmr update /src/styles/index.css, /src/pages/KanbanCardCreatePage.tsx, /src/components/kanban/KanbanBoard.tsx, /src/components/kanban/CardDetailModal.tsx
+7:29:49 AM [vite] hmr update /src/styles/index.css, /src/pages/KanbanCardCreatePage.tsx, /src/components/kanban/KanbanBoard.tsx, /src/components/kanban/CardDetailModal.tsx

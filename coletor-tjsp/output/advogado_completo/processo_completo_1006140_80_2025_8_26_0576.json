@@ -1,0 +1,271 @@
+{
+  "processo_numero": "1006140-80.2025.8.26.0576",
+  "coleta_timestamp": "2025-10-31T07:11:12.283708",
+  "vara": "10ª Vara Cível",
+  "classe_assunto": "Procedimento Comum Cível - Rescisão do contrato e devolução do dinheiro",
+  "valor_causa": "",
+  "exequente": "",
+  "executado": "",
+  "advogado_autor_nome": "",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: Maria Heloisa Nogueira Ribeiro Machado Soares",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "28/08/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 1072/2025\nData da Publicação: 29/08/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 1072/2025\nData da Publicação: 29/08/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.485045",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 1072/2025\nData da Publicação: 29/08/2025"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "26/08/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 1072/2025\nTeor do ato: Ante o exposto, com fundamento no artigo 485, inciso IV, do Código de Processo Civil, JULGA-SE EXTINTA a presente ação. Condena-se a parte requerente ao pagamento das custas processuais. Sem verba honorária dada a ausência de citação. Após o trânsito em julgado epagas as custas, arquive-se o processo com as cautelas de praxe. Publique-se e Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 1072/2025\nTeor do ato: Ante o exposto, com fundamento no artigo 485, inciso IV, do Código de Processo Civil, JULGA-SE EXTINTA a presente ação. Condena-se a parte requerente ao pagamento das custas processuais. Sem verba honorária dada a ausência de citação. Após o trânsito em julgado epagas as custas, arquive-se o processo com as cautelas de praxe. Publique-se e Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:11:24.485381",
+      "mov_texto": "Remetido ao DJE\nRelação: 1072/2025\nTeor do ato: Ante o exposto, com fundamento no artigo 485, inciso IV, do Código de Processo Civil, JULGA-SE EXTINTA a presente ação. Condena-se a parte requerente ao pagamento das custas processuais. Sem verba honorária dada a ausência de citação. Após o trânsito em julgado epagas as custas, arquive-se o processo com as cautelas de praxe. Publique-se e Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "25/08/2025",
+      "mov_descricao": "Extinto o Processo sem Resolução do Mérito por Ausência de Pressupostos Processuais Ante o exposto, com fundamento no artigo 485, inciso IV, do Código de Processo Civil, JULGA-SE EXTINTA a presente ação. Condena-se a parte requerente ao pagamento das custas processuais. Sem verba honorária dada a ausência de citação. Após o trânsito em julgado epagas as custas, arquive-se o processo com as cautelas de praxe. Publique-se e Intime-se.",
+      "mov_texto_completo": "Extinto o Processo sem Resolução do Mérito por Ausência de Pressupostos Processuais\nAnte o exposto, com fundamento no artigo 485, inciso IV, do Código de Processo Civil, JULGA-SE EXTINTA a presente ação. Condena-se a parte requerente ao pagamento das custas processuais. Sem verba honorária dada a ausência de citação. Após o trânsito em julgado epagas as custas, arquive-se o processo com as cautelas de praxe. Publique-se e Intime-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:11:24.485958",
+      "mov_texto": "Extinto o Processo sem Resolução do Mérito por Ausência de Pressupostos Processuais\nAnte o exposto, com fundamento no artigo 485, inciso IV, do Código de Processo Civil, JULGA-SE EXTINTA a presente ação. Condena-se a parte requerente ao pagamento das custas processuais. Sem verba honorária dada a ausência de citação. Após o trânsito em julgado epagas as custas, arquive-se o processo com as cautelas de praxe. Publique-se e Intime-se."
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "22/08/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.486582",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "22/08/2025",
+      "mov_descricao": "Decurso de Prazo Certifico e dou fé que decorreu in albis o prazo para que a parte autora se manifestasse, em cumprimento ao comando judicial retro proferido. Nada Mais",
+      "mov_texto_completo": "Decurso de Prazo\nCertifico e dou fé que decorreu in albis o prazo para que a parte autora se manifestasse, em cumprimento ao comando judicial retro proferido. Nada Mais",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.486773",
+      "mov_texto": "Decurso de Prazo\nCertifico e dou fé que decorreu in albis o prazo para que a parte autora se manifestasse, em cumprimento ao comando judicial retro proferido. Nada Mais"
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "09/06/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Disponibilizado em - 10-06-2025 - Considera-se que a data de publicação é o primeiro dia útil subsequente após a data de disponibilização  - Processo 1006140-80.2025.8.26.0576 - Procedimento Comum Cível - Rescisão do contrato e devolução do dinheiro - Carlos Eduardo Lopes Peres - Vistos. No caso, afastada a presunção de pobreza pelos indícios constantes nos autos, observando-se a própria natureza e objeto da causa, além da contratação de advogado particular, dispensando o auxílio da Defensoria Pública, a parte interessada não trouxe documentos suficientes para comprovar a impossibilidade de arcar com as custas, despesas processuais e sucumbência. Nota-se que o interessado é empresário e realizou transação de considerável valor, sendo a compra de embarcação náutica no valor de R$ 445.000,00 (fls. 80/84), circunstâncias que indicam a capacidade de arcar com as custas e despesas processuais, sem se privar dos recursos indispensáveis à sua mantença e de sua família. A existência de empréstimos, por si só, não é um requisito para concessão do benefício da justiça gratuita, uma vez que este visa beneficiar aquele que, diante do pagamento das custas processuais, teria a sua subsistência e de sua família comprometida, não se confundindo com eventuais dificuldades de organização financeira. Esta decisão está amparada em precedente do Egrégio Tribunal de Justiça - SP, na relatoria da Desembargadora Zélia Maria Antunes Alves: Não basta a declaração pura e simples da impossibilidade de custeio do processo, de rigor, a comprovação do estado de hipossuficiência, que a lei visa proteger. É o que estabelece a Constituição Federal ... (agravo de instrumento 7.328.958-2). Ante o exposto, INDEFERE-SE o pedido de gratuidade. Outrossim, fica indeferido diferimento do recolhimento das custas judiciais, a teor do disposto no art.5º, da Lei 11.608/03, por não se enquadrar o caso no rol legal. INTIME-SE a parte demandante para que emende a inicial, providenciando a comprovação do recolhimento das custas judiciais, no prazo de 15 (quinze) dias, sob pena de extinção do processo, por falta de pressuposto processual, sem nova intimação. Intime-se. - ADV: ADILSON LOPES TEIXEIRA (OAB 357725/SP)",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nDisponibilizado em - 10-06-2025 - Considera-se que a data de publicação é o primeiro dia útil subsequente após a data de disponibilização - Processo 1006140-80.2025.8.26.0576 - Procedimento Comum Cível - Rescisão do contrato e devolução do dinheiro - Carlos Eduardo Lopes Peres - Vistos. No caso, afastada a presunção de pobreza pelos indícios constantes nos autos, observando-se a própria natureza e objeto da causa, além da contratação de advogado particular, dispensando o auxílio da Defensoria Pública, a parte interessada não trouxe documentos suficientes para comprovar a impossibilidade de arcar com as custas, despesas processuais e sucumbência. Nota-se que o interessado é empresário e realizou transação de considerável valor, sendo a compra de embarcação náutica no valor de R$ 445.000,00 (fls. 80/84), circunstâncias que indicam a capacidade de arcar com as custas e despesas processuais, sem se privar dos recursos indispensáveis à sua mantença e de sua família. A existência de empréstimos, por si só, não é um requisito para concessão do benefício da justiça gratuita, uma vez que este visa beneficiar aquele que, diante do pagamento das custas processuais, teria a sua subsistência e de sua família comprometida, não se confundindo com eventuais dificuldades de organização financeira. Esta decisão está amparada em precedente do Egrégio Tribunal de Justiça - SP, na relatoria da Desembargadora Zélia Maria Antunes Alves: Não basta a declaração pura e simples da impossibilidade de custeio do processo, de rigor, a comprovação do estado de hipossuficiência, que a lei visa proteger. É o que estabelece a Constituição Federal ... (agravo de instrumento 7.328.958-2). Ante o exposto, INDEFERE-SE o pedido de gratuidade. Outrossim, fica indeferido diferimento do recolhimento das custas judiciais, a teor do disposto no art.5º, da Lei 11.608/03, por não se enquadrar o caso no rol legal. INTIME-SE a parte demandante para que emende a inicial, providenciando a comprovação do recolhimento das custas judiciais, no prazo de 15 (quinze) dias, sob pena de extinção do processo, por falta de pressuposto processual, sem nova intimação. Intime-se. - ADV: ADILSON LOPES TEIXEIRA (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "ACORDO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "R$ 445.000,00",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:11:24.487085",
+      "mov_texto": "Certidão de Publicação Expedida\nDisponibilizado em - 10-06-2025 - Considera-se que a data de publicação é o primeiro dia útil subsequente após a data de disponibilização - Processo 1006140-80.2025.8.26.0576 - Procedimento Comum Cível - Rescisão do contrato e devolução do dinheiro - Carlos Eduardo Lopes Peres - Vistos. No caso, afastada a presunção de pobreza pelos indícios constantes nos autos, observando-se a própria natureza e objeto da causa, além da contratação de advogado particular, dispensando o auxílio da Defensoria Pública, a parte interessada não trouxe documentos suficientes para comprovar a impossibilidade de arcar com as custas, despesas processuais e sucumbência. Nota-se que o interessado é empresário e realizou transação de considerável valor, sendo a compra de embarcação náutica no valor de R$ 445.000,00 (fls. 80/84), circunstâncias que indicam a capacidade de arcar com as custas e despesas processuais, sem se privar dos recursos indispensáveis à sua mantença e de sua família. A existência de empréstimos, por si só, não é um requisito para concessão do benefício da justiça gratuita, uma vez que este visa beneficiar aquele que, diante do pagamento das custas processuais, teria a sua subsistência e de sua família comprometida, não se confundindo com eventuais dificuldades de organização financeira. Esta decisão está amparada em precedente do Egrégio Tribunal de Justiça - SP, na relatoria da Desembargadora Zélia Maria Antunes Alves: Não basta a declaração pura e simples da impossibilidade de custeio do processo, de rigor, a comprovação do estado de hipossuficiência, que a lei visa proteger. É o que estabelece a Constituição Federal ... (agravo de instrumento 7.328.958-2). Ante o exposto, INDEFERE-SE o pedido de gratuidade. Outrossim, fica indeferido diferimento do recolhimento das custas judiciais, a teor do disposto no art.5º, da Lei 11.608/03, por não se enquadrar o caso no rol legal. INTIME-SE a parte demandante para que emende a inicial, providenciando a comprovação do recolhimento das custas judiciais, no prazo de 15 (quinze) dias, sob pena de extinção do processo, por falta de pressuposto processual, sem nova intimação. Intime-se. - ADV: ADILSON LOPES TEIXEIRA (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "09/06/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0491/2025\nTeor do ato: Vistos. No caso, afastada a presunção de pobreza pelos indícios constantes nos autos, observando-se a própria natureza e objeto da causa, além da contratação de advogado particular, dispensando o auxílio da Defensoria Pública, a parte interessada não trouxe documentos suficientes para comprovar a impossibilidade de arcar com as custas, despesas processuais e sucumbência. Nota-se que o interessado é empresário e realizou transação de considerável valor, sendo a compra de embarcação náutica no valor de R$ 445.000,00 (fls. 80/84), circunstâncias que indicam a capacidade de arcar com as custas e despesas processuais, sem se privar dos recursos indispensáveis à sua mantença e de sua família. A existência de empréstimos, por si só, não é um requisito para concessão do benefício da justiça gratuita, uma vez que este visa beneficiar aquele que, diante do pagamento das custas processuais, teria a sua subsistência e de sua família comprometida, não se confundindo com eventuais dificuldades de organização financeira. Esta decisão está amparada em precedente do Egrégio Tribunal de Justiça - SP, na relatoria da Desembargadora Zélia Maria Antunes Alves: Não basta a declaração pura e simples da impossibilidade de custeio do processo, de rigor, a comprovação do estado de hipossuficiência, que a lei visa proteger. É o que estabelece a Constituição Federal ... (agravo de instrumento 7.328.958-2). Ante o exposto, INDEFERE-SE o pedido de gratuidade. Outrossim, fica indeferido diferimento do recolhimento das custas judiciais, a teor do disposto no art.5º, da Lei 11.608/03, por não se enquadrar o caso no rol legal. INTIME-SE a parte demandante para que emende a inicial, providenciando a comprovação do recolhimento das custas judiciais, no prazo de 15 (quinze) dias, sob pena de extinção do processo, por falta de pressuposto processual, sem nova intimação. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0491/2025\nTeor do ato: Vistos. No caso, afastada a presunção de pobreza pelos indícios constantes nos autos, observando-se a própria natureza e objeto da causa, além da contratação de advogado particular, dispensando o auxílio da Defensoria Pública, a parte interessada não trouxe documentos suficientes para comprovar a impossibilidade de arcar com as custas, despesas processuais e sucumbência. Nota-se que o interessado é empresário e realizou transação de considerável valor, sendo a compra de embarcação náutica no valor de R$ 445.000,00 (fls. 80/84), circunstâncias que indicam a capacidade de arcar com as custas e despesas processuais, sem se privar dos recursos indispensáveis à sua mantença e de sua família. A existência de empréstimos, por si só, não é um requisito para concessão do benefício da justiça gratuita, uma vez que este visa beneficiar aquele que, diante do pagamento das custas processuais, teria a sua subsistência e de sua família comprometida, não se confundindo com eventuais dificuldades de organização financeira. Esta decisão está amparada em precedente do Egrégio Tribunal de Justiça - SP, na relatoria da Desembargadora Zélia Maria Antunes Alves: Não basta a declaração pura e simples da impossibilidade de custeio do processo, de rigor, a comprovação do estado de hipossuficiência, que a lei visa proteger. É o que estabelece a Constituição Federal ... (agravo de instrumento 7.328.958-2). Ante o exposto, INDEFERE-SE o pedido de gratuidade. Outrossim, fica indeferido diferimento do recolhimento das custas judiciais, a teor do disposto no art.5º, da Lei 11.608/03, por não se enquadrar o caso no rol legal. INTIME-SE a parte demandante para que emende a inicial, providenciando a comprovação do recolhimento das custas judiciais, no prazo de 15 (quinze) dias, sob pena de extinção do processo, por falta de pressuposto processual, sem nova intimação. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "ACORDO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "R$ 445.000,00",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:11:24.488013",
+      "mov_texto": "Remetido ao DJE\nRelação: 0491/2025\nTeor do ato: Vistos. No caso, afastada a presunção de pobreza pelos indícios constantes nos autos, observando-se a própria natureza e objeto da causa, além da contratação de advogado particular, dispensando o auxílio da Defensoria Pública, a parte interessada não trouxe documentos suficientes para comprovar a impossibilidade de arcar com as custas, despesas processuais e sucumbência. Nota-se que o interessado é empresário e realizou transação de considerável valor, sendo a compra de embarcação náutica no valor de R$ 445.000,00 (fls. 80/84), circunstâncias que indicam a capacidade de arcar com as custas e despesas processuais, sem se privar dos recursos indispensáveis à sua mantença e de sua família. A existência de empréstimos, por si só, não é um requisito para concessão do benefício da justiça gratuita, uma vez que este visa beneficiar aquele que, diante do pagamento das custas processuais, teria a sua subsistência e de sua família comprometida, não se confundindo com eventuais dificuldades de organização financeira. Esta decisão está amparada em precedente do Egrégio Tribunal de Justiça - SP, na relatoria da Desembargadora Zélia Maria Antunes Alves: Não basta a declaração pura e simples da impossibilidade de custeio do processo, de rigor, a comprovação do estado de hipossuficiência, que a lei visa proteger. É o que estabelece a Constituição Federal ... (agravo de instrumento 7.328.958-2). Ante o exposto, INDEFERE-SE o pedido de gratuidade. Outrossim, fica indeferido diferimento do recolhimento das custas judiciais, a teor do disposto no art.5º, da Lei 11.608/03, por não se enquadrar o caso no rol legal. INTIME-SE a parte demandante para que emende a inicial, providenciando a comprovação do recolhimento das custas judiciais, no prazo de 15 (quinze) dias, sob pena de extinção do processo, por falta de pressuposto processual, sem nova intimação. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "09/06/2025",
+      "mov_descricao": "Determinada a Emenda à Inicial Vistos. No caso, afastada a presunção de pobreza pelos indícios constantes nos autos, observando-se a própria natureza e objeto da causa, além da contratação de advogado particular, dispensando o auxílio da Defensoria Pública, a parte interessada não trouxe documentos suficientes para comprovar a impossibilidade de arcar com as custas, despesas processuais e sucumbência. Nota-se que o interessado é empresário e realizou transação de considerável valor, sendo a compra de embarcação náutica no valor de R$ 445.000,00 (fls. 80/84), circunstâncias que indicam a capacidade de arcar com as custas e despesas processuais, sem se privar dos recursos indispensáveis à sua mantença e de sua família. A existência de empréstimos, por si só, não é um requisito para concessão do benefício da justiça gratuita, uma vez que este visa beneficiar aquele que, diante do pagamento das custas processuais, teria a sua subsistência e de sua família comprometida, não se confundindo com eventuais dificuldades de organização financeira. Esta decisão está amparada em precedente do Egrégio Tribunal de Justiça - SP, na relatoria da Desembargadora Zélia Maria Antunes Alves: Não basta a declaração pura e simples da impossibilidade de custeio do processo, de rigor, a comprovação do estado de hipossuficiência, que a lei visa proteger. É o que estabelece a Constituição Federal ... (agravo de instrumento 7.328.958-2). Ante o exposto, INDEFERE-SE o pedido de gratuidade. Outrossim, fica indeferido diferimento do recolhimento das custas judiciais, a teor do disposto no art.5º, da Lei 11.608/03, por não se enquadrar o caso no rol legal. INTIME-SE a parte demandante para que emende a inicial, providenciando a comprovação do recolhimento das custas judiciais, no prazo de 15 (quinze) dias, sob pena de extinção do processo, por falta de pressuposto processual, sem nova intimação. Intime-se.",
+      "mov_texto_completo": "Determinada a Emenda à Inicial\nVistos. No caso, afastada a presunção de pobreza pelos indícios constantes nos autos, observando-se a própria natureza e objeto da causa, além da contratação de advogado particular, dispensando o auxílio da Defensoria Pública, a parte interessada não trouxe documentos suficientes para comprovar a impossibilidade de arcar com as custas, despesas processuais e sucumbência. Nota-se que o interessado é empresário e realizou transação de considerável valor, sendo a compra de embarcação náutica no valor de R$ 445.000,00 (fls. 80/84), circunstâncias que indicam a capacidade de arcar com as custas e despesas processuais, sem se privar dos recursos indispensáveis à sua mantença e de sua família. A existência de empréstimos, por si só, não é um requisito para concessão do benefício da justiça gratuita, uma vez que este visa beneficiar aquele que, diante do pagamento das custas processuais, teria a sua subsistência e de sua família comprometida, não se confundindo com eventuais dificuldades de organização financeira. Esta decisão está amparada em precedente do Egrégio Tribunal de Justiça - SP, na relatoria da Desembargadora Zélia Maria Antunes Alves: Não basta a declaração pura e simples da impossibilidade de custeio do processo, de rigor, a comprovação do estado de hipossuficiência, que a lei visa proteger. É o que estabelece a Constituição Federal ... (agravo de instrumento 7.328.958-2). Ante o exposto, INDEFERE-SE o pedido de gratuidade. Outrossim, fica indeferido diferimento do recolhimento das custas judiciais, a teor do disposto no art.5º, da Lei 11.608/03, por não se enquadrar o caso no rol legal. INTIME-SE a parte demandante para que emende a inicial, providenciando a comprovação do recolhimento das custas judiciais, no prazo de 15 (quinze) dias, sob pena de extinção do processo, por falta de pressuposto processual, sem nova intimação. Intime-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "ACORDO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "R$ 445.000,00",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:11:24.488903",
+      "mov_texto": "Determinada a Emenda à Inicial\nVistos. No caso, afastada a presunção de pobreza pelos indícios constantes nos autos, observando-se a própria natureza e objeto da causa, além da contratação de advogado particular, dispensando o auxílio da Defensoria Pública, a parte interessada não trouxe documentos suficientes para comprovar a impossibilidade de arcar com as custas, despesas processuais e sucumbência. Nota-se que o interessado é empresário e realizou transação de considerável valor, sendo a compra de embarcação náutica no valor de R$ 445.000,00 (fls. 80/84), circunstâncias que indicam a capacidade de arcar com as custas e despesas processuais, sem se privar dos recursos indispensáveis à sua mantença e de sua família. A existência de empréstimos, por si só, não é um requisito para concessão do benefício da justiça gratuita, uma vez que este visa beneficiar aquele que, diante do pagamento das custas processuais, teria a sua subsistência e de sua família comprometida, não se confundindo com eventuais dificuldades de organização financeira. Esta decisão está amparada em precedente do Egrégio Tribunal de Justiça - SP, na relatoria da Desembargadora Zélia Maria Antunes Alves: Não basta a declaração pura e simples da impossibilidade de custeio do processo, de rigor, a comprovação do estado de hipossuficiência, que a lei visa proteger. É o que estabelece a Constituição Federal ... (agravo de instrumento 7.328.958-2). Ante o exposto, INDEFERE-SE o pedido de gratuidade. Outrossim, fica indeferido diferimento do recolhimento das custas judiciais, a teor do disposto no art.5º, da Lei 11.608/03, por não se enquadrar o caso no rol legal. INTIME-SE a parte demandante para que emende a inicial, providenciando a comprovação do recolhimento das custas judiciais, no prazo de 15 (quinze) dias, sob pena de extinção do processo, por falta de pressuposto processual, sem nova intimação. Intime-se."
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "02/06/2025",
+      "mov_descricao": "Conclusos para Decisão",
+      "mov_texto_completo": "Conclusos para Decisão",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.489765",
+      "mov_texto": "Conclusos para Decisão"
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "28/05/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WSRP.25.70234545-2\nTipo da Petição: Petição Intermediária\nData: 28/05/2025 17:05",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WSRP.25.70234545-2\nTipo da Petição: Petição Intermediária\nData: 28/05/2025 17:05",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.489953",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WSRP.25.70234545-2\nTipo da Petição: Petição Intermediária\nData: 28/05/2025 17:05"
+    },
+    {
+      "mov_ordem": 11,
+      "mov_data": "17/05/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WSRP.25.70213647-0\nTipo da Petição: Pedido de Juntada de Procuração/Substabelecimento\nData: 16/05/2025 16:29",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WSRP.25.70213647-0\nTipo da Petição: Pedido de Juntada de Procuração/Substabelecimento\nData: 16/05/2025 16:29",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.490197",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WSRP.25.70213647-0\nTipo da Petição: Pedido de Juntada de Procuração/Substabelecimento\nData: 16/05/2025 16:29"
+    },
+    {
+      "mov_ordem": 12,
+      "mov_data": "16/05/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WSRP.25.70213631-4\nTipo da Petição: Petição Intermediária\nData: 16/05/2025 16:26",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WSRP.25.70213631-4\nTipo da Petição: Petição Intermediária\nData: 16/05/2025 16:26",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.490595",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WSRP.25.70213631-4\nTipo da Petição: Petição Intermediária\nData: 16/05/2025 16:26"
+    },
+    {
+      "mov_ordem": 13,
+      "mov_data": "19/02/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0131/2025\nData da Publicação: 20/02/2025\nNúmero do Diário: 4148",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0131/2025\nData da Publicação: 20/02/2025\nNúmero do Diário: 4148",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.490842",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0131/2025\nData da Publicação: 20/02/2025\nNúmero do Diário: 4148"
+    },
+    {
+      "mov_ordem": 14,
+      "mov_data": "18/02/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0131/2025\nTeor do ato: Vistos. O art. 5º, LXXIV, da Constituição Federal, dispõe o Estado prestará assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos. Embora para a concessão da gratuidade não se exija o estado de miséria absoluta, é necessária a comprovação da impossibilidade de arcar com as custas e despesas do processo sem prejuízo de seu sustento próprio ou de sua família. A declaração de pobreza, por sua vez, estabelece mera presunção relativa da hipossuficiência, que cede ante outros elementos que sirvam para indicar a capacidade financeira. Antes de indeferir o pedido, contudo, convém facultar ao interessado o direito de provar a impossibilidade de arcar, sem o seu próprio prejuízo ou de sua família, com as custas e despesas do processo. Assim, para apreciação do pedido de Justiça Gratuita, a parte requerente deverá, em 15 (quinze) dias, apresentar, sob pena de indeferimento do benefício: cópia das últimas folhas da carteira do trabalho, ou comprovante de renda mensal, e de eventual cônjuge; cópia dos extratos bancários de contas de titularidade, e de eventual cônjuge, dos últimos três meses; cópia dos extratos de cartão de crédito, dos últimos três meses. Alternativamente, no mesmo prazo, deverá recolher as custas judiciais, sob pena de extinção, sem nova intimação. Observe-se que, em caso de indeferimento do pedido de justiça gratuita, a parte autora poderá ser condenada ao pagamento das custas em décuplo (art. 4º, §1ª, da Lei 1.050/60), sem prejuízo de eventual responsabilidade por crime tributário (art. 2º, I, da Lei 1.137/90). Int.\nAdvogados(s): Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0131/2025\nTeor do ato: Vistos. O art. 5º, LXXIV, da Constituição Federal, dispõe o Estado prestará assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos. Embora para a concessão da gratuidade não se exija o estado de miséria absoluta, é necessária a comprovação da impossibilidade de arcar com as custas e despesas do processo sem prejuízo de seu sustento próprio ou de sua família. A declaração de pobreza, por sua vez, estabelece mera presunção relativa da hipossuficiência, que cede ante outros elementos que sirvam para indicar a capacidade financeira. Antes de indeferir o pedido, contudo, convém facultar ao interessado o direito de provar a impossibilidade de arcar, sem o seu próprio prejuízo ou de sua família, com as custas e despesas do processo. Assim, para apreciação do pedido de Justiça Gratuita, a parte requerente deverá, em 15 (quinze) dias, apresentar, sob pena de indeferimento do benefício: cópia das últimas folhas da carteira do trabalho, ou comprovante de renda mensal, e de eventual cônjuge; cópia dos extratos bancários de contas de titularidade, e de eventual cônjuge, dos últimos três meses; cópia dos extratos de cartão de crédito, dos últimos três meses. Alternativamente, no mesmo prazo, deverá recolher as custas judiciais, sob pena de extinção, sem nova intimação. Observe-se que, em caso de indeferimento do pedido de justiça gratuita, a parte autora poderá ser condenada ao pagamento das custas em décuplo (art. 4º, §1ª, da Lei 1.050/60), sem prejuízo de eventual responsabilidade por crime tributário (art. 2º, I, da Lei 1.137/90). Int.\nAdvogados(s): Ana Beatriz Gonçalves (OAB 490353/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:11:24.491078",
+      "mov_texto": "Remetido ao DJE\nRelação: 0131/2025\nTeor do ato: Vistos. O art. 5º, LXXIV, da Constituição Federal, dispõe o Estado prestará assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos. Embora para a concessão da gratuidade não se exija o estado de miséria absoluta, é necessária a comprovação da impossibilidade de arcar com as custas e despesas do processo sem prejuízo de seu sustento próprio ou de sua família. A declaração de pobreza, por sua vez, estabelece mera presunção relativa da hipossuficiência, que cede ante outros elementos que sirvam para indicar a capacidade financeira. Antes de indeferir o pedido, contudo, convém facultar ao interessado o direito de provar a impossibilidade de arcar, sem o seu próprio prejuízo ou de sua família, com as custas e despesas do processo. Assim, para apreciação do pedido de Justiça Gratuita, a parte requerente deverá, em 15 (quinze) dias, apresentar, sob pena de indeferimento do benefício: cópia das últimas folhas da carteira do trabalho, ou comprovante de renda mensal, e de eventual cônjuge; cópia dos extratos bancários de contas de titularidade, e de eventual cônjuge, dos últimos três meses; cópia dos extratos de cartão de crédito, dos últimos três meses. Alternativamente, no mesmo prazo, deverá recolher as custas judiciais, sob pena de extinção, sem nova intimação. Observe-se que, em caso de indeferimento do pedido de justiça gratuita, a parte autora poderá ser condenada ao pagamento das custas em décuplo (art. 4º, §1ª, da Lei 1.050/60), sem prejuízo de eventual responsabilidade por crime tributário (art. 2º, I, da Lei 1.137/90). Int.\nAdvogados(s): Ana Beatriz Gonçalves (OAB 490353/SP)"
+    },
+    {
+      "mov_ordem": 15,
+      "mov_data": "17/02/2025",
+      "mov_descricao": "Determinada a Emenda à Inicial Vistos. O art. 5º, LXXIV, da Constituição Federal, dispõe o Estado prestará assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos. Embora para a concessão da gratuidade não se exija o estado de miséria absoluta, é necessária a comprovação da impossibilidade de arcar com as custas e despesas do processo sem prejuízo de seu sustento próprio ou de sua família. A declaração de pobreza, por sua vez, estabelece mera presunção relativa da hipossuficiência, que cede ante outros elementos que sirvam para indicar a capacidade financeira. Antes de indeferir o pedido, contudo, convém facultar ao interessado o direito de provar a impossibilidade de arcar, sem o seu próprio prejuízo ou de sua família, com as custas e despesas do processo. Assim, para apreciação do pedido de Justiça Gratuita, a parte requerente deverá, em 15 (quinze) dias, apresentar, sob pena de indeferimento do benefício: cópia das últimas folhas da carteira do trabalho, ou comprovante de renda mensal, e de eventual cônjuge; cópia dos extratos bancários de contas de titularidade, e de eventual cônjuge, dos últimos três meses; cópia dos extratos de cartão de crédito, dos últimos três meses. Alternativamente, no mesmo prazo, deverá recolher as custas judiciais, sob pena de extinção, sem nova intimação. Observe-se que, em caso de indeferimento do pedido de justiça gratuita, a parte autora poderá ser condenada ao pagamento das custas em décuplo (art. 4º, §1ª, da Lei 1.050/60), sem prejuízo de eventual responsabilidade por crime tributário (art. 2º, I, da Lei 1.137/90). Int.",
+      "mov_texto_completo": "Determinada a Emenda à Inicial\nVistos. O art. 5º, LXXIV, da Constituição Federal, dispõe o Estado prestará assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos. Embora para a concessão da gratuidade não se exija o estado de miséria absoluta, é necessária a comprovação da impossibilidade de arcar com as custas e despesas do processo sem prejuízo de seu sustento próprio ou de sua família. A declaração de pobreza, por sua vez, estabelece mera presunção relativa da hipossuficiência, que cede ante outros elementos que sirvam para indicar a capacidade financeira. Antes de indeferir o pedido, contudo, convém facultar ao interessado o direito de provar a impossibilidade de arcar, sem o seu próprio prejuízo ou de sua família, com as custas e despesas do processo. Assim, para apreciação do pedido de Justiça Gratuita, a parte requerente deverá, em 15 (quinze) dias, apresentar, sob pena de indeferimento do benefício: cópia das últimas folhas da carteira do trabalho, ou comprovante de renda mensal, e de eventual cônjuge; cópia dos extratos bancários de contas de titularidade, e de eventual cônjuge, dos últimos três meses; cópia dos extratos de cartão de crédito, dos últimos três meses. Alternativamente, no mesmo prazo, deverá recolher as custas judiciais, sob pena de extinção, sem nova intimação. Observe-se que, em caso de indeferimento do pedido de justiça gratuita, a parte autora poderá ser condenada ao pagamento das custas em décuplo (art. 4º, §1ª, da Lei 1.050/60), sem prejuízo de eventual responsabilidade por crime tributário (art. 2º, I, da Lei 1.137/90). Int.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:11:24.492126",
+      "mov_texto": "Determinada a Emenda à Inicial\nVistos. O art. 5º, LXXIV, da Constituição Federal, dispõe o Estado prestará assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos. Embora para a concessão da gratuidade não se exija o estado de miséria absoluta, é necessária a comprovação da impossibilidade de arcar com as custas e despesas do processo sem prejuízo de seu sustento próprio ou de sua família. A declaração de pobreza, por sua vez, estabelece mera presunção relativa da hipossuficiência, que cede ante outros elementos que sirvam para indicar a capacidade financeira. Antes de indeferir o pedido, contudo, convém facultar ao interessado o direito de provar a impossibilidade de arcar, sem o seu próprio prejuízo ou de sua família, com as custas e despesas do processo. Assim, para apreciação do pedido de Justiça Gratuita, a parte requerente deverá, em 15 (quinze) dias, apresentar, sob pena de indeferimento do benefício: cópia das últimas folhas da carteira do trabalho, ou comprovante de renda mensal, e de eventual cônjuge; cópia dos extratos bancários de contas de titularidade, e de eventual cônjuge, dos últimos três meses; cópia dos extratos de cartão de crédito, dos últimos três meses. Alternativamente, no mesmo prazo, deverá recolher as custas judiciais, sob pena de extinção, sem nova intimação. Observe-se que, em caso de indeferimento do pedido de justiça gratuita, a parte autora poderá ser condenada ao pagamento das custas em décuplo (art. 4º, §1ª, da Lei 1.050/60), sem prejuízo de eventual responsabilidade por crime tributário (art. 2º, I, da Lei 1.137/90). Int."
+    },
+    {
+      "mov_ordem": 16,
+      "mov_data": "17/02/2025",
+      "mov_descricao": "Conclusos para Decisão",
+      "mov_texto_completo": "Conclusos para Decisão",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.493183",
+      "mov_texto": "Conclusos para Decisão"
+    },
+    {
+      "mov_ordem": 17,
+      "mov_data": "14/02/2025",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:11:24.493400",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

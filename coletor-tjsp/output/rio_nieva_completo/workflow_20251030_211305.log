@@ -1,0 +1,878 @@
+2025-10-30 21:13:05 | INFO | 🚀 Iniciando workflow Rio Nieva
+2025-10-30 21:13:05 | INFO | 🔍 PASSO 1: Buscando processos para 'Rio Nieva'
+2025-10-30 21:13:05 | INFO | Inicializando browser...
+2025-10-30 21:13:06 | INFO | Browser inicializado com sucesso
+2025-10-30 21:13:06 | INFO | Buscando processos da parte: Rio Nieva
+2025-10-30 21:13:07 | DEBUG | Aguardando 18.4 segundos...
+2025-10-30 21:13:26 | DEBUG | Aguardando 18.4 segundos...
+2025-10-30 21:13:45 | DEBUG | Aguardando 13.6 segundos...
+2025-10-30 21:13:59 | DEBUG | Total de processos extraído: 29
+2025-10-30 21:13:59 | INFO | Total de processos: 29, Páginas necessárias: 2, Páginas a percorrer: 2
+2025-10-30 21:13:59 | INFO | Coletando página 1
+2025-10-30 21:14:00 | DEBUG | Aguardando 13.4 segundos...
+2025-10-30 21:14:13 | DEBUG | Aguardando 18.7 segundos...
+2025-10-30 21:14:32 | INFO | Coletando página 2
+2025-10-30 21:14:32 | INFO | Total de processos encontrados: 29
+2025-10-30 21:14:32 | INFO | 📊 Encontrados 29 processos
+2025-10-30 21:14:32 | INFO | 🎯 Processando 29 processos (do 1 ao último)
+2025-10-30 21:14:32 | INFO | Browser fechado
+2025-10-30 21:14:32 | INFO | ⚡ PASSO 2: Processamento paralelo com 3 workers
+2025-10-30 21:14:32 | INFO | Inicializando browser...
+2025-10-30 21:14:33 | INFO | Browser inicializado com sucesso
+2025-10-30 21:14:33 | INFO | [1/29] Worker 1: Processando 1024444-30.2025.8.26.0576
+2025-10-30 21:14:33 | INFO | Buscando processo: 1024444-30.2025.8.26.0576
+2025-10-30 21:14:33 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1024444-30.2025&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1024444-30.2025.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:14:34 | DEBUG | Aguardando 20.0 segundos...
+2025-10-30 21:14:54 | INFO | Busca direta bem-sucedida para 1024444-30.2025.8.26.0576
+2025-10-30 21:14:54 | DEBUG | HTML salvo: cache/1024444-30.2025.8.26.0576.html
+2025-10-30 21:14:54 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:14:54 | DEBUG | Vara extraída por ID: 7ª Vara Cível
+2025-10-30 21:14:54 | DEBUG | Juiz extraído por ID: Ana Maria Chalub De Aquino
+2025-10-30 21:14:54 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:14:54 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:14:54 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:14:54 | DEBUG | Nome extraído: 'Parque Rio Nieva'
+2025-10-30 21:14:54 | INFO | ✅ Exequente: Parque Rio Nieva
+2025-10-30 21:14:54 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:14:54 | DEBUG | Tipo encontrado: 'Exectda'
+2025-10-30 21:14:54 | DEBUG | Nome extraído: 'Elisandra dos Santos Borges Lourenço'
+2025-10-30 21:14:54 | INFO | ✅ Executado: Elisandra dos Santos Borges Lourenço
+2025-10-30 21:14:54 | DEBUG | Dados extraídos - Vara: '7ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Parque Rio Nieva', Exec: 'Elisandra dos Santos Borges Lourenço'
+2025-10-30 21:14:54 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:14:55 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:15:07 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:15:07 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:15:07 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:15:07 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:15:07 | INFO | 📋 Encontradas 17 linhas na tabela de movimentações
+2025-10-30 21:15:07 | INFO | Extraídas 17 movimentações
+2025-10-30 21:15:07 | INFO |    ✅ Salvo: processo_completo_1024444_30_2025_8_26_0576.json
+2025-10-30 21:15:07 | DEBUG | Aguardando 11.2 segundos...
+2025-10-30 21:15:18 | INFO | [2/29] Worker 1: Processando 1024327-39.2025.8.26.0576
+2025-10-30 21:15:18 | INFO | Buscando processo: 1024327-39.2025.8.26.0576
+2025-10-30 21:15:18 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1024327-39.2025&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1024327-39.2025.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:15:19 | DEBUG | Aguardando 17.4 segundos...
+2025-10-30 21:15:36 | INFO | Busca direta bem-sucedida para 1024327-39.2025.8.26.0576
+2025-10-30 21:15:36 | DEBUG | HTML salvo: cache/1024327-39.2025.8.26.0576.html
+2025-10-30 21:15:36 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:15:36 | DEBUG | Vara extraída por ID: 5ª Vara Cível
+2025-10-30 21:15:36 | DEBUG | Juiz extraído por ID: Angelo Marcio de Siqueira Pace
+2025-10-30 21:15:36 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:15:36 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:15:36 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:15:36 | DEBUG | Nome extraído: 'Parque Rio Nieva'
+2025-10-30 21:15:36 | INFO | ✅ Exequente: Parque Rio Nieva
+2025-10-30 21:15:36 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:15:36 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:15:36 | DEBUG | Nome extraído: 'Joel do Porto Silva Gomes'
+2025-10-30 21:15:36 | INFO | ✅ Executado: Joel do Porto Silva Gomes
+2025-10-30 21:15:36 | DEBUG | Dados extraídos - Vara: '5ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Parque Rio Nieva', Exec: 'Joel do Porto Silva Gomes'
+2025-10-30 21:15:36 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:15:36 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:15:48 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:15:48 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:15:48 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:15:49 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:15:49 | INFO | 📋 Encontradas 8 linhas na tabela de movimentações
+2025-10-30 21:15:49 | INFO | Extraídas 8 movimentações
+2025-10-30 21:15:49 | INFO |    ✅ Salvo: processo_completo_1024327_39_2025_8_26_0576.json
+2025-10-30 21:15:49 | DEBUG | Aguardando 15.7 segundos...
+2025-10-30 21:16:04 | INFO | [3/29] Worker 1: Processando 1024317-92.2025.8.26.0576
+2025-10-30 21:16:04 | INFO | Buscando processo: 1024317-92.2025.8.26.0576
+2025-10-30 21:16:04 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1024317-92.2025&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1024317-92.2025.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:16:05 | DEBUG | Aguardando 15.7 segundos...
+2025-10-30 21:16:21 | INFO | Busca direta bem-sucedida para 1024317-92.2025.8.26.0576
+2025-10-30 21:16:21 | DEBUG | HTML salvo: cache/1024317-92.2025.8.26.0576.html
+2025-10-30 21:16:21 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:16:21 | DEBUG | Vara extraída por ID: 8ª Vara Cível
+2025-10-30 21:16:21 | DEBUG | Juiz extraído por ID: Túlio Marcos Faustino Dias Brandão
+2025-10-30 21:16:21 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:16:21 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:16:21 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:16:21 | DEBUG | Nome extraído: 'Parque Rio Nieva'
+2025-10-30 21:16:21 | INFO | ✅ Exequente: Parque Rio Nieva
+2025-10-30 21:16:21 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:16:21 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:16:21 | DEBUG | Nome extraído: 'Gustavo de Sa Durão'
+2025-10-30 21:16:21 | INFO | ✅ Executado: Gustavo de Sa Durão
+2025-10-30 21:16:21 | DEBUG | Dados extraídos - Vara: '8ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Parque Rio Nieva', Exec: 'Gustavo de Sa Durão'
+2025-10-30 21:16:21 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:16:21 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:16:33 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:16:33 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:16:33 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:16:33 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:16:33 | INFO | 📋 Encontradas 17 linhas na tabela de movimentações
+2025-10-30 21:16:33 | INFO | Extraídas 17 movimentações
+2025-10-30 21:16:33 | INFO |    ✅ Salvo: processo_completo_1024317_92_2025_8_26_0576.json
+2025-10-30 21:16:33 | DEBUG | Aguardando 12.7 segundos...
+2025-10-30 21:16:46 | INFO | [4/29] Worker 1: Processando 1015891-62.2023.8.26.0576
+2025-10-30 21:16:46 | INFO | Buscando processo: 1015891-62.2023.8.26.0576
+2025-10-30 21:16:46 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1015891-62.2023&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1015891-62.2023.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:16:47 | DEBUG | Aguardando 15.3 segundos...
+2025-10-30 21:17:02 | INFO | Busca direta bem-sucedida para 1015891-62.2023.8.26.0576
+2025-10-30 21:17:02 | DEBUG | HTML salvo: cache/1015891-62.2023.8.26.0576.html
+2025-10-30 21:17:02 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:17:02 | DEBUG | Vara extraída por ID: 8ª Vara Cível
+2025-10-30 21:17:02 | DEBUG | Juiz extraído por ID: Túlio Marcos Faustino Dias Brandão
+2025-10-30 21:17:02 | DEBUG | Assunto extraído por ID: Compra e Venda
+2025-10-30 21:17:02 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:17:02 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:17:02 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda'
+2025-10-30 21:17:02 | INFO | ✅ Exequente: Parque Rio Nieva Incorporações Spe Ltda
+2025-10-30 21:17:02 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:17:02 | DEBUG | Tipo encontrado: 'Exectda'
+2025-10-30 21:17:02 | DEBUG | Nome extraído: 'Joseleidi Any Gomes Saracini'
+2025-10-30 21:17:02 | INFO | ✅ Executado: Joseleidi Any Gomes Saracini
+2025-10-30 21:17:02 | DEBUG | Dados extraídos - Vara: '8ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Compra e Venda', Exeq: 'Parque Rio Nieva Incorporações Spe Ltda', Exec: 'Joseleidi Any Gomes Saracini'
+2025-10-30 21:17:02 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:17:02 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:17:14 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:17:14 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:17:14 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:17:14 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:17:14 | INFO | 📋 Encontradas 70 linhas na tabela de movimentações
+2025-10-30 21:17:14 | INFO | Extraídas 70 movimentações
+2025-10-30 21:17:14 | INFO |    ✅ Salvo: processo_completo_1015891_62_2023_8_26_0576.json
+2025-10-30 21:17:14 | DEBUG | Aguardando 10.5 segundos...
+2025-10-30 21:17:25 | INFO | [5/29] Worker 1: Processando 1003399-38.2023.8.26.0576
+2025-10-30 21:17:25 | INFO | Buscando processo: 1003399-38.2023.8.26.0576
+2025-10-30 21:17:25 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1003399-38.2023&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1003399-38.2023.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:17:26 | DEBUG | Aguardando 13.0 segundos...
+2025-10-30 21:17:39 | INFO | Busca direta bem-sucedida para 1003399-38.2023.8.26.0576
+2025-10-30 21:17:39 | DEBUG | HTML salvo: cache/1003399-38.2023.8.26.0576.html
+2025-10-30 21:17:39 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:17:39 | DEBUG | Vara extraída por ID: 5ª Vara Cível
+2025-10-30 21:17:39 | DEBUG | Juiz extraído por ID: Angelo Marcio de Siqueira Pace
+2025-10-30 21:17:39 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:17:39 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:17:39 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:17:39 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:17:39 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:17:39 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:17:39 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:17:39 | DEBUG | Nome extraído: 'Paulo Sergio Sanches'
+2025-10-30 21:17:39 | INFO | ✅ Executado: Paulo Sergio Sanches
+2025-10-30 21:17:39 | DEBUG | Dados extraídos - Vara: '5ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Paulo Sergio Sanches'
+2025-10-30 21:17:39 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:17:39 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:17:51 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:17:51 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:17:51 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:17:51 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:17:51 | INFO | 📋 Encontradas 31 linhas na tabela de movimentações
+2025-10-30 21:17:51 | INFO | Extraídas 31 movimentações
+2025-10-30 21:17:51 | INFO |    ✅ Salvo: processo_completo_1003399_38_2023_8_26_0576.json
+2025-10-30 21:17:51 | DEBUG | Aguardando 15.0 segundos...
+2025-10-30 21:18:06 | INFO | [6/29] Worker 1: Processando 1003389-91.2023.8.26.0576
+2025-10-30 21:18:06 | INFO | Buscando processo: 1003389-91.2023.8.26.0576
+2025-10-30 21:18:06 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1003389-91.2023&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1003389-91.2023.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:18:07 | DEBUG | Aguardando 12.9 segundos...
+2025-10-30 21:18:20 | INFO | Busca direta bem-sucedida para 1003389-91.2023.8.26.0576
+2025-10-30 21:18:20 | DEBUG | HTML salvo: cache/1003389-91.2023.8.26.0576.html
+2025-10-30 21:18:20 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:18:20 | DEBUG | Vara extraída por ID: 4ª Vara Cível
+2025-10-30 21:18:20 | DEBUG | Juiz extraído por ID: ANDRESSA MARIA TAVARES MARCHIORI
+2025-10-30 21:18:20 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:18:20 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:18:20 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:18:20 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:18:20 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:18:20 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:18:20 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:18:20 | DEBUG | Nome extraído: 'Muriel Junio Rosa Ferreira'
+2025-10-30 21:18:20 | INFO | ✅ Executado: Muriel Junio Rosa Ferreira
+2025-10-30 21:18:20 | DEBUG | Dados extraídos - Vara: '4ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Muriel Junio Rosa Ferreira'
+2025-10-30 21:18:20 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:18:20 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:18:32 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:18:32 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:18:32 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:18:33 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:18:33 | INFO | 📋 Encontradas 47 linhas na tabela de movimentações
+2025-10-30 21:18:33 | INFO | Extraídas 47 movimentações
+2025-10-30 21:18:33 | INFO |    ✅ Salvo: processo_completo_1003389_91_2023_8_26_0576.json
+2025-10-30 21:18:33 | DEBUG | Aguardando 17.5 segundos...
+2025-10-30 21:18:50 | INFO | [7/29] Worker 1: Processando 1042682-05.2022.8.26.0576
+2025-10-30 21:18:50 | INFO | Buscando processo: 1042682-05.2022.8.26.0576
+2025-10-30 21:18:50 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1042682-05.2022&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1042682-05.2022.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:18:52 | DEBUG | Aguardando 16.7 segundos...
+2025-10-30 21:19:09 | INFO | Busca direta bem-sucedida para 1042682-05.2022.8.26.0576
+2025-10-30 21:19:09 | DEBUG | HTML salvo: cache/1042682-05.2022.8.26.0576.html
+2025-10-30 21:19:09 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:19:09 | DEBUG | Vara extraída por ID: 4ª Vara Cível
+2025-10-30 21:19:09 | DEBUG | Juiz extraído por ID: ANDRESSA MARIA TAVARES MARCHIORI
+2025-10-30 21:19:09 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:19:09 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:19:09 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:19:09 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:19:09 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:19:09 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:19:09 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:19:09 | DEBUG | Nome extraído: 'Francys Guilherme Ramos de Freitas'
+2025-10-30 21:19:09 | INFO | ✅ Executado: Francys Guilherme Ramos de Freitas
+2025-10-30 21:19:09 | DEBUG | Dados extraídos - Vara: '4ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Francys Guilherme Ramos de Freitas'
+2025-10-30 21:19:09 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:19:09 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:19:21 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:19:21 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:19:21 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:19:21 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:19:21 | INFO | 📋 Encontradas 73 linhas na tabela de movimentações
+2025-10-30 21:19:21 | INFO | Extraídas 73 movimentações
+2025-10-30 21:19:21 | INFO |    ✅ Salvo: processo_completo_1042682_05_2022_8_26_0576.json
+2025-10-30 21:19:21 | DEBUG | Aguardando 11.1 segundos...
+2025-10-30 21:19:32 | INFO | [8/29] Worker 1: Processando 1039752-14.2022.8.26.0576
+2025-10-30 21:19:32 | INFO | Buscando processo: 1039752-14.2022.8.26.0576
+2025-10-30 21:19:32 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1039752-14.2022&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1039752-14.2022.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:19:33 | DEBUG | Aguardando 14.2 segundos...
+2025-10-30 21:19:48 | INFO | Busca direta bem-sucedida para 1039752-14.2022.8.26.0576
+2025-10-30 21:19:48 | DEBUG | HTML salvo: cache/1039752-14.2022.8.26.0576.html
+2025-10-30 21:19:48 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:19:48 | DEBUG | Vara extraída por ID: 7ª Vara Cível
+2025-10-30 21:19:48 | DEBUG | Juiz extraído por ID: Ana Maria Chalub De Aquino
+2025-10-30 21:19:48 | DEBUG | Assunto extraído por ID: Compra e Venda
+2025-10-30 21:19:48 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:19:48 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:19:48 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda'
+2025-10-30 21:19:48 | INFO | ✅ Exequente: Parque Rio Nieva Incorporações Spe Ltda
+2025-10-30 21:19:48 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:19:48 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:19:48 | DEBUG | Nome extraído: 'Leonardo França Martins'
+2025-10-30 21:19:48 | INFO | ✅ Executado: Leonardo França Martins
+2025-10-30 21:19:48 | DEBUG | Tipo encontrado: 'TerIntCer'
+2025-10-30 21:19:48 | DEBUG | Nome extraído: 'Valter da Silva Martins'
+2025-10-30 21:19:48 | DEBUG | Dados extraídos - Vara: '7ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Compra e Venda', Exeq: 'Parque Rio Nieva Incorporações Spe Ltda', Exec: 'Leonardo França Martins'
+2025-10-30 21:19:48 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:19:48 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:20:00 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:20:00 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:20:00 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:20:00 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:20:00 | INFO | 📋 Encontradas 64 linhas na tabela de movimentações
+2025-10-30 21:20:00 | INFO | Extraídas 64 movimentações
+2025-10-30 21:20:00 | INFO |    ✅ Salvo: processo_completo_1039752_14_2022_8_26_0576.json
+2025-10-30 21:20:00 | DEBUG | Aguardando 13.5 segundos...
+2025-10-30 21:20:13 | INFO | [9/29] Worker 1: Processando 1014892-46.2022.8.26.0576
+2025-10-30 21:20:13 | INFO | Buscando processo: 1014892-46.2022.8.26.0576
+2025-10-30 21:20:13 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1014892-46.2022&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1014892-46.2022.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:20:14 | DEBUG | Aguardando 11.1 segundos...
+2025-10-30 21:20:25 | INFO | Busca direta bem-sucedida para 1014892-46.2022.8.26.0576
+2025-10-30 21:20:25 | DEBUG | HTML salvo: cache/1014892-46.2022.8.26.0576.html
+2025-10-30 21:20:25 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:20:25 | DEBUG | Vara extraída por ID: 2ª Vara Cível
+2025-10-30 21:20:25 | DEBUG | Juiz extraído por ID: JOSE ROBERTO LOPES FERNANDES
+2025-10-30 21:20:25 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:20:25 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:20:25 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:20:25 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:20:25 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:20:25 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:20:25 | DEBUG | Nome extraído: 'Rogerio Di Mei Costa'
+2025-10-30 21:20:25 | INFO | ✅ Executado: Rogerio Di Mei Costa
+2025-10-30 21:20:25 | DEBUG | Dados extraídos - Vara: '2ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Rogerio Di Mei Costa'
+2025-10-30 21:20:25 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:20:25 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:20:38 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:20:38 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:20:38 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:20:38 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:20:38 | INFO | 📋 Encontradas 24 linhas na tabela de movimentações
+2025-10-30 21:20:38 | INFO | Extraídas 24 movimentações
+2025-10-30 21:20:38 | INFO |    ✅ Salvo: processo_completo_1014892_46_2022_8_26_0576.json
+2025-10-30 21:20:38 | DEBUG | Aguardando 12.0 segundos...
+2025-10-30 21:20:50 | INFO | [10/29] Worker 1: Processando 1043294-74.2021.8.26.0576
+2025-10-30 21:20:50 | INFO | Buscando processo: 1043294-74.2021.8.26.0576
+2025-10-30 21:20:50 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1043294-74.2021&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1043294-74.2021.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:20:51 | DEBUG | Aguardando 17.6 segundos...
+2025-10-30 21:21:08 | INFO | Busca direta bem-sucedida para 1043294-74.2021.8.26.0576
+2025-10-30 21:21:08 | DEBUG | HTML salvo: cache/1043294-74.2021.8.26.0576.html
+2025-10-30 21:21:08 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:21:08 | DEBUG | Vara extraída por ID: 1ª Vara Cível
+2025-10-30 21:21:08 | DEBUG | Juiz extraído por ID: Douglas Borges da Silva
+2025-10-30 21:21:08 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:21:08 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:21:08 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:21:08 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:21:08 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:21:08 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:21:08 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:21:08 | DEBUG | Nome extraído: 'Dyogo Roger Barbosa'
+2025-10-30 21:21:08 | INFO | ✅ Executado: Dyogo Roger Barbosa
+2025-10-30 21:21:08 | DEBUG | Tipo encontrado: 'Credor'
+2025-10-30 21:21:08 | DEBUG | Nome extraído: 'Banco do Brasil  S/A'
+2025-10-30 21:21:08 | DEBUG | Dados extraídos - Vara: '1ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Dyogo Roger Barbosa'
+2025-10-30 21:21:08 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:21:08 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:21:21 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:21:21 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:21:21 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:21:21 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:21:21 | INFO | 📋 Encontradas 83 linhas na tabela de movimentações
+2025-10-30 21:21:21 | INFO | Extraídas 83 movimentações
+2025-10-30 21:21:21 | INFO |    ✅ Salvo: processo_completo_1043294_74_2021_8_26_0576.json
+2025-10-30 21:21:21 | DEBUG | Aguardando 10.1 segundos...
+2025-10-30 21:21:31 | INFO | Browser fechado
+2025-10-30 21:21:31 | INFO | Inicializando browser...
+2025-10-30 21:21:32 | INFO | Browser inicializado com sucesso
+2025-10-30 21:21:32 | INFO | [11/29] Worker 2: Processando 1014372-23.2021.8.26.0576
+2025-10-30 21:21:32 | INFO | Buscando processo: 1014372-23.2021.8.26.0576
+2025-10-30 21:21:32 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1014372-23.2021&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1014372-23.2021.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:21:35 | DEBUG | Aguardando 14.3 segundos...
+2025-10-30 21:21:49 | INFO | Busca direta bem-sucedida para 1014372-23.2021.8.26.0576
+2025-10-30 21:21:49 | DEBUG | HTML salvo: cache/1014372-23.2021.8.26.0576.html
+2025-10-30 21:21:49 | DEBUG | Classe extraída por ID: Monitória
+2025-10-30 21:21:49 | DEBUG | Vara extraída por ID: 5ª Vara Cível
+2025-10-30 21:21:49 | DEBUG | Juiz extraído por ID: Angelo Marcio de Siqueira Pace
+2025-10-30 21:21:49 | DEBUG | Assunto extraído por ID: Compra e Venda
+2025-10-30 21:21:49 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:21:49 | DEBUG | Tipo encontrado: 'Reqte'
+2025-10-30 21:21:49 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda'
+2025-10-30 21:21:49 | DEBUG | Tipo encontrado: 'Reqdo'
+2025-10-30 21:21:49 | DEBUG | Nome extraído: 'Andre Carlos Ruiz Silva'
+2025-10-30 21:21:49 | DEBUG | Tipo encontrado: 'Interesdo.'
+2025-10-30 21:21:49 | DEBUG | Nome extraído: 'MRV ENGENHARIA E PARTICIPAÇÕES S.A.'
+2025-10-30 21:21:49 | DEBUG | Dados extraídos - Vara: '5ª Vara Cível', Classe: 'Monitória - Compra e Venda', Exeq: '', Exec: ''
+2025-10-30 21:21:49 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:21:49 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:22:01 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:22:01 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:22:01 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:22:02 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:22:02 | INFO | 📋 Encontradas 32 linhas na tabela de movimentações
+2025-10-30 21:22:02 | INFO | Extraídas 32 movimentações
+2025-10-30 21:22:02 | INFO |    ✅ Salvo: processo_completo_1014372_23_2021_8_26_0576.json
+2025-10-30 21:22:02 | DEBUG | Aguardando 11.8 segundos...
+2025-10-30 21:22:13 | INFO | [12/29] Worker 2: Processando 1045152-77.2020.8.26.0576
+2025-10-30 21:22:13 | INFO | Buscando processo: 1045152-77.2020.8.26.0576
+2025-10-30 21:22:13 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1045152-77.2020&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1045152-77.2020.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:22:14 | DEBUG | Aguardando 13.0 segundos...
+2025-10-30 21:22:27 | INFO | Busca direta bem-sucedida para 1045152-77.2020.8.26.0576
+2025-10-30 21:22:27 | DEBUG | HTML salvo: cache/1045152-77.2020.8.26.0576.html
+2025-10-30 21:22:27 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:22:27 | DEBUG | Vara extraída por ID: 4ª Vara Cível
+2025-10-30 21:22:27 | DEBUG | Juiz extraído por ID: ANDRESSA MARIA TAVARES MARCHIORI
+2025-10-30 21:22:27 | DEBUG | Assunto extraído por ID: Compra e Venda
+2025-10-30 21:22:27 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:22:27 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:22:27 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda.'
+2025-10-30 21:22:27 | INFO | ✅ Exequente: Parque Rio Nieva Incorporações Spe Ltda.
+2025-10-30 21:22:27 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:22:27 | DEBUG | Tipo encontrado: 'Exectda'
+2025-10-30 21:22:27 | DEBUG | Nome extraído: 'Elaine Eli Camargo'
+2025-10-30 21:22:27 | INFO | ✅ Executado: Elaine Eli Camargo
+2025-10-30 21:22:27 | DEBUG | Dados extraídos - Vara: '4ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Compra e Venda', Exeq: 'Parque Rio Nieva Incorporações Spe Ltda.', Exec: 'Elaine Eli Camargo'
+2025-10-30 21:22:27 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:22:27 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:22:40 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:22:40 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:22:40 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:22:40 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:22:40 | INFO | 📋 Encontradas 27 linhas na tabela de movimentações
+2025-10-30 21:22:40 | INFO | Extraídas 27 movimentações
+2025-10-30 21:22:40 | INFO |    ✅ Salvo: processo_completo_1045152_77_2020_8_26_0576.json
+2025-10-30 21:22:40 | DEBUG | Aguardando 11.4 segundos...
+2025-10-30 21:22:51 | INFO | [13/29] Worker 2: Processando 1008185-33.2020.8.26.0576
+2025-10-30 21:22:51 | INFO | Buscando processo: 1008185-33.2020.8.26.0576
+2025-10-30 21:22:51 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1008185-33.2020&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1008185-33.2020.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:22:52 | DEBUG | Aguardando 16.4 segundos...
+2025-10-30 21:23:09 | INFO | Busca direta bem-sucedida para 1008185-33.2020.8.26.0576
+2025-10-30 21:23:09 | DEBUG | HTML salvo: cache/1008185-33.2020.8.26.0576.html
+2025-10-30 21:23:09 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:23:09 | DEBUG | Vara extraída por ID: 5ª Vara Cível
+2025-10-30 21:23:09 | DEBUG | Juiz extraído por ID: Angelo Marcio de Siqueira Pace
+2025-10-30 21:23:09 | DEBUG | Assunto extraído por ID: Compra e Venda
+2025-10-30 21:23:09 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:23:09 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:23:09 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda'
+2025-10-30 21:23:09 | INFO | ✅ Exequente: Parque Rio Nieva Incorporações Spe Ltda
+2025-10-30 21:23:09 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:23:09 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:23:09 | DEBUG | Nome extraído: 'Juliano Ventura Cardoso'
+2025-10-30 21:23:09 | INFO | ✅ Executado: Juliano Ventura Cardoso
+2025-10-30 21:23:09 | DEBUG | Dados extraídos - Vara: '5ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Compra e Venda', Exeq: 'Parque Rio Nieva Incorporações Spe Ltda', Exec: 'Juliano Ventura Cardoso'
+2025-10-30 21:23:09 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:23:09 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:23:21 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:23:21 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:23:21 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:23:21 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:23:21 | INFO | 📋 Encontradas 115 linhas na tabela de movimentações
+2025-10-30 21:23:21 | INFO | Extraídas 115 movimentações
+2025-10-30 21:23:21 | INFO |    ✅ Salvo: processo_completo_1008185_33_2020_8_26_0576.json
+2025-10-30 21:23:21 | DEBUG | Aguardando 17.2 segundos...
+2025-10-30 21:23:38 | INFO | [14/29] Worker 2: Processando 1007961-95.2020.8.26.0576
+2025-10-30 21:23:38 | INFO | Buscando processo: 1007961-95.2020.8.26.0576
+2025-10-30 21:23:38 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1007961-95.2020&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1007961-95.2020.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:23:39 | DEBUG | Aguardando 14.4 segundos...
+2025-10-30 21:23:54 | INFO | Busca direta bem-sucedida para 1007961-95.2020.8.26.0576
+2025-10-30 21:23:54 | DEBUG | HTML salvo: cache/1007961-95.2020.8.26.0576.html
+2025-10-30 21:23:54 | DEBUG | Classe extraída por ID: Procedimento Comum Cível
+2025-10-30 21:23:54 | DEBUG | Vara extraída por ID: 4ª Vara Cível
+2025-10-30 21:23:54 | DEBUG | Juiz extraído por ID: ANDRESSA MARIA TAVARES MARCHIORI
+2025-10-30 21:23:54 | DEBUG | Assunto extraído por ID: Vícios de Construção
+2025-10-30 21:23:54 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:23:54 | DEBUG | Tipo encontrado: 'Reqte'
+2025-10-30 21:23:54 | DEBUG | Nome extraído: 'Alison Moura de Carvalho'
+2025-10-30 21:23:54 | DEBUG | Tipo encontrado: 'Reqdo'
+2025-10-30 21:23:54 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda.'
+2025-10-30 21:23:54 | DEBUG | Tipo encontrado: 'Perito'
+2025-10-30 21:23:54 | DEBUG | Nome extraído: 'João Paulo Lopes da Silva Polotto'
+2025-10-30 21:23:54 | DEBUG | Dados extraídos - Vara: '4ª Vara Cível', Classe: 'Procedimento Comum Cível - Vícios de Construção', Exeq: '', Exec: ''
+2025-10-30 21:23:54 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:23:54 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:24:06 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:24:06 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:24:06 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:24:06 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:24:06 | INFO | 📋 Encontradas 109 linhas na tabela de movimentações
+2025-10-30 21:24:06 | INFO | Extraídas 109 movimentações
+2025-10-30 21:24:06 | INFO |    ✅ Salvo: processo_completo_1007961_95_2020_8_26_0576.json
+2025-10-30 21:24:06 | DEBUG | Aguardando 17.1 segundos...
+2025-10-30 21:24:23 | INFO | [15/29] Worker 2: Processando 1037187-82.2019.8.26.0576
+2025-10-30 21:24:23 | INFO | Buscando processo: 1037187-82.2019.8.26.0576
+2025-10-30 21:24:23 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1037187-82.2019&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1037187-82.2019.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:24:24 | DEBUG | Aguardando 11.2 segundos...
+2025-10-30 21:24:35 | INFO | Busca direta bem-sucedida para 1037187-82.2019.8.26.0576
+2025-10-30 21:24:35 | DEBUG | HTML salvo: cache/1037187-82.2019.8.26.0576.html
+2025-10-30 21:24:36 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:24:36 | DEBUG | Vara extraída por ID: 2ª Vara Cível
+2025-10-30 21:24:36 | DEBUG | Juiz extraído por ID: JOSE ROBERTO LOPES FERNANDES
+2025-10-30 21:24:36 | DEBUG | Assunto extraído por ID: Compra e Venda
+2025-10-30 21:24:36 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:24:36 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:24:36 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda'
+2025-10-30 21:24:36 | INFO | ✅ Exequente: Parque Rio Nieva Incorporações Spe Ltda
+2025-10-30 21:24:36 | DEBUG | Tipo encontrado: 'Exectda'
+2025-10-30 21:24:36 | DEBUG | Nome extraído: 'Alessandra Roberta de Lima'
+2025-10-30 21:24:36 | INFO | ✅ Executado: Alessandra Roberta de Lima
+2025-10-30 21:24:36 | DEBUG | Dados extraídos - Vara: '2ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Compra e Venda', Exeq: 'Parque Rio Nieva Incorporações Spe Ltda', Exec: 'Alessandra Roberta de Lima'
+2025-10-30 21:24:36 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:24:36 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:24:48 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:24:48 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:24:48 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:24:48 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:24:48 | INFO | 📋 Encontradas 131 linhas na tabela de movimentações
+2025-10-30 21:24:48 | INFO | Extraídas 131 movimentações
+2025-10-30 21:24:48 | INFO |    ✅ Salvo: processo_completo_1037187_82_2019_8_26_0576.json
+2025-10-30 21:24:48 | DEBUG | Aguardando 15.1 segundos...
+2025-10-30 21:25:03 | INFO | [16/29] Worker 2: Processando 1028484-65.2019.8.26.0576
+2025-10-30 21:25:03 | INFO | Buscando processo: 1028484-65.2019.8.26.0576
+2025-10-30 21:25:03 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1028484-65.2019&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1028484-65.2019.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:25:04 | DEBUG | Aguardando 18.9 segundos...
+2025-10-30 21:25:23 | INFO | Busca direta bem-sucedida para 1028484-65.2019.8.26.0576
+2025-10-30 21:25:23 | DEBUG | HTML salvo: cache/1028484-65.2019.8.26.0576.html
+2025-10-30 21:25:23 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:25:23 | DEBUG | Vara extraída por ID: 1ª Vara Cível
+2025-10-30 21:25:23 | DEBUG | Juiz extraído por ID: Douglas Borges da Silva
+2025-10-30 21:25:23 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:25:23 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:25:23 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:25:23 | DEBUG | Nome extraído: 'Parque Rio Nieva'
+2025-10-30 21:25:23 | INFO | ✅ Exequente: Parque Rio Nieva
+2025-10-30 21:25:23 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:25:23 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:25:23 | DEBUG | Nome extraído: 'Juliano Ventura Cardoso'
+2025-10-30 21:25:23 | INFO | ✅ Executado: Juliano Ventura Cardoso
+2025-10-30 21:25:23 | DEBUG | Tipo encontrado: 'TerIntCer'
+2025-10-30 21:25:23 | DEBUG | Nome extraído: 'Banco do Brasil  S/A'
+2025-10-30 21:25:23 | DEBUG | Tipo encontrado: 'Gestora'
+2025-10-30 21:25:23 | DEBUG | Nome extraído: 'Alethea Carvalho Lopes'
+2025-10-30 21:25:23 | DEBUG | Dados extraídos - Vara: '1ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Parque Rio Nieva', Exec: 'Juliano Ventura Cardoso'
+2025-10-30 21:25:23 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:25:24 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:25:36 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:25:36 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:25:36 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:25:36 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:25:36 | INFO | 📋 Encontradas 191 linhas na tabela de movimentações
+2025-10-30 21:25:36 | INFO | Extraídas 191 movimentações
+2025-10-30 21:25:36 | INFO |    ✅ Salvo: processo_completo_1028484_65_2019_8_26_0576.json
+2025-10-30 21:25:36 | DEBUG | Aguardando 19.6 segundos...
+2025-10-30 21:25:55 | INFO | [17/29] Worker 2: Processando 1028480-28.2019.8.26.0576
+2025-10-30 21:25:55 | INFO | Buscando processo: 1028480-28.2019.8.26.0576
+2025-10-30 21:25:55 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1028480-28.2019&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1028480-28.2019.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:25:56 | DEBUG | Aguardando 19.4 segundos...
+2025-10-30 21:26:16 | INFO | Busca direta bem-sucedida para 1028480-28.2019.8.26.0576
+2025-10-30 21:26:16 | DEBUG | HTML salvo: cache/1028480-28.2019.8.26.0576.html
+2025-10-30 21:26:16 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:26:16 | DEBUG | Vara extraída por ID: 7ª Vara Cível
+2025-10-30 21:26:16 | DEBUG | Juiz extraído por ID: Ana Maria Chalub De Aquino
+2025-10-30 21:26:16 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:26:16 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:26:16 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:26:16 | DEBUG | Nome extraído: 'Parque Rio Nieva'
+2025-10-30 21:26:16 | INFO | ✅ Exequente: Parque Rio Nieva
+2025-10-30 21:26:16 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:26:16 | DEBUG | Nome extraído: 'Pedro Alves Sobrinho'
+2025-10-30 21:26:16 | INFO | ✅ Executado: Pedro Alves Sobrinho
+2025-10-30 21:26:16 | DEBUG | Dados extraídos - Vara: '7ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Parque Rio Nieva', Exec: 'Pedro Alves Sobrinho'
+2025-10-30 21:26:16 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:26:16 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:26:28 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:26:28 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:26:28 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:26:28 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:26:28 | INFO | 📋 Encontradas 58 linhas na tabela de movimentações
+2025-10-30 21:26:28 | INFO | Extraídas 58 movimentações
+2025-10-30 21:26:28 | INFO |    ✅ Salvo: processo_completo_1028480_28_2019_8_26_0576.json
+2025-10-30 21:26:28 | DEBUG | Aguardando 16.3 segundos...
+2025-10-30 21:26:45 | INFO | [18/29] Worker 2: Processando 1021579-44.2019.8.26.0576
+2025-10-30 21:26:45 | INFO | Buscando processo: 1021579-44.2019.8.26.0576
+2025-10-30 21:26:45 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1021579-44.2019&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1021579-44.2019.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:26:46 | DEBUG | Aguardando 15.4 segundos...
+2025-10-30 21:27:01 | INFO | Busca direta bem-sucedida para 1021579-44.2019.8.26.0576
+2025-10-30 21:27:01 | DEBUG | HTML salvo: cache/1021579-44.2019.8.26.0576.html
+2025-10-30 21:27:01 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:27:01 | DEBUG | Vara extraída por ID: 3ª Vara Cível
+2025-10-30 21:27:01 | DEBUG | Juiz extraído por ID: GLARISTON RESENDE
+2025-10-30 21:27:01 | DEBUG | Assunto extraído por ID: Compra e Venda
+2025-10-30 21:27:01 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:27:01 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:27:01 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda'
+2025-10-30 21:27:01 | INFO | ✅ Exequente: Parque Rio Nieva Incorporações Spe Ltda
+2025-10-30 21:27:01 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:27:01 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:27:01 | DEBUG | Nome extraído: 'Evandro Valdir da Silva'
+2025-10-30 21:27:01 | INFO | ✅ Executado: Evandro Valdir da Silva
+2025-10-30 21:27:01 | DEBUG | Dados extraídos - Vara: '3ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Compra e Venda', Exeq: 'Parque Rio Nieva Incorporações Spe Ltda', Exec: 'Evandro Valdir da Silva'
+2025-10-30 21:27:01 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:27:01 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:27:13 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:27:13 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:27:13 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:27:13 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:27:13 | INFO | 📋 Encontradas 73 linhas na tabela de movimentações
+2025-10-30 21:27:13 | INFO | Extraídas 73 movimentações
+2025-10-30 21:27:13 | INFO |    ✅ Salvo: processo_completo_1021579_44_2019_8_26_0576.json
+2025-10-30 21:27:13 | DEBUG | Aguardando 19.0 segundos...
+2025-10-30 21:27:32 | INFO | [19/29] Worker 2: Processando 1053694-55.2018.8.26.0576
+2025-10-30 21:27:32 | INFO | Buscando processo: 1053694-55.2018.8.26.0576
+2025-10-30 21:27:32 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1053694-55.2018&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1053694-55.2018.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:27:33 | DEBUG | Aguardando 13.2 segundos...
+2025-10-30 21:27:47 | INFO | Busca direta bem-sucedida para 1053694-55.2018.8.26.0576
+2025-10-30 21:27:47 | DEBUG | HTML salvo: cache/1053694-55.2018.8.26.0576.html
+2025-10-30 21:27:47 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:27:47 | DEBUG | Vara extraída por ID: 3ª Vara Cível
+2025-10-30 21:27:47 | DEBUG | Juiz extraído por ID: GLARISTON RESENDE
+2025-10-30 21:27:47 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:27:47 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:27:47 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:27:47 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:27:47 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:27:47 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:27:47 | DEBUG | Nome extraído: 'Daniel Ferreira Santana'
+2025-10-30 21:27:47 | INFO | ✅ Executado: Daniel Ferreira Santana
+2025-10-30 21:27:47 | DEBUG | Dados extraídos - Vara: '3ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Daniel Ferreira Santana'
+2025-10-30 21:27:47 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:27:47 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:27:59 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:27:59 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:27:59 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:27:59 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:27:59 | INFO | 📋 Encontradas 26 linhas na tabela de movimentações
+2025-10-30 21:27:59 | INFO | Extraídas 26 movimentações
+2025-10-30 21:27:59 | INFO |    ✅ Salvo: processo_completo_1053694_55_2018_8_26_0576.json
+2025-10-30 21:27:59 | DEBUG | Aguardando 15.1 segundos...
+2025-10-30 21:28:14 | INFO | [20/29] Worker 2: Processando 1053690-18.2018.8.26.0576
+2025-10-30 21:28:14 | INFO | Buscando processo: 1053690-18.2018.8.26.0576
+2025-10-30 21:28:14 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1053690-18.2018&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1053690-18.2018.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:28:15 | DEBUG | Aguardando 15.8 segundos...
+2025-10-30 21:28:31 | INFO | Busca direta bem-sucedida para 1053690-18.2018.8.26.0576
+2025-10-30 21:28:31 | DEBUG | HTML salvo: cache/1053690-18.2018.8.26.0576.html
+2025-10-30 21:28:31 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:28:31 | DEBUG | Vara extraída por ID: 7ª Vara Cível
+2025-10-30 21:28:31 | DEBUG | Juiz extraído por ID: Ana Maria Chalub De Aquino
+2025-10-30 21:28:31 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:28:31 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:28:31 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:28:31 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:28:31 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:28:31 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:28:31 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:28:31 | DEBUG | Nome extraído: 'Jailton Silva de Souza'
+2025-10-30 21:28:31 | INFO | ✅ Executado: Jailton Silva de Souza
+2025-10-30 21:28:31 | DEBUG | Tipo encontrado: 'TerIntCer'
+2025-10-30 21:28:31 | DEBUG | Nome extraído: 'CAIXA ECONÔMICA FEDERAL - CEF'
+2025-10-30 21:28:31 | DEBUG | Dados extraídos - Vara: '7ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Jailton Silva de Souza'
+2025-10-30 21:28:31 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:28:31 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:28:43 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:28:43 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:28:43 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:28:43 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:28:43 | INFO | 📋 Encontradas 102 linhas na tabela de movimentações
+2025-10-30 21:28:43 | INFO | Extraídas 102 movimentações
+2025-10-30 21:28:43 | INFO |    ✅ Salvo: processo_completo_1053690_18_2018_8_26_0576.json
+2025-10-30 21:28:43 | DEBUG | Aguardando 10.9 segundos...
+2025-10-30 21:28:54 | INFO | Browser fechado
+2025-10-30 21:28:54 | INFO | Inicializando browser...
+2025-10-30 21:28:55 | INFO | Browser inicializado com sucesso
+2025-10-30 21:28:55 | INFO | [21/29] Worker 3: Processando 1053689-33.2018.8.26.0576
+2025-10-30 21:28:55 | INFO | Buscando processo: 1053689-33.2018.8.26.0576
+2025-10-30 21:28:55 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1053689-33.2018&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1053689-33.2018.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:28:57 | DEBUG | Aguardando 15.2 segundos...
+2025-10-30 21:29:12 | INFO | Busca direta bem-sucedida para 1053689-33.2018.8.26.0576
+2025-10-30 21:29:12 | DEBUG | HTML salvo: cache/1053689-33.2018.8.26.0576.html
+2025-10-30 21:29:12 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:29:12 | DEBUG | Vara extraída por ID: 6ª Vara Cível
+2025-10-30 21:29:12 | DEBUG | Juiz extraído por ID: Sergio Martins Barbatto Júnior
+2025-10-30 21:29:12 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:29:12 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:29:12 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:29:12 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:29:12 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:29:12 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:29:12 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:29:12 | DEBUG | Nome extraído: 'Lucas Dourado Greccho'
+2025-10-30 21:29:12 | INFO | ✅ Executado: Lucas Dourado Greccho
+2025-10-30 21:29:12 | DEBUG | Tipo encontrado: 'TerIntCer'
+2025-10-30 21:29:12 | DEBUG | Nome extraído: 'Banco do Brasil  S/A'
+2025-10-30 21:29:12 | DEBUG | Dados extraídos - Vara: '6ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Lucas Dourado Greccho'
+2025-10-30 21:29:12 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:29:12 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:29:24 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:29:24 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:29:24 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:29:25 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:29:25 | INFO | 📋 Encontradas 96 linhas na tabela de movimentações
+2025-10-30 21:29:25 | INFO | Extraídas 96 movimentações
+2025-10-30 21:29:25 | INFO |    ✅ Salvo: processo_completo_1053689_33_2018_8_26_0576.json
+2025-10-30 21:29:25 | DEBUG | Aguardando 16.6 segundos...
+2025-10-30 21:29:41 | INFO | [22/29] Worker 3: Processando 1039593-13.2018.8.26.0576
+2025-10-30 21:29:41 | INFO | Buscando processo: 1039593-13.2018.8.26.0576
+2025-10-30 21:29:41 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1039593-13.2018&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1039593-13.2018.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:29:42 | DEBUG | Aguardando 13.3 segundos...
+2025-10-30 21:29:56 | INFO | Busca direta bem-sucedida para 1039593-13.2018.8.26.0576
+2025-10-30 21:29:56 | DEBUG | HTML salvo: cache/1039593-13.2018.8.26.0576.html
+2025-10-30 21:29:56 | DEBUG | Classe extraída por ID: Procedimento Comum Cível
+2025-10-30 21:29:56 | DEBUG | Vara extraída por ID: 4ª Vara Cível
+2025-10-30 21:29:56 | DEBUG | Juiz extraído por ID: ANDRESSA MARIA TAVARES MARCHIORI
+2025-10-30 21:29:56 | DEBUG | Assunto extraído por ID: Promessa de Compra e Venda
+2025-10-30 21:29:56 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:29:56 | DEBUG | Tipo encontrado: 'Reqte'
+2025-10-30 21:29:56 | DEBUG | Nome extraído: 'Raphael da Mota Ferreira'
+2025-10-30 21:29:56 | DEBUG | Tipo encontrado: 'Reqdo'
+2025-10-30 21:29:56 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda'
+2025-10-30 21:29:56 | DEBUG | Tipo encontrado: 'Perito'
+2025-10-30 21:29:56 | DEBUG | Nome extraído: 'Glauber Derick de Oliveira'
+2025-10-30 21:29:56 | DEBUG | Dados extraídos - Vara: '4ª Vara Cível', Classe: 'Procedimento Comum Cível - Promessa de Compra e Venda', Exeq: '', Exec: ''
+2025-10-30 21:29:56 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:29:56 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:30:08 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:30:08 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:30:08 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:30:08 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:30:08 | INFO | 📋 Encontradas 113 linhas na tabela de movimentações
+2025-10-30 21:30:08 | INFO | Extraídas 113 movimentações
+2025-10-30 21:30:08 | INFO |    ✅ Salvo: processo_completo_1039593_13_2018_8_26_0576.json
+2025-10-30 21:30:08 | DEBUG | Aguardando 10.9 segundos...
+2025-10-30 21:30:19 | INFO | [23/29] Worker 3: Processando 1030935-97.2018.8.26.0576
+2025-10-30 21:30:19 | INFO | Buscando processo: 1030935-97.2018.8.26.0576
+2025-10-30 21:30:19 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1030935-97.2018&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1030935-97.2018.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:30:20 | DEBUG | Aguardando 12.4 segundos...
+2025-10-30 21:30:32 | INFO | Busca direta bem-sucedida para 1030935-97.2018.8.26.0576
+2025-10-30 21:30:32 | DEBUG | HTML salvo: cache/1030935-97.2018.8.26.0576.html
+2025-10-30 21:30:33 | DEBUG | Classe extraída por ID: Procedimento Comum Cível
+2025-10-30 21:30:33 | DEBUG | Vara extraída por ID: 5ª Vara Cível
+2025-10-30 21:30:33 | DEBUG | Juiz extraído por ID: Angelo Marcio de Siqueira Pace
+2025-10-30 21:30:33 | DEBUG | Assunto extraído por ID: Práticas Abusivas
+2025-10-30 21:30:33 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:30:33 | DEBUG | Tipo encontrado: 'Reqte'
+2025-10-30 21:30:33 | DEBUG | Nome extraído: 'Leonardo França Martins representado por Ilidaiana Smaniotto Romera'
+2025-10-30 21:30:33 | DEBUG | Tipo encontrado: 'Reqdo'
+2025-10-30 21:30:33 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda.'
+2025-10-30 21:30:33 | DEBUG | Dados extraídos - Vara: '5ª Vara Cível', Classe: 'Procedimento Comum Cível - Práticas Abusivas', Exeq: '', Exec: ''
+2025-10-30 21:30:33 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:30:33 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:30:45 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:30:45 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:30:45 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:30:45 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:30:45 | INFO | 📋 Encontradas 69 linhas na tabela de movimentações
+2025-10-30 21:30:45 | INFO | Extraídas 69 movimentações
+2025-10-30 21:30:45 | INFO |    ✅ Salvo: processo_completo_1030935_97_2018_8_26_0576.json
+2025-10-30 21:30:45 | DEBUG | Aguardando 16.3 segundos...
+2025-10-30 21:31:01 | INFO | [24/29] Worker 3: Processando 1010187-44.2018.8.26.0576
+2025-10-30 21:31:01 | INFO | Buscando processo: 1010187-44.2018.8.26.0576
+2025-10-30 21:31:01 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1010187-44.2018&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1010187-44.2018.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:31:03 | DEBUG | Aguardando 15.2 segundos...
+2025-10-30 21:31:18 | INFO | Busca direta bem-sucedida para 1010187-44.2018.8.26.0576
+2025-10-30 21:31:18 | DEBUG | HTML salvo: cache/1010187-44.2018.8.26.0576.html
+2025-10-30 21:31:18 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:31:18 | DEBUG | Vara extraída por ID: 5ª Vara Cível
+2025-10-30 21:31:18 | DEBUG | Juiz extraído por ID: Angelo Marcio de Siqueira Pace
+2025-10-30 21:31:18 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:31:18 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:31:18 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:31:18 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:31:18 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:31:18 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:31:18 | DEBUG | Tipo encontrado: 'Exectda'
+2025-10-30 21:31:18 | DEBUG | Nome extraído: 'Leandra Almeida dos Santos'
+2025-10-30 21:31:18 | INFO | ✅ Executado: Leandra Almeida dos Santos
+2025-10-30 21:31:18 | DEBUG | Dados extraídos - Vara: '5ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Leandra Almeida dos Santos'
+2025-10-30 21:31:18 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:31:18 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:31:30 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:31:30 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:31:30 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:31:30 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:31:30 | INFO | 📋 Encontradas 74 linhas na tabela de movimentações
+2025-10-30 21:31:30 | INFO | Extraídas 74 movimentações
+2025-10-30 21:31:30 | INFO |    ✅ Salvo: processo_completo_1010187_44_2018_8_26_0576.json
+2025-10-30 21:31:30 | DEBUG | Aguardando 18.4 segundos...
+2025-10-30 21:31:49 | INFO | [25/29] Worker 3: Processando 1010161-46.2018.8.26.0576
+2025-10-30 21:31:49 | INFO | Buscando processo: 1010161-46.2018.8.26.0576
+2025-10-30 21:31:49 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1010161-46.2018&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1010161-46.2018.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:31:50 | DEBUG | Aguardando 19.2 segundos...
+2025-10-30 21:32:09 | INFO | Busca direta bem-sucedida para 1010161-46.2018.8.26.0576
+2025-10-30 21:32:09 | DEBUG | HTML salvo: cache/1010161-46.2018.8.26.0576.html
+2025-10-30 21:32:09 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:32:09 | DEBUG | Vara extraída por ID: 4ª Vara Cível
+2025-10-30 21:32:09 | DEBUG | Juiz extraído por ID: ANDRESSA MARIA TAVARES MARCHIORI
+2025-10-30 21:32:09 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:32:09 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:32:09 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:32:09 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:32:09 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:32:09 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:32:09 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:32:09 | DEBUG | Nome extraído: 'Reginaldo José da Silva'
+2025-10-30 21:32:09 | INFO | ✅ Executado: Reginaldo José da Silva
+2025-10-30 21:32:09 | DEBUG | Tipo encontrado: 'Credor'
+2025-10-30 21:32:09 | DEBUG | Nome extraído: 'BANCO DO BRASIL S/A'
+2025-10-30 21:32:09 | DEBUG | Tipo encontrado: 'Perito'
+2025-10-30 21:32:09 | DEBUG | Nome extraído: 'Marilaine Borges Torres - LEILOEIRA'
+2025-10-30 21:32:09 | DEBUG | Dados extraídos - Vara: '4ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Reginaldo José da Silva'
+2025-10-30 21:32:09 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:32:09 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:32:21 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:32:21 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:32:21 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:32:22 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:32:22 | INFO | 📋 Encontradas 149 linhas na tabela de movimentações
+2025-10-30 21:32:22 | INFO | Extraídas 149 movimentações
+2025-10-30 21:32:22 | INFO |    ✅ Salvo: processo_completo_1010161_46_2018_8_26_0576.json
+2025-10-30 21:32:22 | DEBUG | Aguardando 14.3 segundos...
+2025-10-30 21:32:36 | INFO | [26/29] Worker 3: Processando 1009633-12.2018.8.26.0576
+2025-10-30 21:32:36 | INFO | Buscando processo: 1009633-12.2018.8.26.0576
+2025-10-30 21:32:36 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1009633-12.2018&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1009633-12.2018.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:32:37 | DEBUG | Aguardando 14.0 segundos...
+2025-10-30 21:32:51 | INFO | Busca direta bem-sucedida para 1009633-12.2018.8.26.0576
+2025-10-30 21:32:51 | DEBUG | HTML salvo: cache/1009633-12.2018.8.26.0576.html
+2025-10-30 21:32:51 | DEBUG | Classe extraída por ID: Procedimento Comum Cível
+2025-10-30 21:32:51 | DEBUG | Vara extraída por ID: 3ª Vara Cível
+2025-10-30 21:32:51 | DEBUG | Juiz extraído por ID: GLARISTON RESENDE
+2025-10-30 21:32:51 | DEBUG | Assunto extraído por ID: Compra e Venda
+2025-10-30 21:32:51 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:32:51 | DEBUG | Tipo encontrado: 'Reqte'
+2025-10-30 21:32:51 | DEBUG | Nome extraído: 'Aline Cristina Pedroso'
+2025-10-30 21:32:51 | DEBUG | Tipo encontrado: 'Reqdo'
+2025-10-30 21:32:51 | DEBUG | Nome extraído: 'Parque Rio Nieva Incorporações Spe Ltda'
+2025-10-30 21:32:51 | DEBUG | Dados extraídos - Vara: '3ª Vara Cível', Classe: 'Procedimento Comum Cível - Compra e Venda', Exeq: '', Exec: ''
+2025-10-30 21:32:51 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:32:51 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:33:03 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:33:03 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:33:03 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:33:03 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:33:03 | INFO | 📋 Encontradas 24 linhas na tabela de movimentações
+2025-10-30 21:33:03 | INFO | Extraídas 24 movimentações
+2025-10-30 21:33:03 | INFO |    ✅ Salvo: processo_completo_1009633_12_2018_8_26_0576.json
+2025-10-30 21:33:03 | DEBUG | Aguardando 16.2 segundos...
+2025-10-30 21:33:19 | INFO | [27/29] Worker 3: Processando 1056806-66.2017.8.26.0576
+2025-10-30 21:33:19 | INFO | Buscando processo: 1056806-66.2017.8.26.0576
+2025-10-30 21:33:19 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1056806-66.2017&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1056806-66.2017.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:33:20 | DEBUG | Aguardando 16.7 segundos...
+2025-10-30 21:33:37 | INFO | Busca direta bem-sucedida para 1056806-66.2017.8.26.0576
+2025-10-30 21:33:37 | DEBUG | HTML salvo: cache/1056806-66.2017.8.26.0576.html
+2025-10-30 21:33:37 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:33:37 | DEBUG | Vara extraída por ID: 7ª Vara Cível
+2025-10-30 21:33:37 | DEBUG | Juiz extraído por ID: Ana Maria Chalub De Aquino
+2025-10-30 21:33:37 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:33:37 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:33:37 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:33:37 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:33:37 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:33:37 | DEBUG | Tipo encontrado: 'Exectda'
+2025-10-30 21:33:37 | DEBUG | Nome extraído: 'Elisângela Aparecida Cristina Francisco'
+2025-10-30 21:33:37 | INFO | ✅ Executado: Elisângela Aparecida Cristina Francisco
+2025-10-30 21:33:37 | DEBUG | Tipo encontrado: 'Credor'
+2025-10-30 21:33:37 | DEBUG | Nome extraído: 'Banco do Brasil  S/A'
+2025-10-30 21:33:37 | DEBUG | Tipo encontrado: 'Gestor'
+2025-10-30 21:33:37 | DEBUG | Nome extraído: 'LUT INTERMEDIAÇÃO DE ATIVOS E GESTÃO JUDICIAL LTDA'
+2025-10-30 21:33:37 | DEBUG | Dados extraídos - Vara: '7ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Elisângela Aparecida Cristina Francisco'
+2025-10-30 21:33:37 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:33:37 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:33:49 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:33:49 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:33:49 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:33:49 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:33:49 | INFO | 📋 Encontradas 106 linhas na tabela de movimentações
+2025-10-30 21:33:49 | INFO | Extraídas 106 movimentações
+2025-10-30 21:33:49 | INFO |    ✅ Salvo: processo_completo_1056806_66_2017_8_26_0576.json
+2025-10-30 21:33:49 | DEBUG | Aguardando 15.3 segundos...
+2025-10-30 21:34:05 | INFO | [28/29] Worker 3: Processando 1056804-96.2017.8.26.0576
+2025-10-30 21:34:05 | INFO | Buscando processo: 1056804-96.2017.8.26.0576
+2025-10-30 21:34:05 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1056804-96.2017&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1056804-96.2017.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:34:06 | DEBUG | Aguardando 10.3 segundos...
+2025-10-30 21:34:16 | INFO | Busca direta bem-sucedida para 1056804-96.2017.8.26.0576
+2025-10-30 21:34:16 | DEBUG | HTML salvo: cache/1056804-96.2017.8.26.0576.html
+2025-10-30 21:34:16 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:34:16 | DEBUG | Vara extraída por ID: 6ª Vara Cível
+2025-10-30 21:34:16 | DEBUG | Juiz extraído por ID: Sergio Martins Barbatto Júnior
+2025-10-30 21:34:16 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:34:16 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:34:16 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:34:16 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:34:16 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:34:16 | DEBUG | Tipo encontrado: 'Exectda'
+2025-10-30 21:34:16 | DEBUG | Nome extraído: 'Alessandra Roberta de Lima'
+2025-10-30 21:34:16 | INFO | ✅ Executado: Alessandra Roberta de Lima
+2025-10-30 21:34:16 | DEBUG | Dados extraídos - Vara: '6ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Alessandra Roberta de Lima'
+2025-10-30 21:34:16 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:34:16 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:34:28 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:34:28 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:34:28 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:34:28 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:34:28 | INFO | 📋 Encontradas 108 linhas na tabela de movimentações
+2025-10-30 21:34:28 | INFO | Extraídas 108 movimentações
+2025-10-30 21:34:28 | INFO |    ✅ Salvo: processo_completo_1056804_96_2017_8_26_0576.json
+2025-10-30 21:34:28 | DEBUG | Aguardando 12.2 segundos...
+2025-10-30 21:34:41 | INFO | [29/29] Worker 3: Processando 1056801-44.2017.8.26.0576
+2025-10-30 21:34:41 | INFO | Buscando processo: 1056801-44.2017.8.26.0576
+2025-10-30 21:34:41 | DEBUG | Tentando busca direta: https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1056801-44.2017&foroNumeroUnificado=0576&dadosConsulta.valorConsultaNuUnificado=1056801-44.2017.8.26.0576&dadosConsulta.tipoNuProcesso=UNIFICADO
+2025-10-30 21:34:42 | DEBUG | Aguardando 15.3 segundos...
+2025-10-30 21:34:58 | INFO | Busca direta bem-sucedida para 1056801-44.2017.8.26.0576
+2025-10-30 21:34:58 | DEBUG | HTML salvo: cache/1056801-44.2017.8.26.0576.html
+2025-10-30 21:34:58 | DEBUG | Classe extraída por ID: Execução de Título Extrajudicial
+2025-10-30 21:34:58 | DEBUG | Vara extraída por ID: 3ª Vara Cível
+2025-10-30 21:34:58 | DEBUG | Juiz extraído por ID: GLARISTON RESENDE
+2025-10-30 21:34:58 | DEBUG | Assunto extraído por ID: Despesas Condominiais
+2025-10-30 21:34:58 | DEBUG | ✅ Encontrada tabela tablePartesPrincipais
+2025-10-30 21:34:58 | DEBUG | Tipo encontrado: 'Exeqte'
+2025-10-30 21:34:58 | DEBUG | Nome extraído: 'Condomínio Parque Rio Nieva'
+2025-10-30 21:34:58 | INFO | ✅ Exequente: Condomínio Parque Rio Nieva
+2025-10-30 21:34:58 | INFO | ✅ Advogado autor (span): Advogado:
+2025-10-30 21:34:58 | DEBUG | Tipo encontrado: 'Exectdo'
+2025-10-30 21:34:58 | DEBUG | Nome extraído: 'Rildo Francisco Pereira'
+2025-10-30 21:34:58 | INFO | ✅ Executado: Rildo Francisco Pereira
+2025-10-30 21:34:58 | DEBUG | Tipo encontrado: 'Interesdo.'
+2025-10-30 21:34:58 | DEBUG | Nome extraído: 'Banco do Brasil  S/A'
+2025-10-30 21:34:58 | DEBUG | Dados extraídos - Vara: '3ª Vara Cível', Classe: 'Execução de Título Extrajudicial - Despesas Condominiais', Exeq: 'Condomínio Parque Rio Nieva', Exec: 'Rildo Francisco Pereira'
+2025-10-30 21:34:58 | DEBUG | Tentando expandir todas as movimentações...
+2025-10-30 21:34:58 | INFO | ✅ Botão 'Ver todas' encontrado: a:has-text("Mais")
+2025-10-30 21:35:10 | DEBUG | Tabela completa não apareceu, mas botão foi clicado
+2025-10-30 21:35:10 | INFO | ✅ Todas as movimentações expandidas com sucesso
+2025-10-30 21:35:10 | DEBUG | Re-capturando HTML após expansão...
+2025-10-30 21:35:10 | INFO | ✅ Tabela de movimentações encontrada: tbody {'id': 'tabelaTodasMovimentacoes'}
+2025-10-30 21:35:10 | INFO | 📋 Encontradas 136 linhas na tabela de movimentações
+2025-10-30 21:35:10 | INFO | Extraídas 136 movimentações
+2025-10-30 21:35:10 | INFO |    ✅ Salvo: processo_completo_1056801_44_2017_8_26_0576.json
+2025-10-30 21:35:10 | DEBUG | Aguardando 19.2 segundos...
+2025-10-30 21:35:29 | INFO | Browser fechado
+2025-10-30 21:35:29 | INFO | 📋 PASSO 3: Gerando relatório final
+2025-10-30 21:35:29 | INFO | 🎉 Workflow Rio Nieva concluído com sucesso!

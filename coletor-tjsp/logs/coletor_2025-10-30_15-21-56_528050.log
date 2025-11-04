@@ -1,0 +1,23 @@
+2025-10-30 15:21:56.537 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 15:21:56.538 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 15:21:56.538 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 15:21:56.539 | INFO     | src.scraper:setup:36 - Inicializando browser...
+2025-10-30 15:21:57.743 | INFO     | src.scraper:setup:61 - Browser inicializado com sucesso
+2025-10-30 15:21:57.745 | INFO     | src.main:load_process_list:69 - Carregados 1 processos do arquivo input/processo_real.csv
+2025-10-30 15:21:57.745 | INFO     | src.main:main:273 - Total de processos para coletar: 1
+2025-10-30 15:21:57.746 | INFO     | src.main:main:280 - [1/1] Processando...
+2025-10-30 15:21:57.746 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1028484-65.2019.8.26.0576
+2025-10-30 15:21:57.747 | INFO     | src.scraper:search_by_process_number:105 - Buscando processo: 1028484-65.2019.8.26.0576
+2025-10-30 15:22:27.781 | SUCCESS  | src.main:collect_single_process:100 - ✓ Processo 1028484-65.2019.8.26.0576 coletado com sucesso
+2025-10-30 15:22:27.782 | INFO     | src.main:main:290 - Exportando resultados...
+2025-10-30 15:22:27.787 | INFO     | src.exporter:export_to_csv:81 - Processos exportados para: output/processo_real/processos_20251030_152227.csv
+2025-10-30 15:22:27.788 | INFO     | src.exporter:export_to_json:110 - Dados exportados para JSON: output/processo_real/processos_20251030_152227.json
+2025-10-30 15:22:27.813 | INFO     | src.exporter:export_html_dashboard:473 - Dashboard HTML gerado: output/processo_real/dashboard_20251030_152227.html
+2025-10-30 15:22:27.814 | INFO     | src.exporter:export_html_dashboard:480 - Análise JSON salva: output/processo_real/analise_20251030_152227.json
+2025-10-30 15:22:27.814 | INFO     | src.main:main:314 - ============================================================
+2025-10-30 15:22:27.814 | INFO     | src.main:main:315 - COLETA FINALIZADA
+2025-10-30 15:22:27.815 | INFO     | src.main:main:316 - ✓ Sucesso: 1 processos
+2025-10-30 15:22:27.815 | INFO     | src.main:main:317 - ✗ Erro: 0 processos
+2025-10-30 15:22:27.815 | INFO     | src.main:main:318 - 📁 Resultados salvos em: output/processo_real
+2025-10-30 15:22:27.816 | INFO     | src.main:main:319 - ============================================================
+2025-10-30 15:22:27.883 | INFO     | src.scraper:cleanup:69 - Browser fechado

@@ -1,0 +1,22 @@
+2025-10-30 17:19:52.218 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 17:19:52.219 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 17:19:52.220 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 17:19:52.220 | INFO     | src.scraper:setup:37 - Inicializando browser...
+2025-10-30 17:19:53.440 | INFO     | src.scraper:setup:62 - Browser inicializado com sucesso
+2025-10-30 17:19:53.441 | INFO     | src.main:load_process_list:69 - Carregados 1 processos do arquivo old_files/teste_unico.csv
+2025-10-30 17:19:53.442 | INFO     | src.main:main:273 - Total de processos para coletar: 1
+2025-10-30 17:19:53.442 | INFO     | src.main:main:280 - [1/1] Processando...
+2025-10-30 17:19:53.442 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1028484-65.2019.8.26.0576
+2025-10-30 17:19:53.443 | INFO     | src.scraper:search_by_process_number:106 - Buscando processo: 1028484-65.2019.8.26.0576
+2025-10-30 17:20:35.137 | WARNING  | src.scraper:search_by_process_number:196 - Processo 1028484-65.2019.8.26.0576 não encontrado ou em segredo
+2025-10-30 17:20:35.138 | WARNING  | src.main:collect_single_process:102 - ✗ Processo 1028484-65.2019.8.26.0576 não encontrado ou em segredo
+2025-10-30 17:20:35.138 | INFO     | src.main:main:290 - Exportando resultados...
+2025-10-30 17:20:35.139 | WARNING  | src.main:main:309 - Processos com erro: 1
+2025-10-30 17:20:35.139 | ERROR    | src.main:main:311 -   - 1028484-65.2019.8.26.0576: Processo não encontrado ou em segredo de justiça
+2025-10-30 17:20:35.139 | INFO     | src.main:main:314 - ============================================================
+2025-10-30 17:20:35.140 | INFO     | src.main:main:315 - COLETA FINALIZADA
+2025-10-30 17:20:35.140 | INFO     | src.main:main:316 - ✓ Sucesso: 0 processos
+2025-10-30 17:20:35.141 | INFO     | src.main:main:317 - ✗ Erro: 1 processos
+2025-10-30 17:20:35.141 | INFO     | src.main:main:318 - 📁 Resultados salvos em: teste_processo_conhecido
+2025-10-30 17:20:35.142 | INFO     | src.main:main:319 - ============================================================
+2025-10-30 17:20:35.198 | INFO     | src.scraper:cleanup:70 - Browser fechado

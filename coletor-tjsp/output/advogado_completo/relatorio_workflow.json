@@ -1,0 +1,725 @@
+{
+  "workflow": "Advogado - Dados Completos",
+  "data_execucao": "2025-10-31T07:27:58.940245",
+  "lawyer_name": "Adilson Lopes Teixeira",
+  "estatisticas": {
+    "processos_encontrados": 142,
+    "processos_sucesso": 142,
+    "processos_erro": 0,
+    "taxa_sucesso": "100.0%"
+  },
+  "processos_sucesso": [
+    {
+      "processo": "1034448-07.2022.8.26.0100",
+      "arquivo": "processo_completo_1034448_07_2022_8_26_0100.json",
+      "total_movimentacoes": 51
+    },
+    {
+      "processo": "1011805-60.2025.8.26.0032",
+      "arquivo": "processo_completo_1011805_60_2025_8_26_0032.json",
+      "total_movimentacoes": 35
+    },
+    {
+      "processo": "1503824-54.2024.8.26.0032",
+      "arquivo": "processo_completo_1503824_54_2024_8_26_0032.json",
+      "total_movimentacoes": 169
+    },
+    {
+      "processo": "1007486-59.2019.8.26.0032",
+      "arquivo": "processo_completo_1007486_59_2019_8_26_0032.json",
+      "total_movimentacoes": 278
+    },
+    {
+      "processo": "1001630-17.2019.8.26.0032",
+      "arquivo": "processo_completo_1001630_17_2019_8_26_0032.json",
+      "total_movimentacoes": 80
+    },
+    {
+      "processo": "1011659-34.2016.8.26.0032",
+      "arquivo": "processo_completo_1011659_34_2016_8_26_0032.json",
+      "total_movimentacoes": 556
+    },
+    {
+      "processo": "1001985-03.2014.8.26.0032",
+      "arquivo": "processo_completo_1001985_03_2014_8_26_0032.json",
+      "total_movimentacoes": 7996
+    },
+    {
+      "processo": "1019326-70.2024.8.26.0071",
+      "arquivo": "processo_completo_1019326_70_2024_8_26_0071.json",
+      "total_movimentacoes": 78
+    },
+    {
+      "processo": "1008789-94.2024.8.26.0077",
+      "arquivo": "processo_completo_1008789_94_2024_8_26_0077.json",
+      "total_movimentacoes": 115
+    },
+    {
+      "processo": "1006640-96.2022.8.26.0077",
+      "arquivo": "processo_completo_1006640_96_2022_8_26_0077.json",
+      "total_movimentacoes": 41
+    },
+    {
+      "processo": "1003282-07.2014.8.26.0077",
+      "arquivo": "processo_completo_1003282_07_2014_8_26_0077.json",
+      "total_movimentacoes": 145
+    },
+    {
+      "processo": "1002069-17.2025.8.26.0097",
+      "arquivo": "processo_completo_1002069_17_2025_8_26_0097.json",
+      "total_movimentacoes": 12
+    },
+    {
+      "processo": "1001776-47.2025.8.26.0097",
+      "arquivo": "processo_completo_1001776_47_2025_8_26_0097.json",
+      "total_movimentacoes": 11
+    },
+    {
+      "processo": "1001391-02.2025.8.26.0097",
+      "arquivo": "processo_completo_1001391_02_2025_8_26_0097.json",
+      "total_movimentacoes": 31
+    },
+    {
+      "processo": "0000572-82.2025.8.26.0097",
+      "arquivo": "processo_completo_0000572_82_2025_8_26_0097.json",
+      "total_movimentacoes": 33
+    },
+    {
+      "processo": "1000906-02.2025.8.26.0097",
+      "arquivo": "processo_completo_1000906_02_2025_8_26_0097.json",
+      "total_movimentacoes": 33
+    },
+    {
+      "processo": "1000795-18.2025.8.26.0097",
+      "arquivo": "processo_completo_1000795_18_2025_8_26_0097.json",
+      "total_movimentacoes": 20
+    },
+    {
+      "processo": "1000297-19.2025.8.26.0097",
+      "arquivo": "processo_completo_1000297_19_2025_8_26_0097.json",
+      "total_movimentacoes": 25
+    },
+    {
+      "processo": "0000085-15.2025.8.26.0097",
+      "arquivo": "processo_completo_0000085_15_2025_8_26_0097.json",
+      "total_movimentacoes": 35
+    },
+    {
+      "processo": "1000053-90.2025.8.26.0097",
+      "arquivo": "processo_completo_1000053_90_2025_8_26_0097.json",
+      "total_movimentacoes": 70
+    },
+    {
+      "processo": "1003969-69.2024.8.26.0097",
+      "arquivo": "processo_completo_1003969_69_2024_8_26_0097.json",
+      "total_movimentacoes": 38
+    },
+    {
+      "processo": "1003891-75.2024.8.26.0097",
+      "arquivo": "processo_completo_1003891_75_2024_8_26_0097.json",
+      "total_movimentacoes": 44
+    },
+    {
+      "processo": "1003375-55.2024.8.26.0097",
+      "arquivo": "processo_completo_1003375_55_2024_8_26_0097.json",
+      "total_movimentacoes": 53
+    },
+    {
+      "processo": "1003152-05.2024.8.26.0097",
+      "arquivo": "processo_completo_1003152_05_2024_8_26_0097.json",
+      "total_movimentacoes": 22
+    },
+    {
+      "processo": "1002913-98.2024.8.26.0097",
+      "arquivo": "processo_completo_1002913_98_2024_8_26_0097.json",
+      "total_movimentacoes": 24
+    },
+    {
+      "processo": "1002122-32.2024.8.26.0097",
+      "arquivo": "processo_completo_1002122_32_2024_8_26_0097.json",
+      "total_movimentacoes": 54
+    },
+    {
+      "processo": "1002011-48.2024.8.26.0097",
+      "arquivo": "processo_completo_1002011_48_2024_8_26_0097.json",
+      "total_movimentacoes": 60
+    },
+    {
+      "processo": "1001979-43.2024.8.26.0097",
+      "arquivo": "processo_completo_1001979_43_2024_8_26_0097.json",
+      "total_movimentacoes": 18
+    },
+    {
+      "processo": "1001605-27.2024.8.26.0097",
+      "arquivo": "processo_completo_1001605_27_2024_8_26_0097.json",
+      "total_movimentacoes": 53
+    },
+    {
+      "processo": "1001451-09.2024.8.26.0097",
+      "arquivo": "processo_completo_1001451_09_2024_8_26_0097.json",
+      "total_movimentacoes": 47
+    },
+    {
+      "processo": "1001371-45.2024.8.26.0097",
+      "arquivo": "processo_completo_1001371_45_2024_8_26_0097.json",
+      "total_movimentacoes": 20
+    },
+    {
+      "processo": "1000650-93.2024.8.26.0097",
+      "arquivo": "processo_completo_1000650_93_2024_8_26_0097.json",
+      "total_movimentacoes": 55
+    },
+    {
+      "processo": "1000639-64.2024.8.26.0097",
+      "arquivo": "processo_completo_1000639_64_2024_8_26_0097.json",
+      "total_movimentacoes": 51
+    },
+    {
+      "processo": "1000443-94.2024.8.26.0097",
+      "arquivo": "processo_completo_1000443_94_2024_8_26_0097.json",
+      "total_movimentacoes": 92
+    },
+    {
+      "processo": "1000186-69.2024.8.26.0097",
+      "arquivo": "processo_completo_1000186_69_2024_8_26_0097.json",
+      "total_movimentacoes": 21
+    },
+    {
+      "processo": "1003319-56.2023.8.26.0097",
+      "arquivo": "processo_completo_1003319_56_2023_8_26_0097.json",
+      "total_movimentacoes": 26
+    },
+    {
+      "processo": "1003200-95.2023.8.26.0097",
+      "arquivo": "processo_completo_1003200_95_2023_8_26_0097.json",
+      "total_movimentacoes": 23
+    },
+    {
+      "processo": "1003197-43.2023.8.26.0097",
+      "arquivo": "processo_completo_1003197_43_2023_8_26_0097.json",
+      "total_movimentacoes": 54
+    },
+    {
+      "processo": "1002980-97.2023.8.26.0097",
+      "arquivo": "processo_completo_1002980_97_2023_8_26_0097.json",
+      "total_movimentacoes": 48
+    },
+    {
+      "processo": "1006148-11.2023.8.26.0032",
+      "arquivo": "processo_completo_1006148_11_2023_8_26_0032.json",
+      "total_movimentacoes": 43
+    },
+    {
+      "processo": "1001749-35.2023.8.26.0097",
+      "arquivo": "processo_completo_1001749_35_2023_8_26_0097.json",
+      "total_movimentacoes": 60
+    },
+    {
+      "processo": "1001323-23.2023.8.26.0097",
+      "arquivo": "processo_completo_1001323_23_2023_8_26_0097.json",
+      "total_movimentacoes": 29
+    },
+    {
+      "processo": "1001040-97.2023.8.26.0097",
+      "arquivo": "processo_completo_1001040_97_2023_8_26_0097.json",
+      "total_movimentacoes": 59
+    },
+    {
+      "processo": "1001038-30.2023.8.26.0097",
+      "arquivo": "processo_completo_1001038_30_2023_8_26_0097.json",
+      "total_movimentacoes": 66
+    },
+    {
+      "processo": "1001032-23.2023.8.26.0097",
+      "arquivo": "processo_completo_1001032_23_2023_8_26_0097.json",
+      "total_movimentacoes": 42
+    },
+    {
+      "processo": "0000233-94.2023.8.26.0097",
+      "arquivo": "processo_completo_0000233_94_2023_8_26_0097.json",
+      "total_movimentacoes": 69
+    },
+    {
+      "processo": "1000584-50.2023.8.26.0097",
+      "arquivo": "processo_completo_1000584_50_2023_8_26_0097.json",
+      "total_movimentacoes": 59
+    },
+    {
+      "processo": "0000091-90.2023.8.26.0097",
+      "arquivo": "processo_completo_0000091_90_2023_8_26_0097.json",
+      "total_movimentacoes": 54
+    },
+    {
+      "processo": "1000109-94.2023.8.26.0097",
+      "arquivo": "processo_completo_1000109_94_2023_8_26_0097.json",
+      "total_movimentacoes": 73
+    },
+    {
+      "processo": "1001937-62.2022.8.26.0097",
+      "arquivo": "processo_completo_1001937_62_2022_8_26_0097.json",
+      "total_movimentacoes": 20
+    },
+    {
+      "processo": "1001905-57.2022.8.26.0097",
+      "arquivo": "processo_completo_1001905_57_2022_8_26_0097.json",
+      "total_movimentacoes": 70
+    },
+    {
+      "processo": "1001230-94.2022.8.26.0097",
+      "arquivo": "processo_completo_1001230_94_2022_8_26_0097.json",
+      "total_movimentacoes": 18
+    },
+    {
+      "processo": "1000978-91.2022.8.26.0097",
+      "arquivo": "processo_completo_1000978_91_2022_8_26_0097.json",
+      "total_movimentacoes": 93
+    },
+    {
+      "processo": "1000955-48.2022.8.26.0097",
+      "arquivo": "processo_completo_1000955_48_2022_8_26_0097.json",
+      "total_movimentacoes": 44
+    },
+    {
+      "processo": "1003946-31.2021.8.26.0097",
+      "arquivo": "processo_completo_1003946_31_2021_8_26_0097.json",
+      "total_movimentacoes": 112
+    },
+    {
+      "processo": "1003587-81.2021.8.26.0097",
+      "arquivo": "processo_completo_1003587_81_2021_8_26_0097.json",
+      "total_movimentacoes": 91
+    },
+    {
+      "processo": "1002609-07.2021.8.26.0097",
+      "arquivo": "processo_completo_1002609_07_2021_8_26_0097.json",
+      "total_movimentacoes": 124
+    },
+    {
+      "processo": "1001976-93.2021.8.26.0097",
+      "arquivo": "processo_completo_1001976_93_2021_8_26_0097.json",
+      "total_movimentacoes": 82
+    },
+    {
+      "processo": "1001850-43.2021.8.26.0097",
+      "arquivo": "processo_completo_1001850_43_2021_8_26_0097.json",
+      "total_movimentacoes": 28
+    },
+    {
+      "processo": "1000306-54.2020.8.26.0097",
+      "arquivo": "processo_completo_1000306_54_2020_8_26_0097.json",
+      "total_movimentacoes": 135
+    },
+    {
+      "processo": "1501297-07.2019.8.26.0097",
+      "arquivo": "processo_completo_1501297_07_2019_8_26_0097.json",
+      "total_movimentacoes": 52
+    },
+    {
+      "processo": "1000770-15.2019.8.26.0097",
+      "arquivo": "processo_completo_1000770_15_2019_8_26_0097.json",
+      "total_movimentacoes": 132
+    },
+    {
+      "processo": "1000257-47.2019.8.26.0097",
+      "arquivo": "processo_completo_1000257_47_2019_8_26_0097.json",
+      "total_movimentacoes": 63
+    },
+    {
+      "processo": "1001655-63.2018.8.26.0097",
+      "arquivo": "processo_completo_1001655_63_2018_8_26_0097.json",
+      "total_movimentacoes": 205
+    },
+    {
+      "processo": "1001118-67.2018.8.26.0097",
+      "arquivo": "processo_completo_1001118_67_2018_8_26_0097.json",
+      "total_movimentacoes": 123
+    },
+    {
+      "processo": "1000278-57.2018.8.26.0097",
+      "arquivo": "processo_completo_1000278_57_2018_8_26_0097.json",
+      "total_movimentacoes": 37
+    },
+    {
+      "processo": "1001892-34.2017.8.26.0097",
+      "arquivo": "processo_completo_1001892_34_2017_8_26_0097.json",
+      "total_movimentacoes": 99
+    },
+    {
+      "processo": "1000521-35.2017.8.26.0097",
+      "arquivo": "processo_completo_1000521_35_2017_8_26_0097.json",
+      "total_movimentacoes": 351
+    },
+    {
+      "processo": "1000408-81.2017.8.26.0097",
+      "arquivo": "processo_completo_1000408_81_2017_8_26_0097.json",
+      "total_movimentacoes": 380
+    },
+    {
+      "processo": "1000011-22.2017.8.26.0097",
+      "arquivo": "processo_completo_1000011_22_2017_8_26_0097.json",
+      "total_movimentacoes": 334
+    },
+    {
+      "processo": "1000578-87.2016.8.26.0097",
+      "arquivo": "processo_completo_1000578_87_2016_8_26_0097.json",
+      "total_movimentacoes": 207
+    },
+    {
+      "processo": "1000350-49.2015.8.26.0097",
+      "arquivo": "processo_completo_1000350_49_2015_8_26_0097.json",
+      "total_movimentacoes": 375
+    },
+    {
+      "processo": "0002621-82.2014.8.26.0097",
+      "arquivo": "processo_completo_0002621_82_2014_8_26_0097.json",
+      "total_movimentacoes": 235
+    },
+    {
+      "processo": "0001256-61.2012.8.26.0097",
+      "arquivo": "processo_completo_0001256_61_2012_8_26_0097.json",
+      "total_movimentacoes": 163
+    },
+    {
+      "processo": "0004074-54.2010.8.26.0097",
+      "arquivo": "processo_completo_0004074_54_2010_8_26_0097.json",
+      "total_movimentacoes": 225
+    },
+    {
+      "processo": "0002174-36.2010.8.26.0097",
+      "arquivo": "processo_completo_0002174_36_2010_8_26_0097.json",
+      "total_movimentacoes": 231
+    },
+    {
+      "processo": "0001343-56.2008.8.26.0097",
+      "arquivo": "processo_completo_0001343_56_2008_8_26_0097.json",
+      "total_movimentacoes": 325
+    },
+    {
+      "processo": "0001342-71.2008.8.26.0097",
+      "arquivo": "processo_completo_0001342_71_2008_8_26_0097.json",
+      "total_movimentacoes": 241
+    },
+    {
+      "processo": "1003033-26.2024.8.26.0297",
+      "arquivo": "processo_completo_1003033_26_2024_8_26_0297.json",
+      "total_movimentacoes": 33
+    },
+    {
+      "processo": "1000583-83.2024.8.26.0306",
+      "arquivo": "processo_completo_1000583_83_2024_8_26_0306.json",
+      "total_movimentacoes": 42
+    },
+    {
+      "processo": "1004536-26.2022.8.26.0306",
+      "arquivo": "processo_completo_1004536_26_2022_8_26_0306.json",
+      "total_movimentacoes": 37
+    },
+    {
+      "processo": "1000450-80.2020.8.26.0306",
+      "arquivo": "processo_completo_1000450_80_2020_8_26_0306.json",
+      "total_movimentacoes": 36
+    },
+    {
+      "processo": "3001838-28.2013.8.26.0306",
+      "arquivo": "processo_completo_3001838_28_2013_8_26_0306.json",
+      "total_movimentacoes": 99
+    },
+    {
+      "processo": "1000832-49.2025.8.26.0322",
+      "arquivo": "processo_completo_1000832_49_2025_8_26_0322.json",
+      "total_movimentacoes": 23
+    },
+    {
+      "processo": "1005215-59.2025.8.26.0358",
+      "arquivo": "processo_completo_1005215_59_2025_8_26_0358.json",
+      "total_movimentacoes": 10
+    },
+    {
+      "processo": "1003384-73.2025.8.26.0358",
+      "arquivo": "processo_completo_1003384_73_2025_8_26_0358.json",
+      "total_movimentacoes": 36
+    },
+    {
+      "processo": "1001234-90.2023.8.26.0358",
+      "arquivo": "processo_completo_1001234_90_2023_8_26_0358.json",
+      "total_movimentacoes": 29
+    },
+    {
+      "processo": "1029976-82.2025.8.26.0576",
+      "arquivo": "processo_completo_1029976_82_2025_8_26_0576.json",
+      "total_movimentacoes": 25
+    },
+    {
+      "processo": "1025941-79.2025.8.26.0576",
+      "arquivo": "processo_completo_1025941_79_2025_8_26_0576.json",
+      "total_movimentacoes": 12
+    },
+    {
+      "processo": "1025940-94.2025.8.26.0576",
+      "arquivo": "processo_completo_1025940_94_2025_8_26_0576.json",
+      "total_movimentacoes": 10
+    },
+    {
+      "processo": "1024444-30.2025.8.26.0576",
+      "arquivo": "processo_completo_1024444_30_2025_8_26_0576.json",
+      "total_movimentacoes": 17
+    },
+    {
+      "processo": "1024327-39.2025.8.26.0576",
+      "arquivo": "processo_completo_1024327_39_2025_8_26_0576.json",
+      "total_movimentacoes": 8
+    },
+    {
+      "processo": "1024317-92.2025.8.26.0576",
+      "arquivo": "processo_completo_1024317_92_2025_8_26_0576.json",
+      "total_movimentacoes": 17
+    },
+    {
+      "processo": "1006140-80.2025.8.26.0576",
+      "arquivo": "processo_completo_1006140_80_2025_8_26_0576.json",
+      "total_movimentacoes": 17
+    },
+    {
+      "processo": "1002884-32.2025.8.26.0576",
+      "arquivo": "processo_completo_1002884_32_2025_8_26_0576.json",
+      "total_movimentacoes": 20
+    },
+    {
+      "processo": "1001273-44.2025.8.26.0576",
+      "arquivo": "processo_completo_1001273_44_2025_8_26_0576.json",
+      "total_movimentacoes": 25
+    },
+    {
+      "processo": "1038338-10.2024.8.26.0576",
+      "arquivo": "processo_completo_1038338_10_2024_8_26_0576.json",
+      "total_movimentacoes": 34
+    },
+    {
+      "processo": "1030985-16.2024.8.26.0576",
+      "arquivo": "processo_completo_1030985_16_2024_8_26_0576.json",
+      "total_movimentacoes": 29
+    },
+    {
+      "processo": "1029350-97.2024.8.26.0576",
+      "arquivo": "processo_completo_1029350_97_2024_8_26_0576.json",
+      "total_movimentacoes": 43
+    },
+    {
+      "processo": "1022481-21.2024.8.26.0576",
+      "arquivo": "processo_completo_1022481_21_2024_8_26_0576.json",
+      "total_movimentacoes": 90
+    },
+    {
+      "processo": "1018976-22.2024.8.26.0576",
+      "arquivo": "processo_completo_1018976_22_2024_8_26_0576.json",
+      "total_movimentacoes": 174
+    },
+    {
+      "processo": "1017979-39.2024.8.26.0576",
+      "arquivo": "processo_completo_1017979_39_2024_8_26_0576.json",
+      "total_movimentacoes": 53
+    },
+    {
+      "processo": "1002494-96.2024.8.26.0576",
+      "arquivo": "processo_completo_1002494_96_2024_8_26_0576.json",
+      "total_movimentacoes": 37
+    },
+    {
+      "processo": "1056369-15.2023.8.26.0576",
+      "arquivo": "processo_completo_1056369_15_2023_8_26_0576.json",
+      "total_movimentacoes": 72
+    },
+    {
+      "processo": "1049674-45.2023.8.26.0576",
+      "arquivo": "processo_completo_1049674_45_2023_8_26_0576.json",
+      "total_movimentacoes": 39
+    },
+    {
+      "processo": "1047926-75.2023.8.26.0576",
+      "arquivo": "processo_completo_1047926_75_2023_8_26_0576.json",
+      "total_movimentacoes": 47
+    },
+    {
+      "processo": "1047733-60.2023.8.26.0576",
+      "arquivo": "processo_completo_1047733_60_2023_8_26_0576.json",
+      "total_movimentacoes": 52
+    },
+    {
+      "processo": "1047219-10.2023.8.26.0576",
+      "arquivo": "processo_completo_1047219_10_2023_8_26_0576.json",
+      "total_movimentacoes": 31
+    },
+    {
+      "processo": "1044683-26.2023.8.26.0576",
+      "arquivo": "processo_completo_1044683_26_2023_8_26_0576.json",
+      "total_movimentacoes": 42
+    },
+    {
+      "processo": "1044499-70.2023.8.26.0576",
+      "arquivo": "processo_completo_1044499_70_2023_8_26_0576.json",
+      "total_movimentacoes": 62
+    },
+    {
+      "processo": "1040142-47.2023.8.26.0576",
+      "arquivo": "processo_completo_1040142_47_2023_8_26_0576.json",
+      "total_movimentacoes": 55
+    },
+    {
+      "processo": "1016877-16.2023.8.26.0576",
+      "arquivo": "processo_completo_1016877_16_2023_8_26_0576.json",
+      "total_movimentacoes": 46
+    },
+    {
+      "processo": "1010243-04.2023.8.26.0576",
+      "arquivo": "processo_completo_1010243_04_2023_8_26_0576.json",
+      "total_movimentacoes": 66
+    },
+    {
+      "processo": "1004040-26.2023.8.26.0576",
+      "arquivo": "processo_completo_1004040_26_2023_8_26_0576.json",
+      "total_movimentacoes": 31
+    },
+    {
+      "processo": "1003399-38.2023.8.26.0576",
+      "arquivo": "processo_completo_1003399_38_2023_8_26_0576.json",
+      "total_movimentacoes": 31
+    },
+    {
+      "processo": "1003389-91.2023.8.26.0576",
+      "arquivo": "processo_completo_1003389_91_2023_8_26_0576.json",
+      "total_movimentacoes": 47
+    },
+    {
+      "processo": "1001091-29.2023.8.26.0576",
+      "arquivo": "processo_completo_1001091_29_2023_8_26_0576.json",
+      "total_movimentacoes": 44
+    },
+    {
+      "processo": "1069348-43.2022.8.26.0576",
+      "arquivo": "processo_completo_1069348_43_2022_8_26_0576.json",
+      "total_movimentacoes": 36
+    },
+    {
+      "processo": "1042682-05.2022.8.26.0576",
+      "arquivo": "processo_completo_1042682_05_2022_8_26_0576.json",
+      "total_movimentacoes": 73
+    },
+    {
+      "processo": "1043294-74.2021.8.26.0576",
+      "arquivo": "processo_completo_1043294_74_2021_8_26_0576.json",
+      "total_movimentacoes": 83
+    },
+    {
+      "processo": "1002728-83.2021.8.26.0576",
+      "arquivo": "processo_completo_1002728_83_2021_8_26_0576.json",
+      "total_movimentacoes": 113
+    },
+    {
+      "processo": "1021926-43.2020.8.26.0576",
+      "arquivo": "processo_completo_1021926_43_2020_8_26_0576.json",
+      "total_movimentacoes": 33
+    },
+    {
+      "processo": "1037206-88.2019.8.26.0576",
+      "arquivo": "processo_completo_1037206_88_2019_8_26_0576.json",
+      "total_movimentacoes": 38
+    },
+    {
+      "processo": "1034433-70.2019.8.26.0576",
+      "arquivo": "processo_completo_1034433_70_2019_8_26_0576.json",
+      "total_movimentacoes": 76
+    },
+    {
+      "processo": "1028484-65.2019.8.26.0576",
+      "arquivo": "processo_completo_1028484_65_2019_8_26_0576.json",
+      "total_movimentacoes": 191
+    },
+    {
+      "processo": "1053690-18.2018.8.26.0576",
+      "arquivo": "processo_completo_1053690_18_2018_8_26_0576.json",
+      "total_movimentacoes": 102
+    },
+    {
+      "processo": "1053689-33.2018.8.26.0576",
+      "arquivo": "processo_completo_1053689_33_2018_8_26_0576.json",
+      "total_movimentacoes": 96
+    },
+    {
+      "processo": "1010187-44.2018.8.26.0576",
+      "arquivo": "processo_completo_1010187_44_2018_8_26_0576.json",
+      "total_movimentacoes": 74
+    },
+    {
+      "processo": "1010161-46.2018.8.26.0576",
+      "arquivo": "processo_completo_1010161_46_2018_8_26_0576.json",
+      "total_movimentacoes": 149
+    },
+    {
+      "processo": "1056801-44.2017.8.26.0576",
+      "arquivo": "processo_completo_1056801_44_2017_8_26_0576.json",
+      "total_movimentacoes": 136
+    },
+    {
+      "processo": "0015827-16.2016.8.26.0576",
+      "arquivo": "processo_completo_0015827_16_2016_8_26_0576.json",
+      "total_movimentacoes": 21
+    },
+    {
+      "processo": "1042643-52.2015.8.26.0576",
+      "arquivo": "processo_completo_1042643_52_2015_8_26_0576.json",
+      "total_movimentacoes": 83
+    },
+    {
+      "processo": "1015768-79.2014.8.26.0576",
+      "arquivo": "processo_completo_1015768_79_2014_8_26_0576.json",
+      "total_movimentacoes": 90
+    },
+    {
+      "processo": "1003216-43.2019.8.26.0597",
+      "arquivo": "processo_completo_1003216_43_2019_8_26_0597.json",
+      "total_movimentacoes": 73
+    },
+    {
+      "processo": "1002302-21.2020.8.26.0604",
+      "arquivo": "processo_completo_1002302_21_2020_8_26_0604.json",
+      "total_movimentacoes": 104
+    },
+    {
+      "processo": "1000266-92.2025.8.26.0648",
+      "arquivo": "processo_completo_1000266_92_2025_8_26_0648.json",
+      "total_movimentacoes": 38
+    },
+    {
+      "processo": "1000264-25.2025.8.26.0648",
+      "arquivo": "processo_completo_1000264_25_2025_8_26_0648.json",
+      "total_movimentacoes": 27
+    },
+    {
+      "processo": "1001130-04.2023.8.26.0648",
+      "arquivo": "processo_completo_1001130_04_2023_8_26_0648.json",
+      "total_movimentacoes": 112
+    },
+    {
+      "processo": "1000139-28.2023.8.26.0648",
+      "arquivo": "processo_completo_1000139_28_2023_8_26_0648.json",
+      "total_movimentacoes": 71
+    },
+    {
+      "processo": "1000442-76.2022.8.26.0648",
+      "arquivo": "processo_completo_1000442_76_2022_8_26_0648.json",
+      "total_movimentacoes": 30
+    },
+    {
+      "processo": "1001106-15.2019.8.26.0648",
+      "arquivo": "processo_completo_1001106_15_2019_8_26_0648.json",
+      "total_movimentacoes": 117
+    },
+    {
+      "processo": "1001163-61.2024.8.26.0097",
+      "arquivo": "processo_completo_1001163_61_2024_8_26_0097.json",
+      "total_movimentacoes": 260
+    }
+  ],
+  "processos_erro": [],
+  "diretorio_saida": "output/advogado_completo"
+}

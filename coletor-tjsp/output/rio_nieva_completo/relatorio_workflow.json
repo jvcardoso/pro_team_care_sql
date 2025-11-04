@@ -1,0 +1,160 @@
+{
+  "workflow": "Rio Nieva - Dados Completos",
+  "data_execucao": "2025-10-30T21:35:29.732717",
+  "party_name": "Rio Nieva",
+  "estatisticas": {
+    "processos_encontrados": 29,
+    "processos_sucesso": 29,
+    "processos_erro": 0,
+    "taxa_sucesso": "100.0%"
+  },
+  "processos_sucesso": [
+    {
+      "processo": "1024444-30.2025.8.26.0576",
+      "arquivo": "processo_completo_1024444_30_2025_8_26_0576.json",
+      "total_movimentacoes": 17
+    },
+    {
+      "processo": "1024327-39.2025.8.26.0576",
+      "arquivo": "processo_completo_1024327_39_2025_8_26_0576.json",
+      "total_movimentacoes": 8
+    },
+    {
+      "processo": "1024317-92.2025.8.26.0576",
+      "arquivo": "processo_completo_1024317_92_2025_8_26_0576.json",
+      "total_movimentacoes": 17
+    },
+    {
+      "processo": "1015891-62.2023.8.26.0576",
+      "arquivo": "processo_completo_1015891_62_2023_8_26_0576.json",
+      "total_movimentacoes": 70
+    },
+    {
+      "processo": "1003399-38.2023.8.26.0576",
+      "arquivo": "processo_completo_1003399_38_2023_8_26_0576.json",
+      "total_movimentacoes": 31
+    },
+    {
+      "processo": "1003389-91.2023.8.26.0576",
+      "arquivo": "processo_completo_1003389_91_2023_8_26_0576.json",
+      "total_movimentacoes": 47
+    },
+    {
+      "processo": "1042682-05.2022.8.26.0576",
+      "arquivo": "processo_completo_1042682_05_2022_8_26_0576.json",
+      "total_movimentacoes": 73
+    },
+    {
+      "processo": "1039752-14.2022.8.26.0576",
+      "arquivo": "processo_completo_1039752_14_2022_8_26_0576.json",
+      "total_movimentacoes": 64
+    },
+    {
+      "processo": "1014892-46.2022.8.26.0576",
+      "arquivo": "processo_completo_1014892_46_2022_8_26_0576.json",
+      "total_movimentacoes": 24
+    },
+    {
+      "processo": "1043294-74.2021.8.26.0576",
+      "arquivo": "processo_completo_1043294_74_2021_8_26_0576.json",
+      "total_movimentacoes": 83
+    },
+    {
+      "processo": "1014372-23.2021.8.26.0576",
+      "arquivo": "processo_completo_1014372_23_2021_8_26_0576.json",
+      "total_movimentacoes": 32
+    },
+    {
+      "processo": "1045152-77.2020.8.26.0576",
+      "arquivo": "processo_completo_1045152_77_2020_8_26_0576.json",
+      "total_movimentacoes": 27
+    },
+    {
+      "processo": "1008185-33.2020.8.26.0576",
+      "arquivo": "processo_completo_1008185_33_2020_8_26_0576.json",
+      "total_movimentacoes": 115
+    },
+    {
+      "processo": "1007961-95.2020.8.26.0576",
+      "arquivo": "processo_completo_1007961_95_2020_8_26_0576.json",
+      "total_movimentacoes": 109
+    },
+    {
+      "processo": "1037187-82.2019.8.26.0576",
+      "arquivo": "processo_completo_1037187_82_2019_8_26_0576.json",
+      "total_movimentacoes": 131
+    },
+    {
+      "processo": "1028484-65.2019.8.26.0576",
+      "arquivo": "processo_completo_1028484_65_2019_8_26_0576.json",
+      "total_movimentacoes": 191
+    },
+    {
+      "processo": "1028480-28.2019.8.26.0576",
+      "arquivo": "processo_completo_1028480_28_2019_8_26_0576.json",
+      "total_movimentacoes": 58
+    },
+    {
+      "processo": "1021579-44.2019.8.26.0576",
+      "arquivo": "processo_completo_1021579_44_2019_8_26_0576.json",
+      "total_movimentacoes": 73
+    },
+    {
+      "processo": "1053694-55.2018.8.26.0576",
+      "arquivo": "processo_completo_1053694_55_2018_8_26_0576.json",
+      "total_movimentacoes": 26
+    },
+    {
+      "processo": "1053690-18.2018.8.26.0576",
+      "arquivo": "processo_completo_1053690_18_2018_8_26_0576.json",
+      "total_movimentacoes": 102
+    },
+    {
+      "processo": "1053689-33.2018.8.26.0576",
+      "arquivo": "processo_completo_1053689_33_2018_8_26_0576.json",
+      "total_movimentacoes": 96
+    },
+    {
+      "processo": "1039593-13.2018.8.26.0576",
+      "arquivo": "processo_completo_1039593_13_2018_8_26_0576.json",
+      "total_movimentacoes": 113
+    },
+    {
+      "processo": "1030935-97.2018.8.26.0576",
+      "arquivo": "processo_completo_1030935_97_2018_8_26_0576.json",
+      "total_movimentacoes": 69
+    },
+    {
+      "processo": "1010187-44.2018.8.26.0576",
+      "arquivo": "processo_completo_1010187_44_2018_8_26_0576.json",
+      "total_movimentacoes": 74
+    },
+    {
+      "processo": "1010161-46.2018.8.26.0576",
+      "arquivo": "processo_completo_1010161_46_2018_8_26_0576.json",
+      "total_movimentacoes": 149
+    },
+    {
+      "processo": "1009633-12.2018.8.26.0576",
+      "arquivo": "processo_completo_1009633_12_2018_8_26_0576.json",
+      "total_movimentacoes": 24
+    },
+    {
+      "processo": "1056806-66.2017.8.26.0576",
+      "arquivo": "processo_completo_1056806_66_2017_8_26_0576.json",
+      "total_movimentacoes": 106
+    },
+    {
+      "processo": "1056804-96.2017.8.26.0576",
+      "arquivo": "processo_completo_1056804_96_2017_8_26_0576.json",
+      "total_movimentacoes": 108
+    },
+    {
+      "processo": "1056801-44.2017.8.26.0576",
+      "arquivo": "processo_completo_1056801_44_2017_8_26_0576.json",
+      "total_movimentacoes": 136
+    }
+  ],
+  "processos_erro": [],
+  "diretorio_saida": "output/rio_nieva_completo"
+}

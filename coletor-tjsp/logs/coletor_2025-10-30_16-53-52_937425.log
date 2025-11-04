@@ -1,0 +1,8 @@
+2025-10-30 16:53:52.949 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 16:53:52.950 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 16:53:52.950 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 16:53:52.951 | INFO     | src.scraper:setup:37 - Inicializando browser...
+2025-10-30 16:53:54.132 | INFO     | src.scraper:setup:62 - Browser inicializado com sucesso
+2025-10-30 16:53:54.133 | INFO     | src.main:collect_by_party:155 - Buscando processos da parte: Parque Rio Nieva
+2025-10-30 16:53:54.133 | INFO     | src.scraper:search_by_party:305 - Buscando processos da parte: Parque Rio Nieva
+2025-10-30 16:54:33.238 | INFO     | src.scraper:search_by_party:328 - Coletando página 1

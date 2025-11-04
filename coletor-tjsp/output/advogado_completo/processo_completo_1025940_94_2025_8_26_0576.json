@@ -1,0 +1,166 @@
+{
+  "processo_numero": "1025940-94.2025.8.26.0576",
+  "coleta_timestamp": "2025-10-31T07:08:28.683881",
+  "vara": "1ª Vara Cível",
+  "classe_assunto": "Despejo por Falta de Pagamento Cumulado Com Cobrança - Despejo por Inadimplemento",
+  "valor_causa": "",
+  "exequente": "",
+  "executado": "",
+  "advogado_autor_nome": "",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: Douglas Borges da Silva",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "31/10/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:08:40.872450",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "30/10/2025",
+      "mov_descricao": "Carta de Citação Expedida Processo Digital - Carta - Citação - Despejo por Falta de Pagamento Cumulado com Cobrança - Lei 12.112-09 - Cível",
+      "mov_texto_completo": "Carta de Citação Expedida\nProcesso Digital - Carta - Citação - Despejo por Falta de Pagamento Cumulado com Cobrança - Lei 12.112-09 - Cível",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:08:40.872803",
+      "mov_texto": "Carta de Citação Expedida\nProcesso Digital - Carta - Citação - Despejo por Falta de Pagamento Cumulado com Cobrança - Lei 12.112-09 - Cível"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "30/10/2025",
+      "mov_descricao": "Certidão de Cartório Expedida Certidão - Genérica",
+      "mov_texto_completo": "Certidão de Cartório Expedida\nCertidão - Genérica",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:08:40.873141",
+      "mov_texto": "Certidão de Cartório Expedida\nCertidão - Genérica"
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "25/09/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - Portal Expedir mandado/carta/ofício/carta precatória ou qualquer outro ato que independa de decisão judicial e que possa ser emitido de ofício pelo Serventuário.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - Portal\nExpedir mandado/carta/ofício/carta precatória ou qualquer outro ato que independa de decisão judicial e que possa ser emitido de ofício pelo Serventuário.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:08:40.873408",
+      "mov_texto": "Ato Ordinatório - Intimação - Portal\nExpedir mandado/carta/ofício/carta precatória ou qualquer outro ato que independa de decisão judicial e que possa ser emitido de ofício pelo Serventuário."
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "24/09/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WSRP.25.70453579-8\nTipo da Petição: Petição Intermediária\nData: 24/09/2025 17:39",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WSRP.25.70453579-8\nTipo da Petição: Petição Intermediária\nData: 24/09/2025 17:39",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:08:40.873737",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WSRP.25.70453579-8\nTipo da Petição: Petição Intermediária\nData: 24/09/2025 17:39"
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "24/06/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0633/2025\nData da Publicação: 25/06/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0633/2025\nData da Publicação: 25/06/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:08:40.874035",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0633/2025\nData da Publicação: 25/06/2025"
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "23/06/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0633/2025\nTeor do ato: Vistos. 1- Não obstante a regra geral determine que a atribuição do valor da causa deva se dar de acordo com o proveito econômico esperado com o êxito na demanda (artigo 292 do Código de Processo Civil), a presente demanda é regida por legislação especial (Lei de Locações) e conta com regra específica. No caso dos autos, observo que valor dado à causa não está em consonância com o estatuído pelo art. 58, inciso III, da Lei nº 8245/1991 (o valor da causa corresponderá a doze meses de aluguel), aplicável para ações de despejo com ou sem cumulação de pedido de cobrança. O locativo mensal é de R$ 850,00, de modo que o valor da causa deve ser de R$ 10.200,00. Reza o art. 292, § 3º, CPC que \"[o] juiz corrigirá, de ofício e por arbitramento, o valor da causa quando verificar que não corresponde ao conteúdo patrimonial em discussão ou ao proveito econômico perseguido pelo autor, caso em que se procederá ao recolhimento das custas correspondentes.\" Assim, corrijo, de ofício, o valor dado à causa para que corresponda ao montante de R$ 10.200,00. Anote-se. 2- Cite(m)-se, na forma do art. 62, inciso I, da Lei nº 8.245/91, com a redação dada pela Lei nº 12.112/09, constando a advertência do art. 344, do CPC e os esclarecimentos de que o prazo para contestação e para a purgação da mora é de 15 (quinze) dias, contados da citação. Notifique(m)-se o(s) fiador(es), se o caso. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0633/2025\nTeor do ato: Vistos. 1- Não obstante a regra geral determine que a atribuição do valor da causa deva se dar de acordo com o proveito econômico esperado com o êxito na demanda (artigo 292 do Código de Processo Civil), a presente demanda é regida por legislação especial (Lei de Locações) e conta com regra específica. No caso dos autos, observo que valor dado à causa não está em consonância com o estatuído pelo art. 58, inciso III, da Lei nº 8245/1991 (o valor da causa corresponderá a doze meses de aluguel), aplicável para ações de despejo com ou sem cumulação de pedido de cobrança. O locativo mensal é de R$ 850,00, de modo que o valor da causa deve ser de R$ 10.200,00. Reza o art. 292, § 3º, CPC que \"[o] juiz corrigirá, de ofício e por arbitramento, o valor da causa quando verificar que não corresponde ao conteúdo patrimonial em discussão ou ao proveito econômico perseguido pelo autor, caso em que se procederá ao recolhimento das custas correspondentes.\" Assim, corrijo, de ofício, o valor dado à causa para que corresponda ao montante de R$ 10.200,00. Anote-se. 2- Cite(m)-se, na forma do art. 62, inciso I, da Lei nº 8.245/91, com a redação dada pela Lei nº 12.112/09, constando a advertência do art. 344, do CPC e os esclarecimentos de que o prazo para contestação e para a purgação da mora é de 15 (quinze) dias, contados da citação. Notifique(m)-se o(s) fiador(es), se o caso. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "R$ 850,00",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:08:40.874257",
+      "mov_texto": "Remetido ao DJE\nRelação: 0633/2025\nTeor do ato: Vistos. 1- Não obstante a regra geral determine que a atribuição do valor da causa deva se dar de acordo com o proveito econômico esperado com o êxito na demanda (artigo 292 do Código de Processo Civil), a presente demanda é regida por legislação especial (Lei de Locações) e conta com regra específica. No caso dos autos, observo que valor dado à causa não está em consonância com o estatuído pelo art. 58, inciso III, da Lei nº 8245/1991 (o valor da causa corresponderá a doze meses de aluguel), aplicável para ações de despejo com ou sem cumulação de pedido de cobrança. O locativo mensal é de R$ 850,00, de modo que o valor da causa deve ser de R$ 10.200,00. Reza o art. 292, § 3º, CPC que \"[o] juiz corrigirá, de ofício e por arbitramento, o valor da causa quando verificar que não corresponde ao conteúdo patrimonial em discussão ou ao proveito econômico perseguido pelo autor, caso em que se procederá ao recolhimento das custas correspondentes.\" Assim, corrijo, de ofício, o valor dado à causa para que corresponda ao montante de R$ 10.200,00. Anote-se. 2- Cite(m)-se, na forma do art. 62, inciso I, da Lei nº 8.245/91, com a redação dada pela Lei nº 12.112/09, constando a advertência do art. 344, do CPC e os esclarecimentos de que o prazo para contestação e para a purgação da mora é de 15 (quinze) dias, contados da citação. Notifique(m)-se o(s) fiador(es), se o caso. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "23/06/2025",
+      "mov_descricao": "Recebida a Petição Inicial  - Citação Por Carta AR Vistos. 1- Não obstante a regra geral determine que a atribuição do valor da causa deva se dar de acordo com o proveito econômico esperado com o êxito na demanda (artigo 292 do Código de Processo Civil), a presente demanda é regida por legislação especial (Lei de Locações) e conta com regra específica. No caso dos autos, observo que valor dado à causa não está em consonância com o estatuído pelo art. 58, inciso III, da Lei nº 8245/1991 (o valor da causa corresponderá a doze meses de aluguel), aplicável para ações de despejo com ou sem cumulação de pedido de cobrança. O locativo mensal é de R$ 850,00, de modo que o valor da causa deve ser de R$ 10.200,00. Reza o art. 292, § 3º, CPC que \"[o] juiz corrigirá, de ofício e por arbitramento, o valor da causa quando verificar que não corresponde ao conteúdo patrimonial em discussão ou ao proveito econômico perseguido pelo autor, caso em que se procederá ao recolhimento das custas correspondentes.\" Assim, corrijo, de ofício, o valor dado à causa para que corresponda ao montante de R$ 10.200,00. Anote-se. 2- Cite(m)-se, na forma do art. 62, inciso I, da Lei nº 8.245/91, com a redação dada pela Lei nº 12.112/09, constando a advertência do art. 344, do CPC e os esclarecimentos de que o prazo para contestação e para a purgação da mora é de 15 (quinze) dias, contados da citação. Notifique(m)-se o(s) fiador(es), se o caso. Intime-se.",
+      "mov_texto_completo": "Recebida a Petição Inicial - Citação Por Carta AR\nVistos. 1- Não obstante a regra geral determine que a atribuição do valor da causa deva se dar de acordo com o proveito econômico esperado com o êxito na demanda (artigo 292 do Código de Processo Civil), a presente demanda é regida por legislação especial (Lei de Locações) e conta com regra específica. No caso dos autos, observo que valor dado à causa não está em consonância com o estatuído pelo art. 58, inciso III, da Lei nº 8245/1991 (o valor da causa corresponderá a doze meses de aluguel), aplicável para ações de despejo com ou sem cumulação de pedido de cobrança. O locativo mensal é de R$ 850,00, de modo que o valor da causa deve ser de R$ 10.200,00. Reza o art. 292, § 3º, CPC que \"[o] juiz corrigirá, de ofício e por arbitramento, o valor da causa quando verificar que não corresponde ao conteúdo patrimonial em discussão ou ao proveito econômico perseguido pelo autor, caso em que se procederá ao recolhimento das custas correspondentes.\" Assim, corrijo, de ofício, o valor dado à causa para que corresponda ao montante de R$ 10.200,00. Anote-se. 2- Cite(m)-se, na forma do art. 62, inciso I, da Lei nº 8.245/91, com a redação dada pela Lei nº 12.112/09, constando a advertência do art. 344, do CPC e os esclarecimentos de que o prazo para contestação e para a purgação da mora é de 15 (quinze) dias, contados da citação. Notifique(m)-se o(s) fiador(es), se o caso. Intime-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "R$ 850,00",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:08:40.875664",
+      "mov_texto": "Recebida a Petição Inicial - Citação Por Carta AR\nVistos. 1- Não obstante a regra geral determine que a atribuição do valor da causa deva se dar de acordo com o proveito econômico esperado com o êxito na demanda (artigo 292 do Código de Processo Civil), a presente demanda é regida por legislação especial (Lei de Locações) e conta com regra específica. No caso dos autos, observo que valor dado à causa não está em consonância com o estatuído pelo art. 58, inciso III, da Lei nº 8245/1991 (o valor da causa corresponderá a doze meses de aluguel), aplicável para ações de despejo com ou sem cumulação de pedido de cobrança. O locativo mensal é de R$ 850,00, de modo que o valor da causa deve ser de R$ 10.200,00. Reza o art. 292, § 3º, CPC que \"[o] juiz corrigirá, de ofício e por arbitramento, o valor da causa quando verificar que não corresponde ao conteúdo patrimonial em discussão ou ao proveito econômico perseguido pelo autor, caso em que se procederá ao recolhimento das custas correspondentes.\" Assim, corrijo, de ofício, o valor dado à causa para que corresponda ao montante de R$ 10.200,00. Anote-se. 2- Cite(m)-se, na forma do art. 62, inciso I, da Lei nº 8.245/91, com a redação dada pela Lei nº 12.112/09, constando a advertência do art. 344, do CPC e os esclarecimentos de que o prazo para contestação e para a purgação da mora é de 15 (quinze) dias, contados da citação. Notifique(m)-se o(s) fiador(es), se o caso. Intime-se."
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "23/06/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:08:40.877065",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "18/06/2025",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:08:40.877249",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

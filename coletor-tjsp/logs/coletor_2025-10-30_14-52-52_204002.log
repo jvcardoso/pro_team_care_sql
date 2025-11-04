@@ -1,0 +1,12 @@
+2025-10-30 14:52:52.213 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 14:52:52.214 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 14:52:52.214 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 14:52:52.215 | INFO     | src.scraper:setup:36 - Inicializando browser...
+2025-10-30 14:52:53.565 | INFO     | src.scraper:setup:61 - Browser inicializado com sucesso
+2025-10-30 14:52:53.567 | INFO     | src.main:load_process_list:69 - Carregados 2 processos do arquivo input/teste_2_processos.csv
+2025-10-30 14:52:53.568 | INFO     | src.main:main:273 - Total de processos para coletar: 2
+2025-10-30 14:52:53.568 | INFO     | src.main:main:280 - [1/2] Processando...
+2025-10-30 14:52:53.568 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1234567-89.2024.8.26.0100
+2025-10-30 14:52:53.569 | INFO     | src.scraper:search_by_process_number:105 - Buscando processo: 1234567-89.2024.8.26.0100
+2025-10-30 14:53:38.550 | ERROR    | src.scraper:search_by_process_number:137 - Timeout ao buscar processo 1234567-89.2024.8.26.0100
+2025-10-30 14:53:42.809 | INFO     | src.scraper:search_by_process_number:105 - Buscando processo: 1234567-89.2024.8.26.0100

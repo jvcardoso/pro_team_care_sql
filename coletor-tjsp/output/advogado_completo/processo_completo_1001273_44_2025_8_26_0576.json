@@ -1,0 +1,402 @@
+{
+  "processo_numero": "1001273-44.2025.8.26.0576",
+  "coleta_timestamp": "2025-10-31T07:12:41.793009",
+  "vara": "6ª Vara Cível",
+  "classe_assunto": "Execução de Título Extrajudicial - Espécies de Contratos",
+  "valor_causa": "",
+  "exequente": "Condomínio Edifício Três Américas",
+  "executado": "Adriano Souza Benedeti",
+  "advogado_autor_nome": "Advogado:",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: Sergio Martins Barbatto Júnior",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "28/08/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - Portal Encaminhado à fila de cumprimento para expedição de carta(s)/mandado(s) de citação/intimação, conforme determinado anteriormente",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - Portal\nEncaminhado à fila de cumprimento para expedição de carta(s)/mandado(s) de citação/intimação, conforme determinado anteriormente",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.989024",
+      "mov_texto": "Ato Ordinatório - Intimação - Portal\nEncaminhado à fila de cumprimento para expedição de carta(s)/mandado(s) de citação/intimação, conforme determinado anteriormente"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "27/08/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WSRP.25.70398004-6\nTipo da Petição: Petição Intermediária\nData: 27/08/2025 08:56",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WSRP.25.70398004-6\nTipo da Petição: Petição Intermediária\nData: 27/08/2025 08:56",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.989513",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WSRP.25.70398004-6\nTipo da Petição: Petição Intermediária\nData: 27/08/2025 08:56"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "27/08/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 1255/2025\nData da Publicação: 28/08/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 1255/2025\nData da Publicação: 28/08/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.989773",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 1255/2025\nData da Publicação: 28/08/2025"
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "26/08/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 1255/2025\nTeor do ato: No prazo de 15 dias, providencie a parte autora o recolhimento da(s) diligência(s) do Oficial de Justiça, conforme site do TJSP: http://www.tjsp.jus.br/IndicesTaxasJudiciarias/DespesasProcessuais/DiligenciaOficiaisJustica. Em não havendo o recolhimento no prazo de até 30 dias, os autos serão remetidos à conclusão para extinção por falta falta de pressuposto processual de desenvolvimento válido e regular - citação.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 1255/2025\nTeor do ato: No prazo de 15 dias, providencie a parte autora o recolhimento da(s) diligência(s) do Oficial de Justiça, conforme site do TJSP: http://www.tjsp.jus.br/IndicesTaxasJudiciarias/DespesasProcessuais/DiligenciaOficiaisJustica. Em não havendo o recolhimento no prazo de até 30 dias, os autos serão remetidos à conclusão para extinção por falta falta de pressuposto processual de desenvolvimento válido e regular - citação.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.989999",
+      "mov_texto": "Remetido ao DJE\nRelação: 1255/2025\nTeor do ato: No prazo de 15 dias, providencie a parte autora o recolhimento da(s) diligência(s) do Oficial de Justiça, conforme site do TJSP: http://www.tjsp.jus.br/IndicesTaxasJudiciarias/DespesasProcessuais/DiligenciaOficiaisJustica. Em não havendo o recolhimento no prazo de até 30 dias, os autos serão remetidos à conclusão para extinção por falta falta de pressuposto processual de desenvolvimento válido e regular - citação.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "25/08/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE No prazo de 15 dias, providencie a parte autora o recolhimento da(s) diligência(s) do Oficial de Justiça, conforme site do TJSP: http://www.tjsp.jus.br/IndicesTaxasJudiciarias/DespesasProcessuais/DiligenciaOficiaisJustica. Em não havendo o recolhimento no prazo de até 30 dias, os autos serão remetidos à conclusão para extinção por falta falta de pressuposto processual de desenvolvimento válido e regular - citação.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nNo prazo de 15 dias, providencie a parte autora o recolhimento da(s) diligência(s) do Oficial de Justiça, conforme site do TJSP: http://www.tjsp.jus.br/IndicesTaxasJudiciarias/DespesasProcessuais/DiligenciaOficiaisJustica. Em não havendo o recolhimento no prazo de até 30 dias, os autos serão remetidos à conclusão para extinção por falta falta de pressuposto processual de desenvolvimento válido e regular - citação.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.990593",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nNo prazo de 15 dias, providencie a parte autora o recolhimento da(s) diligência(s) do Oficial de Justiça, conforme site do TJSP: http://www.tjsp.jus.br/IndicesTaxasJudiciarias/DespesasProcessuais/DiligenciaOficiaisJustica. Em não havendo o recolhimento no prazo de até 30 dias, os autos serão remetidos à conclusão para extinção por falta falta de pressuposto processual de desenvolvimento válido e regular - citação."
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "22/08/2025",
+      "mov_descricao": "Pedido de Citação - Endereço Localizado Juntado Nº Protocolo: WSRP.25.70391552-0\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 22/08/2025 16:08",
+      "mov_texto_completo": "Pedido de Citação - Endereço Localizado Juntado\nNº Protocolo: WSRP.25.70391552-0\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 22/08/2025 16:08",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.991113",
+      "mov_texto": "Pedido de Citação - Endereço Localizado Juntado\nNº Protocolo: WSRP.25.70391552-0\nTipo da Petição: Pedido de Citação - Endereço Localizado\nData: 22/08/2025 16:08"
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "18/08/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 1177/2025\nData da Publicação: 19/08/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 1177/2025\nData da Publicação: 19/08/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.991430",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 1177/2025\nData da Publicação: 19/08/2025"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "15/08/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 1177/2025\nTeor do ato: Fl. 66: Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o resultado negativo do AR (Aviso de Recebimento) retro juntado. Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 1177/2025\nTeor do ato: Fl. 66: Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o resultado negativo do AR (Aviso de Recebimento) retro juntado. Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.991652",
+      "mov_texto": "Remetido ao DJE\nRelação: 1177/2025\nTeor do ato: Fl. 66: Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o resultado negativo do AR (Aviso de Recebimento) retro juntado. Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "15/08/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE Fl. 66: Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o resultado negativo do AR (Aviso de Recebimento) retro juntado. Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nFl. 66: Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o resultado negativo do AR (Aviso de Recebimento) retro juntado. Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.992546",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nFl. 66: Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o resultado negativo do AR (Aviso de Recebimento) retro juntado. Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo."
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "15/08/2025",
+      "mov_descricao": "AR Negativo Juntado - Endereço Insuficiente Juntada de AR : AA788380543TJ\nSituação : Endereço insuficiente\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Adriano Souza Benedeti",
+      "mov_texto_completo": "AR Negativo Juntado - Endereço Insuficiente\nJuntada de AR : AA788380543TJ\nSituação : Endereço insuficiente\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Adriano Souza Benedeti",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:53.993365",
+      "mov_texto": "AR Negativo Juntado - Endereço Insuficiente\nJuntada de AR : AA788380543TJ\nSituação : Endereço insuficiente\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Adriano Souza Benedeti"
+    },
+    {
+      "mov_ordem": 11,
+      "mov_data": "04/08/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.993712",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 12,
+      "mov_data": "01/08/2025",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:53.993939",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 13,
+      "mov_data": "15/05/2025",
+      "mov_descricao": "Ato Ordinatório (Não Gera Intimação no DJE ou Portal) Ato Ordinatório - cumprir carta COM ATO",
+      "mov_texto_completo": "Ato Ordinatório (Não Gera Intimação no DJE ou Portal)\nAto Ordinatório - cumprir carta COM ATO",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.994193",
+      "mov_texto": "Ato Ordinatório (Não Gera Intimação no DJE ou Portal)\nAto Ordinatório - cumprir carta COM ATO"
+    },
+    {
+      "mov_ordem": 14,
+      "mov_data": "14/05/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WSRP.25.70208698-8\nTipo da Petição: Petição Intermediária\nData: 14/05/2025 16:25",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WSRP.25.70208698-8\nTipo da Petição: Petição Intermediária\nData: 14/05/2025 16:25",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.994472",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WSRP.25.70208698-8\nTipo da Petição: Petição Intermediária\nData: 14/05/2025 16:25"
+    },
+    {
+      "mov_ordem": 15,
+      "mov_data": "14/04/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0340/2025\nData da Publicação: 16/04/2025\nNúmero do Diário: 4185",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0340/2025\nData da Publicação: 16/04/2025\nNúmero do Diário: 4185",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.994714",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0340/2025\nData da Publicação: 16/04/2025\nNúmero do Diário: 4185"
+    },
+    {
+      "mov_ordem": 16,
+      "mov_data": "14/04/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0340/2025\nTeor do ato: Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o(s) resultado(s) negativo(s) do(s) AR(s) (Aviso(s) de Recebimento) retro juntado(s). Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0340/2025\nTeor do ato: Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o(s) resultado(s) negativo(s) do(s) AR(s) (Aviso(s) de Recebimento) retro juntado(s). Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.994947",
+      "mov_texto": "Remetido ao DJE\nRelação: 0340/2025\nTeor do ato: Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o(s) resultado(s) negativo(s) do(s) AR(s) (Aviso(s) de Recebimento) retro juntado(s). Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 17,
+      "mov_data": "14/04/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE Manifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o(s) resultado(s) negativo(s) do(s) AR(s) (Aviso(s) de Recebimento) retro juntado(s). Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nManifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o(s) resultado(s) negativo(s) do(s) AR(s) (Aviso(s) de Recebimento) retro juntado(s). Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.995811",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nManifeste-se a parte autora/exequente, no prazo de 05 (cinco) dias, em termos de prosseguimento do feito, tendo em vista o(s) resultado(s) negativo(s) do(s) AR(s) (Aviso(s) de Recebimento) retro juntado(s). Observação 1: em caso de indicação de novo endereço ou de requerimento de pesquisas, a parte interessada deverá providenciar o recolhimento das custa(s)/taxa(s)/diligência(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 2: em caso de pedido de pesquisas de endereço, a parte interessada deverá providenciar o recolhimento das taxa(s) respectiva(s), salvo se beneficiário da justiça gratuita. Observação 3: petições nomeadas corretamente e de acordo com o pedido, facilitam na sua identificação auxiliando no bom andamento e celeridade do processo."
+    },
+    {
+      "mov_ordem": 18,
+      "mov_data": "12/04/2025",
+      "mov_descricao": "AR Negativo Juntado - Endereço Insuficiente Juntada de AR : AA758065605TJ\nSituação : Endereço insuficiente\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Adriano Souza Benedeti",
+      "mov_texto_completo": "AR Negativo Juntado - Endereço Insuficiente\nJuntada de AR : AA758065605TJ\nSituação : Endereço insuficiente\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Adriano Souza Benedeti",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:53.996661",
+      "mov_texto": "AR Negativo Juntado - Endereço Insuficiente\nJuntada de AR : AA758065605TJ\nSituação : Endereço insuficiente\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Adriano Souza Benedeti"
+    },
+    {
+      "mov_ordem": 19,
+      "mov_data": "02/04/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.997020",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 20,
+      "mov_data": "01/04/2025",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:53.997418",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 21,
+      "mov_data": "18/01/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0032/2025\nData da Publicação: 21/01/2025\nNúmero do Diário: 4126",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0032/2025\nData da Publicação: 21/01/2025\nNúmero do Diário: 4126",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.997675",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0032/2025\nData da Publicação: 21/01/2025\nNúmero do Diário: 4126"
+    },
+    {
+      "mov_ordem": 22,
+      "mov_data": "17/01/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0032/2025\nTeor do ato: Vistos. Cite-se na modalidade requerida e para pagamento em 3 dias - ENUNCIADO 85 da I Jornada de Direito Processual da Justiça Federal - Na execução de título extrajudicial ou judicial (art. 515, § 1º, do CPC) é cabível a citação postal. Honorários da execução fixados em 10% sobre o valor do débito. Prazo de embargos: 15 dias da citação. Fica autorizada desde já a emissão de certidão para fins de averbação premonitória, e mediante simples requerimento da parte em balcao. ENUNCIADO 104 da I Jornada de Direito Civil da Justiça Federal - O fornecimento de certidão para fins de averbação premonitória (art. 799, IX, do CPC) independe de prévio despacho ou autorização do juiz. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0032/2025\nTeor do ato: Vistos. Cite-se na modalidade requerida e para pagamento em 3 dias - ENUNCIADO 85 da I Jornada de Direito Processual da Justiça Federal - Na execução de título extrajudicial ou judicial (art. 515, § 1º, do CPC) é cabível a citação postal. Honorários da execução fixados em 10% sobre o valor do débito. Prazo de embargos: 15 dias da citação. Fica autorizada desde já a emissão de certidão para fins de averbação premonitória, e mediante simples requerimento da parte em balcao. ENUNCIADO 104 da I Jornada de Direito Civil da Justiça Federal - O fornecimento de certidão para fins de averbação premonitória (art. 799, IX, do CPC) independe de prévio despacho ou autorização do juiz. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "EMBARGOS",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:53.997914",
+      "mov_texto": "Remetido ao DJE\nRelação: 0032/2025\nTeor do ato: Vistos. Cite-se na modalidade requerida e para pagamento em 3 dias - ENUNCIADO 85 da I Jornada de Direito Processual da Justiça Federal - Na execução de título extrajudicial ou judicial (art. 515, § 1º, do CPC) é cabível a citação postal. Honorários da execução fixados em 10% sobre o valor do débito. Prazo de embargos: 15 dias da citação. Fica autorizada desde já a emissão de certidão para fins de averbação premonitória, e mediante simples requerimento da parte em balcao. ENUNCIADO 104 da I Jornada de Direito Civil da Justiça Federal - O fornecimento de certidão para fins de averbação premonitória (art. 799, IX, do CPC) independe de prévio despacho ou autorização do juiz. Int.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 23,
+      "mov_data": "16/01/2025",
+      "mov_descricao": "Recebida a Petição Inicial Vistos. Cite-se na modalidade requerida e para pagamento em 3 dias - ENUNCIADO 85 da I Jornada de Direito Processual da Justiça Federal - Na execução de título extrajudicial ou judicial (art. 515, § 1º, do CPC) é cabível a citação postal. Honorários da execução fixados em 10% sobre o valor do débito. Prazo de embargos: 15 dias da citação. Fica autorizada desde já a emissão de certidão para fins de averbação premonitória, e mediante simples requerimento da parte em balcao. ENUNCIADO 104 da I Jornada de Direito Civil da Justiça Federal - O fornecimento de certidão para fins de averbação premonitória (art. 799, IX, do CPC) independe de prévio despacho ou autorização do juiz. Int.",
+      "mov_texto_completo": "Recebida a Petição Inicial\nVistos. Cite-se na modalidade requerida e para pagamento em 3 dias - ENUNCIADO 85 da I Jornada de Direito Processual da Justiça Federal - Na execução de título extrajudicial ou judicial (art. 515, § 1º, do CPC) é cabível a citação postal. Honorários da execução fixados em 10% sobre o valor do débito. Prazo de embargos: 15 dias da citação. Fica autorizada desde já a emissão de certidão para fins de averbação premonitória, e mediante simples requerimento da parte em balcao. ENUNCIADO 104 da I Jornada de Direito Civil da Justiça Federal - O fornecimento de certidão para fins de averbação premonitória (art. 799, IX, do CPC) independe de prévio despacho ou autorização do juiz. Int.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "EMBARGOS",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:12:53.998689",
+      "mov_texto": "Recebida a Petição Inicial\nVistos. Cite-se na modalidade requerida e para pagamento em 3 dias - ENUNCIADO 85 da I Jornada de Direito Processual da Justiça Federal - Na execução de título extrajudicial ou judicial (art. 515, § 1º, do CPC) é cabível a citação postal. Honorários da execução fixados em 10% sobre o valor do débito. Prazo de embargos: 15 dias da citação. Fica autorizada desde já a emissão de certidão para fins de averbação premonitória, e mediante simples requerimento da parte em balcao. ENUNCIADO 104 da I Jornada de Direito Civil da Justiça Federal - O fornecimento de certidão para fins de averbação premonitória (art. 799, IX, do CPC) independe de prévio despacho ou autorização do juiz. Int."
+    },
+    {
+      "mov_ordem": 24,
+      "mov_data": "16/01/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.999428",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 25,
+      "mov_data": "15/01/2025",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:12:53.999603",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

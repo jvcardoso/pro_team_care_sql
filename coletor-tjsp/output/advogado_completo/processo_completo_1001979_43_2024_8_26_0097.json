@@ -1,0 +1,296 @@
+{
+  "processo_numero": "1001979-43.2024.8.26.0097",
+  "coleta_timestamp": "2025-10-31T07:26:54.389266",
+  "vara": "Juizado Especial Cível e Criminal",
+  "classe_assunto": "Procedimento do Juizado Especial Cível - Cobrança",
+  "valor_causa": "",
+  "exequente": "",
+  "executado": "",
+  "advogado_autor_nome": "",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: HENRIQUE GERALDO CAMPOS JUNIOR",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "30/08/2024",
+      "mov_descricao": "Arquivado Provisoriamente",
+      "mov_texto_completo": "Arquivado Provisoriamente",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.586379",
+      "mov_texto": "Arquivado Provisoriamente"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "29/08/2024",
+      "mov_descricao": "Certidão de Cartório Expedida Certidão de Cartório - TJ - Data da sentença - Provisório",
+      "mov_texto_completo": "Certidão de Cartório Expedida\nCertidão de Cartório - TJ - Data da sentença - Provisório",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.586628",
+      "mov_texto": "Certidão de Cartório Expedida\nCertidão de Cartório - TJ - Data da sentença - Provisório"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "22/08/2024",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0473/2024\nData da Publicação: 26/08/2024\nNúmero do Diário: 4035",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0473/2024\nData da Publicação: 26/08/2024\nNúmero do Diário: 4035",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.586892",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0473/2024\nData da Publicação: 26/08/2024\nNúmero do Diário: 4035"
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "22/08/2024",
+      "mov_descricao": "Remetido ao DJE Relação: 0473/2024\nTeor do ato: Homologo por sentença e para que todos os efeitos legais surtam o acordo realizado entre as partes e, por conseguinte, nos termos do artigo 487, inciso III, alínea \"b\", do Código de Processo Civil, JULGO EXTINTO o processo com resolução do mérito. Diante do acordo, há renúncia ao prazo recursal, razão pela qual dou a sentença por transitada nesta data. Arquivem-se os autos observadas as formalidades legais. Cumpra-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0473/2024\nTeor do ato: Homologo por sentença e para que todos os efeitos legais surtam o acordo realizado entre as partes e, por conseguinte, nos termos do artigo 487, inciso III, alínea \"b\", do Código de Processo Civil, JULGO EXTINTO o processo com resolução do mérito. Diante do acordo, há renúncia ao prazo recursal, razão pela qual dou a sentença por transitada nesta data. Arquivem-se os autos observadas as formalidades legais. Cumpra-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:27:06.587140",
+      "mov_texto": "Remetido ao DJE\nRelação: 0473/2024\nTeor do ato: Homologo por sentença e para que todos os efeitos legais surtam o acordo realizado entre as partes e, por conseguinte, nos termos do artigo 487, inciso III, alínea \"b\", do Código de Processo Civil, JULGO EXTINTO o processo com resolução do mérito. Diante do acordo, há renúncia ao prazo recursal, razão pela qual dou a sentença por transitada nesta data. Arquivem-se os autos observadas as formalidades legais. Cumpra-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "22/08/2024",
+      "mov_descricao": "Homologada a Transação de Acordo ExtraJudicial Homologo por sentença e para que todos os efeitos legais surtam o acordo realizado entre as partes e, por conseguinte, nos termos do artigo 487, inciso III, alínea \"b\", do Código de Processo Civil, JULGO EXTINTO o processo com resolução do mérito. Diante do acordo, há renúncia ao prazo recursal, razão pela qual dou a sentença por transitada nesta data. Arquivem-se os autos observadas as formalidades legais. Cumpra-se.",
+      "mov_texto_completo": "Homologada a Transação de Acordo ExtraJudicial\nHomologo por sentença e para que todos os efeitos legais surtam o acordo realizado entre as partes e, por conseguinte, nos termos do artigo 487, inciso III, alínea \"b\", do Código de Processo Civil, JULGO EXTINTO o processo com resolução do mérito. Diante do acordo, há renúncia ao prazo recursal, razão pela qual dou a sentença por transitada nesta data. Arquivem-se os autos observadas as formalidades legais. Cumpra-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:27:06.587834",
+      "mov_texto": "Homologada a Transação de Acordo ExtraJudicial\nHomologo por sentença e para que todos os efeitos legais surtam o acordo realizado entre as partes e, por conseguinte, nos termos do artigo 487, inciso III, alínea \"b\", do Código de Processo Civil, JULGO EXTINTO o processo com resolução do mérito. Diante do acordo, há renúncia ao prazo recursal, razão pela qual dou a sentença por transitada nesta data. Arquivem-se os autos observadas as formalidades legais. Cumpra-se."
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "20/08/2024",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.588454",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "25/07/2024",
+      "mov_descricao": "Pedido de Homologação de Acordo Juntado Nº Protocolo: WBTM.24.70018273-3\nTipo da Petição: Pedido de Homologação de Acordo\nData: 25/07/2024 08:32",
+      "mov_texto_completo": "Pedido de Homologação de Acordo Juntado\nNº Protocolo: WBTM.24.70018273-3\nTipo da Petição: Pedido de Homologação de Acordo\nData: 25/07/2024 08:32",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "ACORDO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.588636",
+      "mov_texto": "Pedido de Homologação de Acordo Juntado\nNº Protocolo: WBTM.24.70018273-3\nTipo da Petição: Pedido de Homologação de Acordo\nData: 25/07/2024 08:32"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "14/07/2024",
+      "mov_descricao": "AR Positivo Juntado Juntada de AR : AA669552407TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado\nDestinatário : Contato Terraplanagem e Pavimentação Eireli Epp\nDiligência : 10/07/2024",
+      "mov_texto_completo": "AR Positivo Juntado\nJuntada de AR : AA669552407TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado\nDestinatário : Contato Terraplanagem e Pavimentação Eireli Epp\nDiligência : 10/07/2024",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.588907",
+      "mov_texto": "AR Positivo Juntado\nJuntada de AR : AA669552407TJ\nSituação : Cumprido\nModelo : Processo Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado\nDestinatário : Contato Terraplanagem e Pavimentação Eireli Epp\nDiligência : 10/07/2024"
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "12/07/2024",
+      "mov_descricao": "AR Negativo Juntado - Mudou-se Juntada de AR : AA669552398TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado\nDestinatário : Marcelo Morelli de Carvalho",
+      "mov_texto_completo": "AR Negativo Juntado - Mudou-se\nJuntada de AR : AA669552398TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado\nDestinatário : Marcelo Morelli de Carvalho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.589342",
+      "mov_texto": "AR Negativo Juntado - Mudou-se\nJuntada de AR : AA669552398TJ\nSituação : Mudou-se\nModelo : Processo Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado\nDestinatário : Marcelo Morelli de Carvalho"
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "02/07/2024",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.589694",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 11,
+      "mov_data": "02/07/2024",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.589922",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 12,
+      "mov_data": "01/07/2024",
+      "mov_descricao": "Carta de Citação Expedida Processo Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado",
+      "mov_texto_completo": "Carta de Citação Expedida\nProcesso Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.590144",
+      "mov_texto": "Carta de Citação Expedida\nProcesso Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado"
+    },
+    {
+      "mov_ordem": 13,
+      "mov_data": "01/07/2024",
+      "mov_descricao": "Carta de Citação Expedida Processo Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado",
+      "mov_texto_completo": "Carta de Citação Expedida\nProcesso Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO",
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.590506",
+      "mov_texto": "Carta de Citação Expedida\nProcesso Digital - Carta - Citação e Intimação - Apresentar Defesa Escrita - Sem Audiência - Juizado"
+    },
+    {
+      "mov_ordem": 14,
+      "mov_data": "18/06/2024",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0338/2024\nData da Publicação: 20/06/2024\nNúmero do Diário: 3990",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0338/2024\nData da Publicação: 20/06/2024\nNúmero do Diário: 3990",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.590777",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0338/2024\nData da Publicação: 20/06/2024\nNúmero do Diário: 3990"
+    },
+    {
+      "mov_ordem": 15,
+      "mov_data": "18/06/2024",
+      "mov_descricao": "Remetido ao DJE Relação: 0338/2024\nTeor do ato: Cuida-se de ação de cobrança movida por Celio Capelari e Capelari Transportes em face de Marcelo Morelli de Carvalho e Contato Terraplanagem e Pavimentação Eireli Epp. A parte autora alega, em síntese, que em outubro de 2020 o requerido contratou de forma verbal, do requerente, os serviços de transporte rodoviário de cargas, no valor de R$ 3.488,00. O requerente fora contratado, novamente, em 06 de março de 2022, no valor de R$ 2.104,00. Requer tutela de urgência consistente em realização de pesquisa SISBAJUD e indisponibilidade de bens do requerido. É a síntese do necessário. A tutela de urgência está prevista no artigo 300 do Código de Processo Civil, o qual, para sua concessão, requer a presença de dois elementos: a) elementos que evidenciem a probabilidade do direito; b) perigo de dano ou risco ao resultado útil do processo. Não há elementos nos autos que indiquem a existência de perigo de dano ou risco ao resultado útil do processo, porquanto não há qualquer indicativo de dilapidação patrimonial/insolvência das rés. Ante o exposto, INDEFIRO o pedido de tutela de urgência. Cite(m)-se, devendo a(s) parte(s) requerida(s), no prazo de quinze dias, contados a partir do recebimento da carta de citação, contesta(rem) o feito, cientificando-a(s) de que a ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Intime-a(s) de que, havendo interesse em conciliar, deverá apresentar proposta, noticiando-a através do nosso endereço eletrônico - buritamajec@tjsp.jus.br, ou, ainda, diretamente a parte autora. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0338/2024\nTeor do ato: Cuida-se de ação de cobrança movida por Celio Capelari e Capelari Transportes em face de Marcelo Morelli de Carvalho e Contato Terraplanagem e Pavimentação Eireli Epp. A parte autora alega, em síntese, que em outubro de 2020 o requerido contratou de forma verbal, do requerente, os serviços de transporte rodoviário de cargas, no valor de R$ 3.488,00. O requerente fora contratado, novamente, em 06 de março de 2022, no valor de R$ 2.104,00. Requer tutela de urgência consistente em realização de pesquisa SISBAJUD e indisponibilidade de bens do requerido. É a síntese do necessário. A tutela de urgência está prevista no artigo 300 do Código de Processo Civil, o qual, para sua concessão, requer a presença de dois elementos: a) elementos que evidenciem a probabilidade do direito; b) perigo de dano ou risco ao resultado útil do processo. Não há elementos nos autos que indiquem a existência de perigo de dano ou risco ao resultado útil do processo, porquanto não há qualquer indicativo de dilapidação patrimonial/insolvência das rés. Ante o exposto, INDEFIRO o pedido de tutela de urgência. Cite(m)-se, devendo a(s) parte(s) requerida(s), no prazo de quinze dias, contados a partir do recebimento da carta de citação, contesta(rem) o feito, cientificando-a(s) de que a ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Intime-a(s) de que, havendo interesse em conciliar, deverá apresentar proposta, noticiando-a através do nosso endereço eletrônico - buritamajec@tjsp.jus.br, ou, ainda, diretamente a parte autora. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "BLOQUEIO",
+        "CITACAO",
+        "PENHORA",
+        "SISBAJUD"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "R$ 3.488,00",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:27:06.591016",
+      "mov_texto": "Remetido ao DJE\nRelação: 0338/2024\nTeor do ato: Cuida-se de ação de cobrança movida por Celio Capelari e Capelari Transportes em face de Marcelo Morelli de Carvalho e Contato Terraplanagem e Pavimentação Eireli Epp. A parte autora alega, em síntese, que em outubro de 2020 o requerido contratou de forma verbal, do requerente, os serviços de transporte rodoviário de cargas, no valor de R$ 3.488,00. O requerente fora contratado, novamente, em 06 de março de 2022, no valor de R$ 2.104,00. Requer tutela de urgência consistente em realização de pesquisa SISBAJUD e indisponibilidade de bens do requerido. É a síntese do necessário. A tutela de urgência está prevista no artigo 300 do Código de Processo Civil, o qual, para sua concessão, requer a presença de dois elementos: a) elementos que evidenciem a probabilidade do direito; b) perigo de dano ou risco ao resultado útil do processo. Não há elementos nos autos que indiquem a existência de perigo de dano ou risco ao resultado útil do processo, porquanto não há qualquer indicativo de dilapidação patrimonial/insolvência das rés. Ante o exposto, INDEFIRO o pedido de tutela de urgência. Cite(m)-se, devendo a(s) parte(s) requerida(s), no prazo de quinze dias, contados a partir do recebimento da carta de citação, contesta(rem) o feito, cientificando-a(s) de que a ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Intime-a(s) de que, havendo interesse em conciliar, deverá apresentar proposta, noticiando-a através do nosso endereço eletrônico - buritamajec@tjsp.jus.br, ou, ainda, diretamente a parte autora. Intime-se.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 16,
+      "mov_data": "18/06/2024",
+      "mov_descricao": "Não Concedida a Antecipação de tutela Cuida-se de ação de cobrança movida por Celio Capelari e Capelari Transportes em face de Marcelo Morelli de Carvalho e Contato Terraplanagem e Pavimentação Eireli Epp. A parte autora alega, em síntese, que em outubro de 2020 o requerido contratou de forma verbal, do requerente, os serviços de transporte rodoviário de cargas, no valor de R$ 3.488,00. O requerente fora contratado, novamente, em 06 de março de 2022, no valor de R$ 2.104,00. Requer tutela de urgência consistente em realização de pesquisa SISBAJUD e indisponibilidade de bens do requerido. É a síntese do necessário. A tutela de urgência está prevista no artigo 300 do Código de Processo Civil, o qual, para sua concessão, requer a presença de dois elementos: a) elementos que evidenciem a probabilidade do direito; b) perigo de dano ou risco ao resultado útil do processo. Não há elementos nos autos que indiquem a existência de perigo de dano ou risco ao resultado útil do processo, porquanto não há qualquer indicativo de dilapidação patrimonial/insolvência das rés. Ante o exposto, INDEFIRO o pedido de tutela de urgência. Cite(m)-se, devendo a(s) parte(s) requerida(s), no prazo de quinze dias, contados a partir do recebimento da carta de citação, contesta(rem) o feito, cientificando-a(s) de que a ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Intime-a(s) de que, havendo interesse em conciliar, deverá apresentar proposta, noticiando-a através do nosso endereço eletrônico - buritamajec@tjsp.jus.br, ou, ainda, diretamente a parte autora. Intime-se.",
+      "mov_texto_completo": "Não Concedida a Antecipação de tutela\nCuida-se de ação de cobrança movida por Celio Capelari e Capelari Transportes em face de Marcelo Morelli de Carvalho e Contato Terraplanagem e Pavimentação Eireli Epp. A parte autora alega, em síntese, que em outubro de 2020 o requerido contratou de forma verbal, do requerente, os serviços de transporte rodoviário de cargas, no valor de R$ 3.488,00. O requerente fora contratado, novamente, em 06 de março de 2022, no valor de R$ 2.104,00. Requer tutela de urgência consistente em realização de pesquisa SISBAJUD e indisponibilidade de bens do requerido. É a síntese do necessário. A tutela de urgência está prevista no artigo 300 do Código de Processo Civil, o qual, para sua concessão, requer a presença de dois elementos: a) elementos que evidenciem a probabilidade do direito; b) perigo de dano ou risco ao resultado útil do processo. Não há elementos nos autos que indiquem a existência de perigo de dano ou risco ao resultado útil do processo, porquanto não há qualquer indicativo de dilapidação patrimonial/insolvência das rés. Ante o exposto, INDEFIRO o pedido de tutela de urgência. Cite(m)-se, devendo a(s) parte(s) requerida(s), no prazo de quinze dias, contados a partir do recebimento da carta de citação, contesta(rem) o feito, cientificando-a(s) de que a ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Intime-a(s) de que, havendo interesse em conciliar, deverá apresentar proposta, noticiando-a através do nosso endereço eletrônico - buritamajec@tjsp.jus.br, ou, ainda, diretamente a parte autora. Intime-se.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "BLOQUEIO",
+        "CITACAO",
+        "PENHORA",
+        "SISBAJUD"
+      ],
+      "decisao_resultado": "INDEFERIDO",
+      "valor_bloqueado": "R$ 3.488,00",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:27:06.591767",
+      "mov_texto": "Não Concedida a Antecipação de tutela\nCuida-se de ação de cobrança movida por Celio Capelari e Capelari Transportes em face de Marcelo Morelli de Carvalho e Contato Terraplanagem e Pavimentação Eireli Epp. A parte autora alega, em síntese, que em outubro de 2020 o requerido contratou de forma verbal, do requerente, os serviços de transporte rodoviário de cargas, no valor de R$ 3.488,00. O requerente fora contratado, novamente, em 06 de março de 2022, no valor de R$ 2.104,00. Requer tutela de urgência consistente em realização de pesquisa SISBAJUD e indisponibilidade de bens do requerido. É a síntese do necessário. A tutela de urgência está prevista no artigo 300 do Código de Processo Civil, o qual, para sua concessão, requer a presença de dois elementos: a) elementos que evidenciem a probabilidade do direito; b) perigo de dano ou risco ao resultado útil do processo. Não há elementos nos autos que indiquem a existência de perigo de dano ou risco ao resultado útil do processo, porquanto não há qualquer indicativo de dilapidação patrimonial/insolvência das rés. Ante o exposto, INDEFIRO o pedido de tutela de urgência. Cite(m)-se, devendo a(s) parte(s) requerida(s), no prazo de quinze dias, contados a partir do recebimento da carta de citação, contesta(rem) o feito, cientificando-a(s) de que a ausência de contestação implicará revelia e presunção de veracidade da matéria fática apresentada na petição inicial. Intime-a(s) de que, havendo interesse em conciliar, deverá apresentar proposta, noticiando-a através do nosso endereço eletrônico - buritamajec@tjsp.jus.br, ou, ainda, diretamente a parte autora. Intime-se."
+    },
+    {
+      "mov_ordem": 17,
+      "mov_data": "12/06/2024",
+      "mov_descricao": "Conclusos para Decisão",
+      "mov_texto_completo": "Conclusos para Decisão",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.592545",
+      "mov_texto": "Conclusos para Decisão"
+    },
+    {
+      "mov_ordem": 18,
+      "mov_data": "06/06/2024",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:27:06.592732",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

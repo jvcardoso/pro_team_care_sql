@@ -1,0 +1,223 @@
+/**
+ * LGPD Audit Service - Serviço de auditoria e conformidade LGPD
+ * Implementa funcionalidades de:
+ * - Rastreamento de acessos a dados sensíveis
+ * - Histórico de auditoria (Art. 18, VIII)
+ * - Portabilidade de dados (Art. 18, II)
+ * - Solicitação de exclusão (Art. 18, VI)
+ */
+
+import { get, post } from "./api.js";
+
+// ===============================
+// TYPES
+// ===============================
+
+export interface AuditLog {
+  id: number;
+  company_id: number;
+  user_id: number;
+  user_email: string | null;
+  action_type: string;
+  entity_type: string;
+  entity_id: number | null;
+  sensitive_fields: string[] | null;
+  changed_fields: Record<string, any> | null;
+  ip_address: string | null;
+  endpoint: string | null;
+  created_at: string | null;
+}
+
+export interface AuditLogResponse {
+  total: number;
+  page: number;
+  size: number;
+  total_pages: number;
+  items: AuditLog[];
+}
+
+export interface ExportDataResponse {
+  metadata: {
+    export_date: string;
+    exported_by_user_id: number;
+    company_id: number;
+    lgpd_compliance: string;
+  };
+  company: any;
+  person: any;
+  establishments: any[];
+  contracts: any[];
+  phones: any[];
+  emails: any[];
+  addresses: any[];
+}
+
+export interface DeletionRequestResponse {
+  status: string;
+  company_id: number;
+  company_name: string | null;
+  message: string;
+  lgpd_compliance: string;
+  next_steps: string[];
+}
+
+// ===============================
+// AUDIT SERVICE
+// ===============================
+
+class AuditService {
+  private readonly basePath = "/api/v1/companies";
+
+  /**
+   * Buscar histórico de auditoria de uma empresa
+   * Art. 18, VIII LGPD - Direito à informação sobre compartilhamento
+   */
+  async getCompanyAuditLog(
+    companyId: number,
+    limit: number = 100,
+    offset: number = 0
+  ): Promise<AuditLogResponse> {
+    const response = await get<{
+      total: number;
+      page: number;
+      size: number;
+      total_pages: number;
+      items: AuditLog[];
+    }>(
+      `/api/v1/lgpd/audit-logs`,
+      {
+        company_id: companyId,
+        size: limit,
+        page: Math.floor(offset / limit) + 1,
+      }
+    );
+
+    return {
+      total: response.total,
+      page: response.page,
+      size: response.size,
+      total_pages: response.total_pages,
+      items: response.items,
+    };
+  }
+
+  /**
+   * Exportar dados da empresa (portabilidade)
+   * Art. 18, II LGPD - Direito à portabilidade dos dados
+   */
+  async exportCompanyData(companyId: number): Promise<ExportDataResponse> {
+    return post<ExportDataResponse>(
+      `${this.basePath}/${companyId}/lgpd/export-data`,
+      {}
+    );
+  }
+
+  /**
+   * Solicitar exclusão permanente de dados
+   * Art. 18, VI LGPD - Direito à eliminação dos dados pessoais
+   */
+  async requestCompanyDeletion(
+    companyId: number
+  ): Promise<DeletionRequestResponse> {
+    return post<DeletionRequestResponse>(
+      `${this.basePath}/${companyId}/lgpd/request-deletion`,
+      {}
+    );
+  }
+
+  /**
+   * Registrar acesso a dados sensíveis (client-side tracking)
+   * Usado para tracking local antes de chamar API
+   */
+  logSensitiveDataAccess(
+    resourceType: string,
+    resourceId: number,
+    fields: string[]
+  ): void {
+    // Log local para debugging (não persiste no backend)
+    if (import.meta.env.DEV) {
+      console.log("[LGPD Audit] Acesso a dados sensíveis:", {
+        resource_type: resourceType,
+        resource_id: resourceId,
+        sensitive_fields: fields,
+        timestamp: new Date().toISOString(),
+      });
+    }
+
+    // Nota: O backend já registra automaticamente via audit_logger
+    // Este método é apenas para tracking local e debugging
+  }
+
+  /**
+   * Download de dados exportados como JSON
+   */
+  downloadExportedData(data: ExportDataResponse, companyName: string): void {
+    const json = JSON.stringify(data, null, 2);
+    const blob = new Blob([json], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `${companyName}_dados_lgpd_${
+      new Date().toISOString().split("T")[0]
+    }.json`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
+
+  /**
+   * Formatar log de auditoria para exibição
+   */
+  formatAuditLog(log: AuditLog): string {
+    const date = log.created_at ? new Date(log.created_at).toLocaleString("pt-BR") : "Data desconhecida";
+    const user = log.user_email || `ID ${log.user_id}`;
+    const action = this.formatAction(log.action_type);
+    const entity = `${log.entity_type} ${log.entity_id || ""}`.trim();
+
+    return `${date} - ${user} ${action} ${entity}`;
+  }
+
+  /**
+   * Formatar tipo de ação (access)
+   */
+  private formatAction(action: string): string {
+    const actions: Record<string, string> = {
+      VIEW: "visualizou",
+      EDIT: "editou",
+      DELETE: "excluiu",
+      EXPORT: "exportou",
+      CREATE: "criou",
+    };
+    return actions[action] || action.toLowerCase();
+  }
+
+  /**
+   * Formatar tipo de ação de privacidade
+   */
+  private formatPrivacyAction(action: string): string {
+    const actions: Record<string, string> = {
+      DELETE: "excluiu (soft delete)",
+      EXPORT: "exportou dados",
+      HARD_DELETE: "solicitou exclusão permanente",
+      ANONYMIZE: "anonimizou dados",
+    };
+    return actions[action] || action.toLowerCase();
+  }
+
+  /**
+   * Verificar se ação é sensível (requer destaque visual)
+   */
+  isSensitiveAction(log: AuditLog): boolean {
+    const sensitiveActions = ["DELETE", "EXPORT", "REVEAL"];
+    return sensitiveActions.includes(log.action_type) ||
+           (log.sensitive_fields && log.sensitive_fields.length > 0);
+  }
+}
+
+// ===============================
+// SINGLETON EXPORT
+// ===============================
+
+export const auditService = new AuditService();
+export default auditService;

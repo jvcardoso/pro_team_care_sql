@@ -1,0 +1,32 @@
+{
+  "project": {
+    "name": "Pro Team Care",
+    "description": "SaaS Multi-tenant Home Care Management System",
+    "stack": "FastAPI + React + SQL Server",
+    "architecture": "Database First + Repository Pattern + Multi-tenant"
+  },
+  "communication": {
+    "language": "pt-BR",
+    "comments": "portuguese",
+    "commits": "portuguese",
+    "documentation": "english"
+  },
+  "rules": {
+    "database_first": true,
+    "multi_tenant": true,
+    "soft_delete": true,
+    "no_select_star": true,
+    "no_hard_delete": true,
+    "use_base_repository": true,
+    "filter_by_company_id": true,
+    "hot_reload_active": true,
+    "no_unnecessary_restarts": true
+  },
+  "paths": {
+    "backend": "backend/",
+    "frontend": "frontend/",
+    "database": "Database/",
+    "tests": "backend/tests/",
+    "docs": "docs/"
+  }
+}

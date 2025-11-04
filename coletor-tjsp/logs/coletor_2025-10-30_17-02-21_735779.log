@@ -1,0 +1,16 @@
+2025-10-30 17:02:21.744 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 17:02:21.745 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 17:02:21.745 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 17:02:21.746 | INFO     | src.scraper:setup:37 - Inicializando browser...
+2025-10-30 17:02:22.973 | INFO     | src.scraper:setup:62 - Browser inicializado com sucesso
+2025-10-30 17:02:22.974 | INFO     | src.main:collect_by_party:155 - Buscando processos da parte: Parque Rio Nieva
+2025-10-30 17:02:22.975 | INFO     | src.scraper:search_by_party:305 - Buscando processos da parte: Parque Rio Nieva
+2025-10-30 17:02:58.844 | INFO     | src.scraper:search_by_party:334 - Total de processos: 29, Páginas necessárias: 2, Páginas a percorrer: 2
+2025-10-30 17:02:58.845 | INFO     | src.scraper:search_by_party:340 - Coletando página 1
+2025-10-30 17:03:18.574 | INFO     | src.scraper:search_by_party:340 - Coletando página 2
+2025-10-30 17:03:18.629 | INFO     | src.scraper:search_by_party:356 - Total de processos encontrados: 29
+2025-10-30 17:03:18.630 | SUCCESS  | src.main:collect_by_party:159 - Encontrados 29 processos da parte Parque Rio Nieva
+2025-10-30 17:03:18.631 | INFO     | src.main:main:273 - Total de processos para coletar: 29
+2025-10-30 17:03:18.631 | INFO     | src.main:main:280 - [1/29] Processando...
+2025-10-30 17:03:18.631 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1024444-30.2025.8.26.0576
+2025-10-30 17:03:18.632 | INFO     | src.scraper:search_by_process_number:106 - Buscando processo: 1024444-30.2025.8.26.0576

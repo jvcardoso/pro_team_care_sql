@@ -1,0 +1,14 @@
+2025-10-30 15:19:12.579 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 15:19:12.580 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 15:19:12.580 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 15:19:12.581 | INFO     | src.scraper:setup:36 - Inicializando browser...
+2025-10-30 15:19:13.896 | INFO     | src.scraper:setup:61 - Browser inicializado com sucesso
+2025-10-30 15:19:13.898 | INFO     | src.main:load_process_list:69 - Carregados 2 processos do arquivo input/teste_poucos.csv
+2025-10-30 15:19:13.899 | INFO     | src.main:main:273 - Total de processos para coletar: 2
+2025-10-30 15:19:13.900 | INFO     | src.main:main:280 - [1/2] Processando...
+2025-10-30 15:19:13.900 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1000032-02.2024.8.26.0100
+2025-10-30 15:19:13.901 | INFO     | src.scraper:search_by_process_number:105 - Buscando processo: 1000032-02.2024.8.26.0100
+2025-10-30 15:19:46.516 | SUCCESS  | src.main:collect_single_process:100 - ✓ Processo 1000032-02.2024.8.26.0100 coletado com sucesso
+2025-10-30 15:19:59.838 | INFO     | src.main:main:280 - [2/2] Processando...
+2025-10-30 15:19:59.838 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1000033-03.2024.8.26.0100
+2025-10-30 15:19:59.839 | INFO     | src.scraper:search_by_process_number:105 - Buscando processo: 1000033-03.2024.8.26.0100

@@ -1,0 +1,10 @@
+2025-10-30 16:14:40.736 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 16:14:40.737 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 16:14:40.737 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 16:14:40.737 | INFO     | src.scraper:setup:37 - Inicializando browser...
+2025-10-30 16:14:41.941 | INFO     | src.scraper:setup:62 - Browser inicializado com sucesso
+2025-10-30 16:14:41.942 | INFO     | src.main:load_process_list:69 - Carregados 1 processos do arquivo input/teste_unico.csv
+2025-10-30 16:14:41.943 | INFO     | src.main:main:273 - Total de processos para coletar: 1
+2025-10-30 16:14:41.943 | INFO     | src.main:main:280 - [1/1] Processando...
+2025-10-30 16:14:41.943 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1028484-65.2019.8.26.0576
+2025-10-30 16:14:41.944 | INFO     | src.scraper:search_by_process_number:106 - Buscando processo: 1028484-65.2019.8.26.0576

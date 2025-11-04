@@ -1,0 +1,20 @@
+2025-10-30 16:55:46.747 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 16:55:46.747 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 16:55:46.748 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 16:55:46.748 | INFO     | src.scraper:setup:37 - Inicializando browser...
+2025-10-30 16:55:47.967 | INFO     | src.scraper:setup:62 - Browser inicializado com sucesso
+2025-10-30 16:55:47.968 | INFO     | src.main:collect_by_party:155 - Buscando processos da parte: Parque Rio Nieva
+2025-10-30 16:55:47.969 | INFO     | src.scraper:search_by_party:305 - Buscando processos da parte: Parque Rio Nieva
+2025-10-30 16:56:18.478 | INFO     | src.scraper:search_by_party:328 - Coletando página 1
+2025-10-30 16:56:38.747 | INFO     | src.scraper:search_by_party:328 - Coletando página 2
+2025-10-30 16:56:38.832 | INFO     | src.scraper:search_by_party:342 - Total de processos encontrados: 29
+2025-10-30 16:56:38.833 | SUCCESS  | src.main:collect_by_party:159 - Encontrados 29 processos da parte Parque Rio Nieva
+2025-10-30 16:56:38.833 | INFO     | src.main:main:273 - Total de processos para coletar: 29
+2025-10-30 16:56:38.834 | INFO     | src.main:main:280 - [1/29] Processando...
+2025-10-30 16:56:38.834 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1024444-30.2025.8.26.0576
+2025-10-30 16:56:38.835 | INFO     | src.scraper:search_by_process_number:106 - Buscando processo: 1024444-30.2025.8.26.0576
+2025-10-30 16:57:26.681 | WARNING  | src.scraper:search_by_process_number:196 - Processo 1024444-30.2025.8.26.0576 não encontrado ou em segredo
+2025-10-30 16:57:26.681 | WARNING  | src.main:collect_single_process:102 - ✗ Processo 1024444-30.2025.8.26.0576 não encontrado ou em segredo
+2025-10-30 16:57:37.794 | INFO     | src.main:main:280 - [2/29] Processando...
+2025-10-30 16:57:37.795 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1024327-39.2025.8.26.0576
+2025-10-30 16:57:37.795 | INFO     | src.scraper:search_by_process_number:106 - Buscando processo: 1024327-39.2025.8.26.0576

@@ -1,0 +1,10 @@
+2025-10-30 17:43:00.730 | INFO     | src.main:main:239 - ============================================================
+2025-10-30 17:43:00.731 | INFO     | src.main:main:240 - COLETOR DE PROCESSOS TJSP - 1º GRAU
+2025-10-30 17:43:00.731 | INFO     | src.main:main:241 - ============================================================
+2025-10-30 17:43:00.732 | INFO     | src.scraper:setup:37 - Inicializando browser...
+2025-10-30 17:43:01.941 | INFO     | src.scraper:setup:62 - Browser inicializado com sucesso
+2025-10-30 17:43:01.943 | INFO     | src.main:load_process_list:69 - Carregados 29 processos do arquivo resultado_parque_rio_nieva/lista_processos_parque_rio_nieva.csv
+2025-10-30 17:43:01.944 | INFO     | src.main:main:273 - Total de processos para coletar: 29
+2025-10-30 17:43:01.944 | INFO     | src.main:main:280 - [1/29] Processando...
+2025-10-30 17:43:01.945 | INFO     | src.main:collect_single_process:92 - Coletando processo: 1024444-30.2025.8.26.0576
+2025-10-30 17:43:01.945 | INFO     | src.scraper:search_by_process_number:106 - Buscando processo: 1024444-30.2025.8.26.0576

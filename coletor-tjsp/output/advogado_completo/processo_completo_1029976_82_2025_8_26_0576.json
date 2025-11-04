@@ -1,0 +1,392 @@
+{
+  "processo_numero": "1029976-82.2025.8.26.0576",
+  "coleta_timestamp": "2025-10-31T07:07:09.887107",
+  "vara": "5ª Vara Cível",
+  "classe_assunto": "Execução de Título Extrajudicial - Obrigações",
+  "valor_causa": "",
+  "exequente": "Alcides Vicente Junior",
+  "executado": "Antonio Bras Dionísio de Dhandréa",
+  "advogado_autor_nome": "Advogado:",
+  "advogado_autor_oab": "",
+  "advogado_reu_nome": "",
+  "advogado_reu_oab": "",
+  "situacao": "Juiz: Angelo Marcio de Siqueira Pace",
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "24/10/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WSRP.25.70508244-4\nTipo da Petição: Petição Intermediária\nData: 24/10/2025 13:25",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WSRP.25.70508244-4\nTipo da Petição: Petição Intermediária\nData: 24/10/2025 13:25",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.092999",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WSRP.25.70508244-4\nTipo da Petição: Petição Intermediária\nData: 24/10/2025 13:25"
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "22/10/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 1542/2025\nData da Publicação: 23/10/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 1542/2025\nData da Publicação: 23/10/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.093340",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 1542/2025\nData da Publicação: 23/10/2025"
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "21/10/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 1542/2025\nTeor do ato: Manifeste-se a parte exequente sobre a certidão retro do Oficial de Justiça, no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 1542/2025\nTeor do ato: Manifeste-se a parte exequente sobre a certidão retro do Oficial de Justiça, no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.093572",
+      "mov_texto": "Remetido ao DJE\nRelação: 1542/2025\nTeor do ato: Manifeste-se a parte exequente sobre a certidão retro do Oficial de Justiça, no prazo legal.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "21/10/2025",
+      "mov_descricao": "Ato Ordinatório - Intimação - DJE Manifeste-se a parte exequente sobre a certidão retro do Oficial de Justiça, no prazo legal.",
+      "mov_texto_completo": "Ato Ordinatório - Intimação - DJE\nManifeste-se a parte exequente sobre a certidão retro do Oficial de Justiça, no prazo legal.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "INTIMACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.093890",
+      "mov_texto": "Ato Ordinatório - Intimação - DJE\nManifeste-se a parte exequente sobre a certidão retro do Oficial de Justiça, no prazo legal."
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "16/10/2025",
+      "mov_descricao": "Mandado Devolvido Cumprido Negativo Certidão - Oficial de Justiça - Mandado Cumprido Negativo",
+      "mov_texto_completo": "Mandado Devolvido Cumprido Negativo\nCertidão - Oficial de Justiça - Mandado Cumprido Negativo",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.094176",
+      "mov_texto": "Mandado Devolvido Cumprido Negativo\nCertidão - Oficial de Justiça - Mandado Cumprido Negativo"
+    },
+    {
+      "mov_ordem": 6,
+      "mov_data": "16/10/2025",
+      "mov_descricao": "Mandado Devolvido Cumprido Positivo Certidão - Oficial de Justiça - Mandado Cumprido Positivo",
+      "mov_texto_completo": "Mandado Devolvido Cumprido Positivo\nCertidão - Oficial de Justiça - Mandado Cumprido Positivo",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.094458",
+      "mov_texto": "Mandado Devolvido Cumprido Positivo\nCertidão - Oficial de Justiça - Mandado Cumprido Positivo"
+    },
+    {
+      "mov_ordem": 7,
+      "mov_data": "16/10/2025",
+      "mov_descricao": "Mandado Juntado",
+      "mov_texto_completo": "Mandado Juntado",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.094701",
+      "mov_texto": "Mandado Juntado"
+    },
+    {
+      "mov_ordem": 8,
+      "mov_data": "26/09/2025",
+      "mov_descricao": "Mandado de Citação Expedido Mandado nº: 576.2025/087474-5 \nSituação: Cumprido - Ato negativo em 14/10/2025 \nLocal: Oficial de justiça - Rosalina Serapião Pinto Lopes",
+      "mov_texto_completo": "Mandado de Citação Expedido\nMandado nº: 576.2025/087474-5 \nSituação: Cumprido - Ato negativo em 14/10/2025 \nLocal: Oficial de justiça - Rosalina Serapião Pinto Lopes",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.094883",
+      "mov_texto": "Mandado de Citação Expedido\nMandado nº: 576.2025/087474-5 \nSituação: Cumprido - Ato negativo em 14/10/2025 \nLocal: Oficial de justiça - Rosalina Serapião Pinto Lopes"
+    },
+    {
+      "mov_ordem": 9,
+      "mov_data": "26/09/2025",
+      "mov_descricao": "Mandado de Citação Expedido Mandado nº: 576.2025/087481-8 \nSituação: Cumprido - Ato positivo em 08/10/2025 \nLocal: Oficial de justiça - Rosalina Serapião Pinto Lopes",
+      "mov_texto_completo": "Mandado de Citação Expedido\nMandado nº: 576.2025/087481-8 \nSituação: Cumprido - Ato positivo em 08/10/2025 \nLocal: Oficial de justiça - Rosalina Serapião Pinto Lopes",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.095190",
+      "mov_texto": "Mandado de Citação Expedido\nMandado nº: 576.2025/087481-8 \nSituação: Cumprido - Ato positivo em 08/10/2025 \nLocal: Oficial de justiça - Rosalina Serapião Pinto Lopes"
+    },
+    {
+      "mov_ordem": 10,
+      "mov_data": "08/09/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 1158/2025\nData da Publicação: 09/09/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 1158/2025\nData da Publicação: 09/09/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.095517",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 1158/2025\nData da Publicação: 09/09/2025"
+    },
+    {
+      "mov_ordem": 11,
+      "mov_data": "05/09/2025",
+      "mov_descricao": "Petição Juntada Nº Protocolo: WSRP.25.70417318-7\nTipo da Petição: Petição Intermediária\nData: 05/09/2025 13:33",
+      "mov_texto_completo": "Petição Juntada\nNº Protocolo: WSRP.25.70417318-7\nTipo da Petição: Petição Intermediária\nData: 05/09/2025 13:33",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.095732",
+      "mov_texto": "Petição Juntada\nNº Protocolo: WSRP.25.70417318-7\nTipo da Petição: Petição Intermediária\nData: 05/09/2025 13:33"
+    },
+    {
+      "mov_ordem": 12,
+      "mov_data": "05/09/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 1158/2025\nTeor do ato: Fls. 34-35: Avisos de recebimento retornados como \"não procurado\" ou \"ausente\" - configurada, portanto, a hipótese dos art. 249 do CPC (A citação será feita por meio de oficial de justiça nas hipóteses previstas neste Código ou em lei, ou quando frustrada a citação pelo correio), expeçam-se mandados para citação via oficial de justiça: 1) Sendo o endereço fora do Estado de São Paulo, deverá a parte interessada aguardar a expedição de carta precatória para futura distribuição. 2) Sendo o endereço a ser diligenciado dentro do Estado de São Paulo, deverá a parte autora recolher as diligências do Senhor Oficial de Justiça, caso já não o tenha feito (Capital e Interior: Mandados com deslocamento, independentemente de atos a serem praticados no mesmo endereço ou em endereços contíguos ou lindeiros:03 UFESPs = R$ 111,06por diligência. Mandados exclusivamente remotos ou na própria sede do Juízo:01 UFESP = R$ 37,02por diligência. Mandados inicialmente remotos, verificada necessidade de conversão para mandado com deslocamento:02 UFESPs = R$ 74,04por diligência, para complementar a diferença.). Maiores informações quanto ao preenchimento da guia, acessar o site www.tjsp.Jus.br - menu despesas processuais - diligências dos oficiais de justiça.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 1158/2025\nTeor do ato: Fls. 34-35: Avisos de recebimento retornados como \"não procurado\" ou \"ausente\" - configurada, portanto, a hipótese dos art. 249 do CPC (A citação será feita por meio de oficial de justiça nas hipóteses previstas neste Código ou em lei, ou quando frustrada a citação pelo correio), expeçam-se mandados para citação via oficial de justiça: 1) Sendo o endereço fora do Estado de São Paulo, deverá a parte interessada aguardar a expedição de carta precatória para futura distribuição. 2) Sendo o endereço a ser diligenciado dentro do Estado de São Paulo, deverá a parte autora recolher as diligências do Senhor Oficial de Justiça, caso já não o tenha feito (Capital e Interior: Mandados com deslocamento, independentemente de atos a serem praticados no mesmo endereço ou em endereços contíguos ou lindeiros:03 UFESPs = R$ 111,06por diligência. Mandados exclusivamente remotos ou na própria sede do Juízo:01 UFESP = R$ 37,02por diligência. Mandados inicialmente remotos, verificada necessidade de conversão para mandado com deslocamento:02 UFESPs = R$ 74,04por diligência, para complementar a diferença.). Maiores informações quanto ao preenchimento da guia, acessar o site www.tjsp.Jus.br - menu despesas processuais - diligências dos oficiais de justiça.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "R$ 111,06",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:07:22.095966",
+      "mov_texto": "Remetido ao DJE\nRelação: 1158/2025\nTeor do ato: Fls. 34-35: Avisos de recebimento retornados como \"não procurado\" ou \"ausente\" - configurada, portanto, a hipótese dos art. 249 do CPC (A citação será feita por meio de oficial de justiça nas hipóteses previstas neste Código ou em lei, ou quando frustrada a citação pelo correio), expeçam-se mandados para citação via oficial de justiça: 1) Sendo o endereço fora do Estado de São Paulo, deverá a parte interessada aguardar a expedição de carta precatória para futura distribuição. 2) Sendo o endereço a ser diligenciado dentro do Estado de São Paulo, deverá a parte autora recolher as diligências do Senhor Oficial de Justiça, caso já não o tenha feito (Capital e Interior: Mandados com deslocamento, independentemente de atos a serem praticados no mesmo endereço ou em endereços contíguos ou lindeiros:03 UFESPs = R$ 111,06por diligência. Mandados exclusivamente remotos ou na própria sede do Juízo:01 UFESP = R$ 37,02por diligência. Mandados inicialmente remotos, verificada necessidade de conversão para mandado com deslocamento:02 UFESPs = R$ 74,04por diligência, para complementar a diferença.). Maiores informações quanto ao preenchimento da guia, acessar o site www.tjsp.Jus.br - menu despesas processuais - diligências dos oficiais de justiça.\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 13,
+      "mov_data": "05/09/2025",
+      "mov_descricao": "Ato ordinatório Fls. 34-35: Avisos de recebimento retornados como \"não procurado\" ou \"ausente\" - configurada, portanto, a hipótese dos art. 249 do CPC (A citação será feita por meio de oficial de justiça nas hipóteses previstas neste Código ou em lei, ou quando frustrada a citação pelo correio), expeçam-se mandados para citação via oficial de justiça: 1) Sendo o endereço fora do Estado de São Paulo, deverá a parte interessada aguardar a expedição de carta precatória para futura distribuição. 2) Sendo o endereço a ser diligenciado dentro do Estado de São Paulo, deverá a parte autora recolher as diligências do Senhor Oficial de Justiça, caso já não o tenha feito (Capital e Interior: Mandados com deslocamento, independentemente de atos a serem praticados no mesmo endereço ou em endereços contíguos ou lindeiros:03 UFESPs = R$ 111,06por diligência. Mandados exclusivamente remotos ou na própria sede do Juízo:01 UFESP = R$ 37,02por diligência. Mandados inicialmente remotos, verificada necessidade de conversão para mandado com deslocamento:02 UFESPs = R$ 74,04por diligência, para complementar a diferença.). Maiores informações quanto ao preenchimento da guia, acessar o site www.tjsp.Jus.br - menu despesas processuais - diligências dos oficiais de justiça.",
+      "mov_texto_completo": "Ato ordinatório\nFls. 34-35: Avisos de recebimento retornados como \"não procurado\" ou \"ausente\" - configurada, portanto, a hipótese dos art. 249 do CPC (A citação será feita por meio de oficial de justiça nas hipóteses previstas neste Código ou em lei, ou quando frustrada a citação pelo correio), expeçam-se mandados para citação via oficial de justiça: 1) Sendo o endereço fora do Estado de São Paulo, deverá a parte interessada aguardar a expedição de carta precatória para futura distribuição. 2) Sendo o endereço a ser diligenciado dentro do Estado de São Paulo, deverá a parte autora recolher as diligências do Senhor Oficial de Justiça, caso já não o tenha feito (Capital e Interior: Mandados com deslocamento, independentemente de atos a serem praticados no mesmo endereço ou em endereços contíguos ou lindeiros:03 UFESPs = R$ 111,06por diligência. Mandados exclusivamente remotos ou na própria sede do Juízo:01 UFESP = R$ 37,02por diligência. Mandados inicialmente remotos, verificada necessidade de conversão para mandado com deslocamento:02 UFESPs = R$ 74,04por diligência, para complementar a diferença.). Maiores informações quanto ao preenchimento da guia, acessar o site www.tjsp.Jus.br - menu despesas processuais - diligências dos oficiais de justiça.",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "R$ 111,06",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:07:22.097221",
+      "mov_texto": "Ato ordinatório\nFls. 34-35: Avisos de recebimento retornados como \"não procurado\" ou \"ausente\" - configurada, portanto, a hipótese dos art. 249 do CPC (A citação será feita por meio de oficial de justiça nas hipóteses previstas neste Código ou em lei, ou quando frustrada a citação pelo correio), expeçam-se mandados para citação via oficial de justiça: 1) Sendo o endereço fora do Estado de São Paulo, deverá a parte interessada aguardar a expedição de carta precatória para futura distribuição. 2) Sendo o endereço a ser diligenciado dentro do Estado de São Paulo, deverá a parte autora recolher as diligências do Senhor Oficial de Justiça, caso já não o tenha feito (Capital e Interior: Mandados com deslocamento, independentemente de atos a serem praticados no mesmo endereço ou em endereços contíguos ou lindeiros:03 UFESPs = R$ 111,06por diligência. Mandados exclusivamente remotos ou na própria sede do Juízo:01 UFESP = R$ 37,02por diligência. Mandados inicialmente remotos, verificada necessidade de conversão para mandado com deslocamento:02 UFESPs = R$ 74,04por diligência, para complementar a diferença.). Maiores informações quanto ao preenchimento da guia, acessar o site www.tjsp.Jus.br - menu despesas processuais - diligências dos oficiais de justiça."
+    },
+    {
+      "mov_ordem": 14,
+      "mov_data": "04/09/2025",
+      "mov_descricao": "AR Negativo Juntado - Não Procurado Juntada de AR : AA786719189TJ\nSituação : Não procurado\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Antonio Bras Dionísio de Dhandréa",
+      "mov_texto_completo": "AR Negativo Juntado - Não Procurado\nJuntada de AR : AA786719189TJ\nSituação : Não procurado\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Antonio Bras Dionísio de Dhandréa",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:07:22.098400",
+      "mov_texto": "AR Negativo Juntado - Não Procurado\nJuntada de AR : AA786719189TJ\nSituação : Não procurado\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Antonio Bras Dionísio de Dhandréa"
+    },
+    {
+      "mov_ordem": 15,
+      "mov_data": "04/09/2025",
+      "mov_descricao": "AR Negativo Juntado - Não Procurado Juntada de AR : AA786719175TJ\nSituação : Não procurado\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Helena Pereira",
+      "mov_texto_completo": "AR Negativo Juntado - Não Procurado\nJuntada de AR : AA786719175TJ\nSituação : Não procurado\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Helena Pereira",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:07:22.098948",
+      "mov_texto": "AR Negativo Juntado - Não Procurado\nJuntada de AR : AA786719175TJ\nSituação : Não procurado\nModelo : Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC\nDestinatário : Helena Pereira"
+    },
+    {
+      "mov_ordem": 16,
+      "mov_data": "23/07/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.099562",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 17,
+      "mov_data": "23/07/2025",
+      "mov_descricao": "Certidão Juntada Certidão de Carta Recebida Pelos Correios",
+      "mov_texto_completo": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.099987",
+      "mov_texto": "Certidão Juntada\nCertidão de Carta Recebida Pelos Correios"
+    },
+    {
+      "mov_ordem": 18,
+      "mov_data": "23/07/2025",
+      "mov_descricao": "Certidão de Publicação Expedida Relação: 0814/2025\nData da Publicação: 24/07/2025",
+      "mov_texto_completo": "Certidão de Publicação Expedida\nRelação: 0814/2025\nData da Publicação: 24/07/2025",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.100436",
+      "mov_texto": "Certidão de Publicação Expedida\nRelação: 0814/2025\nData da Publicação: 24/07/2025"
+    },
+    {
+      "mov_ordem": 19,
+      "mov_data": "22/07/2025",
+      "mov_descricao": "Remetido ao DJE Relação: 0814/2025\nTeor do ato: Vistos. Intime-se o exequente para que, no prazo de 15 dias, promova o recolhimento complementar das despesas necessárias à citação dos executados. Após, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se na carta a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à UPJ a expedição de certidão, nos termos do art. 828, e também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se. São José do Rio Preto, 22 de julho de 2025. Juiz(a) de Direito: Dr(a). Angelo Marcio de Siqueira Pace\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_texto_completo": "Remetido ao DJE\nRelação: 0814/2025\nTeor do ato: Vistos. Intime-se o exequente para que, no prazo de 15 dias, promova o recolhimento complementar das despesas necessárias à citação dos executados. Após, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se na carta a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à UPJ a expedição de certidão, nos termos do art. 828, e também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se. São José do Rio Preto, 22 de julho de 2025. Juiz(a) de Direito: Dr(a). Angelo Marcio de Siqueira Pace\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO",
+        "EMBARGOS",
+        "PENHORA"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:07:22.100838",
+      "mov_texto": "Remetido ao DJE\nRelação: 0814/2025\nTeor do ato: Vistos. Intime-se o exequente para que, no prazo de 15 dias, promova o recolhimento complementar das despesas necessárias à citação dos executados. Após, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se na carta a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à UPJ a expedição de certidão, nos termos do art. 828, e também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se. São José do Rio Preto, 22 de julho de 2025. Juiz(a) de Direito: Dr(a). Angelo Marcio de Siqueira Pace\nAdvogados(s): Adilson Lopes Teixeira (OAB 357725/SP)"
+    },
+    {
+      "mov_ordem": 20,
+      "mov_data": "22/07/2025",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:07:22.102266",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 21,
+      "mov_data": "22/07/2025",
+      "mov_descricao": "Carta Expedida Processo Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_texto_completo": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:07:22.102604",
+      "mov_texto": "Carta Expedida\nProcesso Digital - Carta - Citação - Título Executivo Extrajudicial - Cível - NOVO CPC"
+    },
+    {
+      "mov_ordem": 22,
+      "mov_data": "22/07/2025",
+      "mov_descricao": "Recebida a Petição Inicial Vistos. Intime-se o exequente para que, no prazo de 15 dias, promova o recolhimento complementar das despesas necessárias à citação dos executados. Após, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se na carta a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à UPJ a expedição de certidão, nos termos do art. 828, e também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se. São José do Rio Preto, 22 de julho de 2025. Juiz(a) de Direito: Dr(a). Angelo Marcio de Siqueira Pace",
+      "mov_texto_completo": "Recebida a Petição Inicial\nVistos. Intime-se o exequente para que, no prazo de 15 dias, promova o recolhimento complementar das despesas necessárias à citação dos executados. Após, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se na carta a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à UPJ a expedição de certidão, nos termos do art. 828, e também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se. São José do Rio Preto, 22 de julho de 2025. Juiz(a) de Direito: Dr(a). Angelo Marcio de Siqueira Pace",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "CITACAO",
+        "EMBARGOS",
+        "PENHORA"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-31T07:07:22.102862",
+      "mov_texto": "Recebida a Petição Inicial\nVistos. Intime-se o exequente para que, no prazo de 15 dias, promova o recolhimento complementar das despesas necessárias à citação dos executados. Após, cite-se o executado para pagar o débito, no prazo de três dias úteis, acrescidos dos honorários advocatícios que ora arbitro em dez por cento do valor total do débito, sob pena de penhora. Consigne-se na carta a ser expedido o prazo de quinze dias úteis para eventual oferecimento de embargos à execução, bem como, para o caso de pagamento imediato, a redução à metade do valor da verba honorária acima fixada. Por fim, registre-se que, independentemente de nova ordem judicial, o exequente poderá requerer diretamente à UPJ a expedição de certidão, nos termos do art. 828, e também aos fins previstos no art. 782, §3º, todos do Código de Processo Civil. Expedida a certidão, caberá ao exequente providenciar as averbações e comunicações necessárias, comprovando posteriormente nos autos no prazo de 10 dias, sob pena de nulidade, sem prejuízo de eventual responsabilização. Intimem-se. São José do Rio Preto, 22 de julho de 2025. Juiz(a) de Direito: Dr(a). Angelo Marcio de Siqueira Pace"
+    },
+    {
+      "mov_ordem": 23,
+      "mov_data": "22/07/2025",
+      "mov_descricao": "Conclusos para Despacho",
+      "mov_texto_completo": "Conclusos para Despacho",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.103970",
+      "mov_texto": "Conclusos para Despacho"
+    },
+    {
+      "mov_ordem": 24,
+      "mov_data": "22/07/2025",
+      "mov_descricao": "Certidão de Cartório Expedida Certidão - Guia Dare Inutilizada no Saj",
+      "mov_texto_completo": "Certidão de Cartório Expedida\nCertidão - Guia Dare Inutilizada no Saj",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.104157",
+      "mov_texto": "Certidão de Cartório Expedida\nCertidão - Guia Dare Inutilizada no Saj"
+    },
+    {
+      "mov_ordem": 25,
+      "mov_data": "21/07/2025",
+      "mov_descricao": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_texto_completo": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)",
+      "mov_tipo": "",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-31T07:07:22.104447",
+      "mov_texto": "Distribuído Livremente (por Sorteio) (movimentação exclusiva do distribuidor)"
+    }
+  ]
+}

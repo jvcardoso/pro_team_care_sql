@@ -1,0 +1,88 @@
+{
+  "workflows": {
+    "create_endpoint": {
+      "description": "Criar novo endpoint REST",
+      "steps": [
+        "Criar schemas Pydantic (Create/Update/Response)",
+        "Implementar endpoint usando BaseRepository",
+        "Adicionar autenticação get_current_active_user",
+        "Adicionar paginação skip/limit",
+        "Adicionar tratamento de erros HTTPException",
+        "Registrar rota em router.py",
+        "Criar testes unitários",
+        "Documentar com docstring"
+      ]
+    },
+    "create_component": {
+      "description": "Criar novo componente React",
+      "steps": [
+        "Verificar se componente similar já existe",
+        "Criar interface TypeScript para props",
+        "Implementar usando Tailwind CSS",
+        "Tornar reutilizável com prop className",
+        "Manter abaixo de 200 linhas",
+        "Criar service se necessário (usar api instance)",
+        "Criar hook customizado se lógica complexa",
+        "Criar testes de componente"
+      ]
+    },
+    "refactor_code": {
+      "description": "Refatorar código duplicado",
+      "steps": [
+        "Identificar código duplicado",
+        "Criar função/componente reutilizável",
+        "Substituir todas ocorrências",
+        "Remover código comentado",
+        "Limpar imports não utilizados",
+        "Executar linter/formatador",
+        "Executar testes para validar"
+      ]
+    },
+    "add_feature": {
+      "description": "Adicionar nova funcionalidade",
+      "steps": [
+        "Analisar requisitos e impacto",
+        "Planejar implementação (backend + frontend)",
+        "Implementar backend primeiro",
+        "Implementar frontend",
+        "Criar testes end-to-end",
+        "Testar integração completa",
+        "Documentar mudanças"
+      ]
+    }
+  },
+  "commands": {
+    "start": "./start.sh",
+    "test": {
+      "backend": "cd backend && source venv/bin/activate && pytest -v",
+      "frontend": "cd frontend && npm run test",
+      "e2e": "cd frontend && npm run test:e2e",
+      "all": "cd frontend && npm run test:all"
+    },
+    "lint": {
+      "backend": "cd backend && source venv/bin/activate && flake8 .",
+      "frontend": "cd frontend && npm run lint"
+    },
+    "format": {
+      "backend": "cd backend && source venv/bin/activate && black .",
+      "frontend": "cd frontend && npm run format"
+    }
+  },
+  "hot_reload": {
+    "backend": {
+      "active": true,
+      "command": "uvicorn --reload",
+      "detects": ["*.py"],
+      "reload_time": "1-2 seconds",
+      "restart_only": [".env changes", "new dependencies", "uvicorn config"]
+    },
+    "frontend": {
+      "active": true,
+      "command": "vite dev",
+      "detects": ["*.tsx", "*.ts", "*.jsx", "*.js", "*.css"],
+      "reload_time": "instant",
+      "restart_only": [".env changes", "new dependencies", "vite.config.ts"]
+    },
+    "reminder": "NUNCA use ./stop.sh && ./start.sh para mudanças de código - apenas salve o arquivo!"
+  }
+}

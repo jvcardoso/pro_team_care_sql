@@ -1,0 +1,99 @@
+{
+  "processo": "1024327-39.2025.8.26.0576",
+  "total_movimentacoes": 45,
+  "movimentacoes": [
+    {
+      "mov_ordem": 1,
+      "mov_data": "15/10/2025",
+      "mov_descricao": "Distribuição - Processo distribuído por sorteio",
+      "mov_texto_completo": "Autos distribuídos por sorteio para 1ª Vara Cível de São Roque. Prazo: 15 dias.",
+      "mov_tipo": "Distribuição",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "distribuição",
+        "sorteio",
+        "vara cível"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T17:58:45.480699",
+      "mov_texto": "Autos distribuídos por sorteio para 1ª Vara Cível de São Roque. Prazo: 15 dias."
+    },
+    {
+      "mov_ordem": 2,
+      "mov_data": "20/10/2025",
+      "mov_descricao": "Citação - Citação expedida",
+      "mov_texto_completo": "Expedida citação por correios para PARQUE RIO NIEVA LTDA. AR: 12345678. Prazo para contestação: 15 dias.",
+      "mov_tipo": "Citação",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "citação",
+        "correios",
+        "contestação"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T17:58:45.480710",
+      "mov_texto": "Expedida citação por correios para PARQUE RIO NIEVA LTDA. AR: 12345678. Prazo para contestação: 15 dias."
+    },
+    {
+      "mov_ordem": 3,
+      "mov_data": "25/10/2025",
+      "mov_descricao": "Decisão - Deferido pedido de bloqueio",
+      "mov_texto_completo": "Vistos. Defiro o pedido de bloqueio de ativos financeiros até o valor de R$ 50.000,00. Intime-se. São Roque, 25 de outubro de 2025. Juiz de Direito.",
+      "mov_tipo": "Decisão",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "vistos",
+        "defiro",
+        "bloqueio",
+        "ativos",
+        "intime-se"
+      ],
+      "decisao_resultado": "DEFERIMENTO",
+      "valor_bloqueado": "R$ 50.000,00",
+      "contem_decisao_judicial": true,
+      "coleta_timestamp": "2025-10-30T17:58:45.480714",
+      "mov_texto": "Vistos. Defiro o pedido de bloqueio de ativos financeiros até o valor de R$ 50.000,00. Intime-se. São Roque, 25 de outubro de 2025. Juiz de Direito."
+    },
+    {
+      "mov_ordem": 4,
+      "mov_data": "28/10/2025",
+      "mov_descricao": "Bloqueio - Bloqueio efetivado",
+      "mov_texto_completo": "Efetivado bloqueio de R$ 50.000,00 em conta corrente do executado PARQUE RIO NIEVA LTDA junto ao Banco do Brasil.",
+      "mov_tipo": "Bloqueio",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "bloqueio",
+        "efetivado",
+        "conta corrente",
+        "banco"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "R$ 50.000,00",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T17:58:45.480718",
+      "mov_texto": "Efetivado bloqueio de R$ 50.000,00 em conta corrente do executado PARQUE RIO NIEVA LTDA junto ao Banco do Brasil."
+    },
+    {
+      "mov_ordem": 5,
+      "mov_data": "30/10/2025",
+      "mov_descricao": "Certidão - Certidão de publicação",
+      "mov_texto_completo": "Certidão de Publicação Expedida. Diário Oficial: 30/10/2025. Publicação realizada conforme solicitado.",
+      "mov_tipo": "Certidão",
+      "mov_detalhes": "",
+      "palavras_chave_detectadas": [
+        "certidão",
+        "publicação",
+        "diário oficial"
+      ],
+      "decisao_resultado": "NAO_IDENTIFICADO",
+      "valor_bloqueado": "",
+      "contem_decisao_judicial": false,
+      "coleta_timestamp": "2025-10-30T17:58:45.480722",
+      "mov_texto": "Certidão de Publicação Expedida. Diário Oficial: 30/10/2025. Publicação realizada conforme solicitado."
+    }
+  ]
+}

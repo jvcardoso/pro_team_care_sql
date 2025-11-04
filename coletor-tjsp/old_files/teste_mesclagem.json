@@ -1,0 +1,65 @@
+{
+  "teste": "mesclagem_dados",
+  "timestamp": "2025-10-30T15:53:39.128965",
+  "dados_mesclados": {
+    "numero": "10284846520198260576",
+    "numero_formatado": "1028484-65.2019.8.26.0576",
+    "classe": "Execução de Título Extrajudicial",
+    "assuntos": [],
+    "assunto_principal": null,
+    "orgao_julgador": "01 CIVEL DE SAO JOSE DO RIO PRETO",
+    "comarca": null,
+    "data_ajuizamento": "2019-07-11T09:16:26.000Z",
+    "data_ultima_atualizacao": "2025-02-06T00:09:15.277Z",
+    "sistema": "SAJ",
+    "grau": "G1",
+    "tribunal": null,
+    "status": null,
+    "valor_causa": null,
+    "quantidade_movimentacoes": 178,
+    "fonte": "API DataJud + Web Scraping (TJSP)",
+    "data_consulta": "2025-10-30T15:46:31.749806",
+    "dados_complementares": {
+      "vara_detalhada": "1ª Vara Cível de São José do Rio Preto",
+      "situacao": "Em andamento",
+      "valor_causa_formatado": "R$ 40.633,29"
+    },
+    "partes": {
+      "exequente": "Parque Rio Nieva",
+      "executado": "Juliano Ventura Cardoso"
+    },
+    "advogados": {
+      "autor": {
+        "nome": "Adilson Lopes Teixeira",
+        "oab": "357725/SP"
+      },
+      "reu": {
+        "nome": "Darcio Jose da Mota",
+        "oab": "67669/SP"
+      }
+    },
+    "data_enriquecimento": "2025-10-30T15:53:39.128914"
+  },
+  "validacoes": [
+    [
+      "✅ Classe API",
+      "Preservada"
+    ],
+    [
+      "✅ Movimentações",
+      "Preservadas"
+    ],
+    [
+      "✅ Partes",
+      "Adicionadas"
+    ],
+    [
+      "✅ Advogados",
+      "Adicionados"
+    ],
+    [
+      "✅ Dados complementares",
+      "Adicionados"
+    ]
+  ]
+}

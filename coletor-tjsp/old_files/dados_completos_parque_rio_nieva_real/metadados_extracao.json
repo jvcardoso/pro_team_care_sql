@@ -1,0 +1,47 @@
+{
+  "resumo_extracao": {
+    "fonte": "TJSP Coletor - Simulação Completa",
+    "parte_pesquisada": "Parque Rio Nieva",
+    "data_extracao": "2025-10-30T17:58:45.481679",
+    "total_processos": 3,
+    "processos_processados": 3,
+    "processos_sigilosos": 0,
+    "arquivos_gerados": [
+      "lista_processos_parque_rio_nieva.csv",
+      "todas_movimentacoes_1024444_30_2025_8_26_0576.json",
+      "todas_movimentacoes_1024327_39_2025_8_26_0576.json",
+      "todas_movimentacoes_1024317_92_2025_8_26_0576.json"
+    ]
+  },
+  "estrutura_arquivos": {
+    "csv_lista": {
+      "colunas": [
+        "processo_numero",
+        "etiqueta_opcional",
+        "data_coleta"
+      ],
+      "descricao": "Lista completa dos processos encontrados na busca por parte"
+    },
+    "json_processo": {
+      "estrutura": {
+        "processo": "string - número do processo",
+        "total_movimentacoes": "integer - quantidade total de movimentações",
+        "movimentacoes": "array - lista detalhada das movimentações"
+      },
+      "movimentacao_fields": [
+        "mov_ordem",
+        "mov_data",
+        "mov_descricao",
+        "mov_texto_completo",
+        "mov_tipo",
+        "mov_detalhes",
+        "palavras_chave_detectadas",
+        "decisao_resultado",
+        "valor_bloqueado",
+        "contem_decisao_judicial",
+        "coleta_timestamp",
+        "mov_texto"
+      ]
+    }
+  }
+}
