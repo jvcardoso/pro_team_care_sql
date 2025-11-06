@@ -49,7 +49,7 @@ class KanbanService:
     ) -> Dict:
         """
         Cria card e analisa com IA.
-        
+
         Returns:
             Dict com card e ai_suggestions
         """
@@ -62,10 +62,10 @@ class KanbanService:
         )
 
         # Extrair dados da IA
-        description = ai_result.get("description", "")
+        ai_description = ai_result.get("description", "")
         ai_priority = ai_result.get("priority", priority)
         sub_status = ai_result.get("sub_status")
-        
+
         # Parsear due_date se fornecido pela IA
         ai_due_date = ai_result.get("due_date")
         if ai_due_date and not due_date:
@@ -74,14 +74,14 @@ class KanbanService:
             except:
                 pass
 
-        # Criar card
+        # Criar card: Description = conteúdo do usuário, OriginalText = análise da IA
         card = await self.card_repo.create(
             company_id=company_id,
             user_id=user_id,
             column_id=column_id,
             title=title,
-            description=description,
-            original_text=original_text,
+            description=original_text,  # Conteúdo do usuário vira Description
+            original_text=ai_description,  # Análise da IA vira OriginalText (backup)
             priority=ai_priority,
             due_date=due_date
         )

@@ -3,6 +3,7 @@
  */
 
 import React from 'react';
+import { RichTextEditor } from '../common/RichTextEditor';
 
 interface CardEditFormProps {
   editForm: {
@@ -41,14 +42,14 @@ export const CardEditForm: React.FC<CardEditFormProps> = ({
 
       {/* Description */}
       <div>
-        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
           Descrição
         </label>
-        <textarea
-          value={editForm.Description}
-          onChange={(e) => onChange('Description', e.target.value)}
-          rows={4}
-          className="w-full rounded-md border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+        <RichTextEditor
+          value={editForm.Description || ''}
+          onChange={(value) => onChange('Description', value)}
+          placeholder="Descreva o card com texto formatado, imagens, links..."
+          minHeight="200px"
         />
       </div>
 

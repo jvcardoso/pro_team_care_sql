@@ -25,9 +25,12 @@ export const ImageUpload: React.FC<ImageUploadProps> = ({
   // Listener para colar imagem (SEMPRE ATIVO)
   React.useEffect(() => {
     const handlePaste = async (e: ClipboardEvent) => {
-      // Ignorar se estiver digitando em um input/textarea
+      // Verificar se estamos dentro do componente ImageUpload ou seus filhos
       const target = e.target as HTMLElement;
-      if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
+      const isInImageUpload = target.closest('.image-upload-component');
+
+      // Só processar se estiver dentro do componente ImageUpload
+      if (!isInImageUpload) {
         return;
       }
 
@@ -108,7 +111,7 @@ export const ImageUpload: React.FC<ImageUploadProps> = ({
   };
 
   return (
-    <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 space-y-3">
+    <div className="image-upload-component bg-gray-50 dark:bg-gray-700 rounded-lg p-4 space-y-3">
       <h4 className="font-medium text-gray-900 dark:text-white">
         📎 Anexar Imagem
         <span className="ml-2 text-xs text-blue-600 dark:text-blue-400">

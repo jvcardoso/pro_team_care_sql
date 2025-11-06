@@ -83,6 +83,7 @@ export interface MovementImage {
   ImagePath: string;
   ImageType: string;
   Description: string;
+  AIAnalysis?: string;
   UploadedAt: string;
 }
 
@@ -158,6 +159,8 @@ export const getBoard = async (): Promise<Board> => {
   const response = await api.get('/api/v1/kanban/board');
   return response.data;
 };
+
+
 
 /**
  * Lista colunas do board
@@ -243,7 +246,7 @@ export const saveValidatedData = async (
 };
 
 /**
- * Adiciona movimento ao card
+ * Adiciona movimento/lançamento ao card
  */
 export const addMovement = async (
   cardId: number,
@@ -251,6 +254,28 @@ export const addMovement = async (
 ): Promise<CardMovement> => {
   const response = await api.post(`/api/v1/kanban/cards/${cardId}/movements`, data);
   return response.data;
+};
+
+/**
+ * Atualiza movimento/lançamento
+ */
+export const updateMovement = async (
+  movementId: number,
+  data: MovementCreateData
+): Promise<CardMovement> => {
+  // Remove campos undefined/null para não enviar no request
+  const cleanData = Object.fromEntries(
+    Object.entries(data).filter(([_, value]) => value !== undefined && value !== null)
+  );
+  const response = await api.put(`/api/v1/kanban/movements/${movementId}`, cleanData);
+  return response.data;
+};
+
+/**
+ * Deleta movimento/lançamento
+ */
+export const deleteMovement = async (movementId: number): Promise<void> => {
+  await api.delete(`/api/v1/kanban/movements/${movementId}`);
 };
 
 /**
@@ -292,6 +317,8 @@ export const kanbanService = {
   moveCard,
   saveValidatedData,
   addMovement,
+  updateMovement,
+  deleteMovement,
   completeCard,
   addTag,
   removeTag

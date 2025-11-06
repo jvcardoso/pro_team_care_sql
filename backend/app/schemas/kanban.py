@@ -87,6 +87,7 @@ class CardResponse(CardBase):
     CompanyID: int
     UserID: int
     ColumnID: int
+    ColumnName: Optional[str] = None  # Nome da coluna para exibição
     CreatedAt: datetime
     CompletedDate: Optional[datetime] = None
     IsDeleted: bool
@@ -111,6 +112,13 @@ class CardMovementCreate(CardMovementBase):
     pass  # CardID vem da URL, não do body
 
 
+class CardMovementUpdate(BaseModel):
+    """Schema para atualização de movimento"""
+    Subject: str = Field(..., max_length=255, description="Assunto do movimento (obrigatório)")
+    Description: Optional[str] = Field(None, description="Descrição do movimento")
+    TimeSpent: Optional[int] = Field(None, description="Tempo gasto em minutos")
+
+
 class CardMovementResponse(CardMovementBase):
     """Schema de resposta de movimento"""
     MovementID: int
@@ -121,6 +129,7 @@ class CardMovementResponse(CardMovementBase):
     NewColumnID: Optional[int] = None
     OldSubStatus: Optional[str] = None
     NewSubStatus: Optional[str] = None
+    images: List["MovementImageResponse"] = Field(default_factory=list)
 
     model_config = ConfigDict(from_attributes=True)
 
@@ -208,6 +217,7 @@ class MovementImageBase(BaseModel):
     ImagePath: str = Field(..., max_length=512)
     ImageType: Optional[str] = Field(None, max_length=50)
     Description: Optional[str] = Field(None, max_length=500)
+    AIAnalysis: Optional[str] = None  # Sem limite - banco usa NVARCHAR(MAX)
 
 
 class MovementImageCreate(MovementImageBase):
@@ -220,6 +230,7 @@ class MovementImageResponse(MovementImageBase):
     MovementImageID: int
     MovementID: int
     UploadedAt: datetime
+    AIAnalysis: Optional[str] = None  # Sem limite - banco usa NVARCHAR(MAX)
 
     model_config = ConfigDict(from_attributes=True)
 
@@ -288,3 +299,45 @@ class CardMoveRequest(BaseModel):
 class BulkCardMoveRequest(BaseModel):
     """Schema para mover múltiplos cards"""
     moves: List[CardMoveRequest]
+
+
+# ============================================================================
+# Analytics / BI Schemas
+# ============================================================================
+
+class TimePerStage(BaseModel):
+    """Tempo médio por estágio"""
+    columnName: str
+    avgSeconds: float
+
+    model_config = ConfigDict(from_attributes=True)
+
+
+class ThroughputHistory(BaseModel):
+    """Histórico de throughput por data"""
+    date: str  # YYYY-MM-DD
+    count: int
+
+    model_config = ConfigDict(from_attributes=True)
+
+
+class KanbanAnalyticsSummary(BaseModel):
+    """Resumo das métricas principais do Kanban"""
+    leadTimeAvgSeconds: Optional[float] = None
+    cycleTimeAvgSeconds: Optional[float] = None
+    throughput: int
+    wip: int
+    slaCompliance: float
+
+    model_config = ConfigDict(from_attributes=True)
+
+
+class KanbanAnalyticsResponse(BaseModel):
+    """Resposta completa do analytics do Kanban"""
+    summary: KanbanAnalyticsSummary
+    timePerStage: List[TimePerStage]
+    throughputHistory: List[ThroughputHistory]
+
+    model_config = ConfigDict(from_attributes=True)
+
+

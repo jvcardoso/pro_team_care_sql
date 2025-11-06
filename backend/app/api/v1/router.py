@@ -10,6 +10,14 @@ from . import (
     activities, pendencies, uploads, kanban, uploads_kanban
 )
 
+# Import image analysis router
+try:
+    from .endpoints.image_analysis import router as image_analysis_router
+except ImportError as e:
+    print(f"Warning: Could not import image analysis router: {e}")
+    image_analysis_router = None
+# from .endpoints.image_analysis import router as image_analysis_router  # Temporariamente desabilitado
+
 api_router = APIRouter()
 
 # Incluir routers - Fase 1
@@ -47,3 +55,12 @@ api_router.include_router(uploads_kanban.router)
 
 # Incluir routers - Uploads
 api_router.include_router(uploads.router)
+
+# Incluir routers - IA (Image Analysis)
+try:
+    from app.api.v1.endpoints.image_analysis import router as image_analysis_router
+    api_router.include_router(image_analysis_router, prefix="/image-analysis", tags=["image-analysis"])
+    print("✅ Image analysis router loaded")
+except ImportError as e:
+    print(f"⚠️ Image analysis router not loaded: {e}")
+    pass

@@ -46,11 +46,16 @@ api.interceptors.request.use(
       config.headers.Authorization = `Bearer ${token}`;
     }
     
+    // Se for FormData, remover Content-Type para deixar o browser definir com boundary
+    if (config.data instanceof FormData) {
+      delete config.headers['Content-Type'];
+    }
+    
     // Log de debug em desenvolvimento
     if (import.meta.env.DEV) {
       console.log(`🚀 API Request: ${config.method?.toUpperCase()} ${config.url}`, {
         params: config.params,
-        data: config.data
+        data: config.data instanceof FormData ? 'FormData' : config.data
       });
     }
     

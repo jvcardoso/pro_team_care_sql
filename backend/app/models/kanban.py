@@ -32,6 +32,10 @@ class Card(Base):
     CompanyID = Column(BigInteger, ForeignKey("core.companies.id"), nullable=False)
     UserID = Column(BigInteger, ForeignKey("core.users.id"), nullable=False)
     ColumnID = Column(Integer, ForeignKey("core.CardColumns.ColumnID"), nullable=False)
+
+    # NOVO CAMPO ADICIONADO
+    DisplayOrder = Column(Integer, nullable=True)
+
     Title = Column(String(255), nullable=False)
     Description = Column(Text, nullable=True)
     OriginalText = Column(Text, nullable=True)
@@ -40,10 +44,10 @@ class Card(Base):
     StartDate = Column(DateTime, nullable=True)
     DueDate = Column(DateTime, nullable=True)
     CompletedDate = Column(DateTime, nullable=True)
-    DisplayOrder = Column(Integer, nullable=False, default=0)
     CreatedAt = Column(DateTime, nullable=False)
     IsDeleted = Column(Boolean, default=False, nullable=False)
     DeletedAt = Column(DateTime, nullable=True)
+    ExternalCardID = Column(String(50), nullable=True)
 
     # Relacionamentos
     column = relationship("CardColumn", back_populates="cards")
@@ -123,6 +127,7 @@ class MovementImage(Base):
     ImagePath = Column(String(512), nullable=False)
     ImageType = Column(String(50), nullable=True)
     Description = Column(String(500), nullable=True)
+    AIAnalysis = Column(String(2000), nullable=True)
     UploadedAt = Column(DateTime, nullable=False)
 
     # Relacionamentos

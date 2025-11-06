@@ -15,6 +15,8 @@ import {
   MovementCreateData
 } from '../services/kanbanService';
 
+
+
 interface KanbanState {
   board: Board | null;
   loading: boolean;
@@ -45,7 +47,7 @@ export const useKanban = () => {
     } catch (error: any) {
       const errorMsg = error.response?.data?.detail || 'Erro ao carregar board';
       setState(prev => ({ ...prev, loading: false, error: errorMsg }));
-      
+
       toast({
         title: 'Erro',
         description: errorMsg,
@@ -53,6 +55,8 @@ export const useKanban = () => {
       });
     }
   }, [toast]);
+
+
 
   /**
    * Cria card com IA

@@ -79,10 +79,12 @@ class CardRepository:
         due_date: Optional[datetime] = None
     ) -> Card:
         """Cria novo card"""
+        # Criar card com DisplayOrder temporário
         card = Card(
             CompanyID=company_id,
             UserID=user_id,
             ColumnID=column_id,
+            DisplayOrder=999999,  # Valor temporário alto
             Title=title,
             Description=description,
             OriginalText=original_text,
@@ -91,6 +93,22 @@ class CardRepository:
             CreatedAt=datetime.utcnow()
         )
         self.db.add(card)
+        await self.db.flush()  # Obter CardID sem commit
+
+        # Calcular DisplayOrder correto
+        max_order_query = select(func.max(Card.DisplayOrder)).where(
+            Card.ColumnID == column_id,
+            Card.IsDeleted == False,
+            Card.CardID != card.CardID  # Excluir o card que acabamos de criar
+        )
+        max_order_result = await self.db.execute(max_order_query)
+        max_order = max_order_result.scalar() or 0
+
+        # Atualizar DisplayOrder usando update
+        await self.db.execute(
+            update(Card).where(Card.CardID == card.CardID).values(DisplayOrder=max_order + 1)
+        )
+
         await self.db.commit()
         await self.db.refresh(card)
         return card
@@ -99,6 +117,16 @@ class CardRepository:
         """Busca card por ID"""
         query = select(Card).where(
             Card.CardID == card_id,
+            Card.CompanyID == company_id,
+            Card.IsDeleted == False
+        )
+        result = await self.db.execute(query)
+        return result.scalar_one_or_none()
+
+    async def get_by_external_id(self, external_card_id: str, company_id: int) -> Optional[Card]:
+        """Busca card por ExternalCardID"""
+        query = select(Card).where(
+            Card.ExternalCardID == external_card_id,
             Card.CompanyID == company_id,
             Card.IsDeleted == False
         )
@@ -179,7 +207,7 @@ class CardRepository:
 
         # Atualizar coluna do card
         card.ColumnID = new_column_id
-        
+
         # Atualizar ordem se fornecida
         if new_position is not None:
             # Reordenar outros cards na coluna de destino
@@ -194,8 +222,6 @@ class CardRepository:
             max_order_result = await self.db.execute(max_order_query)
             max_order = max_order_result.scalar() or 0
             card.DisplayOrder = max_order + 1
-        
-        await self.db.commit()
 
         # Criar movimento de auditoria
         movement_repo = CardMovementRepository(self.db)
@@ -209,6 +235,13 @@ class CardRepository:
             new_column_id=new_column_id
         )
 
+        # Verificar se é uma coluna de conclusão e definir CompletedDate
+        if new_column and ("conclu" in new_column_name.lower() or "final" in new_column_name.lower()):
+            from datetime import datetime
+            card.CompletedDate = datetime.utcnow()
+
+        # Commit e refresh
+        await self.db.commit()
         await self.db.refresh(card)
         return card
 
@@ -307,12 +340,68 @@ class CardMovementRepository:
         limit: int = 100
     ) -> List[CardMovement]:
         """Lista movimentos de um card"""
+        from sqlalchemy.orm import selectinload
+
         query = select(CardMovement).where(
             CardMovement.CardID == card_id
-        ).order_by(CardMovement.LogDate.desc()).offset(skip).limit(limit)
+        ).options(selectinload(CardMovement.images)).order_by(CardMovement.LogDate.desc()).offset(skip).limit(limit)
 
         result = await self.db.execute(query)
         return list(result.scalars().all())
+
+    async def update(
+        self,
+        movement_id: int,
+        subject: Optional[str] = None,
+        description: Optional[str] = None,
+        time_spent: Optional[int] = None
+    ) -> Optional[CardMovement]:
+        """Atualiza movimento"""
+        from sqlalchemy.orm import selectinload
+
+        query = select(CardMovement).where(CardMovement.MovementID == movement_id).options(selectinload(CardMovement.images))
+        result = await self.db.execute(query)
+        movement = result.scalar_one_or_none()
+
+        if not movement:
+            return None
+
+        # Só atualiza se o valor não for None e não for string vazia para campos obrigatórios
+        if subject is not None and subject.strip():
+            movement.Subject = subject.strip()
+        if description is not None:
+            movement.Description = description.strip() if description.strip() else None
+        if time_spent is not None:
+            movement.TimeSpent = time_spent
+
+        await self.db.commit()
+        await self.db.refresh(movement)
+        return movement
+
+    async def delete(self, movement_id: int) -> bool:
+        """Deleta movimento"""
+        from sqlalchemy.orm import selectinload
+        import os
+
+        query = select(CardMovement).where(CardMovement.MovementID == movement_id).options(selectinload(CardMovement.images))
+        result = await self.db.execute(query)
+        movement = result.scalar_one_or_none()
+
+        if not movement:
+            return False
+
+        # Deletar arquivos físicos das imagens associadas
+        for image in movement.images:
+            try:
+                image_path = str(image.ImagePath)
+                if os.path.exists(image_path):
+                    os.remove(image_path)
+            except Exception as e:
+                print(f"Erro ao deletar arquivo da imagem {image.MovementImageID}: {e}")
+
+        await self.db.delete(movement)
+        await self.db.commit()
+        return True
 
 
 class CardAssigneeRepository:

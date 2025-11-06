@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useKanban } from '../hooks/useKanban';
 import { CardCreateData } from '../services/kanbanService';
+import { RichTextEditor } from '../components/common/RichTextEditor';
 
 export const KanbanCardCreatePage: React.FC = () => {
   const navigate = useNavigate();
@@ -25,6 +26,10 @@ export const KanbanCardCreatePage: React.FC = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value || null }));
+  };
+
+  const handleOriginalTextChange = (value: string) => {
+    setFormData(prev => ({ ...prev, OriginalText: value }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -115,23 +120,19 @@ export const KanbanCardCreatePage: React.FC = () => {
               />
             </div>
 
-            {/* Original Text */}
+            {/* Description */}
             <div>
               <label htmlFor="OriginalText" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-                Conteúdo *
+                Descrição *
               </label>
-              <textarea
-                id="OriginalText"
-                name="OriginalText"
+              <RichTextEditor
                 value={formData.OriginalText}
-                onChange={handleChange}
-                required
-                rows={8}
-                className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
-                placeholder="Cole aqui o conteúdo para a IA analisar..."
+                onChange={handleOriginalTextChange}
+                placeholder="Descreva o card em detalhes. A IA analisará este conteúdo..."
+                minHeight="300px"
               />
               <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                A IA analisará este conteúdo para sugerir pessoas, sistemas, tags e sub-tarefas.
+                A IA analisará esta descrição para sugerir pessoas, sistemas, tags e sub-tarefas.
               </p>
             </div>
 
@@ -173,14 +174,28 @@ export const KanbanCardCreatePage: React.FC = () => {
                 ✅ Análise da IA Concluída
               </h2>
 
-              <div className="space-y-4">
-                {/* Description */}
-                {aiSuggestions.description && (
-                  <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Descrição:</h3>
-                    <p className="text-gray-700 dark:text-gray-300">{aiSuggestions.description}</p>
-                  </div>
-                )}
+               <div className="space-y-4">
+                 {/* AI Insights */}
+                 <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                   <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">💡 Análise da IA:</h3>
+                   <p className="text-blue-800 dark:text-blue-200 text-sm">
+                     Sua descrição foi analisada. O card será criado com o conteúdo que você digitou.
+                     A IA identificou os seguintes insights:
+                   </p>
+                 </div>
+
+                 {/* Description */}
+                 {aiSuggestions.description && (
+                   <div>
+                     <h3 className="font-semibold text-gray-900 dark:text-white mb-2">📝 Sugestão da IA:</h3>
+                     <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded border-l-4 border-blue-500">
+                       <p className="text-gray-700 dark:text-gray-300 italic">{aiSuggestions.description}</p>
+                     </div>
+                     <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+                       💡 Você pode editar esta descrição depois de criar o card
+                     </p>
+                   </div>
+                 )}
 
                 {/* Priority */}
                 <div>
@@ -241,21 +256,21 @@ export const KanbanCardCreatePage: React.FC = () => {
                 )}
               </div>
 
-              <div className="mt-6 flex justify-end gap-3">
-                <button
-                  onClick={() => setShowValidationModal(false)}
-                  className="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
-                >
-                  Cancelar
-                </button>
-                <button
-                  onClick={handleSaveValidated}
-                  disabled={loading}
-                  className="px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 disabled:opacity-50"
-                >
-                  {loading ? 'Salvando...' : 'Salvar Dados'}
-                </button>
-              </div>
+               <div className="mt-6 flex justify-end gap-3">
+                 <button
+                   onClick={() => setShowValidationModal(false)}
+                   className="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                 >
+                   Voltar e Editar
+                 </button>
+                 <button
+                   onClick={handleSaveValidated}
+                   disabled={loading}
+                   className="px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 disabled:opacity-50"
+                 >
+                   {loading ? 'Criando Card...' : 'Criar Card'}
+                 </button>
+               </div>
             </div>
           </div>
         )}

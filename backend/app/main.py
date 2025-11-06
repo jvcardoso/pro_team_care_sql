@@ -67,8 +67,9 @@ async def db_session_context_middleware(request: Request, call_next):
                     {"user_id": user_id}
                 )
                 await db.commit()
-            except Exception:
+            except Exception as e:
                 # Se falhar, continua sem contexto (segurança por padrão)
+                print(f"Warning: Failed to set session context: {e}")
                 pass
 
     response = await call_next(request)

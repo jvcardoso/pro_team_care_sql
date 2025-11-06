@@ -14,6 +14,13 @@ from app.models.user import User
 from app.repositories.kanban_repository import CardRepository
 from app.models.kanban import CardImage, MovementImage
 from app.core.config import settings
+from pydantic import BaseModel
+
+# Schemas
+class ProcessImageRequest(BaseModel):
+    """Schema para processar imagem com IA"""
+    image_id: int
+    user_description: str = ""
 
 router = APIRouter(prefix="/kanban", tags=["Kanban Uploads"])
 
@@ -33,23 +40,28 @@ async def upload_card_image(
 ):
     """
     Upload de imagem para o card.
-    
+
     Tipos: problem, solution, reference, diagram
     """
     # Verificar se card existe
     card_repo = CardRepository(db)
     card = await card_repo.get_by_id(card_id, current_user.company_id)  # type: ignore
-    
+
     if not card:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="Card não encontrado"
         )
-    
+
     # Validar tipo de arquivo
     allowed_extensions = {".jpg", ".jpeg", ".png", ".gif", ".webp"}
+    if not file.filename:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Nome do arquivo não fornecido"
+        )
     file_ext = os.path.splitext(file.filename)[1].lower()
-    
+
     if file_ext not in allowed_extensions:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
@@ -71,7 +83,7 @@ async def upload_card_image(
             detail=f"Erro ao salvar arquivo: {str(e)}"
         )
     
-    # Criar registro no banco
+    # Criar registro no banco (apenas CardImage, sem movimento automático)
     card_image = CardImage(
         CardID=card_id,
         ImagePath=file_path,
@@ -80,46 +92,8 @@ async def upload_card_image(
         UploadedBy=current_user.id,  # type: ignore
         UploadedAt=datetime.utcnow()
     )
-    
+
     db.add(card_image)
-    await db.flush()  # Flush para obter o ID
-    
-    # Criar movimento automático para o upload de imagem
-    from app.repositories.kanban_repository import CardMovementRepository
-    
-    movement_repo = CardMovementRepository(db)
-    await movement_repo.create(
-        card_id=card_id,
-        user_id=current_user.id,  # type: ignore
-        subject=f"📎 Imagem anexada",
-        description=description or "Imagem anexada ao card",
-        movement_type="ImageUpload"
-    )
-    
-    # Associar imagem ao movimento recém-criado
-    from sqlalchemy import select, desc
-    from app.models.kanban import CardMovement, MovementImage
-    
-    # Buscar o último movimento criado
-    query = select(CardMovement).where(
-        CardMovement.CardID == card_id,
-        CardMovement.MovementType == "ImageUpload"
-    ).order_by(desc(CardMovement.MovementID)).limit(1)
-    
-    result = await db.execute(query)
-    last_movement = result.scalar_one_or_none()
-    
-    if last_movement:
-        # Criar MovementImage vinculando a imagem ao movimento
-        movement_image = MovementImage(
-            MovementID=last_movement.MovementID,
-            ImagePath=file_path,
-            ImageType=image_type,
-            Description=description,
-            UploadedAt=datetime.utcnow()
-        )
-        db.add(movement_image)
-    
     await db.commit()
     await db.refresh(card_image)
     
@@ -128,6 +102,120 @@ async def upload_card_image(
         "image_id": card_image.CardImageID,
         "path": file_path,
         "url": f"/uploads/kanban/{unique_filename}"
+    }
+
+
+@router.post("/cards/{card_id}/process-image", status_code=status.HTTP_201_CREATED)
+async def process_card_image_with_ai(
+    card_id: int,
+    payload: ProcessImageRequest,
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_active_user)
+):
+    """
+    Processa imagem existente com IA e cria movimento.
+    Recebe image_id (de CardImage) + descrição do usuário no body.
+    """
+    image_id = payload.image_id
+    user_description = payload.user_description
+    # Verificar se card existe
+    card_repo = CardRepository(db)
+    card = await card_repo.get_by_id(card_id, current_user.company_id)  # type: ignore
+
+    if not card:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Card não encontrado"
+        )
+
+    # Buscar imagem existente
+    from sqlalchemy import select
+    from app.models.kanban import CardImage
+
+    query = select(CardImage).where(
+        CardImage.CardImageID == image_id,
+        CardImage.CardID == card_id
+    )
+    result = await db.execute(query)
+    card_image = result.scalar_one_or_none()
+
+    if not card_image:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Imagem não encontrada neste card"
+        )
+
+    # Processar análise de IA da imagem + descrição do usuário
+    ai_analysis = ""
+    try:
+        from app.services.gemini_service import GeminiService
+        gemini_service = GeminiService()
+
+        # Prompt para análise específica do anexo
+        prompt = f"""
+        Analise esta imagem anexada a um card do kanban.
+
+        Descrição fornecida pelo usuário: "{user_description}"
+
+        Forneça uma análise concisa sobre:
+        1. O que a imagem mostra (elementos visuais, diagramas, screenshots, etc.)
+        2. Como ela se relaciona com a descrição do usuário
+        3. Qualquer insight ou observação relevante para gestão de projetos
+        4. Sugestões de como usar esta imagem no contexto do card
+
+        Mantenha a análise objetiva e útil para o contexto de gestão de projetos.
+        """
+
+        # Usar análise real de imagem com Gemini Vision
+        print(f"🔍 Iniciando análise de imagem: {card_image.ImagePath}")
+        response = await gemini_service._analyze_with_image(prompt, str(card_image.ImagePath))
+        if response and hasattr(response, 'text'):
+            ai_analysis = response.text
+            print(f"✅ Análise de imagem concluída: {len(ai_analysis)} caracteres")
+        else:
+            ai_analysis = "Análise não disponível"
+            print("❌ Resposta da IA não contém texto")
+    except Exception as e:
+        print(f"Erro na análise de IA: {e}")
+        ai_analysis = "Análise não disponível"
+
+    # Criar movimento para o processamento da imagem
+    from app.repositories.kanban_repository import CardMovementRepository
+
+    movement_repo = CardMovementRepository(db)
+    movement = await movement_repo.create(
+        card_id=card_id,
+        user_id=current_user.id,  # type: ignore
+        subject=user_description or "Imagem processada com IA",
+        description="Imagem processada com análise de IA",
+        movement_type="ImageProcessed"
+    )
+
+    # Truncar análise da IA se for muito longa (limite seguro para evitar erros de truncamento)
+    max_ai_analysis_length = 4000
+    if ai_analysis and len(ai_analysis) > max_ai_analysis_length:
+        ai_analysis = ai_analysis[:max_ai_analysis_length] + "..."
+        logger.warning(f"Análise da IA truncada para {max_ai_analysis_length} caracteres")
+
+    # Criar MovementImage vinculando a imagem ao movimento
+    movement_image = MovementImage(
+        MovementID=movement.MovementID,
+        ImagePath=card_image.ImagePath,
+        ImageType=card_image.ImageType,
+        Description=user_description,  # Descrição do usuário
+        AIAnalysis=ai_analysis,        # Análise da IA
+        UploadedAt=datetime.utcnow()
+    )
+    db.add(movement_image)
+
+    await db.commit()
+    await db.refresh(movement_image)
+
+    return {
+        "message": "Imagem processada com IA e movimento criado",
+        "movement_id": movement.MovementID,
+        "movement_image_id": movement_image.MovementImageID,
+        "ai_analysis": ai_analysis
     }
 
 
@@ -142,13 +230,18 @@ async def upload_movement_image(
 ):
     """
     Upload de imagem para o movimento.
-    
+
     Tipos: evidence, before, after, screenshot
     """
     # Validar tipo de arquivo
     allowed_extensions = {".jpg", ".jpeg", ".png", ".gif", ".webp"}
+    if not file.filename:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Nome do arquivo não fornecido"
+        )
     file_ext = os.path.splitext(file.filename)[1].lower()
-    
+
     if file_ext not in allowed_extensions:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
@@ -214,8 +307,9 @@ async def delete_card_image(
     
     # Deletar arquivo físico
     try:
-        if os.path.exists(image.ImagePath):
-            os.remove(image.ImagePath)
+        image_path = str(image.ImagePath)
+        if os.path.exists(image_path):
+            os.remove(image_path)
     except Exception as e:
         print(f"Erro ao deletar arquivo: {e}")
     
@@ -249,8 +343,9 @@ async def delete_movement_image(
     
     # Deletar arquivo físico
     try:
-        if os.path.exists(image.ImagePath):
-            os.remove(image.ImagePath)
+        image_path = str(image.ImagePath)
+        if os.path.exists(image_path):
+            os.remove(image_path)
     except Exception as e:
         print(f"Erro ao deletar arquivo: {e}")
     

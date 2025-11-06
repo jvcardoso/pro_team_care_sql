@@ -44,6 +44,7 @@ import { ActivityListPage } from "./pages/ActivityListPage";
 import { PendencyBoardPage } from "./pages/PendencyBoardPage";
 import { KanbanBoardPage } from "./pages/KanbanBoardPage";
 import { KanbanCardCreatePage } from "./pages/KanbanCardCreatePage";
+import KanbanAnalyticsPage from "./pages/KanbanAnalyticsPage";
 // Secure session service removido
 
 function App() {
@@ -178,6 +179,7 @@ function App() {
                 {/* Rotas do Kanban Board (Novo Modelo) */}
                 <Route path="kanban" element={<KanbanBoardPage />} />
                 <Route path="kanban/new" element={<KanbanCardCreatePage />} />
+                <Route path="kanban/analytics" element={<KanbanAnalyticsPage />} />
               </Route>
 
               {/* 404 Page */}

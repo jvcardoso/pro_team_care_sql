@@ -12,6 +12,8 @@ const DashboardPage = () => {
     const fetchDashboard = async () => {
       try {
         setLoading(true);
+
+        // Carregar dados gerais do dashboard
         const { data } = await api.get("/api/v1/dashboard/stats");
         setDashboardData(data);
         setError(null);

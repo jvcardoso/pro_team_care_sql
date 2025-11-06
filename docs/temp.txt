@@ -1,0 +1,123 @@
+Analisando o código HTML que você forneceu, sim! Identifiquei o **CKEditor** sendo usado como editor rico (WYSIWYG - What You See Is What You Get).
+
+## 🎯 Editor Identificado: **CKEditor**
+
+### Evidências no Código:
+
+```html
+<!-- Linha 9 do arquivo -->
+<link type="text/css" rel="stylesheet" href="https://kcdn-fr.kanbanize.com/v1200/resources/css/kanbanize-ckeditor-new.css?version=98098">
+```
+
+O CKEditor é um dos editores mais populares e poderosos para web, similar ao Microsoft Word.
+
+---
+
+## 📋 Características do CKEditor
+
+### ✅ Funcionalidades Principais:
+- ✅ **Texto formatado** (negrito, itálico, sublinhado)
+- ✅ **Inserção de imagens** (upload ou URL)
+- ✅ **Listas** (ordenadas e não ordenadas)
+- ✅ **Tabelas**
+- ✅ **Links**
+- ✅ **Cores de texto e fundo**
+- ✅ **Alinhamento** (esquerda, centro, direita, justificado)
+- ✅ **Colar do Word** (mantém formatação)
+- ✅ **Desfazer/Refazer**
+- ✅ **Código HTML** (modo fonte)
+
+---
+
+## 🚀 Como Implementar no Seu Projeto
+
+### 1️⃣ **Instalar CKEditor 5 (Versão Moderna)**
+
+```bash
+npm install @ckeditor/ckeditor5-react @ckeditor/ckeditor5-build-classic
+```
+
+### 2️⃣ **Criar Componente React**
+
+Vou criar um componente para você usar no formulário de movimentos:
+
+### 3️⃣ **Exemplo de Uso no Formulário de Movimento**
+
+Vou criar um exemplo de como usar no [CardDetailModal](cci:1://file:///home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/CardDetailModal.tsx:19:0-448:2):
+
+```typescript
+import { RichTextEditor } from '../common/RichTextEditor';
+
+// No formulário de movimento:
+<div>
+  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+    📝 Descrição Detalhada
+  </label>
+  <RichTextEditor
+    value={movementForm.Description || ''}
+    onChange={(value) => setMovementForm({ ...movementForm, Description: value })}
+    placeholder="Descreva o movimento com texto formatado, imagens, tabelas..."
+    minHeight="300px"
+  />
+</div>
+```
+
+---
+
+## 📦 Alternativas ao CKEditor
+
+Se preferir outras opções:
+
+### 1. **Quill** (Mais Leve)
+```bash
+npm install react-quill
+```
+- ✅ Mais simples
+- ✅ Menor bundle size
+- ❌ Menos features
+
+### 2. **TinyMCE** (Mais Completo)
+```bash
+npm install @tinymce/tinymce-react
+```
+- ✅ Muito similar ao Word
+- ✅ Muitos plugins
+- ❌ Requer API key (gratuita)
+
+### 3. **Tiptap** (Moderno)
+```bash
+npm install @tiptap/react @tiptap/starter-kit
+```
+- ✅ Baseado em ProseMirror
+- ✅ Muito customizável
+- ✅ Headless (você controla o UI)
+
+---
+
+## 🎯 Recomendação
+
+Para o seu caso (movimentos do Kanban com imagens), recomendo:
+
+**CKEditor 5** porque:
+- ✅ Upload de imagens integrado
+- ✅ Interface familiar (tipo Word)
+- ✅ Suporte a colar do Word
+- ✅ Tabelas e listas
+- ✅ Open source e gratuito
+- ✅ Boa documentação
+
+---
+
+## 📝 Próximos Passos
+
+1. **Instalar dependências**:
+```bash
+cd frontend
+npm install @ckeditor/ckeditor5-react @ckeditor/ckeditor5-build-classic
+```
+
+2. **Usar o componente** no formulário de movimentos
+
+3. **Configurar upload de imagens** (se quiser upload direto no editor)
+
+Quer que eu implemente o editor completo no formulário de movimentos? 🚀

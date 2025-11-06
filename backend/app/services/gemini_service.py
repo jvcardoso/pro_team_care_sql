@@ -99,7 +99,20 @@ class GeminiService:
                 response = await self._retry_with_backoff(self._analyze_text_only, prompt)
 
             # Parse e retorno
-            result = self._parse_ai_response(response.text)
+            if response and hasattr(response, 'text'):
+                result = self._parse_ai_response(response.text)
+            else:
+                logger.error("Resposta da IA é None ou inválida")
+                return {
+                    "description": "Não foi possível analisar a imagem.",
+                    "priority": "Média",
+                    "sub_status": None,
+                    "assignees": [],
+                    "systems": [],
+                    "tags": [],
+                    "due_date": None,
+                    "movements": []
+                }
 
             # Armazenar em cache
             self._cache_result(cache_key, result)
@@ -246,11 +259,35 @@ Agora analise o conteúdo fornecido e retorne o JSON:
     async def _analyze_with_image(self, prompt: str, image_path: str):
         """Análise de texto + imagem"""
         try:
-            image = genai.upload_file(image_path)
-            return self.model.generate_content([prompt, image])
+            # Ler imagem como bytes
+            with open(image_path, 'rb') as f:
+                image_data = f.read()
+
+            # Determinar MIME type
+            mime_type = self._get_mime_type(image_path)
+
+            # Criar parte da imagem
+            image_part = {"mime_type": mime_type, "data": image_data}
+
+            return self.model.generate_content([prompt, image_part])
         except Exception as e:
             logger.warning(f"Erro ao processar imagem, usando apenas texto: {e}")
             return await self._analyze_text_only(prompt)
+
+    def _get_mime_type(self, file_path: str) -> str:
+        """Detecta tipo MIME da imagem"""
+        extension = file_path.lower().split('.')[-1]
+
+        mime_types = {
+            'jpg': 'image/jpeg',
+            'jpeg': 'image/jpeg',
+            'png': 'image/png',
+            'gif': 'image/gif',
+            'webp': 'image/webp',
+            'bmp': 'image/bmp'
+        }
+
+        return mime_types.get(extension, 'image/jpeg')
 
     def _parse_ai_response(self, response_text: str) -> Dict:
         """

@@ -1,0 +1,2 @@
+Card ID;Custom ID;Color;Title;Owner;Deadline;Priority;Column Name;Board Name;Owners;Description;Lane Name;Actual End Date;Last End Date;Last Start Date;Planned Start;Card URL;Last Comment
+TEST-001;;#00d3ff;[TESTE] Card Importado;juliano.cardoso;2025-12-01;High;Backlog;Kanban Teste;juliano.cardoso;Este é um card de teste para importação.;Lane 1;;2025-11-15 10:00:00;2025-11-10 09:00:00;;https://businessmap.com/test-001;Card importado com sucesso via CSV

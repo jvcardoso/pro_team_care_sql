@@ -161,3 +161,46 @@ class BaseRepository(Generic[ModelType]):
         """
         obj = await self.get_by_id(id)
         return obj is not None
+
+    async def execute_stored_procedure(
+        self,
+        sp_name: str,
+        params: Dict[str, Any]
+    ) -> List[Dict[str, Any]]:
+        """
+        Executa uma Stored Procedure e retorna os resultados.
+
+        Args:
+            sp_name: Nome completo da SP (ex: "[core].[sp_GetAnalyticsCardsDetails]")
+            params: Dicionário com parâmetros da SP
+
+        Returns:
+            Lista de dicionários com os resultados
+        """
+        from sqlalchemy import text
+
+        # Construir query EXEC
+        param_placeholders = ", ".join([f"@{key} = :{key}" for key in params.keys()])
+        query_str = f"EXEC {sp_name} {param_placeholders}"
+
+        query = text(query_str)
+
+        try:
+            result = await self.db.execute(query, params)
+            rows = result.fetchall()
+
+            # Converter para lista de dicionários
+            if rows:
+                # Usar as chaves do primeiro row como nomes das colunas
+                column_names = list(rows[0]._mapping.keys())
+                return [
+                    {column_names[i]: row[i] for i in range(len(column_names))}
+                    for row in rows
+                ]
+            else:
+                return []
+
+        except Exception as e:
+            # Log do erro para debug
+            print(f"Erro ao executar SP {sp_name}: {e}")
+            raise
