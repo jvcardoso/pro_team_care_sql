@@ -6,9 +6,11 @@ import {
 } from "recharts";
 import { 
   TrendingUp, Clock, CheckCircle, AlertCircle, 
-  Activity, Calendar, Eye, Loader2 
+  Activity, Calendar, Eye, Loader2, FileText, BarChart3 
 } from "lucide-react";
 import { CardDetailModal } from "../components/kanban/CardDetailModal";
+import { ITILSummaryChart } from "../components/kanban/ITILSummaryChart";
+import { ITILCardsTable } from "../components/kanban/ITILCardsTable";
 
 /**
  * Dashboard de Analytics dedicado ao Kanban
@@ -24,6 +26,13 @@ const KanbanAnalyticsPage = () => {
   });
   const [columns, setColumns] = useState([]);
   const [selectedColumns, setSelectedColumns] = useState([]);
+  
+  // Estados para ITIL
+  const [activeTab, setActiveTab] = useState('analytics'); // 'analytics' ou 'itil'
+  const [itilSummary, setItilSummary] = useState([]);
+  const [itilCards, setItilCards] = useState([]);
+  const [itilLoading, setItilLoading] = useState(false);
+  const [selectedCard, setSelectedCard] = useState(null);
 
   // Datas padrão: ano atual (01/01 até hoje)
   function getDefaultStartDate() {
@@ -42,8 +51,12 @@ const KanbanAnalyticsPage = () => {
   }, []);
 
   useEffect(() => {
-    fetchAnalytics();
-  }, [dateRange]);
+    if (activeTab === 'analytics') {
+      fetchAnalytics();
+    } else if (activeTab === 'itil') {
+      fetchITILData();
+    }
+  }, [dateRange, activeTab]);
 
   const fetchColumns = async () => {
     try {
@@ -129,6 +142,31 @@ const KanbanAnalyticsPage = () => {
       setAnalytics(null);
     } finally {
       setLoading(false);
+    }
+  };
+
+  // Buscar dados ITIL
+  const fetchITILData = async () => {
+    try {
+      setItilLoading(true);
+      
+      // Buscar resumo ITIL
+      const summaryResponse = await api.get(
+        `/api/v1/kanban/analytics/itil-summary?start_date=${dateRange.start}&end_date=${dateRange.end}`
+      );
+      setItilSummary(summaryResponse.data);
+      
+      // Buscar cards ITIL
+      const cardsResponse = await api.get(
+        `/api/v1/kanban/analytics/itil-cards?start_date=${dateRange.start}&end_date=${dateRange.end}`
+      );
+      setItilCards(cardsResponse.data);
+      
+    } catch (err) {
+      console.error("Erro ao carregar dados ITIL:", err);
+      setError("Não foi possível carregar os dados ITIL. Tente novamente.");
+    } finally {
+      setItilLoading(false);
     }
   };
 
@@ -248,8 +286,41 @@ const KanbanAnalyticsPage = () => {
         </div>
       </div>
 
-      {/* Métricas Principais */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {/* Sistema de Abas */}
+      <div className="bg-white dark:bg-gray-800 rounded-lg shadow">
+        <div className="border-b border-gray-200 dark:border-gray-700">
+          <nav className="flex -mb-px">
+            <button
+              onClick={() => setActiveTab('analytics')}
+              className={`px-6 py-4 text-sm font-medium border-b-2 transition-colors flex items-center gap-2 ${
+                activeTab === 'analytics'
+                  ? 'border-blue-600 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <BarChart3 className="w-5 h-5" />
+              Analytics Geral
+            </button>
+            <button
+              onClick={() => setActiveTab('itil')}
+              className={`px-6 py-4 text-sm font-medium border-b-2 transition-colors flex items-center gap-2 ${
+                activeTab === 'itil'
+                  ? 'border-blue-600 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <FileText className="w-5 h-5" />
+              Relatório ITIL
+            </button>
+          </nav>
+        </div>
+      </div>
+
+      {/* Conteúdo da Aba Analytics */}
+      {activeTab === 'analytics' && (
+        <>
+          {/* Métricas Principais */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Throughput */}
         <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-xl p-6 text-white shadow-lg">
           <div className="flex items-center justify-between mb-2">
@@ -420,6 +491,34 @@ const KanbanAnalyticsPage = () => {
         onToggleColumn={toggleColumn}
         onToggleAllColumns={toggleAllColumns}
       />
+        </>
+      )}
+
+      {/* Conteúdo da Aba ITIL */}
+      {activeTab === 'itil' && (
+        <>
+          <ITILSummaryChart data={itilSummary} loading={itilLoading} />
+          <ITILCardsTable 
+            cards={itilCards} 
+            loading={itilLoading}
+            onViewDetails={(cardId) => {
+              // Buscar card e abrir modal
+              const card = itilCards.find(c => c.cardId === cardId);
+              if (card) {
+                setSelectedCard(card);
+              }
+            }}
+          />
+        </>
+      )}
+
+      {/* Modal de Detalhes do Card */}
+      {selectedCard && (
+        <CardDetailModal
+          card={selectedCard}
+          onClose={() => setSelectedCard(null)}
+        />
+      )}
     </div>
   );
 };
@@ -636,14 +735,6 @@ const CardsTable = ({ startDate, endDate, columns, selectedColumns, onToggleColu
           </div>
         )}
       </div>
-
-      {/* Modal de Detalhes do Card - Usando componente existente do Kanban */}
-      {selectedCard && (
-        <CardDetailModal
-          card={selectedCard}
-          onClose={() => setSelectedCard(null)}
-        />
-      )}
     </>
   );
 };
