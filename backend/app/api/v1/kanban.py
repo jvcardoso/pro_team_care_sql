@@ -1878,58 +1878,51 @@ async def import_businessmap_csv(
                 # Debug: mostrar dados que serão enviados
                 print(f"Enviando para SP: CardID={external_card_id}, Title={title[:30]}..., Column={column_name}")
 
-                # Chamar stored procedure
+                # Chamar stored procedure com parâmetros corretos
                 result = await db.execute(
                     text("""
-                        EXEC [core].[sp_UpsertCardFromImport]
+                        EXEC [core].[UpsertCardFromImport]
+                            @CompanyID = :company_id,
+                            @UserID = :user_id,
                             @ExternalCardID = :external_card_id,
                             @Title = :title,
-                            @OwnerName = :owner_name,
-                            @Deadline = :deadline,
-                            @Priority = :priority,
-                            @ColumnName = :column_name,
                             @Description = :description,
-                            @ActualEndDate = :actual_end_date,
-                            @LastEndDate = :last_end_date,
-                            @LastStartDate = :last_start_date,
-                            @PlannedStart = :planned_start,
-                            @CardURL = :card_url,
+                            @ColumnName = :column_name,
+                            @Priority = :priority,
+                            @Deadline = :deadline,
+                            @StartDate = :start_date,
+                            @CompletedDate = :completed_date,
                             @LastComment = :last_comment,
-                            @CompanyID = :company_id,
-                            @DefaultUserID = :user_id
+                            @Size = :size
                     """),
                     {
+                        "company_id": current_user.company_id,
+                        "user_id": current_user.id,
                         "external_card_id": external_card_id,
                         "title": title,
-                        "owner_name": owner_name,
-                        "deadline": deadline if deadline else None,
-                        "priority": priority,
-                        "column_name": column_name,
                         "description": description,
-                        "actual_end_date": actual_end_date if actual_end_date else None,
-                        "last_end_date": last_end_date if last_end_date else None,
-                        "last_start_date": last_start_date if last_start_date else None,
-                        "planned_start": planned_start if planned_start else None,
-                        "card_url": card_url,
+                        "column_name": column_name,
+                        "priority": priority,
+                        "deadline": deadline if deadline else None,
+                        "start_date": last_start_date if last_start_date else planned_start,
+                        "completed_date": actual_end_date if actual_end_date else last_end_date,
                         "last_comment": last_comment,
-                        "company_id": current_user.company_id,
-                        "user_id": current_user.id
+                        "size": None  # Pode ser extraído depois se necessário
                     }
                 )
                 
-                # Obter resultado da SP
+                # Obter resultado da SP (retorna CardID)
                 sp_result = result.fetchone()
-                print(f"Resultado da SP: {sp_result}")
-                if sp_result:
-                    action = sp_result[1]  # 'CREATED' ou 'UPDATED'
-                    print(f"Ação realizada: {action}")
-                    if action == 'CREATED':
-                        created += 1
-                    elif action == 'UPDATED':
-                        updated += 1
+                if sp_result and sp_result[0]:
+                    card_id = sp_result[0]
+                    print(f"✅ Card processado: ID={card_id}")
                     processed += 1
+                    # Considerar como criado/atualizado baseado na existência prévia
+                    # (simplificado - a SP faz upsert automaticamente)
+                    created += 1
                 else:
-                    print("SP não retornou resultado")
+                    print("⚠️ SP não retornou CardID")
+                    errors += 1
                 
             except Exception as e:
                 print(f"❌ Erro na linha {total}: {str(e)}")

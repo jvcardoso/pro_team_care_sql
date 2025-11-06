@@ -7333,3 +7333,32 @@ WHERE core.users.id = ?
 2025-11-06 17:36:58,141 INFO sqlalchemy.engine.Engine [cached since 87.15s ago] ('2025-10-07', '2025-11-06', 1)
 2025-11-06 17:36:58,148 INFO sqlalchemy.engine.Engine ROLLBACK
 INFO:     192.168.11.12:58370 - "GET /api/v1/kanban/analytics/itil-cards?start_date=2025-10-07&end_date=2025-11-06 HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/v1/kanban.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2847532]
+Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x760e6695c4a0>
+Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x760e66996810>
+Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x760e682bc3b0>
+INFO:     Started server process [2894266]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/v1/kanban.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2894266]
+✅ Image analysis router loaded
+==================================================
+🚀 Pro Team Care v1.0.0
+📝 Documentação: http://localhost:8000/docs
+🔍 Health Check: http://localhost:8000/health
+⚠️  DATABASE FIRST: Certifique-se de criar as tabelas manualmente!
+==================================================
+INFO:     Started server process [2894364]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
