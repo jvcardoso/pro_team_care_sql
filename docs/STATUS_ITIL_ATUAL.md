@@ -1,7 +1,7 @@
 # 📊 Status Atual - Classificação ITIL no Sistema Kanban
 
-**Última Atualização:** 06/11/2025 17:20  
-**Progresso Geral:** 75% (3 de 4 fases concluídas)
+**Última Atualização:** 06/11/2025 19:35  
+**Progresso Geral:** 90% (Validação completa - Importação XLSX pendente)
 
 ---
 
@@ -49,17 +49,45 @@
 
 ---
 
-## ⏳ FASES PENDENTES
+### **Fase 4: Testes e Validação (100%)**
+- ✅ Frontend e backend testados
+- ✅ Aba "Relatório ITIL" validada
+- ✅ Gráficos e métricas funcionando
+- ✅ Filtros de categoria operacionais
+- ✅ Modal de detalhes funcional
+- ✅ Endpoints API validados com dados reais
 
-### **Fase 4: Testes e Validação (0%)**
-**Estimativa:** 30 min  
-**Tarefas:**
-1. Iniciar frontend e backend
-2. Testar aba "Relatório ITIL"
-3. Validar gráficos e métricas
-4. Testar filtros de categoria
-5. Verificar modal de detalhes
-6. Ajustes finais de UX
+**Responsável:** Juliano  
+**Tempo:** ~2h  
+**Arquivo Teste:** `docs/dasa-20251106174023-aGv.xlsx` (105 cards)
+
+**Resultados:**
+- ✅ Estrutura ITIL: 100% funcional
+- ✅ Endpoints API: 100% funcionais
+- ✅ Classificação automática: Lógica validada
+- ⚠️ Importação XLSX: Bug identificado na SP
+
+---
+
+## ⚠️ PROBLEMAS IDENTIFICADOS
+
+### **Importação XLSX - Conflito na Stored Procedure**
+**Status:** Identificado - Correção pendente  
+**Erro:** "Connection is busy with results for another command"
+
+**Causa Raiz:**
+- SP `core.UpsertCardFromImport` com conflito de transações
+- Múltiplas operações SQL causando bloqueio
+
+**Impacto:**
+- ❌ 105 cards rejeitados na importação
+- ✅ Sistema ITIL funciona com dados existentes
+- ✅ APIs e frontend operacionais
+
+**Solução Necessária:**
+1. Revisar transações na SP
+2. Separar operações em blocos menores
+3. Adicionar tratamento de erro adequado
 
 ---
 

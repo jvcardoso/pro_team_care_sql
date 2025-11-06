@@ -1294,7 +1294,15 @@ async def import_businessmap_csv_no_auth(
         print(f"📄 Preview: {decoded[:100]}...")
 
         print("📊 Processando CSV com suporte a multilinha...")
-        csv_reader = csv.reader(io.StringIO(decoded), delimiter=';', quoting=csv.QUOTE_ALL, doublequote=True)
+        # Detectar separador automaticamente (vírgula ou ponto-vírgula)
+        sample = decoded[:1000]
+        if sample.count(';') > sample.count(','):
+            delimiter = ';'
+        else:
+            delimiter = ','
+        print(f"🔍 Separador detectado: '{delimiter}'")
+
+        csv_reader = csv.reader(io.StringIO(decoded), delimiter=delimiter, quoting=csv.QUOTE_MINIMAL)
 
         # Pular cabeçalho
         try:
@@ -1913,6 +1921,8 @@ async def import_businessmap_csv(
                 
                 # Obter resultado da SP (retorna CardID)
                 sp_result = result.fetchone()
+                result.close()  # CRÍTICO: Fechar cursor para liberar conexão
+                
                 if sp_result and sp_result[0]:
                     card_id = sp_result[0]
                     print(f"✅ Card processado: ID={card_id}")
