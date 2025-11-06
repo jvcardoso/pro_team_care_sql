@@ -982,7 +982,7 @@ async def import_businessmap_xlsx(
                 sp_query = text("""
                     DECLARE @NewCardIDOut INT;
                     DECLARE @ActionTakenOut NVARCHAR(10);
-                    
+
                     EXEC [core].[sp_UpsertCardFromImport]
                         @ExternalCardID = :external_card_id,
                         @Title = :title,
@@ -999,18 +999,21 @@ async def import_businessmap_xlsx(
                         @DefaultUserID = :user_id,
                         @NewCardID = @NewCardIDOut OUTPUT,
                         @ActionTaken = @ActionTakenOut OUTPUT;
-                    
+
                     SELECT @NewCardIDOut AS NewCardID, @ActionTakenOut AS ActionTaken;
                 """)
-                
+
                 result = await db.execute(sp_query, {
                     **card_data,
                     "company_id": current_user.company_id,
                     "user_id": current_user.id
                 })
-                
+
                 sp_result = result.fetchone()
                 result.close()
+
+                # Commit após cada operação para liberar a conexão
+                await db.commit()
                 
                 if sp_result and sp_result.ActionTaken:
                     action = sp_result.ActionTaken
@@ -1360,78 +1363,65 @@ async def import_businessmap_csv_no_auth(
                 print(f"🔍 Processando card: {card_data['external_card_id']}")
 
                 try:
-                    # Parse dates
-                    from datetime import datetime
-                    due_date = None
-                    completed_date = None
-                    start_date = None
+                    # Usar Stored Procedure ITIL para importação com classificação automática
+                    sp_query = text("""
+                        DECLARE @NewCardIDOut INT;
+                        DECLARE @ActionTakenOut NVARCHAR(10);
 
-                    if card_data['deadline_str']:
-                        try:
-                            due_date = datetime.strptime(card_data['deadline_str'], '%Y-%m-%d')
-                        except:
-                            pass
+                        EXEC [core].[sp_UpsertCardFromImport]
+                            @ExternalCardID = :external_card_id,
+                            @Title = :title,
+                            @Description = :description,
+                            @OwnerName = :owner_name,
+                            @DeadlineStr = :deadline_str,
+                            @Priority = :priority,
+                            @ColumnName = :column_name,
+                            @ActualEndDateStr = :actual_end_date_str,
+                            @LastStartDateStr = :last_start_date_str,
+                            @LastComment = :last_comment,
+                            @CardURL = :card_url,
+                            @CompanyID = :company_id,
+                            @DefaultUserID = :user_id,
+                            @NewCardID = @NewCardIDOut OUTPUT,
+                            @ActionTaken = @ActionTakenOut OUTPUT;
 
-                    if card_data['actual_end_date_str']:
-                        try:
-                            completed_date = datetime.strptime(card_data['actual_end_date_str'], '%Y-%m-%d %H:%M:%S')
-                        except:
-                            pass
+                        SELECT @NewCardIDOut AS NewCardID, @ActionTakenOut AS ActionTaken;
+                    """)
 
-                    if card_data['last_start_date_str']:
-                        try:
-                            start_date = datetime.strptime(card_data['last_start_date_str'], '%Y-%m-%d %H:%M:%S')
-                        except:
-                            pass
+                    result = await db.execute(sp_query, {
+                        "external_card_id": card_data['external_card_id'],
+                        "title": card_data['title'],
+                        "description": card_data['description'],
+                        "owner_name": card_data['owner_name'],
+                        "deadline_str": card_data['deadline_str'],
+                        "priority": card_data['priority'],
+                        "column_name": card_data['column_name'],
+                        "actual_end_date_str": card_data['actual_end_date_str'],
+                        "last_start_date_str": card_data['last_start_date_str'],
+                        "last_comment": card_data['last_comment'],
+                        "card_url": card_data['card_url'],
+                        "company_id": current_user.company_id,
+                        "user_id": current_user.id
+                    })
 
-                    # CREATE: Card novo (simplificado - sem verificar existência)
-                    column_id = 1  # Default: Backlog
+                    # Consumir o resultado da SP
+                    sp_result = result.fetchone()
+                    result.close()  # IMPORTANTE: Fechar o cursor
 
-                    card = await service.card_repo.create(
-                        company_id=current_user.company_id,
-                        user_id=current_user.id,
-                        column_id=column_id,
-                        title=card_data['title'],
-                        description=card_data['description'],
-                        priority=card_data['priority'],
-                        due_date=due_date
-                    )
+                    if sp_result and sp_result.NewCardID:
+                        card_id = sp_result.NewCardID
+                        action = sp_result.ActionTaken
 
-                    # Atualizar campos adicionais
-                    update_extra = {"ExternalCardID": card_data['external_card_id']}
-                    if completed_date:
-                        update_extra["CompletedDate"] = completed_date
-                    if start_date:
-                        update_extra["StartDate"] = start_date
+                        if action == 'INSERTED':
+                            created += 1
+                        elif action == 'UPDATED':
+                            updated += 1
 
-                    await service.card_repo.update(
-                        card_id=card.CardID,
-                        company_id=current_user.company_id,
-                        **update_extra
-                    )
-
-                    # Criar movimento de criação
-                    await service.movement_repo.create(
-                        card_id=card.CardID,
-                        user_id=current_user.id,
-                        subject="Card Criado (Importado)",
-                        old_column_id=None,
-                        new_column_id=column_id
-                    )
-
-                    # Adicionar comentário se houver
-                    if card_data['last_comment']:
-                        await service.movement_repo.create(
-                            card_id=card.CardID,
-                            user_id=current_user.id,
-                            subject="Comentário da Importação",
-                            description=card_data['last_comment'],
-                            movement_type="Comment"
-                        )
-
-                    created += 1
-                    processed += 1
-                    print(f"✅ Card created: {card_data['external_card_id']} (ID: {card.CardID})")
+                        processed += 1
+                        print(f"✅ Card {action.lower()}: {card_data['external_card_id']} (ID: {card_id})")
+                    else:
+                        print(f"⚠️ SP não retornou CardID para: {card_data['external_card_id']}")
+                        errors += 1
 
                 except Exception as e:
                     print(f"❌ Erro ao processar card {card_data['external_card_id']}: {str(e)}")
