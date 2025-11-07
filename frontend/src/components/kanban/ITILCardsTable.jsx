@@ -59,11 +59,11 @@ export const ITILCardsTable = ({ cards, loading, onViewDetails }) => {
     <div className="space-y-4">
       {/* Filtros */}
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
-        <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
-          <label className="text-sm font-medium text-gray-700 dark:text-gray-300 whitespace-nowrap">
+        <div className="flex items-center gap-4">
+          <label className="text-sm font-medium text-gray-700 dark:text-gray-300">
             Filtrar por Categoria:
           </label>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex gap-2 flex-wrap">
             {categories.map(category => (
               <button
                 key={category}
@@ -86,207 +86,223 @@ export const ITILCardsTable = ({ cards, loading, onViewDetails }) => {
         </div>
       </div>
 
-      {/* Visualização em Cards (Mobile) */}
+      {/* Visualização Mobile - Cards */}
       <div className="lg:hidden space-y-3">
         {filteredCards.map((card) => (
-          <div key={card.cardId} className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 space-y-3">
+          <div key={card.cardId} className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
             {/* Header do Card */}
-            <div className="flex items-start justify-between gap-2">
+            <div className="flex items-start justify-between mb-3">
               <div className="flex-1 min-w-0">
-                <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">{card.externalCardId}</p>
-                <h4 className="text-sm font-semibold text-gray-900 dark:text-gray-100 line-clamp-2">
+                <p className="text-sm font-medium text-gray-900 dark:text-gray-100 truncate">
+                  {card.externalCardId}
+                </p>
+                <h3 className="text-sm text-gray-700 dark:text-gray-300 line-clamp-2 mt-1">
                   {card.title}
-                </h4>
+                </h3>
               </div>
               <button
                 onClick={() => onViewDetails && onViewDetails(card.cardId)}
-                className="flex-shrink-0 p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                className="ml-3 flex-shrink-0 p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                title="Ver detalhes"
               >
                 <Eye className="h-4 w-4" />
               </button>
             </div>
 
             {/* Badges */}
-            <div className="flex flex-wrap gap-2">
-              <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
-                CATEGORY_COLORS[card.itilCategory] || 'bg-gray-100 text-gray-800'
+            <div className="flex flex-wrap gap-2 mb-3">
+              <span className={`px-2 py-1 text-xs font-medium rounded-full ${
+                CATEGORY_COLORS[card.itilCategory] || 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300'
               }`}>
                 {card.itilCategory}
               </span>
-              <span className="px-2 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-800">
+              <span className="px-2 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
                 {card.columnName}
               </span>
-              <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
-                RISK_COLORS[card.riskLevel] || 'bg-gray-100 text-gray-800'
+              <span className={`px-2 py-1 text-xs font-medium rounded-full ${
+                RISK_COLORS[card.riskLevel] || 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300'
               }`}>
                 {card.riskLevel}
               </span>
             </div>
 
             {/* Metadados */}
-            {(card.hasWindow || card.hasCAB || card.hasBackout) && (
-              <div className="flex flex-wrap gap-1">
-                {card.hasWindow && (
-                  <span className="px-2 py-1 text-xs bg-purple-100 text-purple-800 rounded">🪟 Janela</span>
-                )}
-                {card.hasCAB && (
-                  <span className="px-2 py-1 text-xs bg-indigo-100 text-indigo-800 rounded">👥 CAB</span>
-                )}
-                {card.hasBackout && (
-                  <span className="px-2 py-1 text-xs bg-cyan-100 text-cyan-800 rounded">🔄 Backout</span>
-                )}
-              </div>
-            )}
+            <div className="flex items-center gap-3 mb-3">
+              {card.hasWindow && (
+                <span className="flex items-center gap-1 text-xs text-purple-600 dark:text-purple-400">
+                  <span>🪟</span>
+                  <span>Janela</span>
+                </span>
+              )}
+              {card.hasCAB && (
+                <span className="flex items-center gap-1 text-xs text-indigo-600 dark:text-indigo-400">
+                  <span>👥</span>
+                  <span>CAB</span>
+                </span>
+              )}
+              {card.hasBackout && (
+                <span className="flex items-center gap-1 text-xs text-pink-600 dark:text-pink-400">
+                  <span>🔄</span>
+                  <span>Backout</span>
+                </span>
+              )}
+            </div>
 
-            {/* SLA e Data */}
-            <div className="flex items-center justify-between text-xs text-gray-600 dark:text-gray-400 pt-2 border-t border-gray-200 dark:border-gray-700">
-              <div>
-                {card.metSLA !== null && (
-                  <div className="flex items-center gap-1">
-                    {card.metSLA ? (
-                      <CheckCircle className="h-3 w-3 text-green-600" />
-                    ) : (
-                      <XCircle className="h-3 w-3 text-red-600" />
-                    )}
-                    <span>{card.metSLA ? 'SLA OK' : `${card.daysLate}d atraso`}</span>
-                  </div>
+            {/* Status SLA e Data */}
+            <div className="flex items-center justify-between text-sm">
+              <div className="flex items-center gap-2">
+                {card.metSLA !== null ? (
+                  card.metSLA ? (
+                    <>
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      <span className="text-green-600 dark:text-green-400 font-medium">SLA OK</span>
+                    </>
+                  ) : (
+                    <>
+                      <XCircle className="h-4 w-4 text-red-500" />
+                      <span className="text-red-600 dark:text-red-400 font-medium">
+                        {card.daysLate}d atraso
+                      </span>
+                    </>
+                  )
+                ) : (
+                  <span className="text-gray-400 dark:text-gray-500">-</span>
                 )}
               </div>
-              <div>
-                {card.completedDate && (
-                  <span>Concluído: {formatDate(card.completedDate)}</span>
-                )}
+              <div className="text-gray-600 dark:text-gray-400">
+                {formatDate(card.completedDate)}
               </div>
             </div>
           </div>
         ))}
       </div>
 
-      {/* Tabela (Desktop) */}
-      <div className="hidden lg:block bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
-        <div className="px-4 sm:px-6 py-4 border-b border-gray-200 dark:border-gray-700">
-          <h3 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-gray-100">
-            Cards ITIL ({filteredCards.length})
-          </h3>
-        </div>
-        <div className="overflow-x-auto">
-          <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
-            <thead className="bg-gray-50 dark:bg-gray-700">
-              <tr>
-                <th className="px-3 sm:px-4 lg:px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
-                  ID
-                </th>
-                <th className="px-3 sm:px-4 lg:px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
-                  Título
-                </th>
-                <th className="px-3 sm:px-4 lg:px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
-                  Categoria ITIL
-                </th>
-                <th className="px-3 sm:px-4 lg:px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
-                  Coluna
-                </th>
-                <th className="px-3 sm:px-4 lg:px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
-                  Risco
-                </th>
-                <th className="px-3 sm:px-4 lg:px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
-                  Metadados
-                </th>
-                <th className="px-3 sm:px-4 lg:px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
-                  SLA
-                </th>
-                <th className="px-3 sm:px-4 lg:px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
-                  Conclusão
-                </th>
-                <th className="px-3 sm:px-4 lg:px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
-                  Ações
-                </th>
-              </tr>
-            </thead>
-            <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
-              {filteredCards.map((card) => (
-                <tr key={card.cardId} className="hover:bg-gray-50 dark:hover:bg-gray-700">
-                  <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-100">
-                    {card.externalCardId}
-                  </td>
-                  <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 text-xs sm:text-sm text-gray-900 dark:text-gray-100 max-w-[200px] sm:max-w-xs truncate">
-                    {card.title}
-                  </td>
-                  <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap">
-                    <span className={`px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${
-                      CATEGORY_COLORS[card.itilCategory] || 'bg-gray-100 text-gray-800'
-                    }`}>
-                      {card.itilCategory}
-                    </span>
-                  </td>
-                  <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap">
-                    <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
-                      {card.columnName}
-                    </span>
-                  </td>
-                  <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap">
-                    <span className={`px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${
-                      RISK_COLORS[card.riskLevel] || 'bg-gray-100 text-gray-800'
-                    }`}>
-                      {card.riskLevel}
-                    </span>
-                  </td>
-                  <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap text-xs sm:text-sm text-gray-900">
-                    <div className="flex gap-1">
-                      {card.hasWindow && (
-                        <span className="px-2 py-1 text-xs bg-purple-100 text-purple-800 rounded">
-                          Janela
-                        </span>
-                      )}
-                      {card.hasCAB && (
-                        <span className="px-2 py-1 text-xs bg-indigo-100 text-indigo-800 rounded">
-                          CAB
-                        </span>
-                      )}
-                      {card.hasBackout && (
-                        <span className="px-2 py-1 text-xs bg-pink-100 text-pink-800 rounded">
-                          Backout
-                        </span>
-                      )}
-                    </div>
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    {card.metSLA !== null ? (
-                      <div className="flex items-center gap-2">
-                        {card.metSLA ? (
-                          <>
-                            <CheckCircle className="h-5 w-5 text-green-500" />
-                            <span className="text-sm text-green-600 font-medium">Atendido</span>
-                          </>
-                        ) : (
-                          <>
-                            <XCircle className="h-5 w-5 text-red-500" />
-                            <span className="text-sm text-red-600 font-medium">
-                              {card.daysLate}d atraso
-                            </span>
-                          </>
+      {/* Visualização Desktop - Tabela Completa */}
+      <div className="hidden lg:block">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+          <div className="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
+              Cards ITIL ({filteredCards.length})
+            </h3>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+              <thead className="bg-gray-50 dark:bg-gray-700">
+                <tr>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    ID
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    Título
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    Categoria ITIL
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    Coluna
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    Risco
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    Metadados
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    SLA
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    Conclusão
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    Ações
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
+                {filteredCards.map((card) => (
+                  <tr key={card.cardId} className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-gray-100">
+                      {card.externalCardId}
+                    </td>
+                    <td className="px-6 py-4 text-sm text-gray-900 dark:text-gray-100 max-w-xs truncate">
+                      {card.title}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      <span className={`px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${
+                        CATEGORY_COLORS[card.itilCategory] || 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300'
+                      }`}>
+                        {card.itilCategory}
+                      </span>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      <span className="px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
+                        {card.columnName}
+                      </span>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      <span className={`px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${
+                        RISK_COLORS[card.riskLevel] || 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300'
+                      }`}>
+                        {card.riskLevel}
+                      </span>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                      <div className="flex gap-1">
+                        {card.hasWindow && (
+                          <span className="px-2 py-1 text-xs bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 rounded">
+                            Janela
+                          </span>
+                        )}
+                        {card.hasCAB && (
+                          <span className="px-2 py-1 text-xs bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200 rounded">
+                            CAB
+                          </span>
+                        )}
+                        {card.hasBackout && (
+                          <span className="px-2 py-1 text-xs bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-200 rounded">
+                            Backout
+                          </span>
                         )}
                       </div>
-                    ) : (
-                      <span className="text-sm text-gray-400">-</span>
-                    )}
-                  </td>
-                   <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap text-xs sm:text-sm text-gray-900 dark:text-gray-100">
-                     {formatDate(card.completedDate)}
-                   </td>
-                   <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap text-xs sm:text-sm">
-                     <button
-                       onClick={() => onViewDetails && onViewDetails(card.cardId)}
-                       className="inline-flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1.5 sm:py-2 bg-blue-600 text-white text-xs sm:text-sm rounded-lg hover:bg-blue-700 transition-colors shadow-sm hover:shadow-md"
-                     >
-                       <Eye className="h-3 w-3 sm:h-4 sm:w-4" />
-                       <span className="hidden sm:inline">Ver Detalhes</span>
-                       <span className="sm:hidden">Ver</span>
-                     </button>
-                   </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      {card.metSLA !== null ? (
+                        <div className="flex items-center gap-2">
+                          {card.metSLA ? (
+                            <>
+                              <CheckCircle className="h-5 w-5 text-green-500" />
+                              <span className="text-sm text-green-600 dark:text-green-400 font-medium">Atendido</span>
+                            </>
+                          ) : (
+                            <>
+                              <XCircle className="h-5 w-5 text-red-500" />
+                              <span className="text-sm text-red-600 dark:text-red-400 font-medium">
+                                {card.daysLate}d atraso
+                              </span>
+                            </>
+                          )}
+                        </div>
+                      ) : (
+                        <span className="text-sm text-gray-400 dark:text-gray-500">-</span>
+                      )}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                      {formatDate(card.completedDate)}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm">
+                      <button
+                        onClick={() => onViewDetails && onViewDetails(card.cardId)}
+                        className="inline-flex items-center gap-2 px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-sm hover:shadow-md"
+                      >
+                        <Eye className="h-4 w-4" />
+                        Ver Detalhes
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
