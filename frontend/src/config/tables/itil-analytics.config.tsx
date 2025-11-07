@@ -5,12 +5,9 @@
 
 import React from "react";
 import {
-  Eye,
   CheckCircle,
   XCircle,
   AlertTriangle,
-  Clock,
-  TrendingUp,
 } from "lucide-react";
 import { DataTableConfig } from "../../types/dataTable.types";
 
@@ -74,11 +71,19 @@ export const createItilAnalyticsConfig = (
       label: "ID",
       type: "text",
       sortable: true,
-      width: "w-24", // Largura reduzida para IDs
-      render: (value) => (
-        <span className="font-mono text-sm font-medium text-gray-900 dark:text-gray-100 whitespace-nowrap">
+      width: "w-32", // Largura aumentada para botão
+      render: (value, item) => (
+        <button
+          onClick={() => {
+            if (actionHandlers?.onViewDetails) {
+              actionHandlers.onViewDetails(item.cardId);
+            }
+          }}
+          className="font-mono text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline whitespace-nowrap cursor-pointer transition-colors"
+          title="Clique para ver detalhes"
+        >
           {value}
-        </span>
+        </button>
       ),
     },
     {
@@ -298,20 +303,8 @@ export const createItilAnalyticsConfig = (
   // Campos de busca
   searchFields: ["externalCardId", "title"] as (keyof ITILCard)[],
 
-  // Ações (coluna sempre visível à direita)
-  actions: [
-    {
-      id: "view_details",
-      label: "Ver Detalhes",
-      icon: <Eye className="h-4 w-4" />,
-      color: "blue",
-      onClick: (item) => {
-        if (actionHandlers?.onViewDetails) {
-          actionHandlers.onViewDetails(item.cardId);
-        }
-      },
-    },
-  ],
+  // Ações (integradas na coluna ID como botão clicável)
+  actions: [],
 
   // Configuração de Exportação
   export: {
