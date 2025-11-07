@@ -10,7 +10,9 @@ import {
 } from "lucide-react";
 import { CardDetailModal } from "../components/kanban/CardDetailModal";
 import { ITILSummaryChart } from "../components/kanban/ITILSummaryChart";
-import { ITILCardsTable } from "../components/kanban/ITILCardsTable";
+import { DataTableTemplate } from "../components/shared/DataTable/DataTableTemplate";
+import { createItilAnalyticsConfig } from "../config/tables/itil-analytics.config";
+import { useItilAnalyticsDataTable } from "../hooks/useItilAnalyticsDataTable";
 
 /**
  * Dashboard de Analytics dedicado ao Kanban
@@ -30,9 +32,25 @@ const KanbanAnalyticsPage = () => {
   // Estados para ITIL
   const [activeTab, setActiveTab] = useState('analytics'); // 'analytics' ou 'itil'
   const [itilSummary, setItilSummary] = useState([]);
-  const [itilCards, setItilCards] = useState([]);
   const [itilLoading, setItilLoading] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
+  
+  // Hook para tabela ITIL paginada
+  const itilTableData = useItilAnalyticsDataTable({
+    startDate: dateRange.start,
+    endDate: dateRange.end,
+  });
+  
+  // Configuração da tabela ITIL
+  const itilConfig = createItilAnalyticsConfig(undefined, {
+    onViewDetails: (cardId) => {
+      // Buscar card e abrir modal
+      const card = itilTableData.state.data.find(c => c.cardId === cardId);
+      if (card) {
+        setSelectedCard(card);
+      }
+    },
+  });
 
   // Datas padrão: ano atual (01/01 até hoje)
   function getDefaultStartDate() {
@@ -494,16 +512,10 @@ const KanbanAnalyticsPage = () => {
       {activeTab === 'itil' && (
         <>
           <ITILSummaryChart data={itilSummary} loading={itilLoading} />
-          <ITILCardsTable 
-            cards={itilCards} 
-            loading={itilLoading}
-            onViewDetails={(cardId) => {
-              // Buscar card e abrir modal
-              const card = itilCards.find(c => c.cardId === cardId);
-              if (card) {
-                setSelectedCard(card);
-              }
-            }}
+          <DataTableTemplate
+            config={itilConfig}
+            tableData={itilTableData}
+            loading={itilTableData.state.loading}
           />
         </>
       )}
