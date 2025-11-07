@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { api } from "../services/api";
-import { 
-  BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, 
-  Tooltip, Legend, ResponsiveContainer 
+import { getCard } from "../services/kanbanService";
+import {
+  BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid,
+  Tooltip, Legend, ResponsiveContainer
 } from "recharts";
 import { 
   TrendingUp, Clock, CheckCircle, AlertCircle, 
@@ -41,13 +42,23 @@ const KanbanAnalyticsPage = () => {
     endDate: dateRange.end,
   });
   
+  // Função para carregar detalhes do card
+  const loadCardDetails = async (cardId) => {
+    try {
+      const cardDetails = await getCard(cardId);
+      if (cardDetails) {
+        setSelectedCard(cardDetails);
+      }
+    } catch (error) {
+      console.error("Erro ao carregar detalhes do card:", error);
+    }
+  };
+
   // Configuração da tabela ITIL
   const itilConfig = createItilAnalyticsConfig(undefined, {
     onViewDetails: (cardId) => {
-      // Buscar card e abrir modal
-      const card = itilTableData.state.data.find(c => c.cardId === cardId);
-      if (card) {
-        setSelectedCard(card);
+      if (cardId) {
+        loadCardDetails(cardId);
       }
     },
   });

@@ -224,3 +224,13 @@ Error:   Failed to scan for dependencies from entries:
 7:03:37 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanAnalyticsPage.jsx
 7:03:50 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanAnalyticsPage.jsx
 7:04:01 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanAnalyticsPage.jsx
+7:06:28 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanAnalyticsPage.jsx
+7:06:32 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanAnalyticsPage.jsx
+7:07:22 PM [vite] hmr update /src/pages/KanbanAnalyticsPage.jsx, /src/styles/index.css
+7:07:35 PM [vite] hmr update /src/pages/KanbanAnalyticsPage.jsx, /src/styles/index.css
+7:07:41 PM [vite] hmr update /src/pages/KanbanAnalyticsPage.jsx, /src/styles/index.css
+7:07:45 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanAnalyticsPage.jsx
+7:07:48 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanAnalyticsPage.jsx
+7:07:52 PM [vite] hmr update /src/pages/KanbanAnalyticsPage.jsx, /src/styles/index.css
+7:10:12 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanAnalyticsPage.jsx
+7:10:41 PM [vite] hmr update /src/styles/index.css, /src/pages/KanbanAnalyticsPage.jsx
