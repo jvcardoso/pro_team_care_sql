@@ -103,6 +103,39 @@ Corrigir problemas de layout em dispositivos móveis na aba "Relatório ITIL" da
 
 ### **2. ITILCardsTable.jsx**
 
+#### **🎯 SOLUÇÃO PRINCIPAL: Visualização em Cards para Mobile**
+
+**Problema:** Tabela com 9 colunas causava scroll horizontal excessivo em mobile, dificultando navegação.
+
+**Solução:** Implementar duas visualizações diferentes:
+- **Mobile (< 1024px):** Cards empilháveis sem scroll horizontal
+- **Desktop (≥ 1024px):** Tabela completa tradicional
+
+```jsx
+{/* Visualização em Cards (Mobile) */}
+<div className="lg:hidden space-y-3">
+  {filteredCards.map((card) => (
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+      {/* Header: ID + Título + Botão Ver */}
+      {/* Badges: Categoria + Coluna + Risco */}
+      {/* Metadados: Janela, CAB, Backout */}
+      {/* Footer: SLA + Data Conclusão */}
+    </div>
+  ))}
+</div>
+
+{/* Tabela (Desktop) */}
+<div className="hidden lg:block">
+  <table>...</table>
+</div>
+```
+
+**Resultado:**
+- ✅ Zero scroll horizontal em mobile
+- ✅ Todas as informações visíveis
+- ✅ Navegação intuitiva
+- ✅ Melhor UX em dispositivos móveis
+
 #### **Filtros Responsivos**
 ```jsx
 // ANTES
@@ -254,27 +287,30 @@ Corrigir problemas de layout em dispositivos móveis na aba "Relatório ITIL" da
 ## 📈 Resultados
 
 ### **Antes:**
-- ❌ Scroll horizontal excessivo
-- ❌ Cards muito pequenos em mobile
+- ❌ Scroll horizontal excessivo na tabela ITIL
+- ❌ Cards de resumo muito pequenos em mobile
 - ❌ Gráficos cortados
-- ❌ Tabela ilegível
+- ❌ Tabela com 9 colunas ilegível em mobile
 - ❌ Botões muito grandes
+- ❌ Navegação difícil em dispositivos móveis
 
 ### **Depois:**
-- ✅ Scroll horizontal apenas quando necessário
-- ✅ Cards legíveis em todas as telas
-- ✅ Gráficos bem dimensionados
-- ✅ Tabela navegável
-- ✅ Botões proporcionais
+- ✅ **ZERO scroll horizontal** - Cards empilháveis em mobile
+- ✅ Cards de resumo legíveis (2 colunas em tablet)
+- ✅ Gráficos bem dimensionados e empilhados
+- ✅ **Visualização adaptativa:** Cards (mobile) / Tabela (desktop)
+- ✅ Botões proporcionais ao tamanho da tela
+- ✅ Navegação fluida e intuitiva
 
 ---
 
 ## 🚀 Melhorias Futuras
 
 ### **Curto Prazo:**
-1. **Cards em formato de lista em mobile** - Alternativa à tabela
+1. ~~**Cards em formato de lista em mobile**~~ - ✅ **IMPLEMENTADO!**
 2. **Gráficos interativos** - Zoom e pan em mobile
 3. **Filtros em modal** - Economizar espaço vertical
+4. **Ordenação nos cards mobile** - Permitir ordenar por data, categoria, etc.
 
 ### **Médio Prazo:**
 1. **Progressive Web App (PWA)** - Instalação em mobile
