@@ -25666,3 +25666,825 @@ WHERE core.users.id = ?
 2025-11-07 10:42:07,025 INFO sqlalchemy.engine.Engine [cached since 5.363e+04s ago] ('2025-10-08', '2025-11-07', 1)
 2025-11-07 10:42:07,032 INFO sqlalchemy.engine.Engine ROLLBACK
 INFO:     192.168.11.12:49524 - "GET /api/v1/kanban/analytics/itil-cards?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:60125 - "OPTIONS /api/v1/kanban/columns HTTP/1.1" 200 OK
+INFO:     192.168.11.12:53552 - "OPTIONS /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 10:48:32,636 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,636 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,637 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:48:32,637 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] ('1',)
+2025-11-07 10:48:32,638 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:48:32,638 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] ('1',)
+2025-11-07 10:48:32,640 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:48:32,642 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:48:32,648 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,649 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:48:32,649 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] (1,)
+2025-11-07 10:48:32,650 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,651 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:48:32,651 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] (1,)
+2025-11-07 10:48:32,654 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 10:48:32,655 INFO sqlalchemy.engine.Engine [cached since 5.387e+04s ago] (1,)
+2025-11-07 10:48:32,657 INFO sqlalchemy.engine.Engine 
+        SELECT
+            CardID,
+            CardCreatedAt,
+            OldColumnName,
+            NewColumnName,
+            MovementDate,
+            TimeInStageSeconds,
+            DueDate
+        FROM [analytics].[vw_CardFullHistory]
+        WHERE CompanyID = ?
+          AND MovementDate BETWEEN ? AND ?
+        
+2025-11-07 10:48:32,658 INFO sqlalchemy.engine.Engine [cached since 5.387e+04s ago] (1, '2025-10-08', '2025-11-07')
+2025-11-07 10:48:32,660 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:60125 - "GET /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 10:48:32,666 INFO sqlalchemy.engine.Engine 
+        SELECT COUNT(DISTINCT c.CardID) AS WIPCount
+        FROM [core].[Cards] c
+        WHERE c.CompanyID = ?
+          AND c.IsDeleted = 0
+          AND c.CompletedDate IS NULL
+          AND c.ColumnID IN (
+              SELECT cc.ColumnID
+              FROM core.CardColumns cc
+              WHERE cc.CompanyID = ?
+                AND cc.ColumnName NOT IN ('Backlog', 'Concluído')
+          )
+        
+2025-11-07 10:48:32,666 INFO sqlalchemy.engine.Engine [cached since 5.387e+04s ago] (1, 1)
+2025-11-07 10:48:32,667 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,668 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:48:32,668 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] ('1',)
+2025-11-07 10:48:32,671 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-11-07 10:48:32,672 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     192.168.11.12:53815 - "GET /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+2025-11-07 10:48:32,680 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,681 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:48:32,681 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] ('1',)
+2025-11-07 10:48:32,682 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,682 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:48:32,683 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] (1,)
+2025-11-07 10:48:32,683 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:48:32,687 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 10:48:32,688 INFO sqlalchemy.engine.Engine [cached since 5.387e+04s ago] (1,)
+2025-11-07 10:48:32,693 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-11-07 10:48:32,694 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,694 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:48:32,694 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] (1,)
+INFO:     192.168.11.12:60125 - "GET /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 10:48:32,699 INFO sqlalchemy.engine.Engine 
+        SELECT
+            CardID,
+            CardCreatedAt,
+            OldColumnName,
+            NewColumnName,
+            MovementDate,
+            TimeInStageSeconds,
+            DueDate
+        FROM [analytics].[vw_CardFullHistory]
+        WHERE CompanyID = ?
+          AND MovementDate BETWEEN ? AND ?
+        
+2025-11-07 10:48:32,699 INFO sqlalchemy.engine.Engine [cached since 5.387e+04s ago] (1, '2025-10-08', '2025-11-07')
+2025-11-07 10:48:32,706 INFO sqlalchemy.engine.Engine 
+        SELECT COUNT(DISTINCT c.CardID) AS WIPCount
+        FROM [core].[Cards] c
+        WHERE c.CompanyID = ?
+          AND c.IsDeleted = 0
+          AND c.CompletedDate IS NULL
+          AND c.ColumnID IN (
+              SELECT cc.ColumnID
+              FROM core.CardColumns cc
+              WHERE cc.CompanyID = ?
+                AND cc.ColumnName NOT IN ('Backlog', 'Concluído')
+          )
+        
+2025-11-07 10:48:32,706 INFO sqlalchemy.engine.Engine [cached since 5.387e+04s ago] (1, 1)
+2025-11-07 10:48:32,711 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:53815 - "GET /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+2025-11-07 10:48:32,884 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,885 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:48:32,885 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] ('1',)
+2025-11-07 10:48:32,887 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:48:32,894 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,895 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:48:32,895 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] (1,)
+2025-11-07 10:48:32,899 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 10:48:32,899 INFO sqlalchemy.engine.Engine [cached since 5.387e+04s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 10:48:32,914 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:53815 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 10:48:32,921 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,922 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:48:32,922 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] ('1',)
+2025-11-07 10:48:32,924 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:48:32,931 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:32,932 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:48:32,932 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] (1,)
+2025-11-07 10:48:32,936 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 10:48:32,936 INFO sqlalchemy.engine.Engine [cached since 5.387e+04s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 10:48:32,951 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:53815 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:53815 - "OPTIONS /api/v1/menus/dynamic HTTP/1.1" 200 OK
+2025-11-07 10:48:33,433 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:33,434 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:48:33,434 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] ('1',)
+2025-11-07 10:48:33,436 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:48:33,443 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:33,444 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:48:33,444 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] (1,)
+2025-11-07 10:48:33,448 INFO sqlalchemy.engine.Engine 
+            EXEC [core].[sp_get_dynamic_menus] @user_id_input = ?
+        
+2025-11-07 10:48:33,448 INFO sqlalchemy.engine.Engine [cached since 5.388e+04s ago] (1,)
+2025-11-07 10:48:33,457 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:53815 - "GET /api/v1/menus/dynamic HTTP/1.1" 200 OK
+2025-11-07 10:48:35,468 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:35,469 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:48:35,469 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] ('1',)
+2025-11-07 10:48:35,472 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:48:35,478 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:35,479 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:48:35,479 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] (1,)
+2025-11-07 10:48:35,483 INFO sqlalchemy.engine.Engine 
+        SELECT 
+            ITILCategory,
+            COUNT(*) AS TotalCards,
+            AVG(CycleTimeSeconds) AS AvgCycleTime,
+            SUM(MetSLA) * 100.0 / NULLIF(COUNT(*), 0) AS SLACompliance,
+            SUM(CASE WHEN RiskLevel = 'High' THEN 1 ELSE 0 END) AS HighRiskCount,
+            SUM(CASE WHEN HasWindow = 1 THEN 1 ELSE 0 END) AS WithWindow,
+            SUM(CASE WHEN HasCAB = 1 THEN 1 ELSE 0 END) AS WithCAB,
+            SUM(CASE WHEN HasBackout = 1 THEN 1 ELSE 0 END) AS WithBackout
+        FROM analytics.vw_ITILReport
+        WHERE CompletedDate BETWEEN ? AND ?
+        AND CompanyID = ?
+        GROUP BY ITILCategory
+        ORDER BY TotalCards DESC
+    
+2025-11-07 10:48:35,483 INFO sqlalchemy.engine.Engine [cached since 5.402e+04s ago] ('2025-10-08', '2025-11-07', 1)
+2025-11-07 10:48:35,488 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:53815 - "GET /api/v1/kanban/analytics/itil-summary?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+2025-11-07 10:48:35,499 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:35,500 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:48:35,500 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] ('1',)
+2025-11-07 10:48:35,502 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:48:35,508 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:48:35,509 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:48:35,509 INFO sqlalchemy.engine.Engine [cached since 5.404e+04s ago] (1,)
+2025-11-07 10:48:35,513 INFO sqlalchemy.engine.Engine 
+        SELECT 
+            CardID, ExternalCardID, Title, Description, ColumnName,
+            ITILCategory, Priority, RiskLevel, HasWindow, HasCAB, HasBackout,
+            StartDate, CompletedDate, DueDate, MetSLA, DaysLate
+        FROM analytics.vw_ITILReport
+        WHERE CompletedDate BETWEEN ? AND ?
+        AND CompanyID = ?
+     ORDER BY CompletedDate DESC
+2025-11-07 10:48:35,513 INFO sqlalchemy.engine.Engine [cached since 5.402e+04s ago] ('2025-10-08', '2025-11-07', 1)
+2025-11-07 10:48:35,520 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:53815 - "GET /api/v1/kanban/analytics/itil-cards?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:57511 - "OPTIONS /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:54279 - "OPTIONS /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+2025-11-07 10:49:41,768 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:41,768 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:41,769 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] ('1',)
+2025-11-07 10:49:41,770 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:41,770 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:41,771 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] ('1',)
+2025-11-07 10:49:41,771 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:41,776 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:41,782 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:41,782 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:41,783 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] (1,)
+2025-11-07 10:49:41,784 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:41,785 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:41,785 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] (1,)
+2025-11-07 10:49:41,788 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 10:49:41,788 INFO sqlalchemy.engine.Engine [cached since 5.394e+04s ago] (1,)
+2025-11-07 10:49:41,791 INFO sqlalchemy.engine.Engine 
+        SELECT
+            CardID,
+            CardCreatedAt,
+            OldColumnName,
+            NewColumnName,
+            MovementDate,
+            TimeInStageSeconds,
+            DueDate
+        FROM [analytics].[vw_CardFullHistory]
+        WHERE CompanyID = ?
+          AND MovementDate BETWEEN ? AND ?
+        
+2025-11-07 10:49:41,791 INFO sqlalchemy.engine.Engine [cached since 5.394e+04s ago] (1, '2025-10-08', '2025-11-07')
+2025-11-07 10:49:41,793 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:57032 - "GET /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 10:49:41,801 INFO sqlalchemy.engine.Engine 
+        SELECT COUNT(DISTINCT c.CardID) AS WIPCount
+        FROM [core].[Cards] c
+        WHERE c.CompanyID = ?
+          AND c.IsDeleted = 0
+          AND c.CompletedDate IS NULL
+          AND c.ColumnID IN (
+              SELECT cc.ColumnID
+              FROM core.CardColumns cc
+              WHERE cc.CompanyID = ?
+                AND cc.ColumnName NOT IN ('Backlog', 'Concluído')
+          )
+        
+2025-11-07 10:49:41,801 INFO sqlalchemy.engine.Engine [cached since 5.394e+04s ago] (1, 1)
+2025-11-07 10:49:41,802 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:41,803 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:41,803 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] ('1',)
+2025-11-07 10:49:41,806 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-11-07 10:49:41,807 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     192.168.11.12:57511 - "GET /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+2025-11-07 10:49:41,816 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:41,817 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:41,817 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] (1,)
+2025-11-07 10:49:41,817 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:41,818 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:41,818 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] ('1',)
+2025-11-07 10:49:41,822 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:41,823 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 10:49:41,823 INFO sqlalchemy.engine.Engine [cached since 5.394e+04s ago] (1,)
+2025-11-07 10:49:41,828 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-11-07 10:49:41,829 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:41,830 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:41,830 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] (1,)
+INFO:     192.168.11.12:57032 - "GET /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 10:49:41,835 INFO sqlalchemy.engine.Engine 
+        SELECT
+            CardID,
+            CardCreatedAt,
+            OldColumnName,
+            NewColumnName,
+            MovementDate,
+            TimeInStageSeconds,
+            DueDate
+        FROM [analytics].[vw_CardFullHistory]
+        WHERE CompanyID = ?
+          AND MovementDate BETWEEN ? AND ?
+        
+2025-11-07 10:49:41,835 INFO sqlalchemy.engine.Engine [cached since 5.394e+04s ago] (1, '2025-10-08', '2025-11-07')
+2025-11-07 10:49:41,842 INFO sqlalchemy.engine.Engine 
+        SELECT COUNT(DISTINCT c.CardID) AS WIPCount
+        FROM [core].[Cards] c
+        WHERE c.CompanyID = ?
+          AND c.IsDeleted = 0
+          AND c.CompletedDate IS NULL
+          AND c.ColumnID IN (
+              SELECT cc.ColumnID
+              FROM core.CardColumns cc
+              WHERE cc.CompanyID = ?
+                AND cc.ColumnName NOT IN ('Backlog', 'Concluído')
+          )
+        
+2025-11-07 10:49:41,842 INFO sqlalchemy.engine.Engine [cached since 5.394e+04s ago] (1, 1)
+2025-11-07 10:49:41,847 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:57511 - "GET /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:57511 - "OPTIONS /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:57032 - "OPTIONS /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:54279 - "OPTIONS /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 10:49:42,010 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:42,011 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:42,011 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] ('1',)
+2025-11-07 10:49:42,013 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:42,021 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:42,022 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:42,022 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] (1,)
+2025-11-07 10:49:42,026 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 10:49:42,026 INFO sqlalchemy.engine.Engine [cached since 5.394e+04s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 10:49:42,040 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:54065 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 10:49:42,048 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:42,049 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:42,049 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] ('1',)
+2025-11-07 10:49:42,051 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:42,058 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:42,059 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:42,059 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] (1,)
+2025-11-07 10:49:42,063 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 10:49:42,063 INFO sqlalchemy.engine.Engine [cached since 5.394e+04s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 10:49:42,077 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:54065 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 10:49:42,083 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:42,084 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:42,084 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] ('1',)
+2025-11-07 10:49:42,086 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:42,092 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:42,093 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:42,093 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] (1,)
+2025-11-07 10:49:42,097 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 10:49:42,097 INFO sqlalchemy.engine.Engine [cached since 5.394e+04s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 10:49:42,114 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:54065 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 10:49:42,565 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:42,566 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:42,566 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] ('1',)
+2025-11-07 10:49:42,568 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:42,575 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:42,576 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:42,576 INFO sqlalchemy.engine.Engine [cached since 5.411e+04s ago] (1,)
+2025-11-07 10:49:42,580 INFO sqlalchemy.engine.Engine 
+            EXEC [core].[sp_get_dynamic_menus] @user_id_input = ?
+        
+2025-11-07 10:49:42,580 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] (1,)
+2025-11-07 10:49:42,591 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:54065 - "GET /api/v1/menus/dynamic HTTP/1.1" 200 OK
+INFO:     192.168.11.12:59790 - "OPTIONS /api/v1/kanban/board HTTP/1.1" 200 OK
+INFO:     192.168.11.12:57872 - "OPTIONS /api/v1/kanban/board HTTP/1.1" 200 OK
+2025-11-07 10:49:48,466 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:48,467 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:48,467 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] ('1',)
+2025-11-07 10:49:48,469 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:48,476 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:48,477 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:48,477 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] (1,)
+2025-11-07 10:49:48,481 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 10:49:48,481 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] (1,)
+2025-11-07 10:49:48,485 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,486 INFO sqlalchemy.engine.Engine [cached since 694.1s ago] (1, 1, 0, 100)
+2025-11-07 10:49:48,491 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,491 INFO sqlalchemy.engine.Engine [cached since 694.1s ago] (1, 2, 0, 100)
+2025-11-07 10:49:48,495 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,496 INFO sqlalchemy.engine.Engine [cached since 694.1s ago] (1, 3, 0, 100)
+2025-11-07 10:49:48,501 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,501 INFO sqlalchemy.engine.Engine [cached since 694.1s ago] (1, 4, 0, 100)
+2025-11-07 10:49:48,505 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,505 INFO sqlalchemy.engine.Engine [cached since 694.1s ago] (1, 5, 0, 100)
+2025-11-07 10:49:48,525 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:59790 - "GET /api/v1/kanban/board HTTP/1.1" 200 OK
+2025-11-07 10:49:48,532 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:48,533 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:48,533 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] ('1',)
+2025-11-07 10:49:48,535 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:48,541 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:48,542 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:48,542 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] (1,)
+2025-11-07 10:49:48,546 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 10:49:48,546 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] (1,)
+2025-11-07 10:49:48,550 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,550 INFO sqlalchemy.engine.Engine [cached since 694.2s ago] (1, 1, 0, 100)
+2025-11-07 10:49:48,560 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,561 INFO sqlalchemy.engine.Engine [cached since 694.2s ago] (1, 2, 0, 100)
+2025-11-07 10:49:48,565 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,565 INFO sqlalchemy.engine.Engine [cached since 694.2s ago] (1, 3, 0, 100)
+2025-11-07 10:49:48,570 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,570 INFO sqlalchemy.engine.Engine [cached since 694.2s ago] (1, 4, 0, 100)
+2025-11-07 10:49:48,575 INFO sqlalchemy.engine.Engine SELECT core.[Cards].[CardID], core.[Cards].[CompanyID], core.[Cards].[UserID], core.[Cards].[ColumnID], core.[Cards].[DisplayOrder], core.[Cards].[Title], core.[Cards].[Description], core.[Cards].[OriginalText], core.[Cards].[SubStatus], core.[Cards].[Priority], core.[Cards].[StartDate], core.[Cards].[DueDate], core.[Cards].[CompletedDate], core.[Cards].[CreatedAt], core.[Cards].[IsDeleted], core.[Cards].[DeletedAt], core.[Cards].[ExternalCardID] 
+FROM core.[Cards] 
+WHERE core.[Cards].[CompanyID] = ? AND core.[Cards].[IsDeleted] = 0 AND core.[Cards].[ColumnID] = ? ORDER BY core.[Cards].[DisplayOrder] ASC, core.[Cards].[CreatedAt] DESC
+ OFFSET ? ROWS
+ FETCH FIRST ? ROWS ONLY
+2025-11-07 10:49:48,575 INFO sqlalchemy.engine.Engine [cached since 694.2s ago] (1, 5, 0, 100)
+2025-11-07 10:49:48,595 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:57872 - "GET /api/v1/kanban/board HTTP/1.1" 200 OK
+2025-11-07 10:49:50,478 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,479 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,480 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:50,480 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] ('1',)
+2025-11-07 10:49:50,481 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:50,481 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] ('1',)
+2025-11-07 10:49:50,482 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:50,484 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:50,492 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,492 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:50,493 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] (1,)
+2025-11-07 10:49:50,493 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,494 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:50,495 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] (1,)
+2025-11-07 10:49:50,497 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 10:49:50,498 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] (1,)
+2025-11-07 10:49:50,500 INFO sqlalchemy.engine.Engine 
+        SELECT
+            CardID,
+            CardCreatedAt,
+            OldColumnName,
+            NewColumnName,
+            MovementDate,
+            TimeInStageSeconds,
+            DueDate
+        FROM [analytics].[vw_CardFullHistory]
+        WHERE CompanyID = ?
+          AND MovementDate BETWEEN ? AND ?
+        
+2025-11-07 10:49:50,500 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] (1, '2025-10-08', '2025-11-07')
+2025-11-07 10:49:50,503 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:57872 - "GET /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 10:49:50,509 INFO sqlalchemy.engine.Engine 
+        SELECT COUNT(DISTINCT c.CardID) AS WIPCount
+        FROM [core].[Cards] c
+        WHERE c.CompanyID = ?
+          AND c.IsDeleted = 0
+          AND c.CompletedDate IS NULL
+          AND c.ColumnID IN (
+              SELECT cc.ColumnID
+              FROM core.CardColumns cc
+              WHERE cc.CompanyID = ?
+                AND cc.ColumnName NOT IN ('Backlog', 'Concluído')
+          )
+        
+2025-11-07 10:49:50,509 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] (1, 1)
+2025-11-07 10:49:50,510 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,511 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:50,511 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] ('1',)
+2025-11-07 10:49:50,515 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-11-07 10:49:50,515 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     192.168.11.12:59790 - "GET /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+2025-11-07 10:49:50,524 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,525 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,525 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:50,526 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] ('1',)
+2025-11-07 10:49:50,526 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:50,526 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] (1,)
+2025-11-07 10:49:50,528 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:50,531 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 10:49:50,531 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] (1,)
+2025-11-07 10:49:50,537 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-11-07 10:49:50,537 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,538 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:50,539 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] (1,)
+INFO:     192.168.11.12:57872 - "GET /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 10:49:50,544 INFO sqlalchemy.engine.Engine 
+        SELECT
+            CardID,
+            CardCreatedAt,
+            OldColumnName,
+            NewColumnName,
+            MovementDate,
+            TimeInStageSeconds,
+            DueDate
+        FROM [analytics].[vw_CardFullHistory]
+        WHERE CompanyID = ?
+          AND MovementDate BETWEEN ? AND ?
+        
+2025-11-07 10:49:50,544 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] (1, '2025-10-08', '2025-11-07')
+2025-11-07 10:49:50,551 INFO sqlalchemy.engine.Engine 
+        SELECT COUNT(DISTINCT c.CardID) AS WIPCount
+        FROM [core].[Cards] c
+        WHERE c.CompanyID = ?
+          AND c.IsDeleted = 0
+          AND c.CompletedDate IS NULL
+          AND c.ColumnID IN (
+              SELECT cc.ColumnID
+              FROM core.CardColumns cc
+              WHERE cc.CompanyID = ?
+                AND cc.ColumnName NOT IN ('Backlog', 'Concluído')
+          )
+        
+2025-11-07 10:49:50,551 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] (1, 1)
+2025-11-07 10:49:50,556 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:59790 - "GET /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+2025-11-07 10:49:50,589 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,590 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:50,590 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] ('1',)
+2025-11-07 10:49:50,592 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:50,599 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,599 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:50,599 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] (1,)
+2025-11-07 10:49:50,603 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 10:49:50,603 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 10:49:50,617 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:59790 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 10:49:50,624 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,624 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:50,624 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] ('1',)
+2025-11-07 10:49:50,626 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:50,633 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,633 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:50,634 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] (1,)
+2025-11-07 10:49:50,637 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 10:49:50,637 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 10:49:50,652 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:59790 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 10:49:50,659 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,660 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 10:49:50,660 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] ('1',)
+2025-11-07 10:49:50,662 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 10:49:50,668 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 10:49:50,669 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 10:49:50,669 INFO sqlalchemy.engine.Engine [cached since 5.412e+04s ago] (1,)
+2025-11-07 10:49:50,673 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 10:49:50,673 INFO sqlalchemy.engine.Engine [cached since 5.395e+04s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 10:49:50,686 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:59790 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'check_xlsx_dates.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2986135]
+Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x727803ba1340>
+Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x72780374ca10>
+WARNING:  WatchFiles detected changes in 'verify_completed_dates.py'. Reloading...
+WARNING:  WatchFiles detected changes in 'list_sps.py'. Reloading...
+WARNING:  WatchFiles detected changes in 'restore_correct_dates.py'. Reloading...
+WARNING:  WatchFiles detected changes in 'fix_all_analytics_issues.py'. Reloading...
+WARNING:  WatchFiles detected changes in 'fix_completed_dates.py', 'fix_completed_dates_v2.py'. Reloading...
+WARNING:  WatchFiles detected changes in 'test_analytics_empty.py'. Reloading...
+WARNING:  WatchFiles detected changes in 'check_card_dates.py'. Reloading...
+WARNING:  WatchFiles detected changes in 'test_analytics_endpoint.py'. Reloading...
+WARNING:  WatchFiles detected changes in 'check_xlsx_columns.py'. Reloading...
+INFO:     Started server process [3400431]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ Image analysis router loaded
+==================================================
+🚀 Pro Team Care v1.0.0
+📝 Documentação: http://localhost:8000/docs
+🔍 Health Check: http://localhost:8000/health
+⚠️  DATABASE FIRST: Certifique-se de criar as tabelas manualmente!
+==================================================
+INFO:     192.168.11.12:65249 - "OPTIONS /api/v1/kanban/columns HTTP/1.1" 200 OK
+INFO:     192.168.11.12:49930 - "OPTIONS /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:61344 - "OPTIONS /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:58917 - "OPTIONS /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 11:33:05,526 INFO sqlalchemy.engine.Engine SELECT CAST(SERVERPROPERTY('ProductVersion') AS VARCHAR)
+2025-11-07 11:33:05,526 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-11-07 11:33:05,532 INFO sqlalchemy.engine.Engine SELECT schema_name()
+2025-11-07 11:33:05,532 INFO sqlalchemy.engine.Engine [generated in 0.00063s] ()
+sys:1: SAWarning: Unrecognized server version info '17.0.925.4'.  Some SQL Server features may not function properly.
+2025-11-07 11:33:05,546 INFO sqlalchemy.engine.Engine SELECT CAST('test max support' AS NVARCHAR(max))
+2025-11-07 11:33:05,546 INFO sqlalchemy.engine.Engine [generated in 0.00058s] ()
+2025-11-07 11:33:05,550 INFO sqlalchemy.engine.Engine SELECT 1 FROM fn_listextendedproperty(default, default, default, default, default, default, default)
+2025-11-07 11:33:05,550 INFO sqlalchemy.engine.Engine [generated in 0.00069s] ()
+2025-11-07 11:33:05,556 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:05,556 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:05,557 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 11:33:05,558 INFO sqlalchemy.engine.Engine [generated in 0.00147s] ('1',)
+2025-11-07 11:33:05,558 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 11:33:05,558 INFO sqlalchemy.engine.Engine [cached since 0.002067s ago] ('1',)
+2025-11-07 11:33:05,561 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 11:33:05,562 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 11:33:05,577 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:05,862 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 11:33:05,862 INFO sqlalchemy.engine.Engine [generated in 0.00142s] (1,)
+2025-11-07 11:33:05,863 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:05,864 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 11:33:05,864 INFO sqlalchemy.engine.Engine [cached since 0.003109s ago] (1,)
+2025-11-07 11:33:05,877 INFO sqlalchemy.engine.Engine 
+        SELECT
+            CardID,
+            CardCreatedAt,
+            OldColumnName,
+            NewColumnName,
+            MovementDate,
+            TimeInStageSeconds,
+            DueDate
+        FROM [analytics].[vw_CardFullHistory]
+        WHERE CompanyID = ?
+          AND MovementDate BETWEEN ? AND ?
+        
+2025-11-07 11:33:05,877 INFO sqlalchemy.engine.Engine [generated in 0.00560s] (1, '2025-10-08', '2025-11-07')
+2025-11-07 11:33:05,877 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 11:33:05,877 INFO sqlalchemy.engine.Engine [generated in 0.00121s] (1,)
+2025-11-07 11:33:05,887 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-11-07 11:33:05,889 INFO sqlalchemy.engine.Engine 
+        SELECT COUNT(DISTINCT c.CardID) AS WIPCount
+        FROM [core].[Cards] c
+        WHERE c.CompanyID = ?
+          AND c.IsDeleted = 0
+          AND c.CompletedDate IS NULL
+          AND c.ColumnID IN (
+              SELECT cc.ColumnID
+              FROM core.CardColumns cc
+              WHERE cc.CompanyID = ?
+                AND cc.ColumnName NOT IN ('Backlog', 'Concluído')
+          )
+        
+2025-11-07 11:33:05,889 INFO sqlalchemy.engine.Engine [generated in 0.00106s] (1, 1)
+INFO:     192.168.11.12:65249 - "GET /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 11:33:05,895 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:49930 - "GET /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+2025-11-07 11:33:05,901 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:05,902 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 11:33:05,902 INFO sqlalchemy.engine.Engine [cached since 0.3458s ago] ('1',)
+2025-11-07 11:33:05,904 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 11:33:05,906 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:05,907 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 11:33:05,907 INFO sqlalchemy.engine.Engine [cached since 0.3512s ago] ('1',)
+2025-11-07 11:33:05,912 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 11:33:05,914 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:05,918 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 11:33:05,918 INFO sqlalchemy.engine.Engine [cached since 0.05721s ago] (1,)
+2025-11-07 11:33:05,920 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:05,921 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 11:33:05,921 INFO sqlalchemy.engine.Engine [cached since 0.06051s ago] (1,)
+2025-11-07 11:33:05,924 INFO sqlalchemy.engine.Engine SELECT core.[CardColumns].[ColumnID], core.[CardColumns].[CompanyID], core.[CardColumns].[ColumnName], core.[CardColumns].[DisplayOrder], core.[CardColumns].[Color], core.[CardColumns].[IsActive], core.[CardColumns].[CreatedAt] 
+FROM core.[CardColumns] 
+WHERE core.[CardColumns].[CompanyID] = ? AND core.[CardColumns].[IsActive] = 1 ORDER BY core.[CardColumns].[DisplayOrder]
+2025-11-07 11:33:05,925 INFO sqlalchemy.engine.Engine [cached since 0.04845s ago] (1,)
+2025-11-07 11:33:05,927 INFO sqlalchemy.engine.Engine 
+        SELECT
+            CardID,
+            CardCreatedAt,
+            OldColumnName,
+            NewColumnName,
+            MovementDate,
+            TimeInStageSeconds,
+            DueDate
+        FROM [analytics].[vw_CardFullHistory]
+        WHERE CompanyID = ?
+          AND MovementDate BETWEEN ? AND ?
+        
+2025-11-07 11:33:05,928 INFO sqlalchemy.engine.Engine [cached since 0.05686s ago] (1, '2025-10-08', '2025-11-07')
+2025-11-07 11:33:05,930 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:65249 - "GET /api/v1/kanban/columns HTTP/1.1" 200 OK
+2025-11-07 11:33:05,937 INFO sqlalchemy.engine.Engine 
+        SELECT COUNT(DISTINCT c.CardID) AS WIPCount
+        FROM [core].[Cards] c
+        WHERE c.CompanyID = ?
+          AND c.IsDeleted = 0
+          AND c.CompletedDate IS NULL
+          AND c.ColumnID IN (
+              SELECT cc.ColumnID
+              FROM core.CardColumns cc
+              WHERE cc.CompanyID = ?
+                AND cc.ColumnName NOT IN ('Backlog', 'Concluído')
+          )
+        
+2025-11-07 11:33:05,938 INFO sqlalchemy.engine.Engine [cached since 0.04931s ago] (1, 1)
+2025-11-07 11:33:05,942 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:49930 - "GET /api/v1/kanban/analytics?start_date=2025-10-08&end_date=2025-11-07 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:49930 - "OPTIONS /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+INFO:     192.168.11.12:65249 - "OPTIONS /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 11:33:06,074 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:06,074 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 11:33:06,074 INFO sqlalchemy.engine.Engine [cached since 0.5183s ago] ('1',)
+2025-11-07 11:33:06,077 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 11:33:06,083 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:06,084 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 11:33:06,084 INFO sqlalchemy.engine.Engine [cached since 0.2232s ago] (1,)
+2025-11-07 11:33:06,088 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 11:33:06,088 INFO sqlalchemy.engine.Engine [generated in 0.00053s] ('2025-10-08', '2025-11-07', 1, 1)
+INFO:     192.168.11.12:65249 - "OPTIONS /api/v1/menus/dynamic HTTP/1.1" 200 OK
+2025-11-07 11:33:06,103 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-11-07 11:33:06,104 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+INFO:     192.168.11.12:49930 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 11:33:06,107 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 11:33:06,107 INFO sqlalchemy.engine.Engine [cached since 0.5511s ago] ('1',)
+2025-11-07 11:33:06,109 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 11:33:06,112 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:06,115 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 11:33:06,115 INFO sqlalchemy.engine.Engine [cached since 0.5585s ago] ('1',)
+2025-11-07 11:33:06,117 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 11:33:06,119 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:06,122 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 11:33:06,122 INFO sqlalchemy.engine.Engine [cached since 0.2612s ago] (1,)
+2025-11-07 11:33:06,126 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:06,126 INFO sqlalchemy.engine.Engine 
+            EXEC [core].[sp_get_dynamic_menus] @user_id_input = ?
+        
+2025-11-07 11:33:06,127 INFO sqlalchemy.engine.Engine [generated in 0.00140s] (1,)
+2025-11-07 11:33:06,127 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 11:33:06,127 INFO sqlalchemy.engine.Engine [cached since 0.2664s ago] (1,)
+2025-11-07 11:33:06,133 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 11:33:06,133 INFO sqlalchemy.engine.Engine [cached since 0.04542s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 11:33:06,139 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:65249 - "GET /api/v1/menus/dynamic HTTP/1.1" 200 OK
+2025-11-07 11:33:06,147 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:58917 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+2025-11-07 11:33:06,166 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:06,166 INFO sqlalchemy.engine.Engine EXEC sp_set_session_context @key = N'user_id', @value = ?
+2025-11-07 11:33:06,167 INFO sqlalchemy.engine.Engine [cached since 0.6104s ago] ('1',)
+2025-11-07 11:33:06,169 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-07 11:33:06,175 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-07 11:33:06,176 INFO sqlalchemy.engine.Engine SELECT core.users.person_id, core.users.company_id, core.users.establishment_id, core.users.invited_by_user_id, core.users.email_address, core.users.password, core.users.is_active, core.users.is_system_admin, core.users.context_type, core.users.notification_settings, core.users.two_factor_secret, core.users.two_factor_recovery_codes, core.users.last_login_at, core.users.password_changed_at, core.users.deleted_at, core.users.id, core.users.created_at, core.users.updated_at 
+FROM core.users 
+WHERE core.users.id = ?
+2025-11-07 11:33:06,176 INFO sqlalchemy.engine.Engine [cached since 0.3147s ago] (1,)
+2025-11-07 11:33:06,179 INFO sqlalchemy.engine.Engine EXEC [core].[sp_GetAnalyticsCardsDetails] @StartDate = ?, @EndDate = ?, @CompanyID = ?, @UserID = ?
+2025-11-07 11:33:06,179 INFO sqlalchemy.engine.Engine [cached since 0.09184s ago] ('2025-10-08', '2025-11-07', 1, 1)
+2025-11-07 11:33:06,192 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     192.168.11.12:65249 - "GET /api/v1/kanban/analytics/cards-in-period?start_date=2025-10-08&end_date=2025-11-07&column_ids=1,2,3,4,5 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3400431]
+Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x7eee380428a0>
+Unclosed connection
+connection: <aioodbc.connection.Connection object at 0x7eee37effcb0>
+INFO:     Stopping reloader process [2790515]

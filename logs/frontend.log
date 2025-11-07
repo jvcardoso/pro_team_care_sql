@@ -298,3 +298,564 @@
 10:41:48 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
 10:42:06 AM [vite] hmr update /src/pages/KanbanAnalyticsPage.jsx, /src/styles/index.css
 10:46:40 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
+10:52:34 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
+10:52:34 AM [vite] Internal server error: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (180:6)
+
+  178 |       </div>
+  179 |         </div>
+> 180 |       </div>
+      |       ^
+  181 |
+  182 |       {/* Visualização em Cards (Mobile) */}
+  183 |       <div className="lg:hidden space-y-3">
+  Plugin: vite:react-babel
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx:180:6
+  178|        </div>
+  179|          </div>
+  180|        </div>
+     |        ^
+  181|  
+  182|        {/* Visualização em Cards (Mobile) */}
+      at constructor (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+      at JSXParserMixin.jsxParseElementAt (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4775:18)
+      at JSXParserMixin.jsxParseElement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4782:17)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4792:19)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12503:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11683:28)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at JSXParserMixin.parseExpressionBase (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10788:23)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12431:16)
+      at JSXParserMixin.parseExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:17)
+      at JSXParserMixin.parseReturnStatement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13151:28)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12807:21)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseStatementListItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13325:61)
+      at JSXParserMixin.parseBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+      at JSXParserMixin.parseBlock (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseFunctionBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12110:24)
+      at JSXParserMixin.parseArrowExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12085:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11695:12)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+10:54:37 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
+10:54:37 AM [vite] Internal server error: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (180:6)
+
+  178 |       </div>
+  179 |         </div>
+> 180 |       </div>
+      |       ^
+  181 |
+  182 |       {/* Visualização Mobile - Cards */}
+  183 |       <div className="lg:hidden space-y-3">
+  Plugin: vite:react-babel
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx:180:6
+  178|        </div>
+  179|          </div>
+  180|        </div>
+     |        ^
+  181|  
+  182|        {/* Visualização Mobile - Cards */}
+      at constructor (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+      at JSXParserMixin.jsxParseElementAt (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4775:18)
+      at JSXParserMixin.jsxParseElement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4782:17)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4792:19)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12503:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11683:28)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at JSXParserMixin.parseExpressionBase (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10788:23)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12431:16)
+      at JSXParserMixin.parseExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:17)
+      at JSXParserMixin.parseReturnStatement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13151:28)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12807:21)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseStatementListItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13325:61)
+      at JSXParserMixin.parseBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+      at JSXParserMixin.parseBlock (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseFunctionBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12110:24)
+      at JSXParserMixin.parseArrowExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12085:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11695:12)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+10:55:20 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
+10:55:20 AM [vite] Internal server error: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Missing semicolon. (342:9)
+
+  340 |             </div>
+  341 |           </div>
+> 342 |         ))}
+      |          ^
+  343 |       </div>
+  344 |
+  345 |       {/* Tabela (Desktop) */}
+  Plugin: vite:react-babel
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx:342:9
+  340|              </div>
+  341|            </div>
+  342|          ))}
+     |           ^
+  343|        </div>
+  344|  
+      at constructor (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+      at JSXParserMixin.semicolon (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6926:10)
+      at JSXParserMixin.parseReturnStatement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13152:12)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12807:21)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseStatementListItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13325:61)
+      at JSXParserMixin.parseBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+      at JSXParserMixin.parseBlock (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseFunctionBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12110:24)
+      at JSXParserMixin.parseArrowExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12085:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11695:12)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12431:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+      at JSXParserMixin.parseVar (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13393:91)
+      at JSXParserMixin.parseVarStatement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13239:10)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12860:23)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseStatementListItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+      at JSXParserMixin.parseExportDeclaration (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13943:17)
+      at JSXParserMixin.maybeParseExportDeclaration (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13902:31)
+      at JSXParserMixin.parseExport (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13821:29)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12887:27)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseModuleItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12753:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13325:36)
+      at JSXParserMixin.parseBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+      at JSXParserMixin.parseProgram (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12634:10)
+      at JSXParserMixin.parseTopLevel (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12624:25)
+      at JSXParserMixin.parse (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:14501:10)
+      at parse (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:14535:38)
+      at parser (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+10:55:29 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
+10:55:29 AM [vite] Internal server error: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (309:8)
+
+  307 |       </div>
+  308 |         </div>
+> 309 |         <div className="overflow-x-auto">
+      |         ^
+  310 |           <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+  311 |             <thead className="bg-gray-50 dark:bg-gray-700">
+  312 |               <tr>
+  Plugin: vite:react-babel
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx:309:8
+  307|        </div>
+  308|          </div>
+  309|          <div className="overflow-x-auto">
+     |          ^
+  310|            <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+  311|              <thead className="bg-gray-50 dark:bg-gray-700">
+      at constructor (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+      at JSXParserMixin.jsxParseElementAt (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4775:18)
+      at JSXParserMixin.jsxParseElement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4782:17)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4792:19)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12503:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11683:28)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at JSXParserMixin.parseExpressionBase (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10788:23)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12431:16)
+      at JSXParserMixin.parseExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:17)
+      at JSXParserMixin.parseReturnStatement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13151:28)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12807:21)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseStatementListItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13325:61)
+      at JSXParserMixin.parseBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+      at JSXParserMixin.parseBlock (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseFunctionBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12110:24)
+      at JSXParserMixin.parseArrowExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12085:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11695:12)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+10:55:39 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
+10:55:39 AM [vite] Internal server error: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (309:20)
+
+  307 |         </div>
+  308 |       </div>
+> 309 |                     <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+      |                     ^
+  310 |                       {card.columnName}
+  311 |                     </span>
+  312 |                   </td>
+  Plugin: vite:react-babel
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx:309:20
+  307|          </div>
+  308|        </div>
+  309|                      <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+     |                      ^
+  310|                        {card.columnName}
+  311|                      </span>
+      at constructor (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+      at JSXParserMixin.jsxParseElementAt (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4775:18)
+      at JSXParserMixin.jsxParseElement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4782:17)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4792:19)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12503:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11683:28)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at JSXParserMixin.parseExpressionBase (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10788:23)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12431:16)
+      at JSXParserMixin.parseExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:17)
+      at JSXParserMixin.parseReturnStatement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13151:28)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12807:21)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseStatementListItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13325:61)
+      at JSXParserMixin.parseBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+      at JSXParserMixin.parseBlock (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseFunctionBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12110:24)
+      at JSXParserMixin.parseArrowExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12085:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11695:12)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+/home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (309:20)
+
+  307 |         </div>
+  308 |       </div>
+> 309 |                     <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+      |                     ^
+  310 |                       {card.columnName}
+  311 |                     </span>
+  312 |                   </td>
+11:10:06 AM [vite] Internal server error: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (309:20)
+
+  307 |         </div>
+  308 |       </div>
+> 309 |                     <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+      |                     ^
+  310 |                       {card.columnName}
+  311 |                     </span>
+  312 |                   </td>
+  Plugin: vite:react-babel
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx:309:20
+  307|          </div>
+  308|        </div>
+  309|                      <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+     |                      ^
+  310|                        {card.columnName}
+  311|                      </span>
+      at constructor (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+      at JSXParserMixin.jsxParseElementAt (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4775:18)
+      at JSXParserMixin.jsxParseElement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4782:17)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4792:19)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12503:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11683:28)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at JSXParserMixin.parseExpressionBase (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10788:23)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12431:16)
+      at JSXParserMixin.parseExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:17)
+      at JSXParserMixin.parseReturnStatement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13151:28)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12807:21)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseStatementListItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13325:61)
+      at JSXParserMixin.parseBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+      at JSXParserMixin.parseBlock (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseFunctionBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12110:24)
+      at JSXParserMixin.parseArrowExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12085:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11695:12)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+11:10:17 AM [vite] Internal server error: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (309:20)
+
+  307 |         </div>
+  308 |       </div>
+> 309 |                     <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+      |                     ^
+  310 |                       {card.columnName}
+  311 |                     </span>
+  312 |                   </td>
+  Plugin: vite:react-babel
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx:309:20
+  307|          </div>
+  308|        </div>
+  309|                      <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+     |                      ^
+  310|                        {card.columnName}
+  311|                      </span>
+      at constructor (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+      at JSXParserMixin.jsxParseElementAt (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4775:18)
+      at JSXParserMixin.jsxParseElement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4782:17)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4792:19)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12503:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11683:28)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at JSXParserMixin.parseExpressionBase (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10788:23)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12431:16)
+      at JSXParserMixin.parseExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:17)
+      at JSXParserMixin.parseReturnStatement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13151:28)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12807:21)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseStatementListItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13325:61)
+      at JSXParserMixin.parseBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+      at JSXParserMixin.parseBlock (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseFunctionBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12110:24)
+      at JSXParserMixin.parseArrowExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12085:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11695:12)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+11:31:21 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
+/home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Expected corresponding JSX closing tag for <div>. (311:18)
+
+  309 |                       {card.columnName}
+  310 |                     </span>
+> 311 |                   </td>
+      |                   ^
+  312 |                   <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap">
+  313 |                     <span className={`px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${
+  314 |                       RISK_COLORS[card.riskLevel] || 'bg-gray-100 text-gray-800'
+11:32:19 AM [vite] Internal server error: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx: Expected corresponding JSX closing tag for <div>. (311:18)
+
+  309 |                       {card.columnName}
+  310 |                     </span>
+> 311 |                   </td>
+      |                   ^
+  312 |                   <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap">
+  313 |                     <span className={`px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${
+  314 |                       RISK_COLORS[card.riskLevel] || 'bg-gray-100 text-gray-800'
+  Plugin: vite:react-babel
+  File: /home/juliano/Projetos/meu_projeto/frontend/src/components/kanban/ITILCardsTable.jsx:311:18
+  309|                        {card.columnName}
+  310|                      </span>
+  311|                    </td>
+     |                    ^
+  312|                    <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap">
+  313|                      <span className={`px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${
+      at constructor (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+      at JSXParserMixin.jsxParseElementAt (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4760:16)
+      at JSXParserMixin.jsxParseElement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4782:17)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4792:19)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12503:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11683:28)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at JSXParserMixin.parseExpressionBase (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10788:23)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:39
+      at JSXParserMixin.allowInAnd (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12431:16)
+      at JSXParserMixin.parseExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10784:17)
+      at JSXParserMixin.parseReturnStatement (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13151:28)
+      at JSXParserMixin.parseStatementContent (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12807:21)
+      at JSXParserMixin.parseStatementLike (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+      at JSXParserMixin.parseStatementListItem (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13325:61)
+      at JSXParserMixin.parseBlockBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+      at JSXParserMixin.parseBlock (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseFunctionBody (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12110:24)
+      at JSXParserMixin.parseArrowExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:12085:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11695:12)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+      at JSXParserMixin.parseExprSubscripts (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+      at JSXParserMixin.parseUpdate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+      at JSXParserMixin.parseMaybeUnary (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+      at JSXParserMixin.parseExprOps (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+      at JSXParserMixin.parseMaybeConditional (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+      at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+      at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+11:33:02 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
