@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect, useCallback } from "react";
-import { UseDataTableReturn } from "../types/dataTable.types";
+import { UseDataTableReturn, DataTableState, DataTableCallbacks, DataTableMetric } from "../types/dataTable.types";
 import { ITILCard } from "../config/tables/itil-analytics.config";
 import { api } from "../services/api";
 
@@ -29,24 +29,24 @@ export const useItilAnalyticsDataTable = (
   const [data, setData] = useState<ITILCard[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  
+
   // Pagination
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(50);
   const [totalRecords, setTotalRecords] = useState(0);
   const [totalPages, setTotalPages] = useState(0);
-  
+
   // Filters
   const [searchTerm, setSearchTerm] = useState("");
   const [activeFilters, setActiveFilters] = useState<Record<string, any>>({});
-  
+
   // Sorting
   const [sortBy, setSortBy] = useState("completedDate");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("desc");
-  
+
   // Selection
   const [selectedItems, setSelectedItems] = useState<number[]>([]);
-  
+
   // UI State
   const [showDetailedMetrics, setShowDetailedMetrics] = useState(false);
   const [showExportDropdown, setShowExportDropdown] = useState(false);
@@ -88,7 +88,7 @@ export const useItilAnalyticsDataTable = (
 
       // Fazer requisição
       const response = await api.get<PaginatedResponse>(
-        "/kanban/analytics/itil-cards-paginated",
+        "/api/v1/kanban/analytics/itil-cards-paginated",
         { params: queryParams }
       );
 
@@ -136,62 +136,47 @@ export const useItilAnalyticsDataTable = (
   }, [searchTerm, activeFilters, sortBy, sortOrder]);
 
   // Callbacks
-  const callbacks: UseDataTableReturn<ITILCard>["callbacks"] = {
+  const callbacks: DataTableCallbacks<ITILCard> = {
     onPageChange: (page: number) => {
       setCurrentPage(page);
     },
-    
+
     onPageSizeChange: (size: number) => {
       setPageSize(size);
       setCurrentPage(1); // Reset to first page
     },
-    
+
     onSearch: (term: string) => {
       setSearchTerm(term);
     },
-    
-    onFilterChange: (filters: Record<string, any>) => {
-      setActiveFilters(filters);
+
+    onFilter: (key: string, value: any) => {
+      setActiveFilters(prev => ({ ...prev, [key]: value }));
     },
-    
-    onSort: (field: string) => {
-      if (sortBy === field) {
-        // Toggle order
-        setSortOrder(sortOrder === "asc" ? "desc" : "asc");
-      } else {
-        // New field, default to desc
-        setSortBy(field);
-        setSortOrder("desc");
-      }
+
+    onClearFilters: () => {
+      setActiveFilters({});
+      setSearchTerm("");
     },
-    
-    onSelectItem: (id: number) => {
-      setSelectedItems(prev =>
-        prev.includes(id)
-          ? prev.filter(itemId => itemId !== id)
-          : [...prev, id]
-      );
-    },
-    
-    onSelectAll: () => {
-      if (selectedItems.length === data.length) {
-        setSelectedItems([]);
-      } else {
+
+    onSelectAll: (selected: boolean) => {
+      if (selected) {
         setSelectedItems(data.map(item => item.id));
+      } else {
+        setSelectedItems([]);
       }
     },
-    
-    onClearSelection: () => {
-      setSelectedItems([]);
+
+    onSelectItem: (id: number, selected: boolean) => {
+      if (selected) {
+        setSelectedItems(prev => [...prev, id]);
+      } else {
+        setSelectedItems(prev => prev.filter(itemId => itemId !== id));
+      }
     },
-    
-    onRefresh: () => {
-      fetchData();
-    },
-    
-    onExport: (format: "csv" | "json") => {
-      // Exportar dados atuais
-      const exportData = data.map(item => ({
+
+    onExport: (format: string, data?: ITILCard[]) => {
+      const exportData = (data || []).map(item => ({
         ID: item.externalCardId,
         Título: item.title,
         Categoria: item.itilCategory,
@@ -228,59 +213,87 @@ export const useItilAnalyticsDataTable = (
         link.click();
       }
     },
-    
-    toggleDetailedMetrics: () => {
+
+    onAction: (actionId: string, item: ITILCard) => {
+      // Handle individual actions
+      console.log("Action:", actionId, "Item:", item);
+    },
+
+    onBulkAction: (actionId: string, items: ITILCard[]) => {
+      // Handle bulk actions
+      console.log("Bulk Action:", actionId, "Items:", items);
+    },
+
+    // UI State callbacks
+    onToggleDetailedMetrics: () => {
       setShowDetailedMetrics(prev => !prev);
     },
-    
-    toggleExportDropdown: () => {
+
+    onToggleExportDropdown: () => {
       setShowExportDropdown(prev => !prev);
+    },
+
+    onOpenModal: (item: ITILCard) => {
+      // Handle modal opening
+      console.log("Open modal for:", item);
+    },
+
+    onCloseModal: () => {
+      // Handle modal closing
+      console.log("Close modal");
     },
   };
 
   // Metrics
-  const metrics = {
-    primary: [
-      {
-        label: "Total de Cards",
-        value: totalRecords,
-        color: "blue" as const,
-      },
-      {
-        label: "SLA Compliance",
-        value: data.length > 0
-          ? Math.round(
-              (data.filter(item => item.metSLA === true).length / 
-               data.filter(item => item.metSLA !== null).length) * 100
-            ) || 0
-          : 0,
-        format: "percentage" as const,
-        color: "green" as const,
-      },
-      {
-        label: "Alto Risco",
-        value: data.filter(item => item.riskLevel === "High").length,
-        color: "red" as const,
-      },
-    ],
-  };
+  const metrics: DataTableMetric[] = [
+    {
+      id: "total_cards",
+      title: "Total de Cards",
+      value: totalRecords,
+      subtitle: "concluídos no período",
+      icon: "📊",
+      color: "blue",
+    },
+    {
+      id: "sla_compliance",
+      title: "SLA Compliance",
+      value: data.length > 0
+        ? Math.round(
+            (data.filter(item => item.metSLA === true).length /
+             data.filter(item => item.metSLA !== null).length) * 100
+          ) || 0
+        : 0,
+      subtitle: "percentual de atendimento",
+      icon: "✓",
+      color: "green",
+    },
+    {
+      id: "high_risk",
+      title: "Alto Risco",
+      value: data.filter(item => item.riskLevel === "High").length,
+      subtitle: "cards de alto risco",
+      icon: "⚠",
+      color: "red",
+    },
+  ];
 
   // State
-  const state: UseDataTableReturn<ITILCard>["state"] = {
+  const state: DataTableState = {
     data,
+    filteredData: data, // For now, same as data
     loading,
     error,
     currentPage,
     pageSize,
-    totalRecords,
     totalPages,
+    total: totalRecords,
     searchTerm,
     activeFilters,
-    sortBy,
-    sortOrder,
     selectedItems,
     showDetailedMetrics,
     showExportDropdown,
+    selectedItemForModal: null,
+    isModalOpen: false,
   };
 
   return {

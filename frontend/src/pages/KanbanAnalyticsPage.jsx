@@ -173,12 +173,8 @@ const KanbanAnalyticsPage = () => {
         `/api/v1/kanban/analytics/itil-summary?start_date=${dateRange.start}&end_date=${dateRange.end}`
       );
       setItilSummary(summaryResponse.data);
-      
-      // Buscar cards ITIL
-      const cardsResponse = await api.get(
-        `/api/v1/kanban/analytics/itil-cards?start_date=${dateRange.start}&end_date=${dateRange.end}`
-      );
-      setItilCards(cardsResponse.data);
+
+      // Cards ITIL agora vêm do hook useItilAnalyticsDataTable
       
     } catch (err) {
       console.error("Erro ao carregar dados ITIL:", err);

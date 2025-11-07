@@ -74,8 +74,9 @@ export const createItilAnalyticsConfig = (
       label: "ID",
       type: "text",
       sortable: true,
+      width: "w-24", // Largura reduzida para IDs
       render: (value) => (
-        <span className="font-mono text-sm font-medium text-gray-900 dark:text-gray-100">
+        <span className="font-mono text-sm font-medium text-gray-900 dark:text-gray-100 whitespace-nowrap">
           {value}
         </span>
       ),
@@ -85,6 +86,7 @@ export const createItilAnalyticsConfig = (
       label: "Título",
       type: "text",
       sortable: true,
+      width: "w-40", // Largura reduzida para títulos
       render: (value) => (
         <div className="max-w-xs truncate text-sm text-gray-900 dark:text-gray-100" title={value}>
           {value}
@@ -96,8 +98,9 @@ export const createItilAnalyticsConfig = (
       label: "Categoria ITIL",
       type: "custom",
       sortable: true,
+      width: "w-28", // Largura reduzida para categoria ITIL
       render: (value) => (
-        <span className={`px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${
+        <span className={`px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full whitespace-nowrap ${
           CATEGORY_COLORS[value] || 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300'
         }`}>
           {value}
@@ -109,8 +112,9 @@ export const createItilAnalyticsConfig = (
       label: "Coluna",
       type: "text",
       sortable: true,
+      width: "w-28", // Largura para nome da coluna
       render: (value) => (
-        <span className="px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
+        <span className="px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full whitespace-nowrap bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
           {value}
         </span>
       ),
@@ -120,8 +124,9 @@ export const createItilAnalyticsConfig = (
       label: "Risco",
       type: "custom",
       sortable: true,
+      width: "w-20", // Largura para nível de risco
       render: (value) => (
-        <span className={`px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${
+        <span className={`px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full whitespace-nowrap ${
           RISK_COLORS[value] || 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300'
         }`}>
           {value}
@@ -132,8 +137,9 @@ export const createItilAnalyticsConfig = (
       key: "hasWindow",
       label: "Metadados",
       type: "custom",
+      width: "w-32", // Largura reduzida para metadados
       render: (_, item) => (
-        <div className="flex gap-1">
+        <div className="flex gap-1 whitespace-nowrap">
           {item.hasWindow && (
             <span className="px-2 py-1 text-xs bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 rounded" title="Janela de Mudança">
               Janela
@@ -157,18 +163,19 @@ export const createItilAnalyticsConfig = (
       label: "SLA",
       type: "custom",
       sortable: true,
+      width: "w-24", // Largura reduzida para status SLA
       render: (value, item) => {
         if (value === null) {
           return <span className="text-sm text-gray-400 dark:text-gray-500">-</span>;
         }
-        
+
         return value ? (
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 whitespace-nowrap">
             <CheckCircle className="h-5 w-5 text-green-500" />
             <span className="text-sm text-green-600 dark:text-green-400 font-medium">Atendido</span>
           </div>
         ) : (
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 whitespace-nowrap">
             <XCircle className="h-5 w-5 text-red-500" />
             <span className="text-sm text-red-600 dark:text-red-400 font-medium">
               {item.daysLate}d atraso
@@ -182,8 +189,9 @@ export const createItilAnalyticsConfig = (
       label: "Conclusão",
       type: "date",
       sortable: true,
+      width: "w-24", // Largura para data de conclusão
       render: (value) => (
-        <span className="text-sm text-gray-900 dark:text-gray-100">
+        <span className="text-sm text-gray-900 dark:text-gray-100 whitespace-nowrap">
           {formatDate(value)}
         </span>
       ),
@@ -260,45 +268,43 @@ export const createItilAnalyticsConfig = (
   // Métricas
   metrics: {
     primary: [
-    {
-      key: "total",
-      label: "Total de Cards",
-      icon: <TrendingUp className="h-5 w-5" />,
-      color: "blue",
-      getValue: (data) => data?.length || 0,
-    },
-    {
-      key: "slaCompliance",
-      label: "SLA Compliance",
-      icon: <CheckCircle className="h-5 w-5" />,
-      color: "green",
-      format: "percentage",
-      getValue: (data) => {
-        if (!data || data.length === 0) return 0;
-        const withSLA = data.filter((item: ITILCard) => item.metSLA !== null);
-        if (withSLA.length === 0) return 0;
-        const met = withSLA.filter((item: ITILCard) => item.metSLA === true).length;
-        return (met / withSLA.length) * 100;
+      {
+        id: "total_cards",
+        title: "Total de Cards",
+        value: 0,
+        subtitle: "concluídos no período",
+        icon: "📊",
+        color: "blue",
       },
-    },
-    {
-      key: "highRisk",
-      label: "Alto Risco",
-      icon: <AlertTriangle className="h-5 w-5" />,
-      color: "red",
-      getValue: (data) => {
-        if (!data) return 0;
-        return data.filter((item: ITILCard) => item.riskLevel === 'High').length;
+      {
+        id: "sla_compliance",
+        title: "SLA Compliance",
+        value: 0,
+        subtitle: "percentual de atendimento",
+        icon: "✓",
+        color: "green",
       },
-    },
+      {
+        id: "high_risk",
+        title: "Alto Risco",
+        value: 0,
+        subtitle: "cards de alto risco",
+        icon: "⚠",
+        color: "red",
+      },
     ],
   },
 
-  // Ações
+  // Campos de busca
+  searchFields: ["externalCardId", "title"] as (keyof ITILCard)[],
+
+  // Ações (coluna sempre visível à direita)
   actions: [
     {
+      id: "view_details",
       label: "Ver Detalhes",
       icon: <Eye className="h-4 w-4" />,
+      color: "blue",
       onClick: (item) => {
         if (actionHandlers?.onViewDetails) {
           actionHandlers.onViewDetails(item.cardId);
@@ -308,39 +314,22 @@ export const createItilAnalyticsConfig = (
   ],
 
   // Configuração de Exportação
-  exportConfig: {
+  export: {
     filename: "relatorio-itil",
     formats: ["csv", "json"],
-    columns: [
-      "externalCardId",
-      "title",
-      "itilCategory",
-      "columnName",
-      "riskLevel",
-      "metSLA",
-      "daysLate",
-      "completedDate",
-    ],
+    includeFiltered: true,
   },
 
-  // Configuração de Paginação
-  pagination: {
-    defaultPageSize: 50,
-    pageSizeOptions: [25, 50, 100],
-  },
+  // Paginação
+  defaultPageSize: 50,
+  pageSizeOptions: [25, 50, 100],
 
-  // Configuração de Busca
-  searchConfig: {
-    placeholder: "Buscar por ID, título ou descrição...",
-    debounceMs: 300,
-  },
+  // Busca
+  searchPlaceholder: "Buscar por ID, título ou descrição...",
 
   // Tema
   theme: "default",
 
   // Não mostrar botão de adicionar
-  hideAddButton: true,
-
-  // Não mostrar seleção múltipla
-  disableSelection: true,
+  showAddButton: false,
 });
