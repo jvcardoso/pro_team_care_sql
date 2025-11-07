@@ -859,3 +859,7 @@
       at JSXParserMixin.parseMaybeAssign (/home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
       at /home/juliano/Projetos/meu_projeto/frontend/node_modules/@babel/parser/lib/index.js:10804:39
 11:33:02 AM [vite] hmr update /src/components/kanban/ITILCardsTable.jsx, /src/styles/index.css
+3:03:19 PM [vite] page reload src/config/tables/index.ts
+3:03:34 PM [vite] page reload src/config/tables/itil-analytics.config.tsx
+3:03:59 PM [vite] page reload src/config/tables/itil-analytics.config.tsx
+3:04:12 PM [vite] page reload src/config/tables/itil-analytics.config.tsx

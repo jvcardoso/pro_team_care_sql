@@ -43,7 +43,9 @@ from app.schemas.kanban import (
     CardMovementResponse,
     CardColumnResponse,
     KanbanAnalyticsResponse,
-    KanbanAnalyticsSummary
+    KanbanAnalyticsSummary,
+    ITILCardResponse,
+    ITILCardsPaginatedResponse
 )
 from app.models.user import User
 
@@ -2109,4 +2111,190 @@ async def get_itil_cards(
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Erro ao buscar cards ITIL: {str(e)}"
+        )
+
+
+@router.get(
+    "/analytics/itil-cards-paginated",
+    response_model=ITILCardsPaginatedResponse,
+    summary="Lista cards ITIL com paginação e filtros avançados"
+)
+async def get_itil_cards_paginated(
+    skip: int = Query(0, ge=0, description="Número de registros para pular"),
+    limit: int = Query(50, ge=1, le=100, description="Número de registros por página"),
+    search: Optional[str] = Query(None, description="Busca global (ID, título, descrição)"),
+    category_filter: Optional[str] = Query(None, description="Filtro por categoria ITIL"),
+    risk_filter: Optional[str] = Query(None, description="Filtro por nível de risco"),
+    sla_filter: Optional[str] = Query(None, description="Filtro por status SLA (met/missed/all)"),
+    has_window: Optional[bool] = Query(None, description="Filtro por janela de mudança"),
+    has_cab: Optional[bool] = Query(None, description="Filtro por CAB"),
+    has_backout: Optional[bool] = Query(None, description="Filtro por plano de backout"),
+    start_date: str = Query(..., description="Data inicial (YYYY-MM-DD)"),
+    end_date: str = Query(..., description="Data final (YYYY-MM-DD)"),
+    sort_by: str = Query("completedDate", description="Campo para ordenação"),
+    sort_order: str = Query("desc", description="Ordem (asc/desc)"),
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_active_user)
+):
+    """
+    Lista cards ITIL com paginação, busca e filtros avançados.
+    
+    Recursos:
+    - Paginação (skip/limit)
+    - Busca global por ID, título ou descrição
+    - Filtros por categoria, risco, SLA, metadados
+    - Ordenação por qualquer coluna
+    - Retorna total de registros e páginas
+    
+    Retorna:
+    {
+        "items": [...],
+        "total": 105,
+        "page": 1,
+        "pages": 3,
+        "skip": 0,
+        "limit": 50
+    }
+    """
+    # Validar empresa do usuário
+    company_id = current_user.CompanyID
+    if not company_id:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Usuário deve pertencer a uma empresa"
+        )
+    
+    # Query base
+    sql_base = """
+        SELECT 
+            CardID, ExternalCardID, Title, ColumnName,
+            ITILCategory, RiskLevel, HasWindow, HasCAB, HasBackout,
+            CompletedDate, MetSLA, DaysLate
+        FROM analytics.vw_ITILReport
+        WHERE CompletedDate BETWEEN :start_date AND :end_date
+        AND CompanyID = :company_id
+    """
+    
+    # Construir condições WHERE dinamicamente
+    conditions = []
+    params = {
+        "start_date": start_date,
+        "end_date": end_date,
+        "company_id": company_id
+    }
+    
+    # Busca global
+    if search:
+        conditions.append("""
+            (ExternalCardID LIKE :search 
+             OR Title LIKE :search 
+             OR Description LIKE :search)
+        """)
+        params["search"] = f"%{search}%"
+    
+    # Filtro por categoria
+    if category_filter and category_filter != "all":
+        conditions.append("ITILCategory = :category")
+        params["category"] = category_filter
+    
+    # Filtro por risco
+    if risk_filter and risk_filter != "all":
+        conditions.append("RiskLevel = :risk")
+        params["risk"] = risk_filter
+    
+    # Filtro por SLA
+    if sla_filter and sla_filter != "all":
+        if sla_filter == "met":
+            conditions.append("MetSLA = 1")
+        elif sla_filter == "missed":
+            conditions.append("MetSLA = 0")
+    
+    # Filtros de metadados
+    if has_window is not None:
+        conditions.append("HasWindow = :has_window")
+        params["has_window"] = 1 if has_window else 0
+    
+    if has_cab is not None:
+        conditions.append("HasCAB = :has_cab")
+        params["has_cab"] = 1 if has_cab else 0
+    
+    if has_backout is not None:
+        conditions.append("HasBackout = :has_backout")
+        params["has_backout"] = 1 if has_backout else 0
+    
+    # Adicionar condições à query
+    if conditions:
+        sql_base += " AND " + " AND ".join(conditions)
+    
+    # Validar campo de ordenação
+    valid_sort_fields = {
+        "completedDate": "CompletedDate",
+        "externalCardId": "ExternalCardID",
+        "title": "Title",
+        "itilCategory": "ITILCategory",
+        "riskLevel": "RiskLevel",
+        "columnName": "ColumnName",
+        "metSLA": "MetSLA"
+    }
+    
+    sort_field = valid_sort_fields.get(sort_by, "CompletedDate")
+    sort_direction = "ASC" if sort_order.lower() == "asc" else "DESC"
+    
+    try:
+        # Query para contar total
+        count_sql = f"SELECT COUNT(*) as total FROM ({sql_base}) as subquery"
+        count_result = await db.execute(text(count_sql), params)
+        total = count_result.scalar()
+        
+        # Query com paginação e ordenação
+        sql_paginated = f"""
+            {sql_base}
+            ORDER BY {sort_field} {sort_direction}
+            OFFSET :skip ROWS
+            FETCH NEXT :limit ROWS ONLY
+        """
+        
+        params["skip"] = skip
+        params["limit"] = limit
+        
+        result = await db.execute(text(sql_paginated), params)
+        rows = result.fetchall()
+        
+        # Montar resposta
+        items = [
+            ITILCardResponse(
+                cardId=row[0],
+                externalCardId=row[1],
+                title=row[2],
+                columnName=row[3],
+                itilCategory=row[4],
+                riskLevel=row[5],
+                hasWindow=bool(row[6]),
+                hasCAB=bool(row[7]),
+                hasBackout=bool(row[8]),
+                completedDate=row[9],
+                metSLA=bool(row[10]) if row[10] is not None else None,
+                daysLate=row[11]
+            )
+            for row in rows
+        ]
+        
+        # Calcular páginas
+        pages = (total + limit - 1) // limit if total > 0 else 0
+        page = (skip // limit) + 1 if limit > 0 else 1
+        
+        return ITILCardsPaginatedResponse(
+            items=items,
+            total=total,
+            page=page,
+            pages=pages,
+            skip=skip,
+            limit=limit
+        )
+        
+    except Exception as e:
+        logger.error(f"Error fetching paginated ITIL cards: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Erro ao buscar cards ITIL paginados: {str(e)}"
         )

@@ -341,3 +341,37 @@ class KanbanAnalyticsResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
 
+# ============================================================================
+# ITIL Analytics Schemas (Paginação)
+# ============================================================================
+
+class ITILCardResponse(BaseModel):
+    """Schema de resposta para card ITIL com classificação"""
+    cardId: int
+    externalCardId: str
+    title: str
+    itilCategory: str
+    columnName: str
+    riskLevel: str
+    hasWindow: bool
+    hasCAB: bool
+    hasBackout: bool
+    metSLA: Optional[bool] = None
+    daysLate: Optional[int] = None
+    completedDate: Optional[datetime] = None
+    
+    model_config = ConfigDict(from_attributes=True)
+
+
+class ITILCardsPaginatedResponse(BaseModel):
+    """Resposta paginada de cards ITIL"""
+    items: List[ITILCardResponse]
+    total: int
+    page: int
+    pages: int
+    skip: int
+    limit: int
+    
+    model_config = ConfigDict(from_attributes=True)
+
+
